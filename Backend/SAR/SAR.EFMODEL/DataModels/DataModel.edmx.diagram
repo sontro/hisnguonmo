@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a84660cf79874aedbaf9483810ab5652" Name="Diagram1">
+        <EntityTypeShape EntityType="DataModels.SAR_FORM" Width="1.5" PointX="15" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_FORM_DATA" Width="1.5" PointX="17.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_FORM_FIELD" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_FORM_TYPE" Width="1.5" PointX="12.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_PRINT" Width="1.5" PointX="10" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_PRINT_LOG" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_PRINT_TYPE" Width="1.5" PointX="7.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_PRINT_TYPE_CFG" Width="1.5" PointX="10" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_REPORT" Width="1.5" PointX="7.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_REPORT_CALENDAR" Width="1.5" PointX="9.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_REPORT_STT" Width="1.5" PointX="5.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_REPORT_TEMPLATE" Width="1.5" PointX="5.25" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_REPORT_TYPE" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_REPORT_TYPE_GROUP" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_RETY_FOFI" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.SAR_USER_REPORT_TYPE" Width="1.5" PointX="5.25" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.V_SAR_FORM" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.V_SAR_PRINT_TYPE_CFG" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.V_SAR_REPORT" Width="1.5" PointX="12.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.V_SAR_REPORT_TEMPLATE" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.V_SAR_RETY_FOFI" Width="1.5" PointX="14.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModels.V_SAR_USER_REPORT_TYPE" Width="1.5" PointX="14.75" PointY="12.75" IsExpanded="true" />
+        <AssociationConnector Association="DataModels.SAR_FORM_DATA_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_FORM_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_RETY_FOFI_FK2" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_PRINT_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_PRINT_TYPE_CFG_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_REPORT_CALENDAR_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_REPORT_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_REPORT_FK2" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_REPORT_FK3" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_REPORT_CALENDAR_FK2" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_REPORT_TEMPLATE_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_REPORT_TYPE_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_RETY_FOFI_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataModels.SAR_USER_REPORT_TYPE_FK1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

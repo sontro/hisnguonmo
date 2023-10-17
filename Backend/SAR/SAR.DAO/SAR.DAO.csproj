@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B04CFDB-20C8-413F-91DF-A5309092B035}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAR.DAO</RootNamespace>
+    <AssemblyName>SAR.DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Logging">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Logging\Inventec.Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Repository">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Repository\Inventec.Common.Repository.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Core">
+      <HintPath>..\..\..\RELEASE\Inventec.Core\Inventec.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Token.Core">
+      <HintPath>..\..\..\RELEASE\Inventec.Token\Inventec.Token.Core\Inventec.Token.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Token.ResourceSystem">
+      <HintPath>..\..\..\RELEASE\Inventec.Token\Inventec.Token.ResourceSystem\Inventec.Token.ResourceSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\AppContext.cs" />
+    <Compile Include="Base\BridgeDAO.cs" />
+    <Compile Include="Base\ContextUtil.cs" />
+    <Compile Include="Base\ReflectionQueryable.cs" />
+    <Compile Include="Base\StagingObjectBase.cs" />
+    <Compile Include="Base\UnmanagedAppContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SarFormData\SarFormDataCheck.cs" />
+    <Compile Include="SarFormData\SarFormDataCreate.cs" />
+    <Compile Include="SarFormData\SarFormDataDAO.cs" />
+    <Compile Include="SarFormData\SarFormDataDelete.cs" />
+    <Compile Include="SarFormData\SarFormDataGet.cs" />
+    <Compile Include="SarFormData\SarFormDataTruncate.cs" />
+    <Compile Include="SarFormData\SarFormDataUpdate.cs" />
+    <Compile Include="SarFormField\SarFormFieldCheck.cs" />
+    <Compile Include="SarFormField\SarFormFieldCheckExistsCode.cs" />
+    <Compile Include="SarFormField\SarFormFieldCreate.cs" />
+    <Compile Include="SarFormField\SarFormFieldDAO.cs" />
+    <Compile Include="SarFormField\SarFormFieldDAOPlus_Full_NoView.cs" />
+    <Compile Include="SarFormField\SarFormFieldDelete.cs" />
+    <Compile Include="SarFormField\SarFormFieldGet.cs" />
+    <Compile Include="SarFormField\SarFormFieldGetByCode.cs" />
+    <Compile Include="SarFormField\SarFormFieldGetDicByCode.cs" />
+    <Compile Include="SarFormField\SarFormFieldTruncate.cs" />
+    <Compile Include="SarFormField\SarFormFieldUpdate.cs" />
+    <Compile Include="SarFormType\SarFormTypeCheck.cs" />
+    <Compile Include="SarFormType\SarFormTypeCheckExistsCode.cs" />
+    <Compile Include="SarFormType\SarFormTypeCreate.cs" />
+    <Compile Include="SarFormType\SarFormTypeDAO.cs" />
+    <Compile Include="SarFormType\SarFormTypeDAOPlus_Full_NoView.cs" />
+    <Compile Include="SarFormType\SarFormTypeDelete.cs" />
+    <Compile Include="SarFormType\SarFormTypeGet.cs" />
+    <Compile Include="SarFormType\SarFormTypeGetByCode.cs" />
+    <Compile Include="SarFormType\SarFormTypeGetDicByCode.cs" />
+    <Compile Include="SarFormType\SarFormTypeTruncate.cs" />
+    <Compile Include="SarFormType\SarFormTypeUpdate.cs" />
+    <Compile Include="SarForm\SarFormCheck.cs" />
+    <Compile Include="SarForm\SarFormCreate.cs" />
+    <Compile Include="SarForm\SarFormDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SarForm\SarFormDAOPlus_Full.cs" />
+    <Compile Include="SarForm\SarFormDelete.cs" />
+    <Compile Include="SarForm\SarFormGet.cs" />
+    <Compile Include="SarForm\SarFormGetView.cs" />
+    <Compile Include="SarForm\SarFormGetViewById.cs" />
+    <Compile Include="SarForm\SarFormTruncate.cs" />
+    <Compile Include="SarForm\SarFormUpdate.cs" />
+    <Compile Include="SarPrintLog\SarPrintLogCheck.cs" />
+    <Compile Include="SarPrintLog\SarPrintLogCreate.cs" />
+    <Compile Include="SarPrintLog\SarPrintLogDAO.cs" />
+    <Compile Include="SarPrintLog\SarPrintLogDelete.cs" />
+    <Compile Include="SarPrintLog\SarPrintLogGet.cs" />
+    <Compile Include="SarPrintLog\SarPrintLogTruncate.cs" />
+    <Compile Include="SarPrintLog\SarPrintLogUpdate.cs" />
+    <Compile Include="SarPrintTypeCfg\SarPrintTypeCfgCheck.cs" />
+    <Compile Include="SarPrintTypeCfg\SarPrintTypeCfgCreate.cs" />
+    <Compile Include="SarPrintTypeCfg\SarPrintTypeCfgDAO.cs" />
+    <Compile Include="SarPrintTypeCfg\SarPrintTypeCfgDAOPlus_Full_NoCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SarPrintTypeCfg\SarPrintTypeCfgDelete.cs" />
+    <Compile Include="SarPrintTypeCfg\SarPrintTypeCfgGet.cs" />
+    <Compile Include="SarPrintTypeCfg\SarPrintTypeCfgGetView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SarPrintTypeCfg\SarPrintTypeCfgGetViewById.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SarPrintTypeCfg\SarPrintTypeCfgTruncate.cs" />
+    <Compile Include="SarPrintTypeCfg\SarPrintTypeCfgUpdate.cs" />
+    <Compile Include="SarPrintType\SarPrintTypeCheck.cs" />
+    <Compile Include="SarPrintType\SarPrintTypeCheckExistsCode.cs" />
+    <Compile Include="SarPrintType\SarPrintTypeCreate.cs" />
+    <Compile Include="SarPrintType\SarPrintTypeDAO.cs" />
+    <Compile Include="SarPrintType\SarPrintTypeDAOPlus_Full_NoView.cs" />
+    <Compile Include="SarPrintType\SarPrintTypeDelete.cs" />
+    <Compile Include="SarPrintType\SarPrintTypeGet.cs" />
+    <Compile Include="SarPrintType\SarPrintTypeGetByCode.cs" />
+    <Compile Include="SarPrintType\SarPrintTypeGetDicByCode.cs" />
+    <Compile Include="SarPrintType\SarPrintTypeTruncate.cs" />
+    <Compile Include="SarPrintType\SarPrintTypeUpdate.cs" />
+    <Compile Include="SarPrint\SarPrintCheck.cs" />
+    <Compile Include="SarPrint\SarPrintCreate.cs" />
+    <Compile Include="SarPrint\SarPrintDAO.cs" />
+    <Compile Include="SarPrint\SarPrintDelete.cs" />
+    <Compile Include="SarPrint\SarPrintGet.cs" />
+    <Compile Include="SarPrint\SarPrintTruncate.cs" />
+    <Compile Include="SarPrint\SarPrintUpdate.cs" />
+    <Compile Include="SarReportCalendar\SarReportCalendarCheck.cs" />
+    <Compile Include="SarReportCalendar\SarReportCalendarCheckExistsCode.cs" />
+    <Compile Include="SarReportCalendar\SarReportCalendarCreate.cs" />
+    <Compile Include="SarReportCalendar\SarReportCalendarDAO.cs" />
+    <Compile Include="SarReportCalendar\SarReportCalendarDAOPlus_Full_NoView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SarReportCalendar\SarReportCalendarDelete.cs" />
+    <Compile Include="SarReportCalendar\SarReportCalendarGet.cs" />
+    <Compile Include="SarReportCalendar\SarReportCalendarGetByCode.cs" />
+    <Compile Include="SarReportCalendar\SarReportCalendarGetDicByCode.cs" />
+    <Compile Include="SarReportCalendar\SarReportCalendarTruncate.cs" />
+    <Compile Include="SarReportCalendar\SarReportCalendarUpdate.cs" />
+    <Compile Include="SarReportStt\SarReportSttCheck.cs" />
+    <Compile Include="SarReportStt\SarReportSttCheckExistsCode.cs" />
+    <Compile Include="SarReportStt\SarReportSttCreate.cs" />
+    <Compile Include="SarReportStt\SarReportSttDAO.cs" />
+    <Compile Include="SarReportStt\SarReportSttDAOPlus_Full_NoView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SarReportStt\SarReportSttDelete.cs" />
+    <Compile Include="SarReportStt\SarReportSttGet.cs" />
+    <Compile Include="SarReportStt\SarReportSttGetByCode.cs" />
+    <Compile Include="SarReportStt\SarReportSttGetDicByCode.cs" />
+    <Compile Include="SarReportStt\SarReportSttTruncate.cs" />
+    <Compile Include="SarReportStt\SarReportSttUpdate.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateCheck.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateCheckExistsCode.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateCreate.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SarReportTemplate\SarReportTemplateDAOPlus_Full.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateDelete.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateGet.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateGetByCode.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateGetDicByCode.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateGetView.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateGetViewByCode.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateGetViewById.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateTruncate.cs" />
+    <Compile Include="SarReportTemplate\SarReportTemplateUpdate.cs" />
+    <Compile Include="SarReportTypeGroup\SarReportTypeGroupCheck.cs" />
+    <Compile Include="SarReportTypeGroup\SarReportTypeGroupCheckExistsCode.cs" />
+    <Compile Include="SarReportTypeGroup\SarReportTypeGroupCreate.cs" />
+    <Compile Include="SarReportTypeGroup\SarReportTypeGroupDAO.cs" />
+    <Compile Include="SarReportTypeGroup\SarReportTypeGroupDAOPlus_Full_NoView.cs" />
+    <Compile Include="SarReportTypeGroup\SarReportTypeGroupDelete.cs" />
+    <Compile Include="SarReportTypeGroup\SarReportTypeGroupGet.cs" />
+    <Compile Include="SarReportTypeGroup\SarReportTypeGroupGetByCode.cs" />
+    <Compile Include="SarReportTypeGroup\SarReportTypeGroupGetDicByCode.cs" />
+    <Compile Include="SarReportTypeGroup\SarReportTypeGroupTruncate.cs" />
+    <Compile Include="SarReportTypeGroup\SarReportTypeGroupUpdate.cs" />
+    <Compile Include="SarReportType\SarReportTypeCheck.cs" />
+    <Compile Include="SarReportType\SarReportTypeCheckExistsCode.cs" />
+    <Compile Include="SarReportType\SarReportTypeCreate.cs" />
+    <Compile Include="SarReportType\SarReportTypeDAO.cs" />
+    <Compile Include="SarReportType\SarReportTypeDAOPlus_Full_NoView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SarReportType\SarReportTypeDelete.cs" />
+    <Compile Include="SarReportType\SarReportTypeGet.cs" />
+    <Compile Include="SarReportType\SarReportTypeGetByCode.cs" />
+    <Compile Include="SarReportType\SarReportTypeGetDicByCode.cs" />
+    <Compile Include="SarReportType\SarReportTypeTruncate.cs" />
+    <Compile Include="SarReportType\SarReportTypeUpdate.cs" />
+    <Compile Include="SarReport\SarReportCheck.cs" />
+    <Compile Include="SarReport\SarReportCheckExistsCode.cs" />
+    <Compile Include="SarReport\SarReportCreate.cs" />
+    <Compile Include="SarReport\SarReportDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SarReport\SarReportDAOPlus_Full.cs" />
+    <Compile Include="SarReport\SarReportDelete.cs" />
+    <Compile Include="SarReport\SarReportGet.cs" />
+    <Compile Include="SarReport\SarReportGetByCode.cs" />
+    <Compile Include="SarReport\SarReportGetDicByCode.cs" />
+    <Compile Include="SarReport\SarReportGetView.cs" />
+    <Compile Include="SarReport\SarReportGetViewByCode.cs" />
+    <Compile Include="SarReport\SarReportGetViewById.cs" />
+    <Compile Include="SarReport\SarReportTruncate.cs" />
+    <Compile Include="SarReport\SarReportUpdate.cs" />
+    <Compile Include="SarRetyFofi\SarRetyFofiCheck.cs" />
+    <Compile Include="SarRetyFofi\SarRetyFofiCreate.cs" />
+    <Compile Include="SarRetyFofi\SarRetyFofiDAO.cs" />
+    <Compile Include="SarRetyFofi\SarRetyFofiDAOPlus_Full_NoCode.cs" />
+    <Compile Include="SarRetyFofi\SarRetyFofiDelete.cs" />
+    <Compile Include="SarRetyFofi\SarRetyFofiGet.cs" />
+    <Compile Include="SarRetyFofi\SarRetyFofiGetView.cs" />
+    <Compile Include="SarRetyFofi\SarRetyFofiGetViewById.cs" />
+    <Compile Include="SarRetyFofi\SarRetyFofiTruncate.cs" />
+    <Compile Include="SarRetyFofi\SarRetyFofiUpdate.cs" />
+    <Compile Include="SarUserReportType\SarUserReportTypeCheck.cs" />
+    <Compile Include="SarUserReportType\SarUserReportTypeCreate.cs" />
+    <Compile Include="SarUserReportType\SarUserReportTypeDAO.cs" />
+    <Compile Include="SarUserReportType\SarUserReportTypeDAOPlus_Full_NoCode.cs" />
+    <Compile Include="SarUserReportType\SarUserReportTypeDelete.cs" />
+    <Compile Include="SarUserReportType\SarUserReportTypeGet.cs" />
+    <Compile Include="SarUserReportType\SarUserReportTypeGetView.cs" />
+    <Compile Include="SarUserReportType\SarUserReportTypeGetViewById.cs" />
+    <Compile Include="SarUserReportType\SarUserReportTypeTruncate.cs" />
+    <Compile Include="SarUserReportType\SarUserReportTypeUpdate.cs" />
+    <Compile Include="Sql\SqlDAO.cs" />
+    <Compile Include="Sql\SqlExecute.cs" />
+    <Compile Include="Sql\SqlExecuteUnmanaged.cs" />
+    <Compile Include="StagingObject\SarFormDataSO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StagingObject\SarFormFieldSO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StagingObject\SarFormSO_Full.cs" />
+    <Compile Include="StagingObject\SarFormTypeSO.cs" />
+    <Compile Include="StagingObject\SarPrintLogSO.cs" />
+    <Compile Include="StagingObject\SarPrintSO.cs" />
+    <Compile Include="StagingObject\SarPrintTypeCfgSO_Full.cs" />
+    <Compile Include="StagingObject\SarPrintTypeSO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StagingObject\SarReportCalendarSO.cs" />
+    <Compile Include="StagingObject\SarReportSO_Full.cs" />
+    <Compile Include="StagingObject\SarReportSttSO.cs" />
+    <Compile Include="StagingObject\SarReportTemplateSO_Full.cs" />
+    <Compile Include="StagingObject\SarReportTypeGroupSO.cs" />
+    <Compile Include="StagingObject\SarReportTypeSO.cs" />
+    <Compile Include="StagingObject\SarRetyFofiSO_Full.cs" />
+    <Compile Include="StagingObject\SarUserReportTypeSO_Full.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SAR.EFMODEL\SAR.EFMODEL.csproj">
+      <Project>{6e89816e-d0e8-4f0e-a88e-4a60a049a26f}</Project>
+      <Name>SAR.EFMODEL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

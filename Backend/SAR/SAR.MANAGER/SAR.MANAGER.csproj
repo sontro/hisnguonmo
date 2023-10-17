@@ -1,0 +1,903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C7CB687-4C46-4EC8-A2B2-497DDCB3E34F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAR.MANAGER</RootNamespace>
+    <AssemblyName>SAR.MANAGER</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>lib\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="IMSys.DbConfig.SAR_RS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\IMSys.DbConfig\IMSys.DbConfig.SAR_RS\IMSys.DbConfig.SAR_RS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Inventec.Common.DateTime">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.DateTime\Inventec.Common.DateTime.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.FileFolder">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.FileFolder\Inventec.Common.FileFolder.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.HardDrive">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.HardDrive\Inventec.Common.HardDrive.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.LicenseCrypto">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.LicenseCrypto\Inventec.Common.LicenseCrypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Logging">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Logging\Inventec.Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Mapper">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Mapper\Inventec.Common.Mapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Repository">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Repository\Inventec.Common.Repository.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.String">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.String\Inventec.Common.String.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.WebApiClient, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.WebApiClient\Inventec.Common.WebApiClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Core">
+      <HintPath>..\..\..\RELEASE\Inventec.Core\Inventec.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Fss.Client">
+      <HintPath>..\..\..\RELEASE\Inventec.Fss.Client\Inventec.Fss.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Fss.Utility">
+      <HintPath>..\..\..\RELEASE\Inventec.Fss.Client\Inventec.Fss.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Token.Core">
+      <HintPath>..\..\..\RELEASE\Inventec.Token\Inventec.Token.Core\Inventec.Token.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Token.ResourceSystem">
+      <HintPath>..\..\..\RELEASE\Inventec.Token\Inventec.Token.ResourceSystem\Inventec.Token.ResourceSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="MRS.SDO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\MRSv3\MRS.SDO.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SDA.EFMODEL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\SDA\SDA.EFMODEL.dll</HintPath>
+    </Reference>
+    <Reference Include="SDA.Filter, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\SDA\SDA.Filter.dll</HintPath>
+    </Reference>
+    <Reference Include="SDA.SDO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\SDA\SDA.SDO.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\ApiConsumerStore.cs" />
+    <Compile Include="Base\ApplicationConfig.cs" />
+    <Compile Include="Base\BaseUriStore.cs" />
+    <Compile Include="Base\BusinessBase.cs" />
+    <Compile Include="Base\BugUtil.cs" />
+    <Compile Include="Base\FileStoreLocation.cs" />
+    <Compile Include="Base\ManagerConstant.cs" />
+    <Compile Include="Base\MessageUtil.cs" />
+    <Compile Include="Base\DAOWorker.cs" />
+    <Compile Include="Base\OrderProcessorBase.cs" />
+    <Compile Include="Base\TokenCodeStore.cs" />
+    <Compile Include="Base\TroubleCache.cs" />
+    <Compile Include="Config\License.cs" />
+    <Compile Include="Config\Loader.cs" />
+    <Compile Include="Core\BeanObjectBase.cs" />
+    <Compile Include="Core\BusinessObjectBase.cs" />
+    <Compile Include="Core\Check\SarFormCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarFormCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarFormCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarFormDataCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarFormDataCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarFormDataCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarFormFieldCheckVerifyExistsCode.cs" />
+    <Compile Include="Core\Check\SarFormFieldCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarFormFieldCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarFormFieldCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarFormTypeCheckVerifyExistsCode.cs" />
+    <Compile Include="Core\Check\SarFormTypeCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarFormTypeCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarFormTypeCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarPrintCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarPrintCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarPrintCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarPrintLogCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarPrintLogCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarPrintLogCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarPrintTypeCfgCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarPrintTypeCfgCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarPrintTypeCfgCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarPrintTypeCheckVerifyExistsCode.cs" />
+    <Compile Include="Core\Check\SarPrintTypeCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarPrintTypeCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarPrintTypeCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarReportCalendarCheckVerifyExistsCode.cs" />
+    <Compile Include="Core\Check\SarReportCalendarCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarReportCalendarCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarReportCalendarCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarReportCheckVerifyExistsCode.cs" />
+    <Compile Include="Core\Check\SarReportCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarReportCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarReportCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarReportSttCheckVerifyExistsCode.cs" />
+    <Compile Include="Core\Check\SarReportSttCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarReportSttCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarReportSttCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarReportTemplateCheckVerifyExistsCode.cs" />
+    <Compile Include="Core\Check\SarReportTemplateCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarReportTemplateCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarReportTemplateCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarReportTypeCheckVerifyExistsCode.cs" />
+    <Compile Include="Core\Check\SarReportTypeCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarReportTypeCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarReportTypeCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarReportTypeGroupCheckVerifyExistsCode.cs" />
+    <Compile Include="Core\Check\SarReportTypeGroupCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarReportTypeGroupCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarReportTypeGroupCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarRetyFofiCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarRetyFofiCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarRetyFofiCheckVerifyValidData.cs" />
+    <Compile Include="Core\Check\SarUserReportTypeCheckVerifyId.cs" />
+    <Compile Include="Core\Check\SarUserReportTypeCheckVerifyIsUnlock.cs" />
+    <Compile Include="Core\Check\SarUserReportTypeCheckVerifyValidData.cs" />
+    <Compile Include="Core\IDelegacy.cs" />
+    <Compile Include="Core\IDelegacyT.cs" />
+    <Compile Include="Core\SarFormData\Create\ISarFormDataCreate.cs" />
+    <Compile Include="Core\SarFormData\Create\SarFormDataCreateBehaviorEv.cs" />
+    <Compile Include="Core\SarFormData\Create\SarFormDataCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormData\Create\SarFormDataCreateListBehaviorEv.cs" />
+    <Compile Include="Core\SarFormData\Delete\ISarFormDataDelete.cs" />
+    <Compile Include="Core\SarFormData\Delete\SarFormDataDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarFormData\Delete\SarFormDataDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormData\Delete\SarFormDataDeleteListBehaviorEv.cs" />
+    <Compile Include="Core\SarFormData\Get\Ev\ISarFormDataGetEv.cs" />
+    <Compile Include="Core\SarFormData\Get\Ev\SarFormDataGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarFormData\Get\Ev\SarFormDataGetEvBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarFormData\Get\ListEv\ISarFormDataGetListEv.cs" />
+    <Compile Include="Core\SarFormData\Get\ListEv\SarFormDataGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarFormData\Get\ListEv\SarFormDataGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormData\Get\SarFormDataFilterQuery.cs" />
+    <Compile Include="Core\SarFormData\Lock\ISarFormDataTemplateChangeLock.cs" />
+    <Compile Include="Core\SarFormData\Lock\SarFormDataChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarFormData\Lock\SarFormDataChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormData\SarFormDataBO.cs" />
+    <Compile Include="Core\SarFormData\SarFormDataChangeLock.cs" />
+    <Compile Include="Core\SarFormData\SarFormDataCreate.cs" />
+    <Compile Include="Core\SarFormData\SarFormDataDelete.cs" />
+    <Compile Include="Core\SarFormData\SarFormDataGet.cs" />
+    <Compile Include="Core\SarFormData\SarFormDataUpdate.cs" />
+    <Compile Include="Core\SarFormData\TypeCollection.cs" />
+    <Compile Include="Core\SarFormData\Update\ISarFormDataUpdate.cs" />
+    <Compile Include="Core\SarFormData\Update\SarFormDataUpdateBehaviorEv.cs" />
+    <Compile Include="Core\SarFormData\Update\SarFormDataUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormData\Update\SarFormDataUpdateListBehaviorEv.cs" />
+    <Compile Include="Core\SarFormField\Create\ISarFormFieldCreate.cs" />
+    <Compile Include="Core\SarFormField\Create\SarFormFieldCreateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarFormField\Create\SarFormFieldCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormField\Delete\ISarFormFieldDelete.cs" />
+    <Compile Include="Core\SarFormField\Delete\SarFormFieldDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarFormField\Delete\SarFormFieldDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormField\Get\Ev\ISarFormFieldGetEv.cs" />
+    <Compile Include="Core\SarFormField\Get\Ev\SarFormFieldGetEvBehaviorByCode.cs" />
+    <Compile Include="Core\SarFormField\Get\Ev\SarFormFieldGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarFormField\Get\Ev\SarFormFieldGetEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormField\Get\ListEv\ISarFormFieldGetListEv.cs" />
+    <Compile Include="Core\SarFormField\Get\ListEv\SarFormFieldGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarFormField\Get\ListEv\SarFormFieldGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormField\Get\SarFormFieldFilterQuery.cs" />
+    <Compile Include="Core\SarFormField\Lock\ISarFormFieldTemplateChangeLock.cs" />
+    <Compile Include="Core\SarFormField\Lock\SarFormFieldChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarFormField\Lock\SarFormFieldChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormField\SarFormFieldBO.cs" />
+    <Compile Include="Core\SarFormField\SarFormFieldChangeLock.cs" />
+    <Compile Include="Core\SarFormField\SarFormFieldCreate.cs" />
+    <Compile Include="Core\SarFormField\SarFormFieldDelete.cs" />
+    <Compile Include="Core\SarFormField\SarFormFieldGet.cs" />
+    <Compile Include="Core\SarFormField\SarFormFieldUpdate.cs" />
+    <Compile Include="Core\SarFormField\TypeCollection.cs" />
+    <Compile Include="Core\SarFormField\Update\ISarFormFieldUpdate.cs" />
+    <Compile Include="Core\SarFormField\Update\SarFormFieldUpdateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarFormField\Update\SarFormFieldUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormType\Create\ISarFormTypeCreate.cs" />
+    <Compile Include="Core\SarFormType\Create\SarFormTypeCreateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarFormType\Create\SarFormTypeCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormType\Delete\ISarFormTypeDelete.cs" />
+    <Compile Include="Core\SarFormType\Delete\SarFormTypeDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarFormType\Delete\SarFormTypeDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormType\Get\Ev\ISarFormTypeGetEv.cs" />
+    <Compile Include="Core\SarFormType\Get\Ev\SarFormTypeGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarFormType\Get\Ev\SarFormTypeGetEvBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarFormType\Get\ListEv\ISarFormTypeGetListEv.cs" />
+    <Compile Include="Core\SarFormType\Get\ListEv\SarFormTypeGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarFormType\Get\ListEv\SarFormTypeGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormType\Get\SarFormTypeFilterQuery.cs" />
+    <Compile Include="Core\SarFormType\Lock\ISarFormTypeTemplateChangeLock.cs" />
+    <Compile Include="Core\SarFormType\Lock\SarFormTypeChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarFormType\Lock\SarFormTypeChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarFormType\SarFormTypeBO.cs" />
+    <Compile Include="Core\SarFormType\SarFormTypeChangeLock.cs" />
+    <Compile Include="Core\SarFormType\SarFormTypeCreate.cs" />
+    <Compile Include="Core\SarFormType\SarFormTypeDelete.cs" />
+    <Compile Include="Core\SarFormType\SarFormTypeGet.cs" />
+    <Compile Include="Core\SarFormType\SarFormTypeUpdate.cs" />
+    <Compile Include="Core\SarFormType\TypeCollection.cs" />
+    <Compile Include="Core\SarFormType\Update\ISarFormTypeUpdate.cs" />
+    <Compile Include="Core\SarFormType\Update\SarFormTypeUpdateBehaviorEv.cs" />
+    <Compile Include="Core\SarFormType\Update\SarFormTypeUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarForm\Create\ISarFormCreate.cs" />
+    <Compile Include="Core\SarForm\Create\SarFormCreateBehaviorEv.cs" />
+    <Compile Include="Core\SarForm\Create\SarFormCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarForm\Create\SarFormCreateOrUpdateBehaviorEv.cs" />
+    <Compile Include="Core\SarForm\Delete\ISarFormDelete.cs" />
+    <Compile Include="Core\SarForm\Delete\SarFormDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarForm\Delete\SarFormDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarForm\Get\Ev\ISarFormGetEv.cs" />
+    <Compile Include="Core\SarForm\Get\Ev\SarFormGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarForm\Get\Ev\SarFormGetEvBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarForm\Get\ListEv\ISarFormGetListEv.cs" />
+    <Compile Include="Core\SarForm\Get\ListEv\SarFormGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarForm\Get\ListEv\SarFormGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarForm\Get\ListV\ISarFormGetListV.cs" />
+    <Compile Include="Core\SarForm\Get\ListV\SarFormGetListVBehaviorByViewFilterQuery.cs" />
+    <Compile Include="Core\SarForm\Get\ListV\SarFormGetListVBehaviorFactory.cs" />
+    <Compile Include="Core\SarForm\Get\SarFormFilterQuery.cs" />
+    <Compile Include="Core\SarForm\Get\SarFormViewFilterQuery.cs" />
+    <Compile Include="Core\SarForm\Get\V\ISarFormGetV.cs" />
+    <Compile Include="Core\SarForm\Get\V\SarFormGetVBehaviorById.cs" />
+    <Compile Include="Core\SarForm\Get\V\SarFormGetVBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarForm\Lock\ISarFormTemplateChangeLock.cs" />
+    <Compile Include="Core\SarForm\Lock\SarFormChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarForm\Lock\SarFormChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarForm\SarFormBO.cs" />
+    <Compile Include="Core\SarForm\SarFormChangeLock.cs" />
+    <Compile Include="Core\SarForm\SarFormCreate.cs" />
+    <Compile Include="Core\SarForm\SarFormDelete.cs" />
+    <Compile Include="Core\SarForm\SarFormGet_Full.cs" />
+    <Compile Include="Core\SarForm\SarFormUpdate.cs" />
+    <Compile Include="Core\SarForm\TypeCollection.cs" />
+    <Compile Include="Core\SarForm\Update\ISarFormUpdate.cs" />
+    <Compile Include="Core\SarForm\Update\SarFormUpdateBehaviorEv.cs" />
+    <Compile Include="Core\SarForm\Update\SarFormUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintLog\Create\ISarPrintLogCreate.cs" />
+    <Compile Include="Core\SarPrintLog\Create\SarPrintLogCreateBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintLog\Create\SarPrintLogCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintLog\Create\SarPrintLogCreateBehaviorSDO.cs" />
+    <Compile Include="Core\SarPrintLog\Create\SarPrintLogCreateListBehaviorSDO.cs" />
+    <Compile Include="Core\SarPrintLog\Delete\ISarPrintLogDelete.cs" />
+    <Compile Include="Core\SarPrintLog\Delete\SarPrintLogDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintLog\Delete\SarPrintLogDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintLog\Get\Ev\ISarPrintLogGetEv.cs" />
+    <Compile Include="Core\SarPrintLog\Get\Ev\SarPrintLogGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarPrintLog\Get\Ev\SarPrintLogGetEvBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarPrintLog\Get\ListEv\ISarPrintLogGetListEv.cs" />
+    <Compile Include="Core\SarPrintLog\Get\ListEv\SarPrintLogGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarPrintLog\Get\ListEv\SarPrintLogGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintLog\Get\SarPrintLogFilterQuery.cs" />
+    <Compile Include="Core\SarPrintLog\Lock\ISarPrintLogTemplateChangeLock.cs" />
+    <Compile Include="Core\SarPrintLog\Lock\SarPrintLogChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintLog\Lock\SarPrintLogChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintLog\SarPrintLogBO.cs" />
+    <Compile Include="Core\SarPrintLog\SarPrintLogChangeLock.cs" />
+    <Compile Include="Core\SarPrintLog\SarPrintLogCreate.cs" />
+    <Compile Include="Core\SarPrintLog\SarPrintLogDelete.cs" />
+    <Compile Include="Core\SarPrintLog\SarPrintLogGet.cs" />
+    <Compile Include="Core\SarPrintLog\SarPrintLogUpdate.cs" />
+    <Compile Include="Core\SarPrintLog\TypeCollection.cs" />
+    <Compile Include="Core\SarPrintLog\Update\ISarPrintLogUpdate.cs" />
+    <Compile Include="Core\SarPrintLog\Update\SarPrintLogUpdateBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintLog\Update\SarPrintLogUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Create\ISarPrintTypeCfgCreate.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Create\SarPrintTypeCfgCreateBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Create\SarPrintTypeCfgCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Create\SarPrintTypeCfgCreateListBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Delete\ISarPrintTypeCfgDelete.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Delete\SarPrintTypeCfgDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Delete\SarPrintTypeCfgDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Delete\SarPrintTypeCfgDeleteListBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\Ev\ISarPrintTypeCfgGetEv.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\Ev\SarPrintTypeCfgGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\Ev\SarPrintTypeCfgGetEvBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\ListEv\ISarPrintTypeCfgGetListEv.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\ListEv\SarPrintTypeCfgGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\ListEv\SarPrintTypeCfgGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\ListV\ISarPrintTypeCfgGetListV.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\ListV\SarPrintTypeCfgGetListVBehaviorByViewFilterQuery.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\ListV\SarPrintTypeCfgGetListVBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\SarPrintTypeCfgFilterQuery.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\SarPrintTypeCfgViewFilterQuery.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\V\ISarPrintTypeCfgGetV.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\V\SarPrintTypeCfgGetVBehaviorById.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Get\V\SarPrintTypeCfgGetVBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Lock\ISarPrintTypeCfgTemplateChangeLock.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Lock\SarPrintTypeCfgChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Lock\SarPrintTypeCfgChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Lock\SarPrintTypeCfgChangeLockByControlBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\SarPrintTypeCfgBO.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\SarPrintTypeCfgChangeLock.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\SarPrintTypeCfgCreate.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\SarPrintTypeCfgDelete.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\SarPrintTypeCfgGet_Full.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\SarPrintTypeCfgUpdate.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\TypeCollection.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Update\ISarPrintTypeCfgUpdate.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Update\SarPrintTypeCfgUpdateBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Update\SarPrintTypeCfgUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintTypeCfg\Update\SarPrintTypeCfgUpdateListBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintType\Create\ISarPrintTypeCreate.cs" />
+    <Compile Include="Core\SarPrintType\Create\SarPrintTypeCreateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarPrintType\Create\SarPrintTypeCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintType\Delete\ISarPrintTypeDelete.cs" />
+    <Compile Include="Core\SarPrintType\Delete\SarPrintTypeDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintType\Delete\SarPrintTypeDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintType\Get\Ev\ISarPrintTypeGetEv.cs" />
+    <Compile Include="Core\SarPrintType\Get\Ev\SarPrintTypeGetEvBehaviorByCode.cs" />
+    <Compile Include="Core\SarPrintType\Get\Ev\SarPrintTypeGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarPrintType\Get\Ev\SarPrintTypeGetEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintType\Get\ListEv\ISarPrintTypeGetListEv.cs" />
+    <Compile Include="Core\SarPrintType\Get\ListEv\SarPrintTypeGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarPrintType\Get\ListEv\SarPrintTypeGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintType\Get\SarPrintTypeFilterQuery.cs" />
+    <Compile Include="Core\SarPrintType\Lock\ISarPrintTypeTemplateChangeLock.cs" />
+    <Compile Include="Core\SarPrintType\Lock\SarPrintTypeChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarPrintType\Lock\SarPrintTypeChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrintType\SarPrintTypeBO.cs" />
+    <Compile Include="Core\SarPrintType\SarPrintTypeChangeLock.cs" />
+    <Compile Include="Core\SarPrintType\SarPrintTypeCreate.cs" />
+    <Compile Include="Core\SarPrintType\SarPrintTypeDelete.cs" />
+    <Compile Include="Core\SarPrintType\SarPrintTypeGet.cs" />
+    <Compile Include="Core\SarPrintType\SarPrintTypeUpdate.cs" />
+    <Compile Include="Core\SarPrintType\TypeCollection.cs" />
+    <Compile Include="Core\SarPrintType\Update\ISarPrintTypeUpdate.cs" />
+    <Compile Include="Core\SarPrintType\Update\SarPrintTypeUpdateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarPrintType\Update\SarPrintTypeUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrint\Create\ISarPrintCreate.cs" />
+    <Compile Include="Core\SarPrint\Create\SarPrintCreateBehaviorEv.cs" />
+    <Compile Include="Core\SarPrint\Create\SarPrintCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrint\Delete\ISarPrintDelete.cs" />
+    <Compile Include="Core\SarPrint\Delete\SarPrintDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarPrint\Delete\SarPrintDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrint\Get\Ev\ISarPrintGetEv.cs" />
+    <Compile Include="Core\SarPrint\Get\Ev\SarPrintGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarPrint\Get\Ev\SarPrintGetEvBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarPrint\Get\ListEv\ISarPrintGetListEv.cs" />
+    <Compile Include="Core\SarPrint\Get\ListEv\SarPrintGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarPrint\Get\ListEv\SarPrintGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrint\Get\SarPrintFilterQuery.cs" />
+    <Compile Include="Core\SarPrint\Lock\ISarPrintTemplateChangeLock.cs" />
+    <Compile Include="Core\SarPrint\Lock\SarPrintChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarPrint\Lock\SarPrintChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarPrint\SarPrintBO.cs" />
+    <Compile Include="Core\SarPrint\SarPrintChangeLock.cs" />
+    <Compile Include="Core\SarPrint\SarPrintCreate.cs" />
+    <Compile Include="Core\SarPrint\SarPrintDelete.cs" />
+    <Compile Include="Core\SarPrint\SarPrintGet.cs" />
+    <Compile Include="Core\SarPrint\SarPrintUpdate.cs" />
+    <Compile Include="Core\SarPrint\TypeCollection.cs" />
+    <Compile Include="Core\SarPrint\Update\ISarPrintUpdate.cs" />
+    <Compile Include="Core\SarPrint\Update\SarPrintUpdateBehaviorEv.cs" />
+    <Compile Include="Core\SarPrint\Update\SarPrintUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportCalendar\SarReportCalendarBOPlus.cs" />
+    <Compile Include="Core\SarReportCalendar\SarReportCalendarScan.cs" />
+    <Compile Include="Core\SarReportCalendar\Create\ISarReportCalendarCreate.cs" />
+    <Compile Include="Core\SarReportCalendar\Create\SarReportCalendarCreateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarReportCalendar\Create\SarReportCalendarCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportCalendar\Create\SarReportCalendarCreateBehaviorListEv.cs" />
+    <Compile Include="Core\SarReportCalendar\Delete\ISarReportCalendarDelete.cs" />
+    <Compile Include="Core\SarReportCalendar\Delete\SarReportCalendarDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarReportCalendar\Delete\SarReportCalendarDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportCalendar\Get\Ev\ISarReportCalendarGetEv.cs" />
+    <Compile Include="Core\SarReportCalendar\Get\Ev\SarReportCalendarGetEvBehaviorByCode.cs" />
+    <Compile Include="Core\SarReportCalendar\Get\Ev\SarReportCalendarGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarReportCalendar\Get\Ev\SarReportCalendarGetEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportCalendar\Get\ListEv\ISarReportCalendarGetListEv.cs" />
+    <Compile Include="Core\SarReportCalendar\Get\ListEv\SarReportCalendarGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarReportCalendar\Get\ListEv\SarReportCalendarGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportCalendar\Get\SarReportCalendarFilterQuery.cs" />
+    <Compile Include="Core\SarReportCalendar\Lock\ISarReportCalendarTemplateChangeLock.cs" />
+    <Compile Include="Core\SarReportCalendar\Lock\SarReportCalendarChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarReportCalendar\Lock\SarReportCalendarChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportCalendar\SarReportCalendarBO.cs" />
+    <Compile Include="Core\SarReportCalendar\SarReportCalendarChangeLock.cs" />
+    <Compile Include="Core\SarReportCalendar\SarReportCalendarCreate.cs" />
+    <Compile Include="Core\SarReportCalendar\SarReportCalendarDelete.cs" />
+    <Compile Include="Core\SarReportCalendar\SarReportCalendarGet.cs" />
+    <Compile Include="Core\SarReportCalendar\SarReportCalendarUpdate.cs" />
+    <Compile Include="Core\SarReportCalendar\Scan\ISarReportCalendarScan.cs" />
+    <Compile Include="Core\SarReportCalendar\Scan\SarReportCalendarScanBehavior.cs" />
+    <Compile Include="Core\SarReportCalendar\Scan\SarReportCalendarScanBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportCalendar\TypeCollection.cs" />
+    <Compile Include="Core\SarReportCalendar\Update\ISarReportCalendarUpdate.cs" />
+    <Compile Include="Core\SarReportCalendar\Update\SarReportCalendarUpdateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarReportCalendar\Update\SarReportCalendarUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportStt\Create\ISarReportSttCreate.cs" />
+    <Compile Include="Core\SarReportStt\Create\SarReportSttCreateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarReportStt\Create\SarReportSttCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportStt\Create\SarReportSttCreateBehaviorListEv.cs" />
+    <Compile Include="Core\SarReportStt\Delete\ISarReportSttDelete.cs" />
+    <Compile Include="Core\SarReportStt\Delete\SarReportSttDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarReportStt\Delete\SarReportSttDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportStt\Get\Ev\ISarReportSttGetEv.cs" />
+    <Compile Include="Core\SarReportStt\Get\Ev\SarReportSttGetEvBehaviorByCode.cs" />
+    <Compile Include="Core\SarReportStt\Get\Ev\SarReportSttGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarReportStt\Get\Ev\SarReportSttGetEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportStt\Get\ListEv\ISarReportSttGetListEv.cs" />
+    <Compile Include="Core\SarReportStt\Get\ListEv\SarReportSttGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarReportStt\Get\ListEv\SarReportSttGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportStt\Get\SarReportSttFilterQuery.cs" />
+    <Compile Include="Core\SarReportStt\Lock\ISarReportSttTemplateChangeLock.cs" />
+    <Compile Include="Core\SarReportStt\Lock\SarReportSttChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarReportStt\Lock\SarReportSttChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportStt\SarReportSttBO.cs" />
+    <Compile Include="Core\SarReportStt\SarReportSttChangeLock.cs" />
+    <Compile Include="Core\SarReportStt\SarReportSttCreate.cs" />
+    <Compile Include="Core\SarReportStt\SarReportSttDelete.cs" />
+    <Compile Include="Core\SarReportStt\SarReportSttGet.cs" />
+    <Compile Include="Core\SarReportStt\SarReportSttUpdate.cs" />
+    <Compile Include="Core\SarReportStt\TypeCollection.cs" />
+    <Compile Include="Core\SarReportStt\Update\ISarReportSttUpdate.cs" />
+    <Compile Include="Core\SarReportStt\Update\SarReportSttUpdateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarReportStt\Update\SarReportSttUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportTemplate\Create\ISarReportTemplateCreate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Create\SarReportTemplateCreateBehaviorEv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Create\SarReportTemplateCreateBehaviorFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Create\SarReportTemplateCreateBehaviorListEv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Delete\ISarReportTemplateDelete.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Delete\SarReportTemplateDeleteBehaviorEv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Delete\SarReportTemplateDeleteBehaviorFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Download\ISarReportTemplateDownload.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Download\SarReportTemplateDownloadBehaviorFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Download\SarReportTemplateDownloadBehaviorSDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\Ev\ISarReportTemplateGetEv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\Ev\SarReportTemplateGetEvBehaviorByCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\Ev\SarReportTemplateGetEvBehaviorById.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\Ev\SarReportTemplateGetEvBehaviorFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\ListEv\ISarReportTemplateGetListEv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\ListEv\SarReportTemplateGetListEvBehaviorByFilterQuery.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\ListEv\SarReportTemplateGetListEvBehaviorFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\ListV\ISarReportTemplateGetListV.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\ListV\SarReportTemplateGetListVBehaviorByViewFilterQuery.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\ListV\SarReportTemplateGetListVBehaviorFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\SarReportTemplateFilterQuery.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\SarReportTemplateViewFilterQuery.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\V\ISarReportTemplateGetV.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\V\ISarReportTemplateGetVBehaviorByCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\V\SarReportTemplateGetVBehaviorById.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Get\V\SarReportTemplateGetVBehaviorFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\IDelegacyReportTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Lock\ISarReportTemplateTemplateChangeLock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Lock\SarReportTemplateChangeLockBehaviorEv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Lock\SarReportTemplateChangeLockBehaviorFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\SarReportTemplateBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\SarReportTemplateBOPlus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\SarReportTemplateChangeLock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\SarReportTemplateCreate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\SarReportTemplateDelete.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\SarReportTemplateDownload.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\SarReportTemplateGet_Full.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\SarReportTemplateUpdate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\SarReportTemplateUpload.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\TypeCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Update\ISarReportTemplateUpdate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Update\SarReportTemplateUpdateBehaviorEv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Update\SarReportTemplateUpdateBehaviorFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Update\SarReportTemplateUpdateListBehaviorEv.cs" />
+    <Compile Include="Core\SarReportTemplate\Upload\ISarReportTemplateUpload.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Upload\SarReportTemplateUploadBehaviorFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTemplate\Upload\SarReportTemplateUploadBehaviorSDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SarReportTypeGroup\Create\ISarReportTypeGroupCreate.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Create\SarReportTypeGroupCreateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Create\SarReportTypeGroupCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Delete\ISarReportTypeGroupDelete.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Delete\SarReportTypeGroupDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Delete\SarReportTypeGroupDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Get\Ev\ISarReportTypeGroupGetEv.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Get\Ev\SarReportTypeGroupGetEvBehaviorByCode.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Get\Ev\SarReportTypeGroupGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Get\Ev\SarReportTypeGroupGetEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Get\ListEv\ISarReportTypeGroupGetListEv.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Get\ListEv\SarReportTypeGroupGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Get\ListEv\SarReportTypeGroupGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Get\SarReportTypeGroupFilterQuery.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Lock\ISarReportTypeGroupTemplateChangeLock.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Lock\SarReportTypeGroupChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Lock\SarReportTypeGroupChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportTypeGroup\SarReportTypeGroupBO.cs" />
+    <Compile Include="Core\SarReportTypeGroup\SarReportTypeGroupChangeLock.cs" />
+    <Compile Include="Core\SarReportTypeGroup\SarReportTypeGroupCreate.cs" />
+    <Compile Include="Core\SarReportTypeGroup\SarReportTypeGroupDelete.cs" />
+    <Compile Include="Core\SarReportTypeGroup\SarReportTypeGroupGet.cs" />
+    <Compile Include="Core\SarReportTypeGroup\SarReportTypeGroupUpdate.cs" />
+    <Compile Include="Core\SarReportTypeGroup\TypeCollection.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Update\ISarReportTypeGroupUpdate.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Update\SarReportTypeGroupUpdateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarReportTypeGroup\Update\SarReportTypeGroupUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportType\Create\ISarReportTypeCreate.cs" />
+    <Compile Include="Core\SarReportType\Create\SarReportTypeCreateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarReportType\Create\SarReportTypeCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportType\Create\SarReportTypeCreateBehaviorListEv.cs" />
+    <Compile Include="Core\SarReportType\Delete\ISarReportTypeDelete.cs" />
+    <Compile Include="Core\SarReportType\Delete\SarReportTypeDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarReportType\Delete\SarReportTypeDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportType\Get\Ev\ISarReportTypeGetEv.cs" />
+    <Compile Include="Core\SarReportType\Get\Ev\SarReportTypeGetEvBehaviorByCode.cs" />
+    <Compile Include="Core\SarReportType\Get\Ev\SarReportTypeGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarReportType\Get\Ev\SarReportTypeGetEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportType\Get\ListEv\ISarReportTypeGetListEv.cs" />
+    <Compile Include="Core\SarReportType\Get\ListEv\SarReportTypeGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarReportType\Get\ListEv\SarReportTypeGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportType\Get\SarReportTypeFilterQuery.cs" />
+    <Compile Include="Core\SarReportType\Lock\ISarReportTypeTemplateChangeLock.cs" />
+    <Compile Include="Core\SarReportType\Lock\SarReportTypeChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarReportType\Lock\SarReportTypeChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarReportType\SarReportTypeBO.cs" />
+    <Compile Include="Core\SarReportType\SarReportTypeChangeLock.cs" />
+    <Compile Include="Core\SarReportType\SarReportTypeCreate.cs" />
+    <Compile Include="Core\SarReportType\SarReportTypeDelete.cs" />
+    <Compile Include="Core\SarReportType\SarReportTypeGet.cs" />
+    <Compile Include="Core\SarReportType\SarReportTypeUpdate.cs" />
+    <Compile Include="Core\SarReportType\TypeCollection.cs" />
+    <Compile Include="Core\SarReportType\Update\ISarReportTypeUpdate.cs" />
+    <Compile Include="Core\SarReportType\Update\SarReportTypeUpdateBehaviorEv_Code.cs" />
+    <Compile Include="Core\SarReportType\Update\SarReportTypeUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\GetFile\ISarReportGetFile.cs" />
+    <Compile Include="Core\SarReport\GetFile\SarReportGetFileBehavior.cs" />
+    <Compile Include="Core\SarReport\GetFile\SarReportGetFileBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\IDelegacyFile.cs" />
+    <Compile Include="Core\SarReport\SarReportBOPlus.cs" />
+    <Compile Include="Core\SarReport\SarReportGetFile.cs" />
+    <Compile Include="Core\SarReport\SarReportPublic.cs" />
+    <Compile Include="Core\SarReport\SarReportSend.cs" />
+    <Compile Include="Core\SarReport\SarReportUpdateStt.cs" />
+    <Compile Include="Core\SarReport\SarReportUpdateNameDescription.cs" />
+    <Compile Include="Core\SarReport\Send\ISarReportSend.cs" />
+    <Compile Include="Core\SarReport\Send\SarReportSendBehavior.cs" />
+    <Compile Include="Core\SarReport\Send\SarReportSendBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\Public\ISarReportPublic.cs" />
+    <Compile Include="Core\SarReport\Public\SarReportPublicBehavior.cs" />
+    <Compile Include="Core\SarReport\Public\SarReportPublicBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\UpdateNameDescription\ISarReportUpdateNameDescription.cs" />
+    <Compile Include="Core\SarReport\UpdateNameDescription\SarReportUpdateNameDescriptionBehavior.cs" />
+    <Compile Include="Core\SarReport\UpdateNameDescription\SarReportUpdateNameDescriptionBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\UpdateStt\ISarReportUpdateStt.cs" />
+    <Compile Include="Core\SarReport\UpdateStt\SarReportUpdateSttBehavior.cs" />
+    <Compile Include="Core\SarReport\UpdateStt\SarReportUpdateSttBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\Create\ISarReportCreate.cs" />
+    <Compile Include="Core\SarReport\Create\SarReportCreateBehaviorEv.cs" />
+    <Compile Include="Core\SarReport\Create\SarReportCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\Create\SarReportCreateBehaviorListEv.cs" />
+    <Compile Include="Core\SarReport\Delete\ISarReportDelete.cs" />
+    <Compile Include="Core\SarReport\Delete\SarReportDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarReport\Delete\SarReportDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\Get\Ev\ISarReportGetEv.cs" />
+    <Compile Include="Core\SarReport\Get\Ev\SarReportGetEvBehaviorByCode.cs" />
+    <Compile Include="Core\SarReport\Get\Ev\SarReportGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarReport\Get\Ev\SarReportGetEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\Get\ListEv\ISarReportGetListEv.cs" />
+    <Compile Include="Core\SarReport\Get\ListEv\SarReportGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarReport\Get\ListEv\SarReportGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\Get\ListV\ISarReportGetListV.cs" />
+    <Compile Include="Core\SarReport\Get\ListV\SarReportGetListVBehaviorByViewFilterQuery.cs" />
+    <Compile Include="Core\SarReport\Get\ListV\SarReportGetListVBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\Get\SarReportFilterQuery.cs" />
+    <Compile Include="Core\SarReport\Get\SarReportViewFilterQuery.cs" />
+    <Compile Include="Core\SarReport\Get\V\ISarReportGetV.cs" />
+    <Compile Include="Core\SarReport\Get\V\ISarReportGetVBehaviorByCode.cs" />
+    <Compile Include="Core\SarReport\Get\V\SarReportGetVBehaviorById.cs" />
+    <Compile Include="Core\SarReport\Get\V\SarReportGetVBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\Lock\ISarReportTemplateChangeLock.cs" />
+    <Compile Include="Core\SarReport\Lock\SarReportChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarReport\Lock\SarReportChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarReport\SarReportBO.cs" />
+    <Compile Include="Core\SarReport\SarReportChangeLock.cs" />
+    <Compile Include="Core\SarReport\SarReportCreate.cs" />
+    <Compile Include="Core\SarReport\SarReportDelete.cs" />
+    <Compile Include="Core\SarReport\SarReportGet.cs" />
+    <Compile Include="Core\SarReport\SarReportUpdate.cs" />
+    <Compile Include="Core\SarReport\TypeCollection.cs" />
+    <Compile Include="Core\SarReport\Update\ISarReportUpdate.cs" />
+    <Compile Include="Core\SarReport\Update\SarReportUpdateBehaviorEv.cs" />
+    <Compile Include="Core\SarReport\Update\SarReportUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarRetyFofi\Create\ISarRetyFofiCreate.cs" />
+    <Compile Include="Core\SarRetyFofi\Create\SarRetyFofiCreateBehaviorEv.cs" />
+    <Compile Include="Core\SarRetyFofi\Create\SarRetyFofiCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarRetyFofi\Create\SarRetyFofiCreateBehaviorListEv.cs" />
+    <Compile Include="Core\SarRetyFofi\Delete\ISarRetyFofiDelete.cs" />
+    <Compile Include="Core\SarRetyFofi\Delete\SarRetyFofiDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarRetyFofi\Delete\SarRetyFofiDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\Ev\ISarRetyFofiGetEv.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\Ev\SarRetyFofiGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\Ev\SarRetyFofiGetEvBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\ListEv\ISarRetyFofiGetListEv.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\ListEv\SarRetyFofiGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\ListEv\SarRetyFofiGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\ListV\ISarRetyFofiGetListV.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\ListV\SarRetyFofiGetListVBehaviorByViewFilterQuery.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\ListV\SarRetyFofiGetListVBehaviorFactory.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\SarRetyFofiFilterQuery.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\SarRetyFofiViewFilterQuery.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\V\ISarRetyFofiGetV.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\V\SarRetyFofiGetVBehaviorById.cs" />
+    <Compile Include="Core\SarRetyFofi\Get\V\SarRetyFofiGetVBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarRetyFofi\Lock\ISarRetyFofiTemplateChangeLock.cs" />
+    <Compile Include="Core\SarRetyFofi\Lock\SarRetyFofiChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarRetyFofi\Lock\SarRetyFofiChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarRetyFofi\SarRetyFofiBO.cs" />
+    <Compile Include="Core\SarRetyFofi\SarRetyFofiChangeLock.cs" />
+    <Compile Include="Core\SarRetyFofi\SarRetyFofiCreate.cs" />
+    <Compile Include="Core\SarRetyFofi\SarRetyFofiDelete.cs" />
+    <Compile Include="Core\SarRetyFofi\SarRetyFofiGet_Full.cs" />
+    <Compile Include="Core\SarRetyFofi\SarRetyFofiUpdate.cs" />
+    <Compile Include="Core\SarRetyFofi\TypeCollection.cs" />
+    <Compile Include="Core\SarRetyFofi\Update\ISarRetyFofiUpdate.cs" />
+    <Compile Include="Core\SarRetyFofi\Update\SarRetyFofiUpdateBehaviorEv.cs" />
+    <Compile Include="Core\SarRetyFofi\Update\SarRetyFofiUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SarRetyFofi\Update\SarRetyFofiUpdateListBehaviorEv.cs" />
+    <Compile Include="Core\SarUserReportType\Copy\ISarUserReportTypeCopy.cs" />
+    <Compile Include="Core\SarUserReportType\Copy\SarUserReportTypeCopyByReportTypeBehavior.cs" />
+    <Compile Include="Core\SarUserReportType\Copy\SarUserReportTypeCopyByUserBehavior.cs" />
+    <Compile Include="Core\SarUserReportType\Copy\SarUserReportTypeCopyFactory.cs" />
+    <Compile Include="Core\SarUserReportType\SarUserReportTypeCopy.cs" />
+    <Compile Include="Core\SarUserReportType\SarUserReportTypeCreateList.cs" />
+    <Compile Include="Core\SarUserReportType\SarUserReportTypeDeleteList.cs" />
+    <Compile Include="Core\SarUserReportType\DeleteList\ISarUserReportTypeDeleteList.cs" />
+    <Compile Include="Core\SarUserReportType\DeleteList\SarUserReportTypeDeleteListBehaviorEv.cs" />
+    <Compile Include="Core\SarUserReportType\DeleteList\SarUserReportTypeDeleteListBehaviorFactory.cs" />
+    <Compile Include="Core\SarUserReportType\CreateList\ISarUserReportTypeCreateList.cs" />
+    <Compile Include="Core\SarUserReportType\CreateList\SarUserReportTypeCreateListBehaviorEv.cs" />
+    <Compile Include="Core\SarUserReportType\CreateList\SarUserReportTypeCreateListBehaviorFactory.cs" />
+    <Compile Include="Core\SarUserReportType\Create\ISarUserReportTypeCreate.cs" />
+    <Compile Include="Core\SarUserReportType\Create\SarUserReportTypeCreateBehaviorEv.cs" />
+    <Compile Include="Core\SarUserReportType\Create\SarUserReportTypeCreateBehaviorFactory.cs" />
+    <Compile Include="Core\SarUserReportType\Delete\ISarUserReportTypeDelete.cs" />
+    <Compile Include="Core\SarUserReportType\Delete\SarUserReportTypeDeleteBehaviorEv.cs" />
+    <Compile Include="Core\SarUserReportType\Delete\SarUserReportTypeDeleteBehaviorFactory.cs" />
+    <Compile Include="Core\SarUserReportType\Get\Ev\ISarUserReportTypeGetEv.cs" />
+    <Compile Include="Core\SarUserReportType\Get\Ev\SarUserReportTypeGetEvBehaviorById.cs" />
+    <Compile Include="Core\SarUserReportType\Get\Ev\SarUserReportTypeGetEvBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarUserReportType\Get\ListEv\ISarUserReportTypeGetListEv.cs" />
+    <Compile Include="Core\SarUserReportType\Get\ListEv\SarUserReportTypeGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SarUserReportType\Get\ListEv\SarUserReportTypeGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SarUserReportType\Get\ListV\ISarUserReportTypeGetListV.cs" />
+    <Compile Include="Core\SarUserReportType\Get\ListV\SarUserReportTypeGetListVBehaviorByViewFilterQuery.cs" />
+    <Compile Include="Core\SarUserReportType\Get\ListV\SarUserReportTypeGetListVBehaviorFactory.cs" />
+    <Compile Include="Core\SarUserReportType\Get\SarUserReportTypeFilterQuery.cs" />
+    <Compile Include="Core\SarUserReportType\Get\SarUserReportTypeViewFilterQuery.cs" />
+    <Compile Include="Core\SarUserReportType\Get\V\ISarUserReportTypeGetV.cs" />
+    <Compile Include="Core\SarUserReportType\Get\V\SarUserReportTypeGetVBehaviorById.cs" />
+    <Compile Include="Core\SarUserReportType\Get\V\SarUserReportTypeGetVBehaviorFactory_NoCode.cs" />
+    <Compile Include="Core\SarUserReportType\Lock\ISarUserReportTypeTemplateChangeLock.cs" />
+    <Compile Include="Core\SarUserReportType\Lock\SarUserReportTypeChangeLockBehaviorEv.cs" />
+    <Compile Include="Core\SarUserReportType\Lock\SarUserReportTypeChangeLockBehaviorFactory.cs" />
+    <Compile Include="Core\SarUserReportType\SarUserReportTypeBO.cs" />
+    <Compile Include="Core\SarUserReportType\SarUserReportTypeChangeLock.cs" />
+    <Compile Include="Core\SarUserReportType\SarUserReportTypeCreate.cs" />
+    <Compile Include="Core\SarUserReportType\SarUserReportTypeDelete.cs" />
+    <Compile Include="Core\SarUserReportType\SarUserReportTypeGet.cs" />
+    <Compile Include="Core\SarUserReportType\SarUserReportTypeUpdate.cs" />
+    <Compile Include="Core\SarUserReportType\TypeCollection.cs" />
+    <Compile Include="Core\SarUserReportType\Update\ISarUserReportTypeUpdate.cs" />
+    <Compile Include="Core\SarUserReportType\Update\SarUserReportTypeUpdateBehaviorEv.cs" />
+    <Compile Include="Core\SarUserReportType\Update\SarUserReportTypeUpdateBehaviorFactory.cs" />
+    <Compile Include="Core\SdaConfig\Get\ListEv\ISdaConfigGetListEv.cs" />
+    <Compile Include="Core\SdaConfig\Get\ListEv\SdaConfigGetListEvBehaviorByFilterQuery.cs" />
+    <Compile Include="Core\SdaConfig\Get\ListEv\SdaConfigGetListEvBehaviorFactory.cs" />
+    <Compile Include="Core\SdaConfig\Get\SdaConfigFilterQuery.cs" />
+    <Compile Include="Core\SdaConfig\SdaConfigBO.cs" />
+    <Compile Include="Core\SdaConfig\SdaConfigGet.cs" />
+    <Compile Include="Core\SdaConfig\TypeCollection.cs" />
+    <Compile Include="Core\SdaTrouble\CreateByMessege\ISdaTroubleCreateByMessege.cs" />
+    <Compile Include="Core\SdaTrouble\CreateByMessege\SdaTroubleCreateByMessegeBehavior.cs" />
+    <Compile Include="Core\SdaTrouble\CreateByMessege\SdaTroubleCreateByMessegeBehaviorFactory.cs" />
+    <Compile Include="Core\SdaTrouble\Scan\ISdaTroubleScan.cs" />
+    <Compile Include="Core\SdaTrouble\Scan\SdaTroubleScanBehavior.cs" />
+    <Compile Include="Core\SdaTrouble\Scan\SdaTroubleScanBehaviorFactory.cs" />
+    <Compile Include="Core\SdaTrouble\SdaTroubleBOPlus.cs" />
+    <Compile Include="Core\SdaTrouble\SdaTroubleCreateByMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SdaTrouble\SdaTroubleScan.cs" />
+    <Compile Include="Core\SdaTrouble\TypeCollection.cs" />
+    <Compile Include="Manager\SarFormDataManager.cs" />
+    <Compile Include="Manager\SarFormFieldManager.cs" />
+    <Compile Include="Manager\SarFormManager.cs" />
+    <Compile Include="Manager\SarFormTypeManager.cs" />
+    <Compile Include="Manager\SarPrintLogManager.cs" />
+    <Compile Include="Manager\SarPrintManager.cs" />
+    <Compile Include="Manager\SarPrintTypeCfgManager.cs" />
+    <Compile Include="Manager\SarPrintTypeManager.cs" />
+    <Compile Include="Manager\SarReportCalendarManagerPlus.cs" />
+    <Compile Include="Manager\SarReportTemplateManagerPlus.cs" />
+    <Compile Include="Manager\SarReportManagerPlus.cs" />
+    <Compile Include="Manager\ManagerBase.cs" />
+    <Compile Include="Manager\ManagerContainer.cs" />
+    <Compile Include="Manager\SarReportCalendarManager.cs" />
+    <Compile Include="Manager\SarReportManager.cs" />
+    <Compile Include="Manager\SarReportSttManager.cs" />
+    <Compile Include="Manager\SarReportTemplateManager.cs" />
+    <Compile Include="Manager\SarReportTypeGroupManager.cs" />
+    <Compile Include="Manager\SarReportTypeManager.cs" />
+    <Compile Include="Manager\SarRetyFofiManager.cs" />
+    <Compile Include="Manager\SarUserReportTypeManager.cs" />
+    <Compile Include="Manager\SdaTroubleManagerPlus.cs" />
+    <Compile Include="Mrs\MrsReport\MrsReportCreate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Token\TokenManagerPlus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAR.DAO\SAR.DAO.csproj">
+      <Project>{9b04cfdb-20c8-413f-91df-a5309092b035}</Project>
+      <Name>SAR.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAR.EFMODEL\SAR.EFMODEL.csproj">
+      <Project>{6e89816e-d0e8-4f0e-a88e-4a60a049a26f}</Project>
+      <Name>SAR.EFMODEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAR.Filter\SAR.Filter.csproj">
+      <Project>{ab7b5beb-abb9-4f1d-9de0-c077d7faae87}</Project>
+      <Name>SAR.Filter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAR.LibraryBug\SAR.LibraryBug.csproj">
+      <Project>{e982143d-f61f-4e98-ba9c-2a0b217d61e3}</Project>
+      <Name>SAR.LibraryBug</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAR.LibraryMessage\SAR.LibraryMessage.csproj">
+      <Project>{da64492f-edb5-45f6-ba4a-2240bcc5cb2d}</Project>
+      <Name>SAR.LibraryMessage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAR.SDO\SAR.SDO.csproj">
+      <Project>{dee9bbda-30b6-40c7-9839-9861fa05cbe8}</Project>
+      <Name>SAR.SDO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core\SarPrintTypeCfg\EventLog\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
