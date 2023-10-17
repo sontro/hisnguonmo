@@ -1,0 +1,5 @@
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Dashboard.Filter\bin\Debug\MOS.Dashboard.Filter.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Dashboard.Filter\bin\Debug\MOS.Dashboard.Filter.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Dashboard.Filter\obj\Debug\MOS.Dashboard.Filter.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Dashboard.Filter\obj\Debug\MOS.Dashboard.Filter.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Dashboard.Filter\obj\Debug\MOS.Dashboard.Filter.csprojResolveAssemblyReference.cache

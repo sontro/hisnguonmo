@@ -1,0 +1,867 @@
+﻿INFO 2023-01-17 08:39:56,188 [6] - Application_Start. Bat dau start Time=17/01/2023 08:39:56
+
+INFO 2023-01-17 08:40:01,475 [6] - Application_Start. Bat dau load HisConfig Time=17/01/2023 08:40:01
+
+INFO 2023-01-17 08:40:01,476 [6] - Bat dau get HisConfig.
+
+INFO 2023-01-17 08:42:41,981 [6] - Ket thuc get HisConfig.
+
+INFO 2023-01-17 08:42:41,981 [6] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-01-17 08:42:41,981 [6] - Application_Start. Ket thuc load HisConfig Time=17/01/2023 08:42:41
+
+INFO 2023-01-17 08:42:41,985 [6] - Application_Start. Ket thuc start Time=17/01/2023 08:42:41
+
+INFO 2023-01-17 08:42:41,987 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-01-17 08:42:41,987 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-01-17 08:42:42,201 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-01-17 08:42:42,206 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-01-17 08:42:42,207 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-01-17 08:42:42,438 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-01-17 08:42:42,438 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-01-17 08:42:42,620 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-01-17 08:42:42,620 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-01-17 08:42:42,621 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-01-17 08:42:42,622 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-01-17 08:42:42,832 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-01-17 08:42:42,832 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-01-17 08:42:43,554 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-01-17 08:42:43,555 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-01-17 08:42:43,743 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-01-17 08:42:43,743 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-17 08:42:43,744 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-17 08:42:44,283 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-01-17 08:42:44,284 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-01-17 08:42:44,658 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-01-17 08:42:44,658 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-01-17 08:42:44,844 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-01-17 08:42:44,844 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-01-17 08:42:45,071 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-01-17 08:42:45,260 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-01-17 08:42:45,260 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-01-17 08:42:45,446 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-01-17 08:42:45,447 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-01-17 08:42:45,661 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-01-17 08:42:45,661 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-01-17 08:42:45,666 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-01-17 08:42:47,003 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+ERROR 2023-01-17 08:55:35,819 [6] - 
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at MOS.MANAGER.HisSereServ.Update.PayslipInfo.HisSereServUpdatePayslipInfo.<Run>b__0(HIS_SERE_SERV o) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\PayslipInfo\HisSereServUpdatePayslipInfo.cs:line 90
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at MOS.MANAGER.HisSereServ.Update.PayslipInfo.HisSereServUpdatePayslipInfo.Run(HisSereServPayslipSDO data, HIS_TREATMENT treatment, Boolean isAllowUpdateNoExecutePres, List`1& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\PayslipInfo\HisSereServUpdatePayslipInfo.cs:line 90
+
+ERROR 2023-01-17 08:55:35,823 [6] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdatePayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":[{"ID":1982097,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":null,"MODIFIER":null,"APP_CREATOR":null,"APP_MODIFIER":null,"IS_ACTIVE":null,"IS_DELETE":null,"GROUP_CODE":null,"SERVICE_ID":0,"SERVICE_REQ_ID":null,"PATIENT_TYPE_ID":0,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":null,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":0.0,"PRICE":0.0,"ORIGINAL_PRICE":0.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":1,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":null,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":0,"TDL_INTRUCTION_DATE":0,"TDL_PATIENT_ID":null,"TDL_TREATMENT_ID":null,"TDL_TREATMENT_CODE":null,"TDL_SERVICE_CODE":null,"TDL_SERVICE_NAME":null,"TDL_HEIN_SERVICE_BHYT_CODE":null,"TDL_HEIN_SERVICE_BHYT_NAME":null,"TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":0,"TDL_SERVICE_UNIT_ID":0,"TDL_HEIN_SERVICE_TYPE_ID":null,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":null,"TDL_REQUEST_ROOM_ID":0,"TDL_REQUEST_DEPARTMENT_ID":0,"TDL_REQUEST_LOGINNAME":null,"TDL_REQUEST_USERNAME":null,"TDL_EXECUTE_ROOM_ID":0,"TDL_EXECUTE_DEPARTMENT_ID":0,"TDL_EXECUTE_BRANCH_ID":0,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":0,"TDL_HST_BHYT_CODE":null,"TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":null,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":null,"VIR_PRICE_NO_ADD_PRICE":null,"VIR_PRICE_NO_EXPEND":null,"VIR_HEIN_PRICE":null,"VIR_PATIENT_PRICE":null,"VIR_PATIENT_PRICE_BHYT":null,"VIR_TOTAL_PRICE":null,"VIR_TOTAL_PRICE_NO_ADD_PRICE":null,"VIR_TOTAL_PRICE_NO_EXPEND":null,"VIR_TOTAL_HEIN_PRICE":null,"VIR_TOTAL_PATIENT_PRICE":null,"VIR_TOTAL_PATIENT_PRICE_BHYT":null,"VIR_TOTAL_PATIENT_PRICE_NO_DC":null,"VIR_TOTAL_PATIENT_PRICE_TEMP":null,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":null,"DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":null,"TDL_RATION_TIME_ID":null,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]}],"Field":1} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":[],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":true}}
+
+ERROR 2023-01-17 08:57:19,513 [7] - 
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at MOS.MANAGER.HisSereServ.Update.PayslipInfo.HisSereServUpdatePayslipInfo.<Run>b__0(HIS_SERE_SERV o) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\PayslipInfo\HisSereServUpdatePayslipInfo.cs:line 90
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at MOS.MANAGER.HisSereServ.Update.PayslipInfo.HisSereServUpdatePayslipInfo.Run(HisSereServPayslipSDO data, HIS_TREATMENT treatment, Boolean isAllowUpdateNoExecutePres, List`1& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\PayslipInfo\HisSereServUpdatePayslipInfo.cs:line 90
+
+ERROR 2023-01-17 08:57:19,516 [7] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdatePayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":[{"ID":1982097,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":null,"MODIFIER":null,"APP_CREATOR":null,"APP_MODIFIER":null,"IS_ACTIVE":null,"IS_DELETE":null,"GROUP_CODE":null,"SERVICE_ID":0,"SERVICE_REQ_ID":null,"PATIENT_TYPE_ID":0,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":null,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":0.0,"PRICE":0.0,"ORIGINAL_PRICE":0.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":1,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":null,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":0,"TDL_INTRUCTION_DATE":0,"TDL_PATIENT_ID":null,"TDL_TREATMENT_ID":null,"TDL_TREATMENT_CODE":null,"TDL_SERVICE_CODE":null,"TDL_SERVICE_NAME":null,"TDL_HEIN_SERVICE_BHYT_CODE":null,"TDL_HEIN_SERVICE_BHYT_NAME":null,"TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":0,"TDL_SERVICE_UNIT_ID":0,"TDL_HEIN_SERVICE_TYPE_ID":null,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":null,"TDL_REQUEST_ROOM_ID":0,"TDL_REQUEST_DEPARTMENT_ID":0,"TDL_REQUEST_LOGINNAME":null,"TDL_REQUEST_USERNAME":null,"TDL_EXECUTE_ROOM_ID":0,"TDL_EXECUTE_DEPARTMENT_ID":0,"TDL_EXECUTE_BRANCH_ID":0,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":0,"TDL_HST_BHYT_CODE":null,"TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":null,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":null,"VIR_PRICE_NO_ADD_PRICE":null,"VIR_PRICE_NO_EXPEND":null,"VIR_HEIN_PRICE":null,"VIR_PATIENT_PRICE":null,"VIR_PATIENT_PRICE_BHYT":null,"VIR_TOTAL_PRICE":null,"VIR_TOTAL_PRICE_NO_ADD_PRICE":null,"VIR_TOTAL_PRICE_NO_EXPEND":null,"VIR_TOTAL_HEIN_PRICE":null,"VIR_TOTAL_PATIENT_PRICE":null,"VIR_TOTAL_PATIENT_PRICE_BHYT":null,"VIR_TOTAL_PATIENT_PRICE_NO_DC":null,"VIR_TOTAL_PATIENT_PRICE_TEMP":null,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":null,"DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":null,"TDL_RATION_TIME_ID":null,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]}],"Field":1} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":[],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":true}}
+
+INFO 2023-01-17 09:02:35,088 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-01-17 09:02:35,100 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+ERROR 2023-01-17 09:07:54,492 [15] - Application_End. Time=17/01/2023 09:07:54
+
+INFO 2023-01-17 10:38:26,815 [6] - Application_Start. Bat dau start Time=17/01/2023 10:38:26
+
+INFO 2023-01-17 10:38:31,546 [6] - Application_Start. Bat dau load HisConfig Time=17/01/2023 10:38:31
+
+INFO 2023-01-17 10:38:31,547 [6] - Bat dau get HisConfig.
+
+INFO 2023-01-17 10:41:12,490 [6] - Ket thuc get HisConfig.
+
+INFO 2023-01-17 10:41:12,490 [6] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-01-17 10:41:12,490 [6] - Application_Start. Ket thuc load HisConfig Time=17/01/2023 10:41:12
+
+INFO 2023-01-17 10:41:12,493 [6] - Application_Start. Ket thuc start Time=17/01/2023 10:41:12
+
+INFO 2023-01-17 10:41:12,494 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-01-17 10:41:12,495 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-01-17 10:41:12,641 [13] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-01-17 10:41:12,644 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-01-17 10:41:12,645 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-01-17 10:41:12,783 [13] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-01-17 10:41:12,783 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-01-17 10:41:12,987 [13] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-01-17 10:41:12,987 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-01-17 10:41:12,988 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-01-17 10:41:12,988 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-01-17 10:41:13,181 [13] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-01-17 10:41:13,181 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-01-17 10:41:14,317 [13] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-01-17 10:41:14,317 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-01-17 10:41:14,568 [13] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-01-17 10:41:14,569 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-17 10:41:14,570 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-17 10:41:14,808 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-01-17 10:41:14,809 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-01-17 10:41:14,959 [13] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-01-17 10:41:14,959 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-01-17 10:41:15,134 [13] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-01-17 10:41:15,135 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-01-17 10:41:15,286 [13] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-01-17 10:41:15,453 [13] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-01-17 10:41:15,454 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-01-17 10:41:15,599 [13] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-01-17 10:41:15,600 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-01-17 10:41:15,764 [13] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-01-17 10:41:15,765 [13] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-01-17 10:41:15,768 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-01-17 10:41:16,516 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-01-17 11:01:05,297 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-01-17 11:01:05,306 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-01-17 11:20:55,292 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-01-17 11:20:55,304 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-01-17 11:40:45,290 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-01-17 11:40:45,302 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-01-17 12:00:35,294 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-01-17 12:00:35,308 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+ERROR 2023-01-17 12:03:31,439 [38] - Application_End. Time=17/01/2023 12:03:31
+
+INFO 2023-01-17 12:08:45,688 [32] - Application_Start. Bat dau start Time=17/01/2023 12:08:45
+
+INFO 2023-01-17 12:08:49,048 [32] - Application_Start. Bat dau load HisConfig Time=17/01/2023 12:08:49
+
+INFO 2023-01-17 12:08:49,051 [32] - Bat dau get HisConfig.
+
+INFO 2023-01-17 12:11:20,171 [32] - Ket thuc get HisConfig.
+
+INFO 2023-01-17 12:11:20,171 [32] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-01-17 12:11:20,171 [32] - Application_Start. Ket thuc load HisConfig Time=17/01/2023 12:11:20
+
+INFO 2023-01-17 12:11:20,186 [32] - Application_Start. Ket thuc start Time=17/01/2023 12:11:20
+
+INFO 2023-01-17 12:11:20,187 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-01-17 12:11:20,187 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-01-17 12:11:20,188 [34] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-01-17 12:11:20,365 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-01-17 12:11:20,365 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-01-17 12:11:20,366 [34] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-01-17 12:11:20,366 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-01-17 12:11:20,367 [34] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-01-17 12:11:20,367 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-01-17 12:11:20,367 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-01-17 12:11:20,367 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-01-17 12:11:20,368 [34] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-01-17 12:11:20,368 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-01-17 12:11:20,433 [34] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-01-17 12:11:20,433 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-01-17 12:11:20,434 [34] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-01-17 12:11:20,434 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-17 12:11:20,435 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-17 12:11:20,446 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-01-17 12:11:20,446 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-01-17 12:11:20,446 [34] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-01-17 12:11:20,447 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-01-17 12:11:20,447 [34] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-01-17 12:11:20,447 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-01-17 12:11:20,451 [34] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-01-17 12:11:20,454 [34] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-01-17 12:11:20,454 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-01-17 12:11:20,454 [34] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-01-17 12:11:20,454 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-01-17 12:11:20,455 [34] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-01-17 12:11:20,455 [34] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-01-17 12:11:20,464 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-01-17 12:11:20,571 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-01-17 12:31:10,452 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-01-17 12:31:10,465 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-01-17 12:51:00,462 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-01-17 12:51:00,471 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-01-17 13:10:50,457 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-01-17 13:10:50,465 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-01-17 13:30:40,455 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-01-17 13:30:40,466 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-01-17 13:50:30,462 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-01-17 13:50:30,486 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-01-17 14:10:20,465 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-01-17 14:10:20,475 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+ERROR 2023-01-17 14:13:19,420 [10] - Application_End. Time=17/01/2023 14:13:19
+
+INFO 2023-01-17 14:16:58,096 [5] - Application_Start. Bat dau start Time=17/01/2023 14:16:58
+
+INFO 2023-01-17 14:17:04,010 [5] - Application_Start. Bat dau load HisConfig Time=17/01/2023 14:17:04
+
+INFO 2023-01-17 14:17:04,011 [5] - Bat dau get HisConfig.
+
+INFO 2023-01-17 14:19:45,207 [5] - Ket thuc get HisConfig.
+
+INFO 2023-01-17 14:19:45,207 [5] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-01-17 14:19:45,207 [5] - Application_Start. Ket thuc load HisConfig Time=17/01/2023 14:19:45
+
+INFO 2023-01-17 14:19:45,242 [5] - Application_Start. Ket thuc start Time=17/01/2023 14:19:45
+
+INFO 2023-01-17 14:19:45,243 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-01-17 14:19:45,244 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-01-17 14:19:45,504 [11] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-01-17 14:19:45,509 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-01-17 14:19:45,509 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-01-17 14:19:45,665 [11] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-01-17 14:19:45,666 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-01-17 14:19:45,821 [11] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-01-17 14:19:45,821 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-01-17 14:19:45,822 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-01-17 14:19:45,823 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-01-17 14:19:45,991 [11] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-01-17 14:19:45,991 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-01-17 14:19:46,585 [11] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-01-17 14:19:46,585 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-01-17 14:19:46,757 [11] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-01-17 14:19:46,757 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-17 14:19:46,761 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-17 14:19:47,154 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-01-17 14:19:47,156 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-01-17 14:19:47,328 [11] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-01-17 14:19:47,330 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-01-17 14:19:47,706 [11] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-01-17 14:19:47,706 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-01-17 14:19:47,878 [11] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-01-17 14:19:48,077 [11] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-01-17 14:19:48,078 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-01-17 14:19:48,266 [11] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-01-17 14:19:48,266 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-01-17 14:19:48,429 [11] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-01-17 14:19:48,430 [11] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-01-17 14:19:48,437 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-01-17 14:19:49,727 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+ERROR 2023-01-17 14:32:47,611 [31] - Loi khi lay Config: MOS.HIS_SERE_SERV.DO_NOT_ALLOW_TO_UPDATE_WHEN_TREATMENT_IS_FINISHED
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERE_SERV.DO_NOT_ALLOW_TO_UPDATE_WHEN_TREATMENT_IS_FINISHED
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-01-17 14:32:47,990 [31] - Loi khi lay Config: MOS.HIS_SERE_SERV.DO_NOT_ALLOW_TO_UPDATE_WHEN_TREATMENT_IS_FINISHED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.MANAGER.Config.ConfigUtil.GetIntConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 45
+
+ERROR 2023-01-17 14:33:11,553 [31] - Loi khi lay Config: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-01-17 14:33:51,959 [18] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdatePayslipInfo 
+--Input: {"TreatmentId":78218,"SereServs":[{"ID":1982076,"CREATE_TIME":20230116092119,"MODIFY_TIME":20230117143331,"CREATOR":"hanbth","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":36842,"SERVICE_REQ_ID":1261804,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":2000.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":2000.0,"ORIGINAL_PRICE":2000.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":null,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":16782,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":527606,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230116092000,"TDL_INTRUCTION_DATE":20230116000000,"TDL_PATIENT_ID":65387,"TDL_TREATMENT_ID":78218,"TDL_TREATMENT_CODE":"000000075776","TDL_SERVICE_CODE":"gn1","TDL_SERVICE_NAME":"gây nghiện 1","TDL_HEIN_SERVICE_BHYT_CODE":null,"TDL_HEIN_SERVICE_BHYT_NAME":"abc","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":6,"TDL_SERVICE_UNIT_ID":49,"TDL_HEIN_SERVICE_TYPE_ID":10,"TDL_ACTIVE_INGR_BHYT_CODE":"hc1","TDL_ACTIVE_INGR_BHYT_NAME":"hoạt chất 1","TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":"1","TDL_SERVICE_REQ_CODE":"000001248291","TDL_REQUEST_ROOM_ID":901,"TDL_REQUEST_DEPARTMENT_ID":302,"TDL_REQUEST_LOGINNAME":"hanbth","TDL_REQUEST_USERNAME":"Bùi Thị Hồng Hân Thanh Vân","TDL_EXECUTE_ROOM_ID":626,"TDL_EXECUTE_DEPARTMENT_ID":243,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":6,"TDL_HST_BHYT_CODE":"4","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":null,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":2000.0,"VIR_PRICE":2000.0,"VIR_PRICE_NO_ADD_PRICE":2000.0,"VIR_PRICE_NO_EXPEND":2000.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":0.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":2000.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":2000.0,"VIR_TOTAL_PRICE_NO_EXPEND":2000.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":0.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":45,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":1500.0,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":null,"DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":null,"TDL_RATION_TIME_ID":null,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]}],"Field":4} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["(Các) dịch vụ gây nghiện 1 bắt buộc chọn điều kiện"],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":false}}
+
+INFO 2023-01-17 14:39:37,885 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-01-17 14:39:37,894 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-01-17 14:59:27,886 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-01-17 14:59:27,893 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-01-17 15:19:17,880 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-01-17 15:19:17,886 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-01-17 15:39:07,879 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-01-17 15:39:07,889 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-01-17 15:58:57,881 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-01-17 15:58:57,889 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+ERROR 2023-01-17 16:00:47,229 [41] - Application_End. Time=17/01/2023 16:00:47
+
+INFO 2023-01-17 16:32:42,816 [5] - Application_Start. Bat dau start Time=17/01/2023 16:32:42
+
+INFO 2023-01-17 16:32:48,065 [5] - Application_Start. Bat dau load HisConfig Time=17/01/2023 16:32:48
+
+INFO 2023-01-17 16:32:48,066 [5] - Bat dau get HisConfig.
+
+INFO 2023-01-17 16:35:30,498 [5] - Ket thuc get HisConfig.
+
+INFO 2023-01-17 16:35:30,498 [5] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-01-17 16:35:30,498 [5] - Application_Start. Ket thuc load HisConfig Time=17/01/2023 16:35:30
+
+INFO 2023-01-17 16:35:30,501 [5] - Application_Start. Ket thuc start Time=17/01/2023 16:35:30
+
+INFO 2023-01-17 16:35:30,502 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-01-17 16:35:30,503 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-01-17 16:35:30,505 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-01-17 16:35:30,515 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-01-17 16:35:30,516 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-01-17 16:35:30,516 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-01-17 16:35:30,517 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-01-17 16:35:30,519 [8] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-01-17 16:35:30,519 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-01-17 16:35:30,520 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-01-17 16:35:30,521 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-01-17 16:35:30,521 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-01-17 16:35:30,522 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-01-17 16:35:30,588 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-01-17 16:35:30,588 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-01-17 16:35:30,589 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-01-17 16:35:30,590 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-17 16:35:30,590 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-17 16:35:30,638 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-01-17 16:35:30,639 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-01-17 16:35:30,639 [8] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-01-17 16:35:30,640 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-01-17 16:35:30,640 [8] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-01-17 16:35:30,641 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-01-17 16:35:30,642 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-01-17 16:35:30,645 [8] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-01-17 16:35:30,646 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-01-17 16:35:30,647 [8] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-01-17 16:35:30,647 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-01-17 16:35:30,648 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-01-17 16:35:30,648 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-01-17 16:35:30,654 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-01-17 16:35:30,980 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+ERROR 2023-01-17 16:36:53,403 [28] - Application_End. Time=17/01/2023 16:36:53
+

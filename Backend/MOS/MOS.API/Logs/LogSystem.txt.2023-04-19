@@ -1,0 +1,2197 @@
+﻿INFO 2023-04-19 00:00:00,015 [DefaultQuartzScheduler_Worker-3] - AutoSetIsNotTakenJob bat dau
+
+INFO 2023-04-19 00:00:00,156 [DefaultQuartzScheduler_Worker-3] - Query is taken:SELECT * FROM HIS_EXP_MEST EM WHERE 1=1 AND EM.EXP_MEST_TYPE_ID IN (1)  AND EM.EXP_MEST_STT_ID = 2 AND (EM.TDL_INTRUCTION_DATE < 20230418000000 OR (EM.EXP_MEST_TYPE_ID = 15 AND EM.CREATE_TIME < 20230418000000)) AND EM.AGGR_EXP_MEST_ID IS NULL AND (EM.IS_NOT_TAKEN IS NULL OR EM.IS_NOT_TAKEN <> 1) AND (EM.IS_NOT_TAKEN_FAIL IS NULL OR EM.IS_NOT_TAKEN_FAIL <> 1) AND EXISTS (SELECT 1 FROM HIS_TREATMENT WHERE EM.TDL_TREATMENT_ID = ID AND IS_ACTIVE = 1 AND (IS_PAUSE IS NULL OR IS_PAUSE <> 1)) AND ((EM.EXP_MEST_TYPE_ID = 15) OR (EXISTS (SELECT 1 FROM HIS_EXP_MEST_MEDICINE WHERE EM.ID = EXP_MEST_ID) AND NOT EXISTS (SELECT 1 FROM HIS_EXP_MEST_MEDICINE WHERE EM.ID = EXP_MEST_ID AND IS_EXPORT = 1)) OR (EXISTS (SELECT 1 FROM HIS_EXP_MEST_MATERIAL WHERE EM.ID = EXP_MEST_ID) AND NOT EXISTS (SELECT 1 FROM HIS_EXP_MEST_MATERIAL WHERE EM.ID = EXP_MEST_ID AND IS_EXPORT = 1)))
+
+INFO 2023-04-19 00:00:00,797 [DefaultQuartzScheduler_Worker-3] - AutoSetIsNotTakenJob ket thuc
+
+INFO 2023-04-19 00:01:48,642 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 00:01:48,642 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 00:04:58,137 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 00:04:58,144 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 00:06:48,651 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 00:06:48,651 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 00:11:48,643 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 00:11:48,643 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 00:16:48,650 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 00:16:48,650 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 00:21:48,643 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 00:21:48,643 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 00:24:48,140 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-19 00:24:48,148 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-19 00:26:48,647 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 00:26:48,647 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 00:31:48,646 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 00:31:48,646 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 00:36:48,646 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 00:36:48,646 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 00:41:48,645 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 00:41:48,645 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 00:44:38,140 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 00:44:38,150 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 00:46:48,639 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 00:46:48,639 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 00:51:48,647 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 00:51:48,647 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 00:56:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 00:56:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:01:48,639 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 01:01:48,639 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:04:28,127 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-19 01:04:28,135 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-19 01:06:48,639 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 01:06:48,639 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:11:48,641 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 01:11:48,641 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:16:48,653 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 01:16:48,653 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:21:48,644 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 01:21:48,644 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:24:18,135 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 01:24:18,144 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 01:26:48,640 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 01:26:48,640 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:31:48,651 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 01:31:48,651 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:36:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 01:36:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:41:48,645 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 01:41:48,645 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:44:08,137 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-19 01:44:08,146 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-19 01:46:48,640 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 01:46:48,640 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:51:48,638 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 01:51:48,638 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 01:56:48,644 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 01:56:48,644 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:01:48,645 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 02:01:48,645 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:03:58,128 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 02:03:58,138 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 02:06:48,651 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 02:06:48,651 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:11:48,652 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 02:11:48,652 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:16:48,640 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 02:16:48,640 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:21:48,647 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 02:21:48,647 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:23:48,137 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-19 02:23:48,145 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-19 02:26:48,646 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 02:26:48,646 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:31:48,641 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 02:31:48,641 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:36:48,647 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 02:36:48,647 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:41:48,644 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 02:41:48,644 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:43:38,130 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 02:43:38,139 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 02:46:48,653 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 02:46:48,653 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:51:48,650 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 02:51:48,650 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 02:56:48,644 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 02:56:48,644 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:01:48,647 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 03:01:48,647 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:03:28,127 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-19 03:03:28,135 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-19 03:06:48,640 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 03:06:48,640 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:11:48,646 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 03:11:48,646 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:16:48,645 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 03:16:48,645 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:21:48,643 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 03:21:48,643 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:23:18,137 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 03:23:18,145 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 03:26:48,638 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 03:26:48,638 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:31:48,647 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 03:31:48,647 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:36:48,642 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 03:36:48,642 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:41:48,644 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 03:41:48,644 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:43:08,133 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-19 03:43:08,144 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-19 03:46:48,643 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 03:46:48,643 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:51:48,639 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 03:51:48,639 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 03:56:48,653 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 03:56:48,653 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:01:48,642 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 04:01:48,642 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:02:58,139 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 04:02:58,150 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 04:06:48,645 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 04:06:48,645 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:11:48,645 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 04:11:48,645 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:16:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 04:16:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:21:48,639 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 04:21:48,639 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:22:48,128 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-19 04:22:48,136 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-19 04:26:48,638 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 04:26:48,638 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:31:48,647 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 04:31:48,647 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:36:48,644 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 04:36:48,644 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:41:48,652 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 04:41:48,652 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:42:38,126 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 04:42:38,135 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 04:46:48,647 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 04:46:48,647 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:51:48,647 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 04:51:48,647 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 04:56:48,647 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 04:56:48,647 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:01:48,642 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 05:01:48,642 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:02:28,132 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-19 05:02:28,141 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-19 05:06:48,639 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 05:06:48,639 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:11:48,650 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 05:11:48,650 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:16:48,640 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 05:16:48,640 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:21:48,651 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 05:21:48,651 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:22:18,133 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 05:22:18,143 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 05:26:48,648 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 05:26:48,648 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:31:48,647 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 05:31:48,647 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:36:48,642 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 05:36:48,642 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:41:48,647 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 05:41:48,647 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:42:08,127 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-19 05:42:08,134 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-19 05:46:48,645 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 05:46:48,645 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:51:48,641 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 05:51:48,641 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 05:56:48,649 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 05:56:48,649 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:01:48,647 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 06:01:48,647 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:01:58,133 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 06:01:58,141 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 06:06:48,652 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 06:06:48,652 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:11:48,640 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 06:11:48,640 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:16:48,653 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 06:16:48,653 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:21:48,134 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-19 06:21:48,144 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-19 06:21:48,646 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 06:21:48,646 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:26:48,642 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 06:26:48,642 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:31:48,642 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 06:31:48,642 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:36:48,649 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 06:36:48,649 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:41:38,134 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-04-19 06:41:38,143 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-04-19 06:41:48,643 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 06:41:48,643 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:46:48,652 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 06:46:48,652 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:51:48,643 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 06:51:48,643 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 06:56:48,641 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 06:56:48,641 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:01:28,134 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-19 07:01:28,143 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-19 07:01:48,638 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 07:01:48,638 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:06:48,650 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 07:06:48,650 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:11:48,640 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 07:11:48,640 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:16:48,648 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 07:16:48,648 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:21:18,131 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-04-19 07:21:18,137 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-04-19 07:21:48,648 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 07:21:48,648 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:26:48,651 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 07:26:48,651 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:31:48,646 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 07:31:48,646 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:36:48,650 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 07:36:48,650 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:41:08,126 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-19 07:41:08,134 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-19 07:41:48,651 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 07:41:48,651 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:46:48,641 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 07:46:48,641 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:51:48,648 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 07:51:48,648 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 07:56:48,640 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 07:56:48,640 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 08:00:58,130 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-04-19 08:00:58,138 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-04-19 08:01:48,650 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 08:01:48,650 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 08:06:48,652 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 08:06:48,652 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 08:11:48,638 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 08:11:48,638 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 08:16:48,649 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 08:16:48,649 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 08:20:48,126 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-19 08:20:48,134 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-19 08:21:48,652 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 08:21:48,652 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 08:26:48,648 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 08:26:48,648 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 08:31:48,651 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 08:31:48,651 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 08:36:48,641 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 08:36:48,641 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+ERROR 2023-04-19 08:40:06,126 [84] - Application_End. Time=19/04/2023 08:40:06
+
+INFO 2023-04-19 10:53:10,857 [5] - Application_Start. Bat dau start Time=19/04/2023 10:53:10
+
+INFO 2023-04-19 10:53:16,584 [5] - Application_Start. Bat dau load HisConfig Time=19/04/2023 10:53:16
+
+INFO 2023-04-19 10:53:16,584 [5] - Bat dau get HisConfig.
+
+INFO 2023-04-19 10:55:55,492 [5] - Ket thuc get HisConfig.
+
+INFO 2023-04-19 10:55:55,492 [5] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-04-19 10:55:55,492 [5] - Application_Start. Ket thuc load HisConfig Time=19/04/2023 10:55:55
+
+INFO 2023-04-19 10:55:55,506 [5] - Application_Start. Ket thuc start Time=19/04/2023 10:55:55
+
+INFO 2023-04-19 10:55:55,507 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-04-19 10:55:55,508 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-04-19 10:55:55,674 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-04-19 10:55:55,679 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-04-19 10:55:55,680 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-04-19 10:55:55,836 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-04-19 10:55:55,836 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-04-19 10:55:55,996 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-04-19 10:55:55,996 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-04-19 10:55:55,997 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-04-19 10:55:55,998 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-04-19 10:55:56,154 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-04-19 10:55:56,154 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-04-19 10:55:56,946 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-04-19 10:55:56,946 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-04-19 10:55:57,108 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-04-19 10:55:57,108 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-19 10:55:57,109 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-19 10:55:57,134 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-04-19 10:55:57,135 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-04-19 10:55:57,298 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-04-19 10:55:57,299 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-04-19 10:55:57,456 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-04-19 10:55:57,457 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-04-19 10:55:57,616 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-04-19 10:55:57,804 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-04-19 10:55:57,804 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-04-19 10:55:58,000 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-04-19 10:55:58,000 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-04-19 10:55:58,170 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-04-19 10:55:58,170 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-04-19 10:55:58,175 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-19 10:55:58,204 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 10:55:58,206 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 10:55:58,206 [DefaultQuartzScheduler_Worker-3] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 10:55:58,219 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 10:55:58,824 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-19 10:55:58,889 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 10:55:59,713 [DefaultQuartzScheduler_Worker-3] - LicenseJob kết thúc.
+
+INFO 2023-04-19 11:00:58,205 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 11:00:58,205 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 11:00:58,223 [5] - MOS.PubSub. New pubsubProcessor
+
+WARN 2023-04-19 11:00:58,257 [5] - Chua ket noi den Server pubsub. Khong subscribe duoc
+
+INFO 2023-04-19 11:00:58,325 [11] - PubSubClient Start
+
+ERROR 2023-04-19 11:02:41,132 [6] - Loi khi lay Config: MOS.HIS_TREATMENT.CHECK_PREVIOUS_DEBT_OPTION
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_TREATMENT.CHECK_PREVIOUS_DEBT_OPTION
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-04-19 11:02:41,477 [6] - Loi khi lay Config: MOS.HIS_TREATMENT.CHECK_PREVIOUS_DEBT_OPTION
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.MANAGER.Config.ConfigUtil.GetIntConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 45
+
+WARN 2023-04-19 11:02:59,710 [35] - ___________________________ConnectionSlow_________ 96b428b0-7b7d-4468-a682-bd66dfc7b69f
+
+WARN 2023-04-19 11:02:59,762 [35] - Invoke ConnectionSlow
+
+INFO 2023-04-19 11:05:58,213 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 11:05:58,213 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 11:05:58,229 [35] - MOS.PubSub. New pubsubProcessor
+
+WARN 2023-04-19 11:05:58,229 [35] - Chua ket noi den Server pubsub. Khong subscribe duoc
+
+INFO 2023-04-19 11:05:58,505 [34] - PubSubClient Start
+
+INFO 2023-04-19 11:05:59,594 [36] - Client disconnected
+
+ERROR 2023-04-19 11:08:08,460 [34] - ________________LastError: The client has been inactive since 4/19/2023 4:06:58 AM and it has exceeded the inactivity timeout of 00:00:50. Stopping the connection.
+
+INFO 2023-04-19 11:08:08,461 [34] - Client disconnected
+
+INFO 2023-04-19 11:08:09,598 [28] - WebApiClient.Post. api:/api/LisSample/UpdateByPatientCode__Begin
+
+INFO 2023-04-19 11:08:09,962 [28] - WebApiClient.Post. api:/api/LisSample/UpdateByPatientCode__End
+
+WARN 2023-04-19 11:08:09,962 [28] - Khong update duoc thong tin Benh nhan sang LIS Address: http://192.168.1.201:98/___
+ result:{"Data":false,"Success":false,"Param":{"Messages":[],"BugCodes":[],"MessageCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":null,"Now":0,"HasException":true}}___
+
+INFO 2023-04-19 11:08:09,962 [28] - WebApiClient.Post. api:/api/LisSample/UpdateByPatientCode__Begin
+
+WARN 2023-04-19 11:09:32,589 [28] - Co exception khi update thong tin Benh nhan sang LIS Address: http://172.17.41.222:8585/
+
+ERROR 2023-04-19 11:09:32,589 [28] - 
+System.AggregateException: One or more errors occurred. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisPatient.HisPatientUpdateToLis.Run(Int64 id) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientUpdateToLis.cs:line 63
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+
+
+ERROR 2023-04-19 11:09:39,153 [38] - 
+System.Exception: khong co thong tin cmnd, the bhyt, sdt
+   at MOS.MANAGER.HisPatient.HisPatientCreateRegisterCode.CheckDataCreate(CommonParam param, HIS_PATIENT raw) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientCreateRegisterCode.cs:line 103
+
+INFO 2023-04-19 11:09:40,003 [43] - WebApiClient.Post. api:api/EmrTreatment/CreateOrUpdate__Begin
+
+ERROR 2023-04-19 11:09:40,211 [43] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at Inventec.Common.WebApiClient.ApiConsumer.HttpRequestBuilder(HttpClient client, String uri, String& requestedUrl, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisTreatment.Util.HisTreatmentUploadEmr.CreateOrUpdateEmrTreatment(HIS_TREATMENT data) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisTreatment\Util\HisTreatmentUploadEmr.cs:line 283
+
+INFO 2023-04-19 11:10:58,469 [34] - MOS.PubSub. New pubsubProcessor
+
+WARN 2023-04-19 11:10:58,469 [34] - Is disconnected. Return and not process continue
+
+WARN 2023-04-19 11:10:58,469 [34] - Chua ket noi den Server pubsub. Khong subscribe duoc
+
+INFO 2023-04-19 11:10:58,470 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 11:10:58,470 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 11:10:58,510 [34] - PubSubClient Start
+
+ERROR 2023-04-19 11:11:27,287 [11] - Loi khi lay Config: MOS.HIS_SERVICE_REQ.RESERVED_NUM_ORDER
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE_REQ.RESERVED_NUM_ORDER
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-04-19 11:11:27,356 [11] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 312
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 111
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-04-19 11:11:27,361 [11] - 
+System.Exception: Ket thuc nghiep vu. Rollback du lieu
+   at MOS.MANAGER.HisSereServ.Update.SereServPriceUtil.ReloadPrice(CommonParam param, HIS_TREATMENT treatment, List`1 allExistSereServs, List`1 newInserts, List`1 effectedSereServIds) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\SereServPriceUtil.cs:line 106
+   at MOS.MANAGER.HisSereServ.Update.SereServPriceUtil.ReloadPrice(CommonParam param, HIS_TREATMENT treatment, List`1 allSereServs, List`1 effectedSereServIds) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\SereServPriceUtil.cs:line 53
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.MakeServiceReq(AssignServiceSDO data, List`1 services, HIS_TREATMENT treatment, HIS_PATIENT_TYPE_ALTER pta, String sessionCode, WorkPlaceSDO workPlace) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 339
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.Create(AssignServiceSDO data, HIS_TREATMENT treatment, HIS_PATIENT_TYPE_ALTER pta, HisServiceReqListResultSDO& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 112
+
+ERROR 2023-04-19 11:11:27,786 [11] - 
+System.Exception: Du lieu se bi rollback. Ket thuc nghiep vu
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqExamRegister.Create(HisServiceReqExamRegisterSDO data, Boolean forceUseClientTime, HisServiceReqExamRegisterResultSDO& resultData, HIS_TREATMENT& treatment, WorkPlaceSDO& workPlace) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqExamRegister.cs:line 151
+
+ERROR 2023-04-19 11:11:27,896 [11] - 
+--LoginName: tiencb 
+--Class: HisServiceReqManager 
+--Method: ExamRegister 
+--Input: {"HisPatientProfile":{"HisPatient":{"ID":66598,"CREATE_TIME":20230417142239,"MODIFY_TIME":20230417142239,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"PATIENT_CODE":"0000065861","FIRST_NAME":"KÈM","LAST_NAME":"ĐÍNH","VIR_PATIENT_NAME":"ĐÍNH KÈM","GENDER_ID":1,"DOB":20101010000000,"IS_HAS_NOT_DAY_DOB":0,"PERSON_CODE":null,"REFERENCE_ID":null,"NATIONAL_CODE":null,"NATIONAL_NAME":null,"ETHNIC_CODE":"01","ETHNIC_NAME":"Kinh","RELIGION_NAME":null,"PROVINCE_CODE":"","PROVINCE_NAME":"","DISTRICT_CODE":"","DISTRICT_NAME":"","COMMUNE_CODE":"","COMMUNE_NAME":"","ADDRESS":"","VIR_ADDRESS":null,"HT_PROVINCE_NAME":"","HT_DISTRICT_NAME":"","HT_COMMUNE_NAME":"","HT_ADDRESS":null,"VIR_HT_ADDRESS":null,"MOBILE":null,"PHONE":null,"EMAIL":null,"RELATIVE_TYPE":"","RELATIVE_NAME":"","RELATIVE_ADDRESS":"","RELATIVE_CMND_NUMBER":null,"RELATIVE_MOBILE":null,"RELATIVE_PHONE":"","CAREER_CODE":"02","CAREER_NAME":"Sinh viên, học sinh","CAREER_ID":2,"WORK_PLACE_ID":null,"WORK_PLACE":null,"MILITARY_RANK_ID":null,"BRANCH_ID":1,"IS_OWN_BRANCH_WAIT":null,"RECENT_SERVICE_ID":27050,"RECENT_ROOM_ID":901,"IS_CHRONIC":null,"BHYT_URL":null,"AVATAR_URL":null,"TDL_HEIN_CARD_NUMBER":null,"PATIENT_STORE_CODE":null,"HRM_EMPLOYEE_CODE":"0000065861","BORN_PROVINCE_CODE":"000","BORN_PROVINCE_NAME":null,"BLOOD_ABO_CODE":null,"BLOOD_RH_CODE":null,"CMND_NUMBER":null,"CMND_DATE":null,"CMND_PLACE":null,"CCCD_NUMBER":null,"CCCD_DATE":null,"CCCD_PLACE":null,"MOTHER_NAME":"","FATHER_NAME":"","HOUSEHOLD_CODE":null,"HOUSEHOLD_RELATION_NAME":null,"PT_PATHOLOGICAL_HISTORY":null,"PT_PATHOLOGICAL_HISTORY_FAMILY":null,"ACCOUNT_NUMBER":null,"TAX_CODE":null,"OWN_BRANCH_IDS":"1","UUID":null,"SYS_CODE":null,"UUID_BHYT_NUMBER":null,"IS_CREATE_UUID_FAIL":null,"IS_UPDATE_UUID_FAIL":null,"REGISTER_CODE":null,"FATHER_EDUCATIIONAL_LEVEL":null,"FATHER_CAREER":null,"MOTHER_EDUCATIIONAL_LEVEL":null,"MOTHER_CAREER":null,"PATIENT_CLASSIFY_ID":null,"TDL_LIVE_AREA_CODE":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"TDL_HEIN_CARD_ADDRESS":null,"TDL_JOIN_5_YEAR":null,"TDL_PAID_6_MONTH":null,"CMND_BEFORE_URL":null,"CMND_AFTER_URL":null,"SOCIAL_INSURANCE_NUMBER":null,"VIR_DOB_YEAR":2010.0,"PT_ALLERGIC_HISTORY":null,"POSITION_ID":null,"PASSPORT_NUMBER":null,"PASSPORT_DATE":null,"PASSPORT_PLACE":null,"IS_TUBERCULOSIS":0,"HAS_CARD":null,"NOTE":null,"MPS_NATIONAL_CODE":null,"FATHER_SOCIAL_INSURANCE_NUMBER":null,"MOTHER_SOCIAL_INSURANCE_NUMBER":null,"IS_HIV":null,"HIS_ALLERGENIC":[],"HIS_APPOINTMENT":[],"HIS_APPOINTMENT_SERV":[],"HIS_CARD":[],"HIS_CAREER":null,"HIS_CONTACT_POINT":[],"HIS_EXP_MEST":[],"HIS_GENDER":null,"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_RECORD":[],"HIS_MILITARY_RANK":null,"HIS_ROOM":null,"HIS_WORK_PLACE":null,"HIS_PATIENT1":[],"HIS_PATIENT2":null,"HIS_PATIENT_CLASSIFY":null,"HIS_POSITION":null,"HIS_SERVICE":null,"HIS_PATIENT_PROGRAM":[],"HIS_PATIENT_TYPE_ALTER":[],"HIS_REGISTER_REQ":[],"HIS_SERE_SERV":[],"HIS_SERVICE_REQ":[],"HIS_TRANSACTION":[],"HIS_TREATMENT":[],"HIS_VACCINATION_EXAM":[],"HIS_VACCINATION":[],"HIS_VITAMIN_A":[]},"HisTreatment":{"ID":79705,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"TREATMENT_CODE":"000000077201","TREATMENT_STT_ID":null,"PATIENT_ID":66598,"BRANCH_ID":1,"IS_PAUSE":null,"IS_LOCK_HEIN":null,"IS_TEMPORARY_LOCK":null,"IS_LOCK_FEE":null,"IS_REMOTE":null,"ICD_ID__DELETE":null,"ICD_CODE":null,"ICD_NAME":null,"ICD_SUB_CODE":null,"ICD_TEXT":null,"ICD_CAUSE_CODE":null,"ICD_CAUSE_NAME":null,"IS_HOLD_BHYT_CARD":null,"IS_AUTO_DISCOUNT":null,"AUTO_DISCOUNT_RATIO":null,"FEE_LOCK_TIME":null,"FEE_LOCK_ORDER":null,"FEE_LOCK_ROOM_ID":null,"FEE_LOCK_DEPARTMENT_ID":null,"IN_TIME":20230419110100,"IN_DATE":0,"CLINICAL_IN_TIME":null,"OUT_TIME":null,"IS_IN_CODE_REQUEST":null,"IN_CODE":"","IN_ROOM_ID":null,"IN_DEPARTMENT_ID":null,"IN_LOGINNAME":null,"IN_USERNAME":null,"IN_TREATMENT_TYPE_ID":null,"IN_ICD_ID__DELETE":null,"IN_ICD_CODE":null,"IN_ICD_NAME":null,"IN_ICD_SUB_CODE":null,"IN_ICD_TEXT":null,"HOSPITALIZATION_REASON":null,"DOCTOR_LOGINNAME":null,"DOCTOR_USERNAME":null,"END_LOGINNAME":null,"END_USERNAME":null,"END_ROOM_ID":null,"END_DEPARTMENT_ID":null,"END_CODE":null,"EXTRA_END_CODE":null,"IS_END_CODE_REQUEST":null,"TREATMENT_DAY_COUNT":null,"TREATMENT_RESULT_ID":null,"TREATMENT_END_TYPE_ID":null,"TREATMENT_END_TYPE_EXT_ID":null,"ADVISE":null,"APPOINTMENT_TIME":null,"APPOINTMENT_DESC":null,"APPOINTMENT_CODE":null,"OUT_DATE":null,"OUT_CODE":null,"IS_OUT_CODE_REQUEST":null,"IS_CHRONIC":null,"IS_YDT_UPLOAD":null,"OWE_TYPE_ID":null,"OWE_MODIFY_TIME":null,"STORE_TIME":null,"DATA_STORE_ID":null,"STORE_CODE":null,"IS_NOT_CHECK_LHMP":null,"IS_NOT_CHECK_LHSP":null,"TDL_HEIN_CARD_NUMBER":null,"JSON_PRINT_ID":null,"JSON_FORM_ID":null,"IS_EMERGENCY":null,"EMERGENCY_WTIME_ID":null,"KSK_ORDER":null,"TDL_KSK_CONTRACT_ID":null,"HRM_KSK_CODE":null,"CLINICAL_NOTE":null,"SUBCLINICAL_RESULT":null,"TREATMENT_DIRECTION":null,"TREATMENT_METHOD":null,"PATIENT_CONDITION":null,"MEDI_ORG_CODE":null,"MEDI_ORG_NAME":null,"TRAN_PATI_FORM_ID":null,"TRAN_PATI_REASON_ID":null,"TRAN_PATI_TECH_ID":null,"USED_MEDICINE":null,"TRANSPORT_VEHICLE":null,"TRANSPORTER":null,"IS_TRANSFER_IN":null,"TRANSFER_IN_MEDI_ORG_CODE":null,"TRANSFER_IN_MEDI_ORG_NAME":null,"TRANSFER_IN_CODE":null,"TRANSFER_IN_ICD_ID__DELETE":null,"TRANSFER_IN_ICD_CODE":null,"TRANSFER_IN_ICD_NAME":null,"TRANSFER_IN_CMKT":null,"TRANSFER_IN_FORM_ID":null,"TRANSFER_IN_REASON_ID":null,"SICK_LEAVE_DAY":null,"SICK_LEAVE_FROM":null,"SICK_LEAVE_TO":null,"DEATH_TIME":null,"DEATH_CAUSE_ID":null,"DEATH_WITHIN_ID":null,"DEATH_PLACE":null,"DEATH_DOCUMENT_TYPE":null,"DEATH_DOCUMENT_NUMBER":null,"DEATH_DOCUMENT_PLACE":null,"DEATH_DOCUMENT_DATE":null,"MAIN_CAUSE":null,"SURGERY":null,"IS_HAS_AUPOPSY":null,"TDL_FIRST_EXAM_ROOM_ID":null,"TDL_TREATMENT_TYPE_ID":null,"TDL_PATIENT_TYPE_ID":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"XML4210_URL":null,"FUND_ID":null,"FUND_NUMBER":null,"FUND_FROM_TIME":null,"FUND_TO_TIME":null,"FUND_ISSUE_TIME":null,"FUND_TYPE_NAME":null,"FUND_COMPANY_NAME":null,"FUND_BUDGET":null,"FUND_PAY_TIME":null,"FUND_SEND_FILE_TIME":null,"FUND_CUSTOMER_NAME":null,"IS_INTEGRATE_HIS_SENT":null,"TDL_PATIENT_CODE":"0000065861","TDL_PATIENT_NAME":"ĐÍNH KÈM ","TDL_PATIENT_FIRST_NAME":"KÈM","TDL_PATIENT_LAST_NAME":"ĐÍNH","TDL_PATIENT_DOB":20101010000000,"TDL_PATIENT_IS_HAS_NOT_DAY_DOB":0,"TDL_PATIENT_AVATAR_URL":null,"TDL_PATIENT_ADDRESS":"","TDL_PATIENT_GENDER_ID":1,"TDL_PATIENT_GENDER_NAME":"Nữ","TDL_PATIENT_CAREER_NAME":"Sinh viên, học sinh","TDL_PATIENT_WORK_PLACE":null,"TDL_PATIENT_WORK_PLACE_NAME":null,"TDL_PATIENT_DISTRICT_CODE":"","TDL_PATIENT_PROVINCE_CODE":"","TDL_PATIENT_COMMUNE_CODE":"","TDL_PATIENT_MILITARY_RANK_NAME":null,"TDL_PATIENT_NATIONAL_NAME":null,"TDL_PATIENT_RELATIVE_TYPE":"","TDL_PATIENT_RELATIVE_NAME":"","TDL_PATIENT_ACCOUNT_NUMBER":null,"TDL_PATIENT_TAX_CODE":null,"TRANSFER_IN_TIME_FROM":null,"TRANSFER_IN_TIME_TO":null,"SURGERY_APPOINTMENT_TIME":null,"APPOINTMENT_SURGERY":null,"MEDI_RECORD_TYPE_ID":null,"APPOINTMENT_EXAM_ROOM_IDS":null,"DEPARTMENT_IDS":"302","CO_DEPARTMENT_IDS":null,"LAST_DEPARTMENT_ID":null,"PROVISIONAL_DIAGNOSIS":null,"TREATMENT_ORDER":null,"TDL_PATIENT_MOBILE":null,"TDL_PATIENT_PHONE":null,"SICK_HEIN_CARD_NUMBER":null,"NEED_SICK_LEAVE_CERT":null,"MEDI_RECORD_ID":null,"PROGRAM_ID":null,"IS_SYNC_EMR":null,"XML4210_RESULT":null,"XML4210_DESC":null,"COLLINEAR_XML4210_URL":null,"COLLINEAR_XML4210_RESULT":null,"COLLINEAR_XML4210_DESC":null,"REJECT_STORE_REASON":null,"IS_APPROVE_FINISH":null,"APPROVE_FINISH_NOTE":null,"TRADITIONAL_ICD_CODE":null,"TRADITIONAL_ICD_NAME":null,"TRADITIONAL_IN_ICD_CODE":null,"TRADITIONAL_IN_ICD_NAME":null,"TRADITIONAL_ICD_SUB_CODE":null,"TRADITIONAL_ICD_TEXT":null,"TRADITIONAL_IN_ICD_SUB_CODE":null,"TRADITIONAL_IN_ICD_TEXT":null,"TRADITIONAL_TRANS_IN_ICD_CODE":null,"TRADITIONAL_TRANS_IN_ICD_NAME":null,"OTHER_PAY_SOURCE_ID":null,"IS_KSK_APPROVE":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"APPOINTMENT_DATE":null,"EYE_TENSION_LEFT":null,"EYE_TENSION_RIGHT":null,"EYESIGHT_LEFT":null,"EYESIGHT_RIGHT":null,"EYESIGHT_GLASS_LEFT":null,"EYESIGHT_GLASS_RIGHT":null,"APPOINTMENT_PERIOD_ID":null,"SICK_LOGINNAME":null,"SICK_USERNAME":null,"IS_EXPORTED_XML2076":null,"DOCUMENT_BOOK_ID":null,"SICK_NUM_ORDER":null,"TDL_DOCUMENT_BOOK_CODE":null,"APPROVAL_STORE_STT_ID":null,"TDL_PATIENT_CLASSIFY_ID":null,"VIR_IN_MONTH":20230400000000.0,"VIR_OUT_MONTH":null,"IN_CODE_SEED_CODE":null,"EXTRA_END_CODE_SEED_CODE":null,"XML2076_URL":null,"XML2076_DESC":null,"VIR_IN_YEAR":20230000000000.0,"VIR_OUT_YEAR":null,"FEE_LOCK_LOGINNAME":null,"FEE_LOCK_USERNAME":null,"EMR_COVER_TYPE_ID":null,"CONTRAINDICATION_IDS":null,"IS_CREATING_TRANSACTION":null,"CO_TREAT_DEPARTMENT_IDS":null,"RECORD_INSPECTION_STT_ID":null,"RECORD_INSPECTION_REJECT_NOTE":null,"TDL_SOCIAL_INSURANCE_NUMBER":null,"APPOINTMENT_EXAM_SERVICE_ID":null,"TRANSFER_IN_URL":null,"HOSPITALIZE_DEPARTMENT_ID":null,"DEATH_CERT_BOOK_ID":null,"DEATH_CERT_NUM":null,"TDL_PATIENT_CMND_NUMBER":null,"TDL_PATIENT_CMND_DATE":null,"TDL_PATIENT_CMND_PLACE":null,"TDL_PATIENT_CCCD_NUMBER":null,"TDL_PATIENT_CCCD_DATE":null,"TDL_PATIENT_CCCD_PLACE":null,"NUM_ORDER_ISSUE_ID":null,"NEXT_EXAM_NUM_ORDER":null,"NEXT_EXAM_FROM_TIME":null,"NEXT_EXAM_TO_TIME":null,"TDL_PATIENT_RELATIVE_ADDRESS":"","TDL_RELATIVE_CMND_NUMBER":null,"TDL_PATIENT_RELATIVE_MOBILE":null,"TDL_PATIENT_RELATIVE_PHONE":"","TDL_PATIENT_MOTHER_NAME":"","TDL_PATIENT_FATHER_NAME":"","PERMISION_UPDATE":null,"TDL_PATIENT_NATIONAL_CODE":null,"TDL_PATIENT_PROVINCE_NAME":"","TDL_PATIENT_DISTRICT_NAME":"","TDL_PATIENT_COMMUNE_NAME":"","TDL_PATIENT_POSITION_ID":null,"IS_BHYT_HOLDED":null,"TDL_PATIENT_PASSPORT_NUMBER":null,"TDL_PATIENT_PASSPORT_DATE":null,"TDL_PATIENT_PASSPORT_PLACE":null,"TDL_PATIENT_WORK_PLACE_ID":null,"SHOW_ICD_CODE":null,"SHOW_ICD_NAME":null,"SHOW_ICD_SUB_CODE":null,"SHOW_ICD_TEXT":null,"TRAN_PATI_BOOK_TIME":null,"TRAN_PATI_BOOK_NUMBER":null,"TRAN_PATI_DOCTOR_LOGINNAME":null,"TRAN_PATI_DOCTOR_USERNAME":null,"TRAN_PATI_DEPARTMENT_LOGINNAME":null,"TRAN_PATI_DEPARTMENT_USERNAME":null,"TRAN_PATI_HOSPITAL_LOGINNAME":null,"TRAN_PATI_HOSPITAL_USERNAME":null,"VIR_TRAN_PATI_BOOK_YEAR":null,"TDL_PATIENT_UNSIGNED_NAME":"DINH KEM ","OUTPATIENT_DATE_FROM":null,"OUTPATIENT_DATE_TO":null,"VACCINE_ID":null,"VACINATION_ORDER":null,"EPIDEMILOGY_CONTACT_TYPE":null,"EPIDEMILOGY_SYMPTOM":null,"TDL_PATIENT_ETHNIC_NAME":"Kinh","IS_TUBERCULOSIS":0,"DOCUMENT_VIEW_COUNT":null,"EXIT_DEPARTMENT_ID":null,"COVID_PATIENT_CODE":null,"STORE_BORDEREAU_CODE":null,"HEIN_LOCK_TIME":null,"HAS_AUTO_CREATE_RATION":null,"IS_OLD_TEMP_BED":null,"TDL_KSK_CONTRACT_IS_RESTRICTED":null,"NUMBER_OF_FULL_TERM_BIRTH":null,"NUMBER_OF_PREMATURE_BIRTH":null,"NUMBER_OF_MISCARRIAGE":null,"NUMBER_OF_TESTS":null,"TEST_HIV":null,"TEST_SYPHILIS":null,"IS_TEST_BLOOD_SUGAR":null,"IS_EARLY_NEWBORN_CARE":null,"NEWBORN_CARE_AT_HOME":null,"TEST_HEPATITIS_B":null,"RECEPTION_FORM":null,"END_DEPARTMENT_HEAD_LOGINNAME":null,"END_DEPARTMENT_HEAD_USERNAME":null,"HOSPITAL_DIRECTOR_LOGINNAME":null,"HOSPITAL_DIRECTOR_USERNAME":null,"END_DEPT_SUBS_HEAD_LOGINNAME":null,"END_DEPT_SUBS_HEAD_USERNAME":null,"HOSP_SUBS_DIRECTOR_LOGINNAME":null,"HOSP_SUBS_DIRECTOR_USERNAME":null,"TUBERCULOSIS_ISSUED_ORG_CODE":null,"TUBERCULOSIS_ISSUED_ORG_NAME":null,"TUBERCULOSIS_ISSUED_DATE":null,"HAS_CARD":null,"APPROVAL_LOGINNAME":null,"APPROVAL_USERNAME":null,"APPROVAL_TIME":null,"UNAPPROVAL_LOGINNAME":null,"UNAPPROVAL_USERNAME":null,"UNAPPROVAL_TIME":null,"TRANSFER_IN_REVIEWS":null,"HOSPITALIZE_REASON_CODE":null,"HOSPITALIZE_REASON_NAME":null,"END_TYPE_EXT_NOTE":null,"TDL_PATIENT_MPS_NATIONAL_CODE":null,"IS_PREGNANCY_TERMINATION":null,"PREGNANCY_TERMINATION_REASON":null,"GESTATIONAL_AGE":null,"DEATH_CERT_BOOK_FIRST_ID":null,"DEATH_CERT_NUM_FIRST":null,"DEATH_CERT_ISSUER_LOGINNAME":null,"DEATH_CERT_ISSUER_USERNAME":null,"DEATH_SYNC_FAILD_REASON":null,"DEATH_SYNC_RESULT_TYPE":null,"DEATH_SYNC_TIME":null,"PREGNANCY_TERMINATION_TIME":null,"IS_HIV":null,"XML_CHECKIN_URL":null,"XML_CHECKIN_DESC":null,"HIS_ACCIDENT_HURT":[],"HIS_ADR":[],"HIS_ALLERGY_CARD":[],"HIS_ANTIBIOTIC_REQUEST":[],"HIS_APPOINTMENT_PERIOD":null,"HIS_APPOINTMENT_SERV":[],"HIS_BABY":[],"HIS_CARE":[],"HIS_CARE_SUM":[],"HIS_CARER_CARD_BORROW":[],"HIS_CO_TREATMENT":[],"HIS_DATA_STORE":null,"HIS_DEATH_CERT_BOOK":null,"HIS_DEBATE":[],"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_DEPARTMENT2":null,"HIS_DEPARTMENT3":null,"HIS_DEPARTMENT4":null,"HIS_DEPARTMENT5":null,"HIS_DEPARTMENT_TRAN":[],"HIS_DEPOSIT_REQ":[],"HIS_DHST":[],"HIS_DOCUMENT_BOOK":null,"HIS_EMR_COVER_TYPE":null,"HIS_EXP_MEST":[],"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATY_REQ":[],"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_METY_REQ":[],"HIS_FUND":null,"HIS_GENDER":null,"HIS_HEIN_APPROVAL":[],"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_IMP_MEST_MATE_REQ":[],"HIS_IMP_MEST_MEDI_REQ":[],"HIS_INFUSION_SUM":[],"HIS_KSK_CONTRACT":null,"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_REACT_SUM":[],"HIS_MEDI_RECORD":null,"HIS_MEDI_RECORD_TYPE":null,"HIS_MEDICINE_INTERACTIVE":[],"HIS_MEDICINE_TYPE":null,"HIS_MR_CHECK_SUMMARY":[],"HIS_NUM_ORDER_ISSUE":null,"HIS_OBEY_CONTRAINDI":[],"HIS_OTHER_PAY_SOURCE":null,"HIS_OWE_TYPE":null,"HIS_PATIENT":null,"HIS_PATIENT_CLASSIFY":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE_ALTER":[],"HIS_PREPARE":[],"HIS_PREPARE_METY":[],"HIS_PROGRAM":null,"HIS_REHA_SUM":[],"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_ROOM2":null,"HIS_ROOM3":null,"HIS_SERE_SERV":[],"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_EXT":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_REQ":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SEVERE_ILLNESS_INFO":[],"HIS_TRACKING":[],"HIS_TRAN_PATI_TECH":null,"HIS_TRANS_REQ":[],"HIS_TRANSACTION":[],"HIS_TRANSFUSION_SUM":[],"HIS_TREATMENT_BED_ROOM":[],"HIS_TREATMENT_BORROW":[],"HIS_TREATMENT_FILE":[],"HIS_TREATMENT_RESULT":null,"HIS_TREATMENT_STT":null,"HIS_TREATMENT_TYPE":null,"HIS_TREATMENT_END_TYPE_EXT":null,"HIS_TREATMENT_END_TYPE":null,"HIS_TREATMENT_TYPE1":null,"HIS_TREATMENT_LOGGING":[],"HIS_TREATMENT_UNLIMIT":[]},"HisPatientTypeAlter":{"ID":90954,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"DEPARTMENT_TRAN_ID":94657,"TREATMENT_TYPE_ID":1,"PATIENT_TYPE_ID":42,"LOG_TIME":20230419110100,"TREATMENT_ID":79705,"TDL_PATIENT_ID":66598,"EXECUTE_ROOM_ID":778,"EXECUTE_LOGINNAME":null,"EXECUTE_USERNAME":null,"LEVEL_CODE":null,"RIGHT_ROUTE_CODE":null,"RIGHT_ROUTE_TYPE_CODE":null,"LIVE_AREA_CODE":null,"HEIN_MEDI_ORG_CODE":null,"HEIN_MEDI_ORG_NAME":null,"HAS_BIRTH_CERTIFICATE":null,"HEIN_CARD_NUMBER":null,"HEIN_CARD_FROM_TIME":null,"HEIN_CARD_TO_TIME":null,"ADDRESS":null,"HNCODE":null,"JOIN_5_YEAR":null,"PAID_6_MONTH":null,"IS_NO_CHECK_EXPIRE":null,"FREE_CO_PAID_TIME":null,"IS_TEMP_QN":null,"BHYT_URL":null,"KSK_CONTRACT_ID":null,"JOIN_5_YEAR_TIME":null,"PRIMARY_PATIENT_TYPE_ID":null,"HEIN_CARD_TO_TIME_TMP":null,"HAS_WORKING_LETTER":null,"HAS_ABSENT_LETTER":null,"IS_TT46":null,"TT46_NOTE":null,"GUARANTEE_LOGINNAME":null,"GUARANTEE_USERNAME":null,"GUARANTEE_REASON":"","HIS_DEPARTMENT_TRAN":null,"HIS_KSK_CONTRACT":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_TREATMENT_TYPE":null,"HIS_ROOM":null,"HIS_TREATMENT":null},"DepartmentId":302,"CardCode":null,"CardServiceCode":null,"BankCardCode":null,"TreatmentTime":20230419110100,"ProvinceCode":"","DistrictCode":"","RequestRoomId":778,"IsChronic":false,"ImgBhytData":null,"ImgAvatarData":null,"ImgCmndBeforeData":null,"ImgCmndAfterData":null,"ImgTransferInData":null},"AccountBookId":null,"PayFormId":null,"TransNumOrder":null,"CashierLoginName":null,"CashierUserName":null,"CashierWorkingRoomId":null,"IsAutoCreateBillForNonBhyt":false,"IsAutoCreateDepositForNonBhyt":false,"IsUsingEpayment":false,"InstructionTime":20230419110100,"ServiceReqDetails":[{"DummyId":1,"AttachedDummyId":null,"PatientTypeId":42,"ServiceId":27050,"ParentId":null,"RoomId":901,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":"longnt","AssignedExecuteUserName":"Nguyễn Thành Long","ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":5,"AttachedDummyId":null,"PatientTypeId":42,"ServiceId":27044,"ParentId":null,"RoomId":940,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":"longnt","AssignedExecuteUserName":"Nguyễn Thành Long","ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":2,"AttachedDummyId":1,"PatientTypeId":42,"ServiceId":27038,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":3,"AttachedDummyId":1,"PatientTypeId":42,"ServiceId":31135,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":4,"AttachedDummyId":1,"PatientTypeId":42,"ServiceId":27410,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":2.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":6,"AttachedDummyId":5,"PatientTypeId":42,"ServiceId":27038,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":7,"AttachedDummyId":5,"PatientTypeId":42,"ServiceId":31135,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":8,"AttachedDummyId":5,"PatientTypeId":42,"ServiceId":27410,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":2.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null}],"ExecuteGroupId":null,"Priority":0,"PriorityTypeId":null,"IsNotRequireFee":null,"IsNoExecute":false,"IsEmergency":false,"IsInformResultBySms":false,"ManualRequestRoomId":false,"SessionCode":null,"InstructionTimes":[20230419110100],"TrackingInfos":null,"Note":"","NumOrder":null,"Id":null,"ParentServiceReqId":null,"IcdText":null,"IcdCode":null,"IcdName":null,"IcdCauseCode":null,"IcdCauseName":null,"IcdSubCode":null,"ProvisionalDiagnosis":null,"Description":null,"TreatmentId":79705,"TrackingId":null,"RequestRoomId":778,"RequestLoginName":"tiencb","RequestUserName":"tiencb","ConsultantLoginName":null,"ConsultantUserName":null,"KidneyShift":null,"MachineId":null,"ExpMestTemplateId":null,"IsKidney":false} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["Khám Mắt (KHA095) không tồn tại chính sách giá tương ứng với đối tượng \"Viện Phí\". Vui lòng kiểm tra lại cấu hình hoặc liên hệ quản trị để được hỗ trợ"],"BugCodes":[],"MessageCodes":["HisServicePaty_KhongTonTaiDuLieuPhuHop"],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","Now":20230419111127,"HasException":true}}
+
+INFO 2023-04-19 11:15:47,624 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-19 11:15:47,631 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-19 11:15:58,214 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 11:15:58,214 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 11:15:58,214 [DefaultQuartzScheduler_Worker-9] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 11:15:58,215 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 11:15:58,237 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 11:15:58,756 [DefaultQuartzScheduler_Worker-9] - LicenseJob kết thúc.
+
+ERROR 2023-04-19 11:18:13,809 [73] - Application_End. Time=19/04/2023 11:18:13
+
+INFO 2023-04-19 11:19:40,219 [5] - Application_Start. Bat dau start Time=19/04/2023 11:19:40
+
+INFO 2023-04-19 11:19:45,000 [5] - Application_Start. Bat dau load HisConfig Time=19/04/2023 11:19:45
+
+INFO 2023-04-19 11:19:45,001 [5] - Bat dau get HisConfig.
+
+INFO 2023-04-19 11:22:37,216 [5] - Ket thuc get HisConfig.
+
+INFO 2023-04-19 11:22:37,216 [5] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-04-19 11:22:37,216 [5] - Application_Start. Ket thuc load HisConfig Time=19/04/2023 11:22:37
+
+INFO 2023-04-19 11:22:37,219 [5] - Application_Start. Ket thuc start Time=19/04/2023 11:22:37
+
+INFO 2023-04-19 11:22:37,220 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-04-19 11:22:37,221 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-04-19 11:22:37,388 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-04-19 11:22:37,394 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-04-19 11:22:37,395 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-04-19 11:22:37,591 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-04-19 11:22:37,591 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-04-19 11:22:37,767 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-04-19 11:22:37,767 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-04-19 11:22:37,789 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-04-19 11:22:37,790 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-04-19 11:22:37,953 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-04-19 11:22:37,953 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-04-19 11:22:39,442 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-04-19 11:22:39,442 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-04-19 11:22:39,624 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-04-19 11:22:39,625 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-19 11:22:39,627 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-19 11:22:39,676 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-04-19 11:22:39,678 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-04-19 11:22:39,836 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-04-19 11:22:39,837 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-04-19 11:22:40,032 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-04-19 11:22:40,033 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-04-19 11:22:40,244 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-04-19 11:22:40,442 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-04-19 11:22:40,442 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-04-19 11:22:40,624 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-04-19 11:22:40,624 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-04-19 11:22:40,796 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-04-19 11:22:40,798 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-04-19 11:22:40,800 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-19 11:22:40,806 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 11:22:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 11:22:40,808 [DefaultQuartzScheduler_Worker-3] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 11:22:40,818 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+ERROR 2023-04-19 11:22:41,681 [DefaultQuartzScheduler_Worker-1] - 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable host 192.168.1.201:8444
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at MOS.QuartzScheduler.Browser.BrowserJob.Quartz.IJob.Execute(IJobExecutionContext context) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserJob.cs:line 32
+
+INFO 2023-04-19 11:22:42,573 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 11:22:43,709 [DefaultQuartzScheduler_Worker-3] - LicenseJob kết thúc.
+
+INFO 2023-04-19 11:26:01,504 [14] - WebApiClient.Post. api:/api/LisSample/UpdateByPatientCode__Begin
+
+INFO 2023-04-19 11:26:01,548 [14] - WebApiClient.Post. api:/api/LisSample/UpdateByPatientCode__End
+
+WARN 2023-04-19 11:26:01,549 [14] - Khong update duoc thong tin Benh nhan sang LIS Address: http://192.168.1.201:98/___
+ result:{"Data":false,"Success":false,"Param":{"Messages":[],"BugCodes":[],"MessageCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":null,"Now":0,"HasException":true}}___
+
+INFO 2023-04-19 11:26:01,549 [14] - WebApiClient.Post. api:/api/LisSample/UpdateByPatientCode__Begin
+
+ERROR 2023-04-19 11:26:18,337 [29] - 
+System.Exception: khong co thong tin cmnd, the bhyt, sdt
+   at MOS.MANAGER.HisPatient.HisPatientCreateRegisterCode.CheckDataCreate(CommonParam param, HIS_PATIENT raw) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientCreateRegisterCode.cs:line 103
+
+INFO 2023-04-19 11:26:19,276 [13] - WebApiClient.Post. api:api/EmrTreatment/CreateOrUpdate__Begin
+
+ERROR 2023-04-19 11:26:21,267 [13] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at Inventec.Common.WebApiClient.ApiConsumer.HttpRequestBuilder(HttpClient client, String uri, String& requestedUrl, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisTreatment.Util.HisTreatmentUploadEmr.CreateOrUpdateEmrTreatment(HIS_TREATMENT data) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisTreatment\Util\HisTreatmentUploadEmr.cs:line 283
+
+WARN 2023-04-19 11:26:24,107 [14] - Co exception khi update thong tin Benh nhan sang LIS Address: http://172.17.41.222:8585/
+
+ERROR 2023-04-19 11:26:24,108 [14] - 
+System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.17.41.222:8585
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisPatient.HisPatientUpdateToLis.Run(Int64 id) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientUpdateToLis.cs:line 63
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.17.41.222:8585
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---<---
+
+
+ERROR 2023-04-19 11:26:41,857 [30] - Loi khi lay Config: MOS.HIS_SERVICE_REQ.RESERVED_NUM_ORDER
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE_REQ.RESERVED_NUM_ORDER
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-04-19 11:26:42,098 [30] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 312
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 111
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-04-19 11:26:42,264 [30] - 
+System.Exception: Ket thuc nghiep vu. Rollback du lieu
+   at MOS.MANAGER.HisSereServ.Update.SereServPriceUtil.ReloadPrice(CommonParam param, HIS_TREATMENT treatment, List`1 allExistSereServs, List`1 newInserts, List`1 effectedSereServIds) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\SereServPriceUtil.cs:line 106
+   at MOS.MANAGER.HisSereServ.Update.SereServPriceUtil.ReloadPrice(CommonParam param, HIS_TREATMENT treatment, List`1 allSereServs, List`1 effectedSereServIds) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\SereServPriceUtil.cs:line 53
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.MakeServiceReq(AssignServiceSDO data, List`1 services, HIS_TREATMENT treatment, HIS_PATIENT_TYPE_ALTER pta, String sessionCode, WorkPlaceSDO workPlace) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 339
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.Create(AssignServiceSDO data, HIS_TREATMENT treatment, HIS_PATIENT_TYPE_ALTER pta, HisServiceReqListResultSDO& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 112
+
+ERROR 2023-04-19 11:26:43,018 [30] - 
+System.Exception: Du lieu se bi rollback. Ket thuc nghiep vu
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqExamRegister.Create(HisServiceReqExamRegisterSDO data, Boolean forceUseClientTime, HisServiceReqExamRegisterResultSDO& resultData, HIS_TREATMENT& treatment, WorkPlaceSDO& workPlace) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqExamRegister.cs:line 151
+
+ERROR 2023-04-19 11:26:43,243 [30] - 
+--LoginName: tiencb 
+--Class: HisServiceReqManager 
+--Method: ExamRegister 
+--Input: {"HisPatientProfile":{"HisPatient":{"ID":66598,"CREATE_TIME":20230417142239,"MODIFY_TIME":20230417142239,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"PATIENT_CODE":"0000065861","FIRST_NAME":"KÈM","LAST_NAME":"ĐÍNH","VIR_PATIENT_NAME":"ĐÍNH KÈM","GENDER_ID":1,"DOB":20101010000000,"IS_HAS_NOT_DAY_DOB":0,"PERSON_CODE":null,"REFERENCE_ID":null,"NATIONAL_CODE":null,"NATIONAL_NAME":null,"ETHNIC_CODE":"01","ETHNIC_NAME":"Kinh","RELIGION_NAME":null,"PROVINCE_CODE":"","PROVINCE_NAME":"","DISTRICT_CODE":"","DISTRICT_NAME":"","COMMUNE_CODE":"","COMMUNE_NAME":"","ADDRESS":"","VIR_ADDRESS":null,"HT_PROVINCE_NAME":"","HT_DISTRICT_NAME":"","HT_COMMUNE_NAME":"","HT_ADDRESS":null,"VIR_HT_ADDRESS":null,"MOBILE":null,"PHONE":null,"EMAIL":null,"RELATIVE_TYPE":"","RELATIVE_NAME":"","RELATIVE_ADDRESS":"","RELATIVE_CMND_NUMBER":null,"RELATIVE_MOBILE":null,"RELATIVE_PHONE":"","CAREER_CODE":"02","CAREER_NAME":"Sinh viên, học sinh","CAREER_ID":2,"WORK_PLACE_ID":null,"WORK_PLACE":null,"MILITARY_RANK_ID":null,"BRANCH_ID":1,"IS_OWN_BRANCH_WAIT":null,"RECENT_SERVICE_ID":27050,"RECENT_ROOM_ID":901,"IS_CHRONIC":null,"BHYT_URL":null,"AVATAR_URL":null,"TDL_HEIN_CARD_NUMBER":null,"PATIENT_STORE_CODE":null,"HRM_EMPLOYEE_CODE":"0000065861","BORN_PROVINCE_CODE":"000","BORN_PROVINCE_NAME":null,"BLOOD_ABO_CODE":null,"BLOOD_RH_CODE":null,"CMND_NUMBER":null,"CMND_DATE":null,"CMND_PLACE":null,"CCCD_NUMBER":null,"CCCD_DATE":null,"CCCD_PLACE":null,"MOTHER_NAME":"","FATHER_NAME":"","HOUSEHOLD_CODE":null,"HOUSEHOLD_RELATION_NAME":null,"PT_PATHOLOGICAL_HISTORY":null,"PT_PATHOLOGICAL_HISTORY_FAMILY":null,"ACCOUNT_NUMBER":null,"TAX_CODE":null,"OWN_BRANCH_IDS":"1","UUID":null,"SYS_CODE":null,"UUID_BHYT_NUMBER":null,"IS_CREATE_UUID_FAIL":null,"IS_UPDATE_UUID_FAIL":null,"REGISTER_CODE":null,"FATHER_EDUCATIIONAL_LEVEL":null,"FATHER_CAREER":null,"MOTHER_EDUCATIIONAL_LEVEL":null,"MOTHER_CAREER":null,"PATIENT_CLASSIFY_ID":null,"TDL_LIVE_AREA_CODE":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"TDL_HEIN_CARD_ADDRESS":null,"TDL_JOIN_5_YEAR":null,"TDL_PAID_6_MONTH":null,"CMND_BEFORE_URL":null,"CMND_AFTER_URL":null,"SOCIAL_INSURANCE_NUMBER":null,"VIR_DOB_YEAR":2010.0,"PT_ALLERGIC_HISTORY":null,"POSITION_ID":null,"PASSPORT_NUMBER":null,"PASSPORT_DATE":null,"PASSPORT_PLACE":null,"IS_TUBERCULOSIS":0,"HAS_CARD":null,"NOTE":null,"MPS_NATIONAL_CODE":null,"FATHER_SOCIAL_INSURANCE_NUMBER":null,"MOTHER_SOCIAL_INSURANCE_NUMBER":null,"IS_HIV":null,"HIS_ALLERGENIC":[],"HIS_APPOINTMENT":[],"HIS_APPOINTMENT_SERV":[],"HIS_CARD":[],"HIS_CAREER":null,"HIS_CONTACT_POINT":[],"HIS_EXP_MEST":[],"HIS_GENDER":null,"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_RECORD":[],"HIS_MILITARY_RANK":null,"HIS_ROOM":null,"HIS_WORK_PLACE":null,"HIS_PATIENT1":[],"HIS_PATIENT2":null,"HIS_PATIENT_CLASSIFY":null,"HIS_POSITION":null,"HIS_SERVICE":null,"HIS_PATIENT_PROGRAM":[],"HIS_PATIENT_TYPE_ALTER":[],"HIS_REGISTER_REQ":[],"HIS_SERE_SERV":[],"HIS_SERVICE_REQ":[],"HIS_TRANSACTION":[],"HIS_TREATMENT":[],"HIS_VACCINATION_EXAM":[],"HIS_VACCINATION":[],"HIS_VITAMIN_A":[]},"HisTreatment":{"ID":79708,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"TREATMENT_CODE":"000000077204","TREATMENT_STT_ID":null,"PATIENT_ID":66598,"BRANCH_ID":1,"IS_PAUSE":null,"IS_LOCK_HEIN":null,"IS_TEMPORARY_LOCK":null,"IS_LOCK_FEE":null,"IS_REMOTE":null,"ICD_ID__DELETE":null,"ICD_CODE":null,"ICD_NAME":null,"ICD_SUB_CODE":null,"ICD_TEXT":null,"ICD_CAUSE_CODE":null,"ICD_CAUSE_NAME":null,"IS_HOLD_BHYT_CARD":null,"IS_AUTO_DISCOUNT":null,"AUTO_DISCOUNT_RATIO":null,"FEE_LOCK_TIME":null,"FEE_LOCK_ORDER":null,"FEE_LOCK_ROOM_ID":null,"FEE_LOCK_DEPARTMENT_ID":null,"IN_TIME":20230419110100,"IN_DATE":0,"CLINICAL_IN_TIME":null,"OUT_TIME":null,"IS_IN_CODE_REQUEST":null,"IN_CODE":"","IN_ROOM_ID":null,"IN_DEPARTMENT_ID":null,"IN_LOGINNAME":null,"IN_USERNAME":null,"IN_TREATMENT_TYPE_ID":null,"IN_ICD_ID__DELETE":null,"IN_ICD_CODE":null,"IN_ICD_NAME":null,"IN_ICD_SUB_CODE":null,"IN_ICD_TEXT":null,"HOSPITALIZATION_REASON":null,"DOCTOR_LOGINNAME":null,"DOCTOR_USERNAME":null,"END_LOGINNAME":null,"END_USERNAME":null,"END_ROOM_ID":null,"END_DEPARTMENT_ID":null,"END_CODE":null,"EXTRA_END_CODE":null,"IS_END_CODE_REQUEST":null,"TREATMENT_DAY_COUNT":null,"TREATMENT_RESULT_ID":null,"TREATMENT_END_TYPE_ID":null,"TREATMENT_END_TYPE_EXT_ID":null,"ADVISE":null,"APPOINTMENT_TIME":null,"APPOINTMENT_DESC":null,"APPOINTMENT_CODE":null,"OUT_DATE":null,"OUT_CODE":null,"IS_OUT_CODE_REQUEST":null,"IS_CHRONIC":null,"IS_YDT_UPLOAD":null,"OWE_TYPE_ID":null,"OWE_MODIFY_TIME":null,"STORE_TIME":null,"DATA_STORE_ID":null,"STORE_CODE":null,"IS_NOT_CHECK_LHMP":null,"IS_NOT_CHECK_LHSP":null,"TDL_HEIN_CARD_NUMBER":null,"JSON_PRINT_ID":null,"JSON_FORM_ID":null,"IS_EMERGENCY":null,"EMERGENCY_WTIME_ID":null,"KSK_ORDER":null,"TDL_KSK_CONTRACT_ID":null,"HRM_KSK_CODE":null,"CLINICAL_NOTE":null,"SUBCLINICAL_RESULT":null,"TREATMENT_DIRECTION":null,"TREATMENT_METHOD":null,"PATIENT_CONDITION":null,"MEDI_ORG_CODE":null,"MEDI_ORG_NAME":null,"TRAN_PATI_FORM_ID":null,"TRAN_PATI_REASON_ID":null,"TRAN_PATI_TECH_ID":null,"USED_MEDICINE":null,"TRANSPORT_VEHICLE":null,"TRANSPORTER":null,"IS_TRANSFER_IN":null,"TRANSFER_IN_MEDI_ORG_CODE":null,"TRANSFER_IN_MEDI_ORG_NAME":null,"TRANSFER_IN_CODE":null,"TRANSFER_IN_ICD_ID__DELETE":null,"TRANSFER_IN_ICD_CODE":null,"TRANSFER_IN_ICD_NAME":null,"TRANSFER_IN_CMKT":null,"TRANSFER_IN_FORM_ID":null,"TRANSFER_IN_REASON_ID":null,"SICK_LEAVE_DAY":null,"SICK_LEAVE_FROM":null,"SICK_LEAVE_TO":null,"DEATH_TIME":null,"DEATH_CAUSE_ID":null,"DEATH_WITHIN_ID":null,"DEATH_PLACE":null,"DEATH_DOCUMENT_TYPE":null,"DEATH_DOCUMENT_NUMBER":null,"DEATH_DOCUMENT_PLACE":null,"DEATH_DOCUMENT_DATE":null,"MAIN_CAUSE":null,"SURGERY":null,"IS_HAS_AUPOPSY":null,"TDL_FIRST_EXAM_ROOM_ID":null,"TDL_TREATMENT_TYPE_ID":null,"TDL_PATIENT_TYPE_ID":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"XML4210_URL":null,"FUND_ID":null,"FUND_NUMBER":null,"FUND_FROM_TIME":null,"FUND_TO_TIME":null,"FUND_ISSUE_TIME":null,"FUND_TYPE_NAME":null,"FUND_COMPANY_NAME":null,"FUND_BUDGET":null,"FUND_PAY_TIME":null,"FUND_SEND_FILE_TIME":null,"FUND_CUSTOMER_NAME":null,"IS_INTEGRATE_HIS_SENT":null,"TDL_PATIENT_CODE":"0000065861","TDL_PATIENT_NAME":"ĐÍNH KÈM ","TDL_PATIENT_FIRST_NAME":"KÈM","TDL_PATIENT_LAST_NAME":"ĐÍNH","TDL_PATIENT_DOB":20101010000000,"TDL_PATIENT_IS_HAS_NOT_DAY_DOB":0,"TDL_PATIENT_AVATAR_URL":null,"TDL_PATIENT_ADDRESS":"","TDL_PATIENT_GENDER_ID":1,"TDL_PATIENT_GENDER_NAME":"Nữ","TDL_PATIENT_CAREER_NAME":"Sinh viên, học sinh","TDL_PATIENT_WORK_PLACE":null,"TDL_PATIENT_WORK_PLACE_NAME":null,"TDL_PATIENT_DISTRICT_CODE":"","TDL_PATIENT_PROVINCE_CODE":"","TDL_PATIENT_COMMUNE_CODE":"","TDL_PATIENT_MILITARY_RANK_NAME":null,"TDL_PATIENT_NATIONAL_NAME":null,"TDL_PATIENT_RELATIVE_TYPE":"","TDL_PATIENT_RELATIVE_NAME":"","TDL_PATIENT_ACCOUNT_NUMBER":null,"TDL_PATIENT_TAX_CODE":null,"TRANSFER_IN_TIME_FROM":null,"TRANSFER_IN_TIME_TO":null,"SURGERY_APPOINTMENT_TIME":null,"APPOINTMENT_SURGERY":null,"MEDI_RECORD_TYPE_ID":null,"APPOINTMENT_EXAM_ROOM_IDS":null,"DEPARTMENT_IDS":"302","CO_DEPARTMENT_IDS":null,"LAST_DEPARTMENT_ID":null,"PROVISIONAL_DIAGNOSIS":null,"TREATMENT_ORDER":null,"TDL_PATIENT_MOBILE":null,"TDL_PATIENT_PHONE":null,"SICK_HEIN_CARD_NUMBER":null,"NEED_SICK_LEAVE_CERT":null,"MEDI_RECORD_ID":null,"PROGRAM_ID":null,"IS_SYNC_EMR":null,"XML4210_RESULT":null,"XML4210_DESC":null,"COLLINEAR_XML4210_URL":null,"COLLINEAR_XML4210_RESULT":null,"COLLINEAR_XML4210_DESC":null,"REJECT_STORE_REASON":null,"IS_APPROVE_FINISH":null,"APPROVE_FINISH_NOTE":null,"TRADITIONAL_ICD_CODE":null,"TRADITIONAL_ICD_NAME":null,"TRADITIONAL_IN_ICD_CODE":null,"TRADITIONAL_IN_ICD_NAME":null,"TRADITIONAL_ICD_SUB_CODE":null,"TRADITIONAL_ICD_TEXT":null,"TRADITIONAL_IN_ICD_SUB_CODE":null,"TRADITIONAL_IN_ICD_TEXT":null,"TRADITIONAL_TRANS_IN_ICD_CODE":null,"TRADITIONAL_TRANS_IN_ICD_NAME":null,"OTHER_PAY_SOURCE_ID":null,"IS_KSK_APPROVE":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"APPOINTMENT_DATE":null,"EYE_TENSION_LEFT":null,"EYE_TENSION_RIGHT":null,"EYESIGHT_LEFT":null,"EYESIGHT_RIGHT":null,"EYESIGHT_GLASS_LEFT":null,"EYESIGHT_GLASS_RIGHT":null,"APPOINTMENT_PERIOD_ID":null,"SICK_LOGINNAME":null,"SICK_USERNAME":null,"IS_EXPORTED_XML2076":null,"DOCUMENT_BOOK_ID":null,"SICK_NUM_ORDER":null,"TDL_DOCUMENT_BOOK_CODE":null,"APPROVAL_STORE_STT_ID":null,"TDL_PATIENT_CLASSIFY_ID":null,"VIR_IN_MONTH":20230400000000.0,"VIR_OUT_MONTH":null,"IN_CODE_SEED_CODE":null,"EXTRA_END_CODE_SEED_CODE":null,"XML2076_URL":null,"XML2076_DESC":null,"VIR_IN_YEAR":20230000000000.0,"VIR_OUT_YEAR":null,"FEE_LOCK_LOGINNAME":null,"FEE_LOCK_USERNAME":null,"EMR_COVER_TYPE_ID":null,"CONTRAINDICATION_IDS":null,"IS_CREATING_TRANSACTION":null,"CO_TREAT_DEPARTMENT_IDS":null,"RECORD_INSPECTION_STT_ID":null,"RECORD_INSPECTION_REJECT_NOTE":null,"TDL_SOCIAL_INSURANCE_NUMBER":null,"APPOINTMENT_EXAM_SERVICE_ID":null,"TRANSFER_IN_URL":null,"HOSPITALIZE_DEPARTMENT_ID":null,"DEATH_CERT_BOOK_ID":null,"DEATH_CERT_NUM":null,"TDL_PATIENT_CMND_NUMBER":null,"TDL_PATIENT_CMND_DATE":null,"TDL_PATIENT_CMND_PLACE":null,"TDL_PATIENT_CCCD_NUMBER":null,"TDL_PATIENT_CCCD_DATE":null,"TDL_PATIENT_CCCD_PLACE":null,"NUM_ORDER_ISSUE_ID":null,"NEXT_EXAM_NUM_ORDER":null,"NEXT_EXAM_FROM_TIME":null,"NEXT_EXAM_TO_TIME":null,"TDL_PATIENT_RELATIVE_ADDRESS":"","TDL_RELATIVE_CMND_NUMBER":null,"TDL_PATIENT_RELATIVE_MOBILE":null,"TDL_PATIENT_RELATIVE_PHONE":"","TDL_PATIENT_MOTHER_NAME":"","TDL_PATIENT_FATHER_NAME":"","PERMISION_UPDATE":null,"TDL_PATIENT_NATIONAL_CODE":null,"TDL_PATIENT_PROVINCE_NAME":"","TDL_PATIENT_DISTRICT_NAME":"","TDL_PATIENT_COMMUNE_NAME":"","TDL_PATIENT_POSITION_ID":null,"IS_BHYT_HOLDED":null,"TDL_PATIENT_PASSPORT_NUMBER":null,"TDL_PATIENT_PASSPORT_DATE":null,"TDL_PATIENT_PASSPORT_PLACE":null,"TDL_PATIENT_WORK_PLACE_ID":null,"SHOW_ICD_CODE":null,"SHOW_ICD_NAME":null,"SHOW_ICD_SUB_CODE":null,"SHOW_ICD_TEXT":null,"TRAN_PATI_BOOK_TIME":null,"TRAN_PATI_BOOK_NUMBER":null,"TRAN_PATI_DOCTOR_LOGINNAME":null,"TRAN_PATI_DOCTOR_USERNAME":null,"TRAN_PATI_DEPARTMENT_LOGINNAME":null,"TRAN_PATI_DEPARTMENT_USERNAME":null,"TRAN_PATI_HOSPITAL_LOGINNAME":null,"TRAN_PATI_HOSPITAL_USERNAME":null,"VIR_TRAN_PATI_BOOK_YEAR":null,"TDL_PATIENT_UNSIGNED_NAME":"DINH KEM ","OUTPATIENT_DATE_FROM":null,"OUTPATIENT_DATE_TO":null,"VACCINE_ID":null,"VACINATION_ORDER":null,"EPIDEMILOGY_CONTACT_TYPE":null,"EPIDEMILOGY_SYMPTOM":null,"TDL_PATIENT_ETHNIC_NAME":"Kinh","IS_TUBERCULOSIS":0,"DOCUMENT_VIEW_COUNT":null,"EXIT_DEPARTMENT_ID":null,"COVID_PATIENT_CODE":null,"STORE_BORDEREAU_CODE":null,"HEIN_LOCK_TIME":null,"HAS_AUTO_CREATE_RATION":null,"IS_OLD_TEMP_BED":null,"TDL_KSK_CONTRACT_IS_RESTRICTED":null,"NUMBER_OF_FULL_TERM_BIRTH":null,"NUMBER_OF_PREMATURE_BIRTH":null,"NUMBER_OF_MISCARRIAGE":null,"NUMBER_OF_TESTS":null,"TEST_HIV":null,"TEST_SYPHILIS":null,"IS_TEST_BLOOD_SUGAR":null,"IS_EARLY_NEWBORN_CARE":null,"NEWBORN_CARE_AT_HOME":null,"TEST_HEPATITIS_B":null,"RECEPTION_FORM":null,"END_DEPARTMENT_HEAD_LOGINNAME":null,"END_DEPARTMENT_HEAD_USERNAME":null,"HOSPITAL_DIRECTOR_LOGINNAME":null,"HOSPITAL_DIRECTOR_USERNAME":null,"END_DEPT_SUBS_HEAD_LOGINNAME":null,"END_DEPT_SUBS_HEAD_USERNAME":null,"HOSP_SUBS_DIRECTOR_LOGINNAME":null,"HOSP_SUBS_DIRECTOR_USERNAME":null,"TUBERCULOSIS_ISSUED_ORG_CODE":null,"TUBERCULOSIS_ISSUED_ORG_NAME":null,"TUBERCULOSIS_ISSUED_DATE":null,"HAS_CARD":null,"APPROVAL_LOGINNAME":null,"APPROVAL_USERNAME":null,"APPROVAL_TIME":null,"UNAPPROVAL_LOGINNAME":null,"UNAPPROVAL_USERNAME":null,"UNAPPROVAL_TIME":null,"TRANSFER_IN_REVIEWS":null,"HOSPITALIZE_REASON_CODE":null,"HOSPITALIZE_REASON_NAME":null,"END_TYPE_EXT_NOTE":null,"TDL_PATIENT_MPS_NATIONAL_CODE":null,"IS_PREGNANCY_TERMINATION":null,"PREGNANCY_TERMINATION_REASON":null,"GESTATIONAL_AGE":null,"DEATH_CERT_BOOK_FIRST_ID":null,"DEATH_CERT_NUM_FIRST":null,"DEATH_CERT_ISSUER_LOGINNAME":null,"DEATH_CERT_ISSUER_USERNAME":null,"DEATH_SYNC_FAILD_REASON":null,"DEATH_SYNC_RESULT_TYPE":null,"DEATH_SYNC_TIME":null,"PREGNANCY_TERMINATION_TIME":null,"IS_HIV":null,"XML_CHECKIN_URL":null,"XML_CHECKIN_DESC":null,"HIS_ACCIDENT_HURT":[],"HIS_ADR":[],"HIS_ALLERGY_CARD":[],"HIS_ANTIBIOTIC_REQUEST":[],"HIS_APPOINTMENT_PERIOD":null,"HIS_APPOINTMENT_SERV":[],"HIS_BABY":[],"HIS_CARE":[],"HIS_CARE_SUM":[],"HIS_CARER_CARD_BORROW":[],"HIS_CO_TREATMENT":[],"HIS_DATA_STORE":null,"HIS_DEATH_CERT_BOOK":null,"HIS_DEBATE":[],"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_DEPARTMENT2":null,"HIS_DEPARTMENT3":null,"HIS_DEPARTMENT4":null,"HIS_DEPARTMENT5":null,"HIS_DEPARTMENT_TRAN":[],"HIS_DEPOSIT_REQ":[],"HIS_DHST":[],"HIS_DOCUMENT_BOOK":null,"HIS_EMR_COVER_TYPE":null,"HIS_EXP_MEST":[],"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATY_REQ":[],"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_METY_REQ":[],"HIS_FUND":null,"HIS_GENDER":null,"HIS_HEIN_APPROVAL":[],"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_IMP_MEST_MATE_REQ":[],"HIS_IMP_MEST_MEDI_REQ":[],"HIS_INFUSION_SUM":[],"HIS_KSK_CONTRACT":null,"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_REACT_SUM":[],"HIS_MEDI_RECORD":null,"HIS_MEDI_RECORD_TYPE":null,"HIS_MEDICINE_INTERACTIVE":[],"HIS_MEDICINE_TYPE":null,"HIS_MR_CHECK_SUMMARY":[],"HIS_NUM_ORDER_ISSUE":null,"HIS_OBEY_CONTRAINDI":[],"HIS_OTHER_PAY_SOURCE":null,"HIS_OWE_TYPE":null,"HIS_PATIENT":null,"HIS_PATIENT_CLASSIFY":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE_ALTER":[],"HIS_PREPARE":[],"HIS_PREPARE_METY":[],"HIS_PROGRAM":null,"HIS_REHA_SUM":[],"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_ROOM2":null,"HIS_ROOM3":null,"HIS_SERE_SERV":[],"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_EXT":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_REQ":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SEVERE_ILLNESS_INFO":[],"HIS_TRACKING":[],"HIS_TRAN_PATI_TECH":null,"HIS_TRANS_REQ":[],"HIS_TRANSACTION":[],"HIS_TRANSFUSION_SUM":[],"HIS_TREATMENT_BED_ROOM":[],"HIS_TREATMENT_BORROW":[],"HIS_TREATMENT_FILE":[],"HIS_TREATMENT_RESULT":null,"HIS_TREATMENT_STT":null,"HIS_TREATMENT_TYPE":null,"HIS_TREATMENT_END_TYPE_EXT":null,"HIS_TREATMENT_END_TYPE":null,"HIS_TREATMENT_TYPE1":null,"HIS_TREATMENT_LOGGING":[],"HIS_TREATMENT_UNLIMIT":[]},"HisPatientTypeAlter":{"ID":90957,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"DEPARTMENT_TRAN_ID":94660,"TREATMENT_TYPE_ID":1,"PATIENT_TYPE_ID":42,"LOG_TIME":20230419110100,"TREATMENT_ID":79708,"TDL_PATIENT_ID":66598,"EXECUTE_ROOM_ID":778,"EXECUTE_LOGINNAME":null,"EXECUTE_USERNAME":null,"LEVEL_CODE":null,"RIGHT_ROUTE_CODE":null,"RIGHT_ROUTE_TYPE_CODE":null,"LIVE_AREA_CODE":null,"HEIN_MEDI_ORG_CODE":null,"HEIN_MEDI_ORG_NAME":null,"HAS_BIRTH_CERTIFICATE":null,"HEIN_CARD_NUMBER":null,"HEIN_CARD_FROM_TIME":null,"HEIN_CARD_TO_TIME":null,"ADDRESS":null,"HNCODE":null,"JOIN_5_YEAR":null,"PAID_6_MONTH":null,"IS_NO_CHECK_EXPIRE":null,"FREE_CO_PAID_TIME":null,"IS_TEMP_QN":null,"BHYT_URL":null,"KSK_CONTRACT_ID":null,"JOIN_5_YEAR_TIME":null,"PRIMARY_PATIENT_TYPE_ID":null,"HEIN_CARD_TO_TIME_TMP":null,"HAS_WORKING_LETTER":null,"HAS_ABSENT_LETTER":null,"IS_TT46":null,"TT46_NOTE":null,"GUARANTEE_LOGINNAME":null,"GUARANTEE_USERNAME":null,"GUARANTEE_REASON":"","HIS_DEPARTMENT_TRAN":null,"HIS_KSK_CONTRACT":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_TREATMENT_TYPE":null,"HIS_ROOM":null,"HIS_TREATMENT":null},"DepartmentId":302,"CardCode":null,"CardServiceCode":null,"BankCardCode":null,"TreatmentTime":20230419110100,"ProvinceCode":"","DistrictCode":"","RequestRoomId":778,"IsChronic":false,"ImgBhytData":null,"ImgAvatarData":null,"ImgCmndBeforeData":null,"ImgCmndAfterData":null,"ImgTransferInData":null},"AccountBookId":null,"PayFormId":null,"TransNumOrder":null,"CashierLoginName":null,"CashierUserName":null,"CashierWorkingRoomId":null,"IsAutoCreateBillForNonBhyt":false,"IsAutoCreateDepositForNonBhyt":false,"IsUsingEpayment":false,"InstructionTime":20230419110100,"ServiceReqDetails":[{"DummyId":1,"AttachedDummyId":null,"PatientTypeId":42,"ServiceId":27050,"ParentId":null,"RoomId":901,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":"longnt","AssignedExecuteUserName":"Nguyễn Thành Long","ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":3,"AttachedDummyId":null,"PatientTypeId":42,"ServiceId":27044,"ParentId":null,"RoomId":940,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":"longnt","AssignedExecuteUserName":"Nguyễn Thành Long","ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":2,"AttachedDummyId":1,"PatientTypeId":42,"ServiceId":27410,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":2.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":4,"AttachedDummyId":3,"PatientTypeId":42,"ServiceId":27038,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":5,"AttachedDummyId":3,"PatientTypeId":42,"ServiceId":31135,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null}],"ExecuteGroupId":null,"Priority":0,"PriorityTypeId":null,"IsNotRequireFee":null,"IsNoExecute":false,"IsEmergency":false,"IsInformResultBySms":false,"ManualRequestRoomId":false,"SessionCode":null,"InstructionTimes":[20230419110100],"TrackingInfos":null,"Note":"","NumOrder":null,"Id":null,"ParentServiceReqId":null,"IcdText":null,"IcdCode":null,"IcdName":null,"IcdCauseCode":null,"IcdCauseName":null,"IcdSubCode":null,"ProvisionalDiagnosis":null,"Description":null,"TreatmentId":79708,"TrackingId":null,"RequestRoomId":778,"RequestLoginName":"tiencb","RequestUserName":"tiencb","ConsultantLoginName":null,"ConsultantUserName":null,"KidneyShift":null,"MachineId":null,"ExpMestTemplateId":null,"IsKidney":false} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["Khám Mắt (KHA095) không tồn tại chính sách giá tương ứng với đối tượng \"Viện Phí\". Vui lòng kiểm tra lại cấu hình hoặc liên hệ quản trị để được hỗ trợ"],"BugCodes":[],"MessageCodes":["HisServicePaty_KhongTonTaiDuLieuPhuHop"],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","Now":20230419112641,"HasException":true}}
+
+INFO 2023-04-19 11:27:40,811 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 11:27:40,811 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 11:27:40,811 [5] - MOS.PubSub. New pubsubProcessor
+
+WARN 2023-04-19 11:27:40,840 [5] - Chua ket noi den Server pubsub. Khong subscribe duoc
+
+INFO 2023-04-19 11:27:40,911 [7] - PubSubClient Start
+
+INFO 2023-04-19 11:29:52,357 [40] - WebApiClient.Post. api:/api/LisSample/UpdateByPatientCode__Begin
+
+INFO 2023-04-19 11:29:52,384 [40] - WebApiClient.Post. api:/api/LisSample/UpdateByPatientCode__End
+
+WARN 2023-04-19 11:29:52,384 [40] - Khong update duoc thong tin Benh nhan sang LIS Address: http://192.168.1.201:98/___
+ result:{"Data":false,"Success":false,"Param":{"Messages":[],"BugCodes":[],"MessageCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":null,"Now":0,"HasException":true}}___
+
+INFO 2023-04-19 11:29:52,384 [40] - WebApiClient.Post. api:/api/LisSample/UpdateByPatientCode__Begin
+
+INFO 2023-04-19 11:30:02,865 [27] - WebApiClient.Post. api:api/EmrTreatment/CreateOrUpdate__Begin
+
+ERROR 2023-04-19 11:30:03,018 [27] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at Inventec.Common.WebApiClient.ApiConsumer.HttpRequestBuilder(HttpClient client, String uri, String& requestedUrl, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisTreatment.Util.HisTreatmentUploadEmr.CreateOrUpdateEmrTreatment(HIS_TREATMENT data) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisTreatment\Util\HisTreatmentUploadEmr.cs:line 283
+
+INFO 2023-04-19 11:30:03,043 [14] - Login Sucess. Uri: https://costest.onelink.vn:8443/
+
+INFO 2023-04-19 11:30:03,044 [14] - WebApiClient.Post. api:/api/CosRegister/RequestByHis__Begin
+
+INFO 2023-04-19 11:30:03,460 [14] - WebApiClient.Post. api:/api/CosRegister/RequestByHis__End
+
+ERROR 2023-04-19 11:30:08,300 [5] - Loi khi lay Config: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+INFO 2023-04-19 11:30:10,536 [5] - Tính năng thanh toán sử dụng mã QR tích hợp ngân hàng yêu cầu mã kích hoạt. Người dùng chưa nhập mã kích hoạt hoặc mã kích hoạt đã hết hạn.
+
+ERROR 2023-04-19 11:30:10,536 [5] - licenses is null
+
+ERROR 2023-04-19 11:30:13,208 [32] - 
+System.Exception: Benh nhan da co ma MS
+   at MOS.MANAGER.HisPatient.HisPatientCreateRegisterCode.CheckDataCreate(CommonParam param, HIS_PATIENT raw) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientCreateRegisterCode.cs:line 109
+
+WARN 2023-04-19 11:30:14,035 [40] - Co exception khi update thong tin Benh nhan sang LIS Address: http://172.17.41.222:8585/
+
+ERROR 2023-04-19 11:30:14,035 [40] - 
+System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.17.41.222:8585
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisPatient.HisPatientUpdateToLis.Run(Int64 id) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientUpdateToLis.cs:line 63
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 172.17.41.222:8585
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---<---
+
+
+INFO 2023-04-19 11:32:40,814 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 11:32:40,814 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 11:37:40,825 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 11:37:40,825 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 11:42:30,255 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-19 11:42:30,285 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-19 11:42:40,813 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 11:42:40,813 [DefaultQuartzScheduler_Worker-9] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 11:42:40,813 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 11:42:40,813 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 11:42:40,837 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 11:42:41,358 [DefaultQuartzScheduler_Worker-9] - LicenseJob kết thúc.
+
+INFO 2023-04-19 11:47:40,815 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 11:47:40,815 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 11:52:40,818 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 11:52:40,818 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 11:57:40,805 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 11:57:40,805 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:02:20,261 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-19 12:02:20,430 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-19 12:02:40,810 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 12:02:40,810 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:02:40,810 [DefaultQuartzScheduler_Worker-5] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 12:02:40,810 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 12:02:40,833 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 12:02:41,373 [DefaultQuartzScheduler_Worker-5] - LicenseJob kết thúc.
+
+INFO 2023-04-19 12:07:40,812 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 12:07:40,812 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:12:40,807 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 12:12:40,807 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:17:40,806 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 12:17:40,806 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:22:10,261 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-19 12:22:10,267 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-19 12:22:40,811 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 12:22:40,811 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:22:40,811 [DefaultQuartzScheduler_Worker-2] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 12:22:40,811 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 12:22:40,835 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 12:22:41,322 [DefaultQuartzScheduler_Worker-2] - LicenseJob kết thúc.
+
+INFO 2023-04-19 12:27:40,818 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 12:27:40,818 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:32:40,810 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 12:32:40,810 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:37:40,808 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 12:37:40,808 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:42:00,250 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 12:42:00,257 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 12:42:40,818 [DefaultQuartzScheduler_Worker-7] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 12:42:40,818 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 12:42:40,818 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 12:42:40,818 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:42:40,843 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 12:42:41,269 [DefaultQuartzScheduler_Worker-7] - LicenseJob kết thúc.
+
+INFO 2023-04-19 12:47:40,809 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 12:47:40,809 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:52:40,807 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 12:52:40,807 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 12:57:40,817 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 12:57:40,817 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:01:50,254 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-19 13:01:50,264 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-19 13:02:40,816 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 13:02:40,816 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:02:40,816 [DefaultQuartzScheduler_Worker-3] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 13:02:40,816 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 13:02:40,842 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 13:02:41,355 [DefaultQuartzScheduler_Worker-3] - LicenseJob kết thúc.
+
+INFO 2023-04-19 13:07:40,806 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 13:07:40,806 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:12:40,817 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 13:12:40,817 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:17:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 13:17:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:21:40,295 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-19 13:21:40,302 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-19 13:22:40,812 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 13:22:40,812 [DefaultQuartzScheduler_Worker-9] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 13:22:40,812 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 13:22:40,812 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:22:40,833 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 13:22:41,252 [DefaultQuartzScheduler_Worker-9] - LicenseJob kết thúc.
+
+INFO 2023-04-19 13:27:40,810 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 13:27:40,810 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:32:40,816 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 13:32:40,816 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:37:40,805 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 13:37:40,805 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:41:30,252 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-19 13:41:30,260 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-19 13:42:40,808 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 13:42:40,808 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:42:40,808 [DefaultQuartzScheduler_Worker-5] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 13:42:40,808 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 13:42:40,830 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 13:42:41,255 [DefaultQuartzScheduler_Worker-5] - LicenseJob kết thúc.
+
+INFO 2023-04-19 13:47:40,818 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 13:47:40,818 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:52:40,810 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 13:52:40,810 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 13:57:40,808 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 13:57:40,808 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:01:20,249 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-19 14:01:20,256 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-19 14:02:40,807 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 14:02:40,807 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:02:40,808 [DefaultQuartzScheduler_Worker-2] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 14:02:40,808 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 14:02:40,830 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 14:02:41,268 [DefaultQuartzScheduler_Worker-2] - LicenseJob kết thúc.
+
+INFO 2023-04-19 14:07:40,818 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 14:07:40,818 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:12:40,813 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 14:12:40,813 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:17:40,810 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 14:17:40,810 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:21:10,254 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 14:21:10,261 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 14:22:40,805 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 14:22:40,805 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:22:40,815 [DefaultQuartzScheduler_Worker-7] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 14:22:40,816 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 14:22:40,839 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 14:22:41,311 [DefaultQuartzScheduler_Worker-7] - LicenseJob kết thúc.
+
+INFO 2023-04-19 14:27:40,813 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 14:27:40,813 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:32:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 14:32:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:37:40,816 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 14:37:40,816 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:41:00,261 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-19 14:41:00,269 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-19 14:42:40,820 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 14:42:40,820 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:42:40,820 [DefaultQuartzScheduler_Worker-3] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 14:42:40,820 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 14:42:40,841 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 14:42:41,312 [DefaultQuartzScheduler_Worker-3] - LicenseJob kết thúc.
+
+INFO 2023-04-19 14:47:40,814 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 14:47:40,814 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:52:40,808 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 14:52:40,808 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 14:57:40,806 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 14:57:40,806 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:00:50,258 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-19 15:00:50,267 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-19 15:02:40,819 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 15:02:40,819 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:02:40,819 [DefaultQuartzScheduler_Worker-9] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 15:02:40,819 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 15:02:40,875 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 15:02:41,363 [DefaultQuartzScheduler_Worker-9] - LicenseJob kết thúc.
+
+INFO 2023-04-19 15:07:40,809 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 15:07:40,809 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:12:40,812 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 15:12:40,812 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:17:40,811 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 15:17:40,811 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:20:40,249 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-19 15:20:40,257 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-19 15:22:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 15:22:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:22:40,815 [DefaultQuartzScheduler_Worker-5] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 15:22:40,815 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 15:22:40,839 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 15:22:41,242 [DefaultQuartzScheduler_Worker-5] - LicenseJob kết thúc.
+
+INFO 2023-04-19 15:27:40,813 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 15:27:40,813 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:32:40,806 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 15:32:40,806 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:37:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 15:37:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:40:30,252 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-19 15:40:30,260 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-19 15:42:40,816 [DefaultQuartzScheduler_Worker-2] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 15:42:40,816 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 15:42:40,816 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 15:42:40,816 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:42:40,838 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 15:42:41,244 [DefaultQuartzScheduler_Worker-2] - LicenseJob kết thúc.
+
+INFO 2023-04-19 15:47:40,812 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 15:47:40,812 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:52:40,823 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 15:52:40,823 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 15:57:40,809 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 15:57:40,809 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:00:20,258 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 16:00:20,275 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 16:02:40,806 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 16:02:40,806 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:02:40,822 [DefaultQuartzScheduler_Worker-7] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 16:02:40,822 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 16:02:40,841 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 16:02:41,295 [DefaultQuartzScheduler_Worker-7] - LicenseJob kết thúc.
+
+INFO 2023-04-19 16:07:40,817 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 16:07:40,817 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:12:40,810 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 16:12:40,810 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:17:40,812 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 16:17:40,812 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:20:10,261 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-19 16:20:10,271 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-19 16:22:40,819 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 16:22:40,819 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:22:40,819 [DefaultQuartzScheduler_Worker-3] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 16:22:40,819 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 16:22:40,842 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 16:22:41,339 [DefaultQuartzScheduler_Worker-3] - LicenseJob kết thúc.
+
+INFO 2023-04-19 16:27:40,805 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 16:27:40,805 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:32:40,805 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 16:32:40,805 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:37:40,818 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 16:37:40,818 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:40:00,259 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-19 16:40:00,263 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-19 16:42:40,811 [DefaultQuartzScheduler_Worker-9] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 16:42:40,811 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 16:42:40,811 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 16:42:40,811 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:42:40,831 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 16:42:41,294 [DefaultQuartzScheduler_Worker-9] - LicenseJob kết thúc.
+
+INFO 2023-04-19 16:47:40,806 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 16:47:40,806 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:52:40,818 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 16:52:40,818 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:57:40,819 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 16:57:40,819 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 16:59:50,249 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-19 16:59:50,254 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-19 17:02:40,805 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 17:02:40,805 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:02:40,821 [DefaultQuartzScheduler_Worker-5] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 17:02:40,821 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 17:02:40,851 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 17:02:41,290 [DefaultQuartzScheduler_Worker-5] - LicenseJob kết thúc.
+
+INFO 2023-04-19 17:07:40,814 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 17:07:40,814 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:12:40,807 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 17:12:40,807 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:17:40,806 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 17:17:40,806 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:19:40,254 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-19 17:19:40,258 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-19 17:22:40,807 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 17:22:40,807 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:22:40,808 [DefaultQuartzScheduler_Worker-2] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 17:22:40,808 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 17:22:40,829 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 17:22:41,231 [DefaultQuartzScheduler_Worker-2] - LicenseJob kết thúc.
+
+INFO 2023-04-19 17:27:40,805 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 17:27:40,805 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:32:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 17:32:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:37:40,812 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 17:37:40,812 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:39:30,258 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 17:39:30,264 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 17:42:40,817 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 17:42:40,817 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:42:40,817 [DefaultQuartzScheduler_Worker-7] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 17:42:40,817 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 17:42:40,840 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 17:42:41,281 [DefaultQuartzScheduler_Worker-7] - LicenseJob kết thúc.
+
+INFO 2023-04-19 17:47:40,819 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 17:47:40,819 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:52:40,815 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 17:52:40,815 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:57:40,807 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 17:57:40,807 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 17:59:20,253 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-19 17:59:20,258 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-19 18:02:40,815 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 18:02:40,815 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:02:40,815 [DefaultQuartzScheduler_Worker-3] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 18:02:40,815 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 18:02:40,838 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 18:02:41,291 [DefaultQuartzScheduler_Worker-3] - LicenseJob kết thúc.
+
+INFO 2023-04-19 18:07:40,808 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 18:07:40,808 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:12:40,811 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 18:12:40,811 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:17:40,816 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 18:17:40,816 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:19:10,251 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-19 18:19:10,256 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-19 18:22:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 18:22:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:22:40,810 [DefaultQuartzScheduler_Worker-9] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 18:22:40,810 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 18:22:40,831 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 18:22:41,291 [DefaultQuartzScheduler_Worker-9] - LicenseJob kết thúc.
+
+INFO 2023-04-19 18:27:40,815 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 18:27:40,815 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:32:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 18:32:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:37:40,808 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 18:37:40,808 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:39:00,250 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-19 18:39:00,256 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-19 18:42:40,806 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 18:42:40,806 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:42:40,822 [DefaultQuartzScheduler_Worker-5] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 18:42:40,822 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 18:42:40,845 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 18:42:41,386 [DefaultQuartzScheduler_Worker-5] - LicenseJob kết thúc.
+
+INFO 2023-04-19 18:47:40,809 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 18:47:40,809 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:52:40,812 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 18:52:40,812 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:57:40,811 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 18:57:40,811 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 18:58:50,255 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-19 18:58:50,261 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-19 19:02:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 19:02:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:02:40,821 [DefaultQuartzScheduler_Worker-2] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 19:02:40,821 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 19:02:40,844 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 19:02:41,252 [DefaultQuartzScheduler_Worker-2] - LicenseJob kết thúc.
+
+INFO 2023-04-19 19:07:40,816 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 19:07:40,816 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:12:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 19:12:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:17:40,809 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 19:17:40,809 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:18:40,248 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 19:18:40,256 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 19:22:40,811 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 19:22:40,811 [DefaultQuartzScheduler_Worker-7] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 19:22:40,811 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 19:22:40,811 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:22:40,838 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 19:22:41,294 [DefaultQuartzScheduler_Worker-7] - LicenseJob kết thúc.
+
+INFO 2023-04-19 19:27:40,812 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 19:27:40,812 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:32:40,813 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 19:32:40,813 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:37:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 19:37:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:38:30,258 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-19 19:38:30,272 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-19 19:42:40,806 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 19:42:40,806 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:42:40,821 [DefaultQuartzScheduler_Worker-3] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 19:42:40,821 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 19:42:40,840 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 19:42:41,319 [DefaultQuartzScheduler_Worker-3] - LicenseJob kết thúc.
+
+INFO 2023-04-19 19:47:40,813 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 19:47:40,813 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:52:40,810 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 19:52:40,810 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:57:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 19:57:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 19:58:20,254 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-19 19:58:20,259 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-19 20:02:40,818 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 20:02:40,818 [DefaultQuartzScheduler_Worker-9] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 20:02:40,818 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 20:02:40,818 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:02:40,841 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 20:02:41,267 [DefaultQuartzScheduler_Worker-9] - LicenseJob kết thúc.
+
+INFO 2023-04-19 20:07:40,814 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 20:07:40,814 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:12:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 20:12:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:17:40,817 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 20:17:40,817 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:18:10,257 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-19 20:18:10,265 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-19 20:22:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 20:22:40,815 [DefaultQuartzScheduler_Worker-5] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 20:22:40,815 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 20:22:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:22:40,836 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 20:22:41,308 [DefaultQuartzScheduler_Worker-5] - LicenseJob kết thúc.
+
+INFO 2023-04-19 20:27:40,813 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 20:27:40,813 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:32:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 20:32:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:37:40,817 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 20:37:40,817 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:38:00,249 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-19 20:38:00,254 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-19 20:42:40,814 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 20:42:40,814 [DefaultQuartzScheduler_Worker-2] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 20:42:40,814 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 20:42:40,814 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:42:40,837 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 20:42:41,268 [DefaultQuartzScheduler_Worker-2] - LicenseJob kết thúc.
+
+INFO 2023-04-19 20:47:40,818 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 20:47:40,818 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:52:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 20:52:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:57:40,808 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 20:57:40,808 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 20:57:50,247 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-19 20:57:50,252 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-19 21:02:40,806 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 21:02:40,806 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 21:02:40,822 [DefaultQuartzScheduler_Worker-7] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 21:02:40,822 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 21:02:40,846 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 21:02:41,339 [DefaultQuartzScheduler_Worker-7] - LicenseJob kết thúc.
+
+INFO 2023-04-19 21:07:40,819 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 21:07:40,819 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 21:12:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 21:12:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 21:17:40,254 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-19 21:17:40,260 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-19 21:17:40,815 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 21:17:40,815 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 21:22:40,819 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 21:22:40,819 [DefaultQuartzScheduler_Worker-3] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 21:22:40,819 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 21:22:40,819 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 21:22:40,850 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 21:22:41,282 [DefaultQuartzScheduler_Worker-3] - LicenseJob kết thúc.
+
+INFO 2023-04-19 21:27:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 21:27:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 21:32:40,812 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 21:32:40,812 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 21:37:30,257 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-19 21:37:30,266 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-19 21:37:40,810 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 21:37:40,810 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 21:42:40,818 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 21:42:40,818 [DefaultQuartzScheduler_Worker-9] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 21:42:40,818 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 21:42:40,818 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 21:42:40,840 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 21:42:41,262 [DefaultQuartzScheduler_Worker-9] - LicenseJob kết thúc.
+
+INFO 2023-04-19 21:47:40,808 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 21:47:40,808 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 21:52:40,812 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 21:52:40,812 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 21:57:20,253 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-19 21:57:20,258 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-19 21:57:40,818 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 21:57:40,818 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:02:40,817 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 22:02:40,817 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:02:40,817 [DefaultQuartzScheduler_Worker-5] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 22:02:40,817 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 22:02:41,010 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 22:02:41,419 [DefaultQuartzScheduler_Worker-5] - LicenseJob kết thúc.
+
+INFO 2023-04-19 22:07:40,813 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 22:07:40,813 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:12:40,819 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 22:12:40,819 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:17:10,258 [DefaultQuartzScheduler_Worker-8] - Begin BrowserJob.
+
+INFO 2023-04-19 22:17:10,265 [DefaultQuartzScheduler_Worker-8] - End BrowserJob.
+
+INFO 2023-04-19 22:17:40,812 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 22:17:40,812 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:22:40,815 [DefaultQuartzScheduler_Worker-2] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 22:22:40,815 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 22:22:40,815 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 22:22:40,815 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:22:40,834 [DefaultQuartzScheduler_Worker-2] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 22:22:41,299 [DefaultQuartzScheduler_Worker-2] - LicenseJob kết thúc.
+
+INFO 2023-04-19 22:27:40,810 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 22:27:40,810 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:32:40,815 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 22:32:40,815 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:37:00,257 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-04-19 22:37:00,261 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-04-19 22:37:40,810 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 22:37:40,810 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:42:40,815 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 22:42:40,815 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:42:40,815 [DefaultQuartzScheduler_Worker-7] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 22:42:40,815 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 22:42:40,838 [DefaultQuartzScheduler_Worker-7] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 22:42:41,298 [DefaultQuartzScheduler_Worker-7] - LicenseJob kết thúc.
+
+INFO 2023-04-19 22:47:40,814 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 22:47:40,814 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:52:40,808 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 22:52:40,808 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-19 22:56:50,258 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-19 22:56:50,263 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-19 22:57:40,810 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 22:57:40,810 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:02:40,812 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-19 23:02:40,812 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:02:40,812 [DefaultQuartzScheduler_Worker-3] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 23:02:40,812 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 23:02:40,835 [DefaultQuartzScheduler_Worker-3] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 23:02:41,299 [DefaultQuartzScheduler_Worker-3] - LicenseJob kết thúc.
+
+INFO 2023-04-19 23:07:40,816 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 23:07:40,816 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:12:40,818 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-19 23:12:40,818 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:16:40,247 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-19 23:16:40,251 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-19 23:17:40,807 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 23:17:40,807 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:22:40,808 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-19 23:22:40,808 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:22:40,808 [DefaultQuartzScheduler_Worker-9] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 23:22:40,808 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 23:22:40,835 [DefaultQuartzScheduler_Worker-9] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 23:22:41,286 [DefaultQuartzScheduler_Worker-9] - LicenseJob kết thúc.
+
+INFO 2023-04-19 23:27:40,811 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-19 23:27:40,811 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:32:40,815 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-19 23:32:40,815 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:36:30,252 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-19 23:36:30,271 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-19 23:37:40,816 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-19 23:37:40,816 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:42:40,814 [DefaultQuartzScheduler_Worker-5] - LicenseJob bắt đầu.
+
+INFO 2023-04-19 23:42:40,814 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-19 23:42:40,814 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-19 23:42:40,814 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:42:40,837 [DefaultQuartzScheduler_Worker-5] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-19 23:42:41,249 [DefaultQuartzScheduler_Worker-5] - LicenseJob kết thúc.
+
+INFO 2023-04-19 23:47:40,814 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-19 23:47:40,814 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:52:40,811 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-19 23:52:40,811 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-19 23:56:20,248 [DefaultQuartzScheduler_Worker-8] - Begin BrowserJob.
+
+INFO 2023-04-19 23:56:20,252 [DefaultQuartzScheduler_Worker-8] - End BrowserJob.
+
+INFO 2023-04-19 23:57:40,817 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-19 23:57:40,817 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+

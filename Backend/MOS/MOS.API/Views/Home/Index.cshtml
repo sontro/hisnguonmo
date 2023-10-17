@@ -1,0 +1,48 @@
+﻿<div>
+    <h3 style="text-align: center">MOS</h3>
+    <div>
+        <ol>
+            <li>Phiên bản: 1.12</li>
+            <li>
+				<a href="@Url.Action("","swagger/ui/index")" class="elements"><span>API</span></a>
+			</li>
+            <li>Nội dung chỉnh sửa:
+                <div>
+                    <ul>
+                        <li>Sửa lỗi tính toán giá liên quan đến BHYT</li>
+                    </ul>
+                </div>
+            </li>
+            <li>Lưu ý cấu hình:
+                <div>
+                    Trong file web.config tìm đến các dòng sau để sửa lại giá trị tương ứng với hệ thống triển khai:
+                    <ul>
+                        <li>"Inventec.Token.ResourceSystem.AcsTokenGet.Uri.Base": Địa chỉ kết nối backend phân quyền ACS</li>
+                        <li>"Inventec.AcsConsumer.Base.Uri": Địa chỉ kết nối backend phân quyền ACS</li>
+                        <li>"Inventec.SdaConsumer.Base.Uri":  Địa chỉ kết nối backend SDA</li>
+                        <li>"License.PUK": PUK được cung cấp theo license tương ứng với điểm triển khai</li>
+                        <li>"fss.uri.base": Địa chỉ kết nối đến backend FSS</li>
+                        <li>"MOS.API.Scheduler.ScanLicenseJob": Thời gian tự động quét license hệ thống (tính theo mili giây)</li>
+                        <li>"MOS.API.Scheduler.ScanTroubleJob": Thời gian tự động quét sự cố hệ thống (tính theo mili giây)</li>
+                        <li>"MOS.API.Scheduler.ScanTimeOutCredentialsJob": Thời gian tự động quét các phiên làm việc bị time-out trên hệ thống (tính theo mili giây)</li>
+                        <li>"MOS.LibraryHein.Bhyt.HeinMediOrg.HeinMediOrgStore.DataConfigFilePath": đường dẫn đến file "HeinMediOrgDataConfig.xml" trong thư mục /bin của backend trên server triển khai</li>
+                    </ul>
+                </div>
+            </li>
+            <li>Hướng dẫn cập nhật từ phiên bản trước đó:
+                <ul>
+                    <li>Ghi đè lại thư mục bin</li>
+                    <li>Ghi đè lại thư mục Views</li>
+                    <li>Nâng phiên bản của CSDL</li>
+                </ul>
+            </li>
+            <li>Phiên bản CSDL tương thích:
+                <ul>
+                    <li>HIS: 11</li>
+                    <li>SDA: 0</li>
+                    <li>ACS: 0</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</div>

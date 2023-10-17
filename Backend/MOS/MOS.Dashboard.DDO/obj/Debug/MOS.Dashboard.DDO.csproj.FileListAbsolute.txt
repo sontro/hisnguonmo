@@ -1,0 +1,5 @@
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Dashboard.DDO\bin\Debug\MOS.Dashboard.DDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Dashboard.DDO\bin\Debug\MOS.Dashboard.DDO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Dashboard.DDO\obj\Debug\MOS.Dashboard.DDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Dashboard.DDO\obj\Debug\MOS.Dashboard.DDO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Dashboard.DDO\obj\Debug\MOS.Dashboard.DDO.csprojResolveAssemblyReference.cache

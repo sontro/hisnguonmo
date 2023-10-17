@@ -1,0 +1,8 @@
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryMessage\bin\Debug\MOS.LibraryMessage.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryMessage\bin\Debug\MOS.LibraryMessage.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryMessage\obj\Debug\MOS.LibraryMessage.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryMessage\obj\Debug\MOS.LibraryMessage.MessageEnResource.resources
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryMessage\obj\Debug\MOS.LibraryMessage.MessageViResource.resources
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryMessage\obj\Debug\MOS.LibraryMessage.csproj.GenerateResource.Cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryMessage\obj\Debug\MOS.LibraryMessage.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryMessage\obj\Debug\MOS.LibraryMessage.pdb

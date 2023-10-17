@@ -1,0 +1,7 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Release\MOS.LIS.RocheV2.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Release\MOS.LIS.RocheV2.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Release\Inventec.Common.DateTime.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Release\Inventec.Common.String.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Release\MOS.LIS.RocheV2.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Release\MOS.LIS.RocheV2.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Release\MOS.LIS.RocheV2.pdb

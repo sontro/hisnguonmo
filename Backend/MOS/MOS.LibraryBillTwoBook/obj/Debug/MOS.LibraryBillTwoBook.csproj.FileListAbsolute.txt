@@ -1,0 +1,28 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\MOS.LibraryBillTwoBook.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\MOS.LibraryBillTwoBook.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\AutoMapper.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\IMSys.DbConfig.HIS_RS.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\MOS.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\MOS.EFMODEL.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\obj\Debug\MOS.LibraryBillTwoBook.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\obj\Debug\MOS.LibraryBillTwoBook.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\obj\Debug\MOS.LibraryBillTwoBook.csprojResolveAssemblyReference.cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\MOS.LibraryBillTwoBook.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\MOS.LibraryBillTwoBook.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\AutoMapper.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\IMSys.DbConfig.HIS_RS.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\MOS.EFMODEL.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\EntityFramework.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\MOS.EFMODEL.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\obj\Debug\MOS.LibraryBillTwoBook.csprojResolveAssemblyReference.cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\obj\Debug\MOS.LibraryBillTwoBook.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\obj\Debug\MOS.LibraryBillTwoBook.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\MOS.LibraryBillTwoBook.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\MOS.LibraryBillTwoBook.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\AutoMapper.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\IMSys.DbConfig.HIS_RS.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\bin\Debug\MOS.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\obj\Debug\MOS.LibraryBillTwoBook.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\obj\Debug\MOS.LibraryBillTwoBook.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBillTwoBook\obj\Debug\MOS.LibraryBillTwoBook.pdb

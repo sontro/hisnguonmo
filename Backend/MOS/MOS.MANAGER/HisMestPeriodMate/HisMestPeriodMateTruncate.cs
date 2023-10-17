@@ -1,0 +1,94 @@
+using Inventec.Common.Logging;
+using Inventec.Core;
+using MOS.EFMODEL.DataModels;
+using MOS.MANAGER.Base;
+using System;
+using System.Collections.Generic;
+
+namespace MOS.MANAGER.HisMestPeriodMate
+{
+    class HisMestPeriodMateTruncate : BusinessBase
+    {
+        internal HisMestPeriodMateTruncate()
+            : base()
+        {
+
+        }
+
+        internal HisMestPeriodMateTruncate(CommonParam paramTruncate)
+            : base(paramTruncate)
+        {
+
+        }
+
+        internal bool Truncate(HIS_MEST_PERIOD_MATE data)
+        {
+            bool result = false;
+            try
+            {
+                bool valid = true;
+                HisMestPeriodMateCheck checker = new HisMestPeriodMateCheck(param);
+                valid = valid && IsNotNull(data) && IsGreaterThanZero(data.ID);
+                valid = valid && checker.IsUnLock(data.ID);
+                if (valid)
+                {
+                    result = DAOWorker.HisMestPeriodMateDAO.Truncate(data);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                param.HasException = true;
+                result = false;
+            }
+            return result;
+        }
+
+        internal bool TruncateList(List<HIS_MEST_PERIOD_MATE> listData)
+        {
+            bool result = false;
+            try
+            {
+                bool valid = true;
+                valid = IsNotNullOrEmpty(listData);
+                HisMestPeriodMateCheck checker = new HisMestPeriodMateCheck(param);
+                foreach (var data in listData)
+                {
+                    valid = valid && IsNotNull(data) && IsGreaterThanZero(data.ID);
+                    valid = valid && checker.IsUnLock(data.ID);
+                }
+                if (valid)
+                {
+                    result = DAOWorker.HisMestPeriodMateDAO.TruncateList(listData);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                param.HasException = true;
+                result = false;
+            }
+            return result;
+        }
+
+        internal bool TruncateByMediStockPeriodId(long id)
+        {
+            bool result = false;
+            try
+            {
+                List<HIS_MEST_PERIOD_MATE> list = new HisMestPeriodMateGet().GetByMediStockPeriodId(id);
+                if (IsNotNullOrEmpty(list))
+                {
+                    result = this.TruncateList(list);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                param.HasException = true;
+                result = false;
+            }
+            return result;
+        }
+    }
+}

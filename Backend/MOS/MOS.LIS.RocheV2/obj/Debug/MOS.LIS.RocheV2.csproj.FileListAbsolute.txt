@@ -1,0 +1,21 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\MOS.LIS.RocheV2.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\MOS.LIS.RocheV2.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\Inventec.Common.DateTime.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\Inventec.Common.String.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Debug\MOS.LIS.RocheV2.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Debug\MOS.LIS.RocheV2.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Debug\MOS.LIS.RocheV2.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\MOS.LIS.RocheV2.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\MOS.LIS.RocheV2.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\Inventec.Common.DateTime.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\Inventec.Common.String.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Debug\MOS.LIS.RocheV2.csprojResolveAssemblyReference.cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Debug\MOS.LIS.RocheV2.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Debug\MOS.LIS.RocheV2.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\MOS.LIS.RocheV2.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\MOS.LIS.RocheV2.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\Inventec.Common.DateTime.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\bin\Debug\Inventec.Common.String.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Debug\MOS.LIS.RocheV2.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Debug\MOS.LIS.RocheV2.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV2\obj\Debug\MOS.LIS.RocheV2.pdb

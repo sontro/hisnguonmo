@@ -1,0 +1,31 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryEventLog\bin\Debug\MOS.LibraryEventLog.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryEventLog\bin\Debug\MOS.LibraryEventLog.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.EventLogEnResource.resources
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.EventLogViResource.resources
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.csproj.GenerateResource.Cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\bin\Debug\MOS.LibraryEventLog.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\bin\Debug\MOS.LibraryEventLog.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.EventLogEnResource.resources
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.EventLogViResource.resources
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.csproj.GenerateResource.Cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.csprojResolveAssemblyReference.cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\bin\Debug\MOS.LibraryEventLog.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\bin\Debug\MOS.LibraryEventLog.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.csprojResolveAssemblyReference.cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.EventLogEnResource.resources
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.EventLogViResource.resources
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.csproj.GenerateResource.Cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\bin\Debug\MOS.LibraryEventLog.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\bin\Debug\MOS.LibraryEventLog.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.EventLogEnResource.resources
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.EventLogViResource.resources
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.csproj.GenerateResource.Cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Debug\MOS.LibraryEventLog.csprojResolveAssemblyReference.cache

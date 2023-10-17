@@ -1,0 +1,43 @@
+﻿<div>
+    <h3 style="text-align: center">SDA</h3>
+    <div>
+        <ol>
+            <li>Phiên bản: 1.13 32bit</li>
+            <li>Nội dung chỉnh sửa:
+                <div>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </li>
+            <li>Lưu ý:
+                <div>
+                    Trong file web.config tìm đến các dòng sau để sửa lại giá trị tương ứng với hệ thống triển khai:
+                    <ul>
+                        <li>"Inventec.Token.ResourceSystem.AcsTokenGet.Uri.Base": Địa chỉ kết nối backend phân quyền ACS</li>                       
+						<li>"Inventec.Token.Base.ApiConsumerStore.SdaConsumer.Uri":  Địa chỉ kết nối backend SDA</li>
+                        <li>"Inventec.Token.Base.ApiConsumerStore.SdaConsumer.Uri":  Địa chỉ kết nối backend SDA</li>
+                        <li>"License.PUK": PUK được cung cấp theo license tương ứng với điểm triển khai</li>
+                        <li>"fss.uri.base": Địa chỉ kết nối đến backend FSS</li>
+                        <li>"SDA.API.Scheduler.ScanLicenseJob": Thời gian tự động quét license hệ thống (tính theo mili giây)</li>
+                        <li>"SDA.API.Scheduler.ScanTroubleJob": Thời gian tự động quét sự cố hệ thống (tính theo mili giây)</li>
+                        <li>"SDA.API.Scheduler.ScanTimeOutCredentialsJob": Thời gian tự động quét các phiên làm việc bị time-out trên hệ thống (tính theo mili giây)</li>                       
+                    </ul>
+                </div>
+            </li>
+            <li>Hướng dẫn cập nhật từ phiên bản trước đó:
+                <ul>
+                    <li>Ghi đè lại thư mục bin</li>
+                    <li>Ghi đè lại thư mục Views</li>
+                    <li>Nâng phiên bản của CSDL</li>
+                </ul>
+            </li>
+            <li>Phiên bản CSDL tương thích:
+                <ul>
+                    <li>SDA: 5</li>
+                    <li>ACS: 4</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</div>

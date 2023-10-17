@@ -1,0 +1,5 @@
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Filter\bin\Debug\MOS.Filter.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Filter\bin\Debug\MOS.Filter.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Filter\obj\Debug\MOS.Filter.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Filter\obj\Debug\MOS.Filter.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.Filter\obj\Debug\MOS.Filter.pdb

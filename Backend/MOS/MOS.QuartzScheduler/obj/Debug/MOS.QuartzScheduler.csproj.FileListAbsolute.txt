@@ -1,0 +1,421 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.dll.config
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.Core.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Logging.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Core.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Token.ResourceSystem.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LogManager.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.MANAGER.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Common.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Diagnostics.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Quartz.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SDA.SDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.DateTime.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ApiConsumerManager.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.WebApiClient.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.SDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.TDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBug.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.DAO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryMessage.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\ACS.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\ACS.Filter.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryEventLog.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.Filter.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\COS.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\COS.SDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OracleUDT.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Oracle.DataAccess.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HID.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Bhyt.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Common.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.Roche.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\LIS.SDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\YDT.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SAR.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SDA.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SDA.Filter.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Repository.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\AutoMapper.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Fss.Client.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Fss.Utility.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.ObjectChecker.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.UTILITY.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ServicePaty.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheFile.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\His.Bhyt.ExportXml.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SCN.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SCN.SDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SAR.Filter.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.XtraRichEdit.v15.2.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\log4net.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.Web.Http.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Token.Core.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.Net.Http.Formatting.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Token.ClientSystem.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MessagePack.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.String.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HIS.Common.Treatment.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HIS.Treatment.DateTime.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Utils.v15.2.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Office.v15.2.Core.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Data.v15.2.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.RegistryUtil.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.ValueTuple.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LogManager.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.MANAGER.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.xml
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.Core.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.Core.xml
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Logging.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Core.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.xml
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Common.xml
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Diagnostics.xml
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Quartz.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Quartz.xml
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ApiConsumerManager.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.SDO.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.TDO.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.EFMODEL.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBug.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.DAO.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryMessage.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryEventLog.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.Filter.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OracleUDT.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Bhyt.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Common.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.Roche.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Repository.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.UTILITY.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ServicePaty.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheFile.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.pssym
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.dll.postsharp
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\PostSharpHost.config
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheV2.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheV2.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SMS.SDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\EMR.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\EMR.Filter.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MedilinkHL7.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Base.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MedilinkControl.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V251.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V24.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MDB.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MedilinkDatabases.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PMS.Access.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V21.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V25.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V23.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V231.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V22.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\CommonClassLibs.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.HRM.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.HRM.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OldSystem.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OldSystem.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBillTwoBook.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBillTwoBook.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.dll.config
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.Core.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Logging.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Core.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Token.ResourceSystem.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LogManager.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.MANAGER.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Common.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Diagnostics.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Quartz.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SDA.SDO.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.DateTime.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ApiConsumerManager.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.WebApiClient.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.SDO.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.EFMODEL.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.TDO.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MedilinkHL7.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBug.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.DAO.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryMessage.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\ACS.EFMODEL.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\ACS.Filter.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryEventLog.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.Filter.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\COS.EFMODEL.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\COS.SDO.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OracleUDT.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Oracle.DataAccess.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HID.EFMODEL.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Bhyt.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Common.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\LIS.SDO.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.Roche.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheV2.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\EMR.EFMODEL.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\YDT.EFMODEL.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SAR.EFMODEL.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SDA.EFMODEL.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SDA.Filter.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Repository.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\AutoMapper.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.ObjectChecker.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Fss.Client.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Fss.Utility.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.UTILITY.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Data.v15.2.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ServicePaty.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OldSystem.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBillTwoBook.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.String.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SMS.SDO.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheFile.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\EMR.Filter.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.HRM.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\His.Bhyt.ExportXml.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SCN.EFMODEL.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SCN.SDO.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SAR.Filter.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.XtraRichEdit.v15.2.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\log4net.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\EntityFramework.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Token.Core.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.Net.Http.Formatting.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Token.ClientSystem.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MessagePack.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Base.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MedilinkControl.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V251.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V24.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MedilinkDatabases.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PMS.Access.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MDB.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V21.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\CommonClassLibs.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HIS.Common.Treatment.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HIS.Treatment.DateTime.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Utils.v15.2.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Office.v15.2.Core.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.RegistryUtil.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.ValueTuple.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V25.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V23.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V231.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V22.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LogManager.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.MANAGER.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.xml
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.Core.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.Core.xml
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Logging.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Core.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.xml
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Common.xml
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Diagnostics.xml
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Quartz.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Quartz.xml
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ApiConsumerManager.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.SDO.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.EFMODEL.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.TDO.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBug.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.DAO.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryMessage.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryEventLog.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.Filter.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OracleUDT.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Bhyt.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Common.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.Roche.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheV2.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Repository.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.UTILITY.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ServicePaty.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OldSystem.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBillTwoBook.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheFile.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.HRM.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.pssym
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.csprojResolveAssemblyReference.cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.dll.postsharp
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\PostSharpHost.config
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.dll.config
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.Core.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Logging.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Core.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Token.ResourceSystem.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LogManager.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.MANAGER.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Common.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Diagnostics.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Quartz.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SDA.SDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.DateTime.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ApiConsumerManager.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.WebApiClient.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.SDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\ACS.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\ACS.SDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.TDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\AOS.SDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.UTILITY.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBug.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.DAO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryMessage.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\ACS.Filter.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.Filter.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.DynamicDTO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.PACS.Fhir.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Bhyt.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HXT.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\COS.SDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\YTT.SDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SDA.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SDA.Filter.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryEventLog.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Oracle.DataAccess.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OracleUDT.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\COS.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HIS.ERXConnect.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HID.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Fss.Utility.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Common.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\His.Bhyt.ExportXml.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MedilinkHL7.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\LIS.SDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheV2.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheV3.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\EMR.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.HRM.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.HashUtil.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Newtonsoft.Json.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Repository.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\AutoMapper.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Fss.Client.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ServicePaty.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.Net.Http.Formatting.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.ObjectChecker.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Mapper.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.String.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\His.ExportXml.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Base.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V24.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V231.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V23.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\SMS.SDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OldSystem.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBillTwoBook.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\log4net.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\EntityFramework.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.Web.Http.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Token.Core.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Token.ClientSystem.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MessagePack.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Hl7.Fhir.R4.Core.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Hl7.Fhir.Support.Poco.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HIS.Common.Treatment.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HIS.Treatment.DateTime.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NLog.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MedilinkDatabases.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V21.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\LIS.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\NHapi.Model.V22.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.RegistryUtil.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.ValueTuple.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Hl7.Fhir.Support.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Hl7.Fhir.ElementModel.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Hl7.FhirPath.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Hl7.Fhir.Serialization.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MDB.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LogManager.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.MANAGER.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.xml
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.Core.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Common.Logging.Core.xml
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Core.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.xml
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Common.xml
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PostSharp.Patterns.Diagnostics.xml
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Quartz.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Quartz.xml
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ApiConsumerManager.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.SDO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.TDO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.UTILITY.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBug.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.DAO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryMessage.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.Filter.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.DynamicDTO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.PACS.Fhir.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Bhyt.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryEventLog.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OracleUDT.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryHein.Common.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheV2.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LIS.RocheV3.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.HRM.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.Repository.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.ServicePaty.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.Net.Http.Formatting.xml
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.OldSystem.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.LibraryBillTwoBook.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.QuartzScheduler.pssym
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.dll.postsharp
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\MOS.QuartzScheduler.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\obj\Debug\PostSharpHost.config
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.PACS.HL7.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.PACS.HL7.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.TypeConvert.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.TypeConvert.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.PubSub.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Inventec.Common.WSPubSub.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\PSS.SDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.PubSub.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\itextsharp.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\HIS.Bhyt.Hssk.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.KskSignData.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\bin\Debug\MOS.KskSignData.pdb

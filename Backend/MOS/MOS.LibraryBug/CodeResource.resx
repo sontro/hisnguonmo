@@ -1,0 +1,2778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CapNhatThatBai" xml:space="preserve">
+    <value>MOS016</value>
+  </data>
+  <data name="CoLoiXayRa" xml:space="preserve">
+    <value>MOS004</value>
+  </data>
+  <data name="DAOTruncateGroupThatBai" xml:space="preserve">
+    <value>MOS002</value>
+  </data>
+  <data name="DuLieuDangBiKhoa" xml:space="preserve">
+    <value>MOS015</value>
+  </data>
+  <data name="DuLieuDauVaoKhongHopLe" xml:space="preserve">
+    <value>MOS012</value>
+  </data>
+  <data name="EventLogTypeIdKhongDung" xml:space="preserve">
+    <value>MOS001</value>
+  </data>
+  <data name="FssApiGetFileThatBai" xml:space="preserve">
+    <value>MOS007</value>
+  </data>
+  <data name="HisDepartmentTran_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS071</value>
+  </data>
+  <data name="HisDiagnosticGroupDetail_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS063</value>
+  </data>
+  <data name="HisExpMestMedicine_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS041</value>
+  </data>
+  <data name="HisExpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS038</value>
+  </data>
+  <data name="HisExpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS037</value>
+  </data>
+  <data name="HisExpMest_TuDongPheDuyetThatBai" xml:space="preserve">
+    <value>MOS039</value>
+  </data>
+  <data name="HisExpMest_TuDongXuatThatBai" xml:space="preserve">
+    <value>MOS040</value>
+  </data>
+  <data name="HisHeinCard_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS027</value>
+  </data>
+  <data name="HisHeinObject_KhongCoDuLieuTuongUngVoiSoTheBhyt" xml:space="preserve">
+    <value>MOS064</value>
+  </data>
+  <data name="HisHeinRatio_CauHinhKhongTonTai" xml:space="preserve">
+    <value>MOS023</value>
+  </data>
+  <data name="HisHeinRatio_CauHinhNhieuHon1BanGhiPhuHop" xml:space="preserve">
+    <value>MOS024</value>
+  </data>
+  <data name="HisHospitalFee_CapNhatThatBai" xml:space="preserve">
+    <value>MOS060</value>
+  </data>
+  <data name="HisHospitalFee_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS059</value>
+  </data>
+  <data name="HisImpMestMedicine_CapNhatThatBai" xml:space="preserve">
+    <value>MOS033</value>
+  </data>
+  <data name="HisImpMestMedicine_HuyThatBai" xml:space="preserve">
+    <value>MOS034</value>
+  </data>
+  <data name="HisImpMestMedicine_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS032</value>
+  </data>
+  <data name="HisImpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS036</value>
+  </data>
+  <data name="HisImpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS035</value>
+  </data>
+  <data name="HisMedicineBean_CapNhatThatBai" xml:space="preserve">
+    <value>MOS053</value>
+  </data>
+  <data name="HisMedicineBean_HuyThatBai" xml:space="preserve">
+    <value>MOS054</value>
+  </data>
+  <data name="HisMedicineBean_KhongTonTaiBeanDeThucHienTach" xml:space="preserve">
+    <value>MOS055</value>
+  </data>
+  <data name="HisMedicineBean_MoKhoaThatBai" xml:space="preserve">
+    <value>MOS057</value>
+  </data>
+  <data name="HisMedicineBean_ResetThongTinKhoThatBai" xml:space="preserve">
+    <value>MOS056</value>
+  </data>
+  <data name="HisMedicineBean_TachDuLieuThatBai" xml:space="preserve">
+    <value>MOS051</value>
+  </data>
+  <data name="HisMedicineBean_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS052</value>
+  </data>
+  <data name="HisMedicinePaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS030</value>
+  </data>
+  <data name="HisMedicinePaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS029</value>
+  </data>
+  <data name="HisMedicinePaty_XoaThatBai" xml:space="preserve">
+    <value>MOS031</value>
+  </data>
+  <data name="HisMedicine_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS050</value>
+  </data>
+  <data name="HisMediRecord_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS058</value>
+  </data>
+  <data name="HisMediStock_KhoaThatBai" xml:space="preserve">
+    <value>MOS047</value>
+  </data>
+  <data name="HisMestPeriodMedi_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS049</value>
+  </data>
+  <data name="HisMestPeriodMety_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS048</value>
+  </data>
+  <data name="HisPatientTypeAllow_KhongTonTaiDuLieu" xml:space="preserve">
+    <value>MOS069</value>
+  </data>
+  <data name="HisPatientTypeAlter_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS072</value>
+  </data>
+  <data name="HisPatient_CapNhatThatBai" xml:space="preserve">
+    <value>MOS025</value>
+  </data>
+  <data name="HisPatient_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS026</value>
+  </data>
+  <data name="HisSereServ_CapNhatThatBai" xml:space="preserve">
+    <value>MOS019</value>
+  </data>
+  <data name="HisSereServ_CapNhatThatBaiDoDaCoBill" xml:space="preserve">
+    <value>MOS021</value>
+  </data>
+  <data name="HisSereServ_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS022</value>
+  </data>
+  <data name="HisSereServ_ThietLapThongTinBhytThatBai" xml:space="preserve">
+    <value>MOS020</value>
+  </data>
+  <data name="HisServiceReq_KhongTheChiDinhPhongXuLy" xml:space="preserve">
+    <value>MOS061</value>
+  </data>
+  <data name="HisServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS062</value>
+  </data>
+  <data name="HisTransaction_HuyThatBai" xml:space="preserve">
+    <value>MOS073</value>
+  </data>
+  <data name="HisTransaction_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS028</value>
+  </data>
+  <data name="HisTreatmentLog_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS070</value>
+  </data>
+  <data name="HisTreatment_KhongCoHoSoDieuTriDauTien" xml:space="preserve">
+    <value>MOS067</value>
+  </data>
+  <data name="HisTreatment_KhongCoHoSoDieuTriThuocHsba" xml:space="preserve">
+    <value>MOS066</value>
+  </data>
+  <data name="HisTreatment_NhieuHon1HoSoDieuTriDauTien" xml:space="preserve">
+    <value>MOS068</value>
+  </data>
+  <data name="HisTreatment_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS065</value>
+  </data>
+  <data name="KhongUpdateDuocGroupPath" xml:space="preserve">
+    <value>MOS003</value>
+  </data>
+  <data name="KXDDDuLieuCanXuLy" xml:space="preserve">
+    <value>MOS005</value>
+  </data>
+  <data name="LoiDuLieu" xml:space="preserve">
+    <value>MOS018</value>
+  </data>
+  <data name="MaDaTonTai" xml:space="preserve">
+    <value>MOS014</value>
+  </data>
+  <data name="SarReportTemplate_KhongCoFileTrenMayChu" xml:space="preserve">
+    <value>MOS044</value>
+  </data>
+  <data name="SarReportTemplate_KhongCoUrl" xml:space="preserve">
+    <value>MOS042</value>
+  </data>
+  <data name="SarReportTemplate_KhongThuocLoaiBaoCaoDuocChon" xml:space="preserve">
+    <value>MOS043</value>
+  </data>
+  <data name="SarReport_KhongEpDuocKieuDoiTuongFilterLayBaoCao" xml:space="preserve">
+    <value>MOS046</value>
+  </data>
+  <data name="SarReport_TaoThuMucChuaBaoCaoThatBai" xml:space="preserve">
+    <value>MOS045</value>
+  </data>
+  <data name="SdaApiTaoReportThatBai" xml:space="preserve">
+    <value>MOS006</value>
+  </data>
+  <data name="TaiKhoanKhongCoQuyenKhoaDuLieu" xml:space="preserve">
+    <value>MOS011</value>
+  </data>
+  <data name="TaiKhoanKhongCoQuyenSuaDuLieu" xml:space="preserve">
+    <value>MOS009</value>
+  </data>
+  <data name="TaiKhoanKhongCoQuyenThemDuLieu" xml:space="preserve">
+    <value>MOS008</value>
+  </data>
+  <data name="TaiKhoanKhongCoQuyenXoaDuLieu" xml:space="preserve">
+    <value>MOS010</value>
+  </data>
+  <data name="ThemMoiThatBai" xml:space="preserve">
+    <value>MOS017</value>
+  </data>
+  <data name="ThieuThongTinBatBuoc" xml:space="preserve">
+    <value>MOS013</value>
+  </data>
+  <data name="HisSereServFile_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS076</value>
+  </data>
+  <data name="HisSereServSuin_CapNhatThatBai" xml:space="preserve">
+    <value>MOS077</value>
+  </data>
+  <data name="HisSereServTein_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS075</value>
+  </data>
+  <data name="HisServicePaty_KhongTonTaiDuLieuPhuHop" xml:space="preserve">
+    <value>MOS074</value>
+  </data>
+  <data name="HisDeath_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS078</value>
+  </data>
+  <data name="HisTranPati_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS079</value>
+  </data>
+  <data name="HisTreatment_CapNhatThatBai" xml:space="preserve">
+    <value>MOS080</value>
+  </data>
+  <data name="HisBill_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS081</value>
+  </data>
+  <data name="HisDeposit_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS082</value>
+  </data>
+  <data name="HisBedServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS108</value>
+  </data>
+  <data name="HisBloodRh_CapNhatThatBai" xml:space="preserve">
+    <value>MOS101</value>
+  </data>
+  <data name="HisBloodRh_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS093</value>
+  </data>
+  <data name="HisBlood_CapNhatThatBai" xml:space="preserve">
+    <value>MOS100</value>
+  </data>
+  <data name="HisBlood_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS092</value>
+  </data>
+  <data name="HisDepartmentTran_CapNhatThatBai" xml:space="preserve">
+    <value>MOS087</value>
+  </data>
+  <data name="HisEmotionlessMethod_CapNhatThatBai" xml:space="preserve">
+    <value>MOS102</value>
+  </data>
+  <data name="HisEmotionlessMethod_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS094</value>
+  </data>
+  <data name="HisExamServiceReq_CapNhatThatBai" xml:space="preserve">
+    <value>MOS084</value>
+  </data>
+  <data name="HisExamServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS083</value>
+  </data>
+  <data name="HisHeinServicePrice_CapNhatThatBai" xml:space="preserve">
+    <value>MOS090</value>
+  </data>
+  <data name="HisHeinServicePrice_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS091</value>
+  </data>
+  <data name="HisMediRecord_CapNhatThatBai" xml:space="preserve">
+    <value>MOS085</value>
+  </data>
+  <data name="HisMisuServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS109</value>
+  </data>
+  <data name="HisPatientTypeAlter_CapNhatThatBai" xml:space="preserve">
+    <value>MOS088</value>
+  </data>
+  <data name="HisPatientTypeAlter_KhongCoDuLieuPhuHop" xml:space="preserve">
+    <value>MOS089</value>
+  </data>
+  <data name="HisPtttCatastrophe_CapNhatThatBai" xml:space="preserve">
+    <value>MOS103</value>
+  </data>
+  <data name="HisPtttCatastrophe_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS095</value>
+  </data>
+  <data name="HisPtttCondition_CapNhatThatBai" xml:space="preserve">
+    <value>MOS104</value>
+  </data>
+  <data name="HisPtttCondition_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS096</value>
+  </data>
+  <data name="HisPtttGroup_CapNhatThatBai" xml:space="preserve">
+    <value>MOS105</value>
+  </data>
+  <data name="HisPtttGroup_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS097</value>
+  </data>
+  <data name="HisPtttMethod_CapNhatThatBai" xml:space="preserve">
+    <value>MOS106</value>
+  </data>
+  <data name="HisPtttMethod_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS098</value>
+  </data>
+  <data name="HisSereServPttt_CapNhatThatBai" xml:space="preserve">
+    <value>MOS107</value>
+  </data>
+  <data name="HisSereServPttt_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS099</value>
+  </data>
+  <data name="HisTreatmentLog_CapNhatThatBai" xml:space="preserve">
+    <value>MOS086</value>
+  </data>
+  <data name="HisChmsExpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS112</value>
+  </data>
+  <data name="HisChmsImpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS113</value>
+  </data>
+  <data name="HisDepaExpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS114</value>
+  </data>
+  <data name="HisExpeExpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS115</value>
+  </data>
+  <data name="HisLiquExpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS116</value>
+  </data>
+  <data name="HisLostExpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS117</value>
+  </data>
+  <data name="HisManuExpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS118</value>
+  </data>
+  <data name="HisManuImpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS119</value>
+  </data>
+  <data name="HisMobaImpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS120</value>
+  </data>
+  <data name="HisSereServFile_CapNhatThatBai" xml:space="preserve">
+    <value>MOS111</value>
+  </data>
+  <data name="HisServiceReq_KhongSinhDuocSoTheBhyt" xml:space="preserve">
+    <value>MOS121</value>
+  </data>
+  <data name="HisTransaction_CapNhatThatBai" xml:space="preserve">
+    <value>MOS110</value>
+  </data>
+  <data name="HisAggrExpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS133</value>
+  </data>
+  <data name="HisAggrImpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS135</value>
+  </data>
+  <data name="HisAggrImpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS134</value>
+  </data>
+  <data name="HisChmsExpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS131</value>
+  </data>
+  <data name="HisDepaExpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS137</value>
+  </data>
+  <data name="HisExpeExpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS129</value>
+  </data>
+  <data name="HisExpMestMedicine_HuyThatBai" xml:space="preserve">
+    <value>MOS130</value>
+  </data>
+  <data name="HisLiquExpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS136</value>
+  </data>
+  <data name="HisManuImpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS124</value>
+  </data>
+  <data name="HisMedicinePaty_HuyThatBai" xml:space="preserve">
+    <value>MOS126</value>
+  </data>
+  <data name="HisMedicine_CapNhatThatBai" xml:space="preserve">
+    <value>MOS125</value>
+  </data>
+  <data name="HisMedicine_HuyThatBai" xml:space="preserve">
+    <value>MOS127</value>
+  </data>
+  <data name="HisMediStockPeriod_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS128</value>
+  </data>
+  <data name="HisSaleExpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS132</value>
+  </data>
+  <data name="HisSaleExpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS122</value>
+  </data>
+  <data name="HisTestServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS123</value>
+  </data>
+  <data name="HisAggrExpMest_XoaThatBai" xml:space="preserve">
+    <value>MOS139</value>
+  </data>
+  <data name="HisAggrImpMest_XoaThatBai" xml:space="preserve">
+    <value>MOS140</value>
+  </data>
+  <data name="HisMedicineBean_ChangLockThatBai" xml:space="preserve">
+    <value>MOS138</value>
+  </data>
+  <data name="HisSereServHein_CapNhatThatBai" xml:space="preserve">
+    <value>MOS146</value>
+  </data>
+  <data name="HisSereServHein_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS145</value>
+  </data>
+  <data name="HisServiceReq_CapNhatThatBai" xml:space="preserve">
+    <value>MOS144</value>
+  </data>
+  <data name="HisTreatment_TamKhoaThatBai" xml:space="preserve">
+    <value>MOS141</value>
+  </data>
+  <data name="HisUserDelegate_CapNhatThatBai" xml:space="preserve">
+    <value>MOS143</value>
+  </data>
+  <data name="HisUserDelegate_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS142</value>
+  </data>
+  <data name="HisCare_CapNhatThatBai" xml:space="preserve">
+    <value>MOS148</value>
+  </data>
+  <data name="HisCare_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS147</value>
+  </data>
+  <data name="HisMaterialBean_CapNhatThatBai" xml:space="preserve">
+    <value>MOS158</value>
+  </data>
+  <data name="HisMaterialBean_ChangLockThatBai" xml:space="preserve">
+    <value>MOS157</value>
+  </data>
+  <data name="HisMaterialBean_HuyThatBai" xml:space="preserve">
+    <value>MOS159</value>
+  </data>
+  <data name="HisMaterialBean_KhongTonTaiBeanDeThucHienTach" xml:space="preserve">
+    <value>MOS152</value>
+  </data>
+  <data name="HisMaterialBean_MoKhoaThatBai" xml:space="preserve">
+    <value>MOS156</value>
+  </data>
+  <data name="HisMaterialBean_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS160</value>
+  </data>
+  <data name="HisMaterialPaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS155</value>
+  </data>
+  <data name="HisMaterialPaty_HuyThatBai" xml:space="preserve">
+    <value>MOS153</value>
+  </data>
+  <data name="HisMaterialPaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS154</value>
+  </data>
+  <data name="HisMaterial_CapNhatThatBai" xml:space="preserve">
+    <value>MOS151</value>
+  </data>
+  <data name="HisMaterial_HuyThatBai" xml:space="preserve">
+    <value>MOS150</value>
+  </data>
+  <data name="HisMaterial_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS149</value>
+  </data>
+  <data name="HisExamSereDire_CapNhatThatBai" xml:space="preserve">
+    <value>MOS173</value>
+  </data>
+  <data name="HisExamSereDire_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS172</value>
+  </data>
+  <data name="HisExamSereIcd_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS174</value>
+  </data>
+  <data name="HisExpMestMaterial_HuyThatBai" xml:space="preserve">
+    <value>MOS162</value>
+  </data>
+  <data name="HisExpMestMaterial_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS163</value>
+  </data>
+  <data name="HisHeinApproval_CapNhatThatBai" xml:space="preserve">
+    <value>MOS176</value>
+  </data>
+  <data name="HisHeinApproval_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS175</value>
+  </data>
+  <data name="HisImpMestMaterial_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS161</value>
+  </data>
+  <data name="HisInfusionStt_CapNhatThatBai" xml:space="preserve">
+    <value>MOS165</value>
+  </data>
+  <data name="HisInfusionStt_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS169</value>
+  </data>
+  <data name="HisInfusion_CapNhatThatBai" xml:space="preserve">
+    <value>MOS166</value>
+  </data>
+  <data name="HisInfusion_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS167</value>
+  </data>
+  <data name="HisMaterialBean_ResetThongTinKhoThatBai" xml:space="preserve">
+    <value>MOS170</value>
+  </data>
+  <data name="HisMaterialBean_TachDuLieuThatBai" xml:space="preserve">
+    <value>MOS171</value>
+  </data>
+  <data name="HisMediOrgRoute_CapNhatThatBai" xml:space="preserve">
+    <value>MOS164</value>
+  </data>
+  <data name="HisMediOrgRoute_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS168</value>
+  </data>
+  <data name="HisDiimServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS178</value>
+  </data>
+  <data name="HisEndoServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS179</value>
+  </data>
+  <data name="HisExpMestMedicine_CapNhatThatBai" xml:space="preserve">
+    <value>MOS181</value>
+  </data>
+  <data name="HisMestPeriodMate_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS180</value>
+  </data>
+  <data name="HisOtherServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS177</value>
+  </data>
+  <data name="HisBedServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS183</value>
+  </data>
+  <data name="HisDiimServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS185</value>
+  </data>
+  <data name="HisEndoServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS186</value>
+  </data>
+  <data name="HisExamServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS187</value>
+  </data>
+  <data name="HisFuexServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS188</value>
+  </data>
+  <data name="HisMestPeriodMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS182</value>
+  </data>
+  <data name="HisMisuServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS189</value>
+  </data>
+  <data name="HisOtherServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS190</value>
+  </data>
+  <data name="HisService_CapNhatThatBai" xml:space="preserve">
+    <value>MOS194</value>
+  </data>
+  <data name="HisService_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS184</value>
+  </data>
+  <data name="HisSuimServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS191</value>
+  </data>
+  <data name="HisSurgServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS192</value>
+  </data>
+  <data name="HisTestServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS193</value>
+  </data>
+  <data name="HisAccidentHurt_CapNhatThatBai" xml:space="preserve">
+    <value>MOS197</value>
+  </data>
+  <data name="HisAccidentHurt_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS196</value>
+  </data>
+  <data name="HisDiagGroupDetail_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS195</value>
+  </data>
+  <data name="HisKskContract_CapNhatThatBai" xml:space="preserve">
+    <value>MOS202</value>
+  </data>
+  <data name="HisKskContract_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS203</value>
+  </data>
+  <data name="HisPatyAlterBhyt_CapNhatThatBai" xml:space="preserve">
+    <value>MOS204</value>
+  </data>
+  <data name="HisPatyAlterBhyt_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS205</value>
+  </data>
+  <data name="HisPatyAlterKsk_CapNhatThatBai" xml:space="preserve">
+    <value>MOS207</value>
+  </data>
+  <data name="HisPatyAlterKsk_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS206</value>
+  </data>
+  <data name="HisTreatmentBedRoom_CapNhatThatBai" xml:space="preserve">
+    <value>MOS201</value>
+  </data>
+  <data name="HisTreatmentBedRoom_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS200</value>
+  </data>
+  <data name="HisTreatmentType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS199</value>
+  </data>
+  <data name="HisTreatmentType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS198</value>
+  </data>
+  <data name="HisDepartmentTran_HuyThatBai" xml:space="preserve">
+    <value>MOS208</value>
+  </data>
+  <data name="HisHeinApprovalBhyt_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS209</value>
+  </data>
+  <data name="HisMedicineLine_CapNhatThatBai" xml:space="preserve">
+    <value>MOS240</value>
+  </data>
+  <data name="HisMedicineLine_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS241</value>
+  </data>
+  <data name="HisPatyAlterAia_CapNhatThatBai" xml:space="preserve">
+    <value>MOS227</value>
+  </data>
+  <data name="HisPatyAlterAia_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS210</value>
+  </data>
+  <data name="HisPatyAlterBcv_CapNhatThatBai" xml:space="preserve">
+    <value>MOS228</value>
+  </data>
+  <data name="HisPatyAlterBcv_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS229</value>
+  </data>
+  <data name="HisPatyAlterBic_CapNhatThatBai" xml:space="preserve">
+    <value>MOS230</value>
+  </data>
+  <data name="HisPatyAlterBic_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS231</value>
+  </data>
+  <data name="HisPatyAlterBvtm_CapNhatThatBai" xml:space="preserve">
+    <value>MOS224</value>
+  </data>
+  <data name="HisPatyAlterBvtm_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS223</value>
+  </data>
+  <data name="HisPatyAlterDaiichi_CapNhatThatBai" xml:space="preserve">
+    <value>MOS226</value>
+  </data>
+  <data name="HisPatyAlterDaiichi_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS225</value>
+  </data>
+  <data name="HisPatyAlterGel_CapNhatThatBai" xml:space="preserve">
+    <value>MOS211</value>
+  </data>
+  <data name="HisPatyAlterGel_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS212</value>
+  </data>
+  <data name="HisPatyAlterGenerali_CapNhatThatBai" xml:space="preserve">
+    <value>MOS232</value>
+  </data>
+  <data name="HisPatyAlterGenerali_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS237</value>
+  </data>
+  <data name="HisPatyAlterInsmart_CapNhatThatBai" xml:space="preserve">
+    <value>MOS233</value>
+  </data>
+  <data name="HisPatyAlterInsmart_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS236</value>
+  </data>
+  <data name="HisPatyAlterLiberty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS234</value>
+  </data>
+  <data name="HisPatyAlterLiberty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS235</value>
+  </data>
+  <data name="HisPatyAlterPrud_CapNhatThatBai" xml:space="preserve">
+    <value>MOS213</value>
+  </data>
+  <data name="HisPatyAlterPrud_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS214</value>
+  </data>
+  <data name="HisPatyAlterPti_CapNhatThatBai" xml:space="preserve">
+    <value>MOS216</value>
+  </data>
+  <data name="HisPatyAlterPti_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS215</value>
+  </data>
+  <data name="HisPatyAlterPvi_CapNhatThatBai" xml:space="preserve">
+    <value>MOS218</value>
+  </data>
+  <data name="HisPatyAlterPvi_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS217</value>
+  </data>
+  <data name="HisPatyAlterTmn_CapNhatThatBai" xml:space="preserve">
+    <value>MOS220</value>
+  </data>
+  <data name="HisPatyAlterTmn_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS219</value>
+  </data>
+  <data name="HisPatyAlterVcli_CapNhatThatBai" xml:space="preserve">
+    <value>MOS222</value>
+  </data>
+  <data name="HisPatyAlterVcli_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS221</value>
+  </data>
+  <data name="HisTracking_CapNhatThatBai" xml:space="preserve">
+    <value>MOS238</value>
+  </data>
+  <data name="HisTracking_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS239</value>
+  </data>
+  <data name="HisAwareness_CapNhatThatBai" xml:space="preserve">
+    <value>MOS250</value>
+  </data>
+  <data name="HisAwareness_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS249</value>
+  </data>
+  <data name="HisCareDetail_CapNhatThatBai" xml:space="preserve">
+    <value>MOS256</value>
+  </data>
+  <data name="HisCareDetail_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS255</value>
+  </data>
+  <data name="HisCareType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS251</value>
+  </data>
+  <data name="HisCareType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS252</value>
+  </data>
+  <data name="HisDebateUser_CapNhatThatBai" xml:space="preserve">
+    <value>MOS244</value>
+  </data>
+  <data name="HisDebateUser_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS243</value>
+  </data>
+  <data name="HisDebate_CapNhatThatBai" xml:space="preserve">
+    <value>MOS245</value>
+  </data>
+  <data name="HisDebate_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS242</value>
+  </data>
+  <data name="HisFuexServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS246</value>
+  </data>
+  <data name="HisInfusionDetail_CapNhatThatBai" xml:space="preserve">
+    <value>MOS258</value>
+  </data>
+  <data name="HisInfusionDetail_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS257</value>
+  </data>
+  <data name="HisPackingType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS253</value>
+  </data>
+  <data name="HisPackingType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS254</value>
+  </data>
+  <data name="HisSuimServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS247</value>
+  </data>
+  <data name="HisSurgServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS248</value>
+  </data>
+  <data name="HisTreatmentOut_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS259</value>
+  </data>
+  <data name="HisAnticipateMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS262</value>
+  </data>
+  <data name="HisAnticipateMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS261</value>
+  </data>
+  <data name="HisAnticipateMety_CapNhatThatBai" xml:space="preserve">
+    <value>MOS264</value>
+  </data>
+  <data name="HisAnticipateMety_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS263</value>
+  </data>
+  <data name="HisAnticipate_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS260</value>
+  </data>
+  <data name="HisRehaServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS269</value>
+  </data>
+  <data name="HisRehaServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS270</value>
+  </data>
+  <data name="HisServiceMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS268</value>
+  </data>
+  <data name="HisServiceMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS265</value>
+  </data>
+  <data name="HisServiceMety_CapNhatThatBai" xml:space="preserve">
+    <value>MOS266</value>
+  </data>
+  <data name="HisServiceMety_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS267</value>
+  </data>
+  <data name="HisRehaServiceReq_CapNhatThatBai" xml:space="preserve">
+    <value>MOS273</value>
+  </data>
+  <data name="HisSereServReha_CapNhatThatBai" xml:space="preserve">
+    <value>MOS272</value>
+  </data>
+  <data name="HisSereServReha_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS271</value>
+  </data>
+  <data name="HisRehaSum_CapNhatThatBai" xml:space="preserve">
+    <value>MOS274</value>
+  </data>
+  <data name="HisRehaSum_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS275</value>
+  </data>
+  <data name="HisCareSum_CapNhatThatBai" xml:space="preserve">
+    <value>MOS278</value>
+  </data>
+  <data name="HisCareSum_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS279</value>
+  </data>
+  <data name="HisInfusionSum_CapNhatThatBai" xml:space="preserve">
+    <value>MOS281</value>
+  </data>
+  <data name="HisInfusionSum_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS280</value>
+  </data>
+  <data name="HisTrackingSum_CapNhatThatBai" xml:space="preserve">
+    <value>MOS276</value>
+  </data>
+  <data name="HisTrackingSum_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS277</value>
+  </data>
+  <data name="HisInvoiceBook_CapNhatThatBai" xml:space="preserve">
+    <value>MOS282</value>
+  </data>
+  <data name="HisInvoiceBook_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS283</value>
+  </data>
+  <data name="HisInvoice_CapNhatThatBai" xml:space="preserve">
+    <value>MOS284</value>
+  </data>
+  <data name="HisInvoice_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS285</value>
+  </data>
+  <data name="HisUserInvoiceBook_CapNhatThatBai" xml:space="preserve">
+    <value>MOS287</value>
+  </data>
+  <data name="HisUserInvoiceBook_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS286</value>
+  </data>
+  <data name="HisInvoiceDetail_CapNhatThatBai" xml:space="preserve">
+    <value>MOS289</value>
+  </data>
+  <data name="HisInvoiceDetail_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS288</value>
+  </data>
+  <data name="HisRehaTrainType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS290</value>
+  </data>
+  <data name="HisRehaTrainType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS291</value>
+  </data>
+  <data name="HisRehaTrainUnit_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS292</value>
+  </data>
+  <data name="HisRehaTrain_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS295</value>
+  </data>
+  <data name="HisRestRetrType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS294</value>
+  </data>
+  <data name="HisRestRetrType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS293</value>
+  </data>
+  <data name="HisAccountBook_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS298</value>
+  </data>
+  <data name="HisCard_CapNhatThatBai" xml:space="preserve">
+    <value>MOS297</value>
+  </data>
+  <data name="HisCard_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS296</value>
+  </data>
+  <data name="HisExpMestMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS300</value>
+  </data>
+  <data name="HisExpMestMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS301</value>
+  </data>
+  <data name="HisExpMestMety_CapNhatThatBai" xml:space="preserve">
+    <value>MOS303</value>
+  </data>
+  <data name="HisExpMestMety_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS302</value>
+  </data>
+  <data name="HisImpMestMaterial_CapNhatThatBai" xml:space="preserve">
+    <value>MOS299</value>
+  </data>
+  <data name="HisMilitaryRank_CapNhatThatBai" xml:space="preserve">
+    <value>MOS304</value>
+  </data>
+  <data name="HisMilitaryRank_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS305</value>
+  </data>
+  <data name="HisReportTypeCat_CapNhatThatBai" xml:space="preserve">
+    <value>MOS308</value>
+  </data>
+  <data name="HisReportTypeCat_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS309</value>
+  </data>
+  <data name="HisServiceRetyCat_CapNhatThatBai" xml:space="preserve">
+    <value>MOS311</value>
+  </data>
+  <data name="HisServiceRetyCat_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS310</value>
+  </data>
+  <data name="HisWorkPlace_CapNhatThatBai" xml:space="preserve">
+    <value>MOS307</value>
+  </data>
+  <data name="HisWorkPlace_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS306</value>
+  </data>
+  <data name="HisEmergencyWtime_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS312</value>
+  </data>
+  <data name="HisEmergency_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS313</value>
+  </data>
+  <data name="HisExecuteGroup_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS315</value>
+  </data>
+  <data name="HisIcdGroup_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS314</value>
+  </data>
+  <data name="HisAccidentHurtType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS316</value>
+  </data>
+  <data name="HisAccidentHurtType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS317</value>
+  </data>
+  <data name="HisGibaImpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS321</value>
+  </data>
+  <data name="HisGibaImpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS320</value>
+  </data>
+  <data name="HisInitImpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS323</value>
+  </data>
+  <data name="HisInitImpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS322</value>
+  </data>
+  <data name="HisInveImpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS326</value>
+  </data>
+  <data name="HisInveImpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS324</value>
+  </data>
+  <data name="HisOtherImpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS327</value>
+  </data>
+  <data name="HisOtherImpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS325</value>
+  </data>
+  <data name="HisSaroExro_CapNhatThatBai" xml:space="preserve">
+    <value>MOS319</value>
+  </data>
+  <data name="HisSaroExro_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS318</value>
+  </data>
+  <data name="HisActiveIngrBhyt_CapNhatThatBai" xml:space="preserve">
+    <value>MOS328</value>
+  </data>
+  <data name="HisActiveIngrBhyt_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS329</value>
+  </data>
+  <data name="HisAccidentBodyPart_CapNhatThatBai" xml:space="preserve">
+    <value>MOS330</value>
+  </data>
+  <data name="HisAccidentBodyPart_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS333</value>
+  </data>
+  <data name="HisAccidentCare_CapNhatThatBai" xml:space="preserve">
+    <value>MOS335</value>
+  </data>
+  <data name="HisAccidentCare_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS334</value>
+  </data>
+  <data name="HisAccidentHelmet_CapNhatThatBai" xml:space="preserve">
+    <value>MOS337</value>
+  </data>
+  <data name="HisAccidentHelmet_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS336</value>
+  </data>
+  <data name="HisAccidentLocation_CapNhatThatBai" xml:space="preserve">
+    <value>MOS339</value>
+  </data>
+  <data name="HisAccidentLocation_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS338</value>
+  </data>
+  <data name="HisAccidentPoison_CapNhatThatBai" xml:space="preserve">
+    <value>MOS341</value>
+  </data>
+  <data name="HisAccidentPoison_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS340</value>
+  </data>
+  <data name="HisAccidentResult_CapNhatThatBai" xml:space="preserve">
+    <value>MOS343</value>
+  </data>
+  <data name="HisAccidentResult_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS342</value>
+  </data>
+  <data name="HisAccidentVehicle_CapNhatThatBai" xml:space="preserve">
+    <value>MOS345</value>
+  </data>
+  <data name="HisAccidentVehicle_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS344</value>
+  </data>
+  <data name="HisBidMaterialType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS347</value>
+  </data>
+  <data name="HisBidMaterialType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS346</value>
+  </data>
+  <data name="HisBidMedicineType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS349</value>
+  </data>
+  <data name="HisBidMedicineType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS348</value>
+  </data>
+  <data name="HisBid_CapNhatThatBai" xml:space="preserve">
+    <value>MOS332</value>
+  </data>
+  <data name="HisBid_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS331</value>
+  </data>
+  <data name="HisInvoicePrint_CapNhatThatBai" xml:space="preserve">
+    <value>MOS351</value>
+  </data>
+  <data name="HisInvoicePrint_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS350</value>
+  </data>
+  <data name="HisMestPatySub_CapNhatThatBai" xml:space="preserve">
+    <value>MOS353</value>
+  </data>
+  <data name="HisMestPatySub_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS352</value>
+  </data>
+  <data name="HisPatientTypeSub_CapNhatThatBai" xml:space="preserve">
+    <value>MOS355</value>
+  </data>
+  <data name="HisPatientTypeSub_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS354</value>
+  </data>
+  <data name="HisAppointment_CapNhatThatBai" xml:space="preserve">
+    <value>MOS359</value>
+  </data>
+  <data name="HisAppointment_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS358</value>
+  </data>
+  <data name="HisBillFund_CapNhatThatBai" xml:space="preserve">
+    <value>MOS367</value>
+  </data>
+  <data name="HisBillFund_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS366</value>
+  </data>
+  <data name="HisBranch_CapNhatThatBai" xml:space="preserve">
+    <value>MOS369</value>
+  </data>
+  <data name="HisBranch_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS368</value>
+  </data>
+  <data name="HisDepositReq_CapNhatThatBai" xml:space="preserve">
+    <value>MOS365</value>
+  </data>
+  <data name="HisDepositReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS364</value>
+  </data>
+  <data name="HisExecuteRole_CapNhatThatBai" xml:space="preserve">
+    <value>MOS379</value>
+  </data>
+  <data name="HisExecuteRole_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS378</value>
+  </data>
+  <data name="HisExpMestOther_CapNhatThatBai" xml:space="preserve">
+    <value>MOS357</value>
+  </data>
+  <data name="HisExpMestOther_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS356</value>
+  </data>
+  <data name="HisFund_CapNhatThatBai" xml:space="preserve">
+    <value>MOS371</value>
+  </data>
+  <data name="HisFund_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS370</value>
+  </data>
+  <data name="HisPatientProgram_CapNhatThatBai" xml:space="preserve">
+    <value>MOS361</value>
+  </data>
+  <data name="HisPatientProgram_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS360</value>
+  </data>
+  <data name="HisPricePolicy_CapNhatThatBai" xml:space="preserve">
+    <value>MOS375</value>
+  </data>
+  <data name="HisPricePolicy_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS374</value>
+  </data>
+  <data name="HisProgram_CapNhatThatBai" xml:space="preserve">
+    <value>MOS363</value>
+  </data>
+  <data name="HisProgram_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS362</value>
+  </data>
+  <data name="HisServicePatyPrpo_CapNhatThatBai" xml:space="preserve">
+    <value>MOS377</value>
+  </data>
+  <data name="HisServicePatyPrpo_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS376</value>
+  </data>
+  <data name="HisWithdraw_CapNhatThatBai" xml:space="preserve">
+    <value>MOS373</value>
+  </data>
+  <data name="HisWithdraw_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS372</value>
+  </data>
+  <data name="HisBedLog_CapNhatThatBai" xml:space="preserve">
+    <value>MOS389</value>
+  </data>
+  <data name="HisBedLog_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS388</value>
+  </data>
+  <data name="HisBedType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS391</value>
+  </data>
+  <data name="HisBedType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS390</value>
+  </data>
+  <data name="HisBed_CapNhatThatBai" xml:space="preserve">
+    <value>MOS387</value>
+  </data>
+  <data name="HisBed_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS386</value>
+  </data>
+  <data name="HisCaroDepartment_CapNhatThatBai" xml:space="preserve">
+    <value>MOS385</value>
+  </data>
+  <data name="HisCaroDepartment_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS384</value>
+  </data>
+  <data name="HisCashierRoom_CapNhatThatBai" xml:space="preserve">
+    <value>MOS383</value>
+  </data>
+  <data name="HisCashierRoom_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS382</value>
+  </data>
+  <data name="HisExpMestMaterial_CapNhatThatBai" xml:space="preserve">
+    <value>MOS400</value>
+  </data>
+  <data name="HisHousehold_CapNhatThatBai" xml:space="preserve">
+    <value>MOS397</value>
+  </data>
+  <data name="HisHousehold_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS396</value>
+  </data>
+  <data name="HisOtherExpMest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS395</value>
+  </data>
+  <data name="HisOtherExpMest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS394</value>
+  </data>
+  <data name="HisPatientHousehold_CapNhatThatBai" xml:space="preserve">
+    <value>MOS399</value>
+  </data>
+  <data name="HisPatientHousehold_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS398</value>
+  </data>
+  <data name="HisSereServCalendar_CapNhatThatBai" xml:space="preserve">
+    <value>MOS393</value>
+  </data>
+  <data name="HisSereServCalendar_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS392</value>
+  </data>
+  <data name="HisSereServPtus_CapNhatThatBai" xml:space="preserve">
+    <value>MOS381</value>
+  </data>
+  <data name="HisSereServPtus_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS380</value>
+  </data>
+  <data name="HisEkipUser_CapNhatThatBai" xml:space="preserve">
+    <value>MOS404</value>
+  </data>
+  <data name="HisEkipUser_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS403</value>
+  </data>
+  <data name="HisEkip_CapNhatThatBai" xml:space="preserve">
+    <value>MOS402</value>
+  </data>
+  <data name="HisEkip_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS401</value>
+  </data>
+  <data name="HisBedBsty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS410</value>
+  </data>
+  <data name="HisBedBsty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS409</value>
+  </data>
+  <data name="HisBloodAbo_CapNhatThatBai" xml:space="preserve">
+    <value>MOS406</value>
+  </data>
+  <data name="HisBloodAbo_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS405</value>
+  </data>
+  <data name="HisBloodGroup_CapNhatThatBai" xml:space="preserve">
+    <value>MOS418</value>
+  </data>
+  <data name="HisBloodGroup_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS417</value>
+  </data>
+  <data name="HisBloodPaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS420</value>
+  </data>
+  <data name="HisBloodPaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS419</value>
+  </data>
+  <data name="HisBloodSource_CapNhatThatBai" xml:space="preserve">
+    <value>MOS412</value>
+  </data>
+  <data name="HisBloodSource_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS411</value>
+  </data>
+  <data name="HisBloodType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS414</value>
+  </data>
+  <data name="HisBloodType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS413</value>
+  </data>
+  <data name="HisBloodVolume_CapNhatThatBai" xml:space="preserve">
+    <value>MOS416</value>
+  </data>
+  <data name="HisBloodVolume_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS415</value>
+  </data>
+  <data name="HisDereDetail_CapNhatThatBai" xml:space="preserve">
+    <value>MOS428</value>
+  </data>
+  <data name="HisDereDetail_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS427</value>
+  </data>
+  <data name="HisExpMestBlood_CapNhatThatBai" xml:space="preserve">
+    <value>MOS422</value>
+  </data>
+  <data name="HisExpMestBlood_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS421</value>
+  </data>
+  <data name="HisExpMestBlty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS424</value>
+  </data>
+  <data name="HisExpMestBlty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS423</value>
+  </data>
+  <data name="HisImpSource_CapNhatThatBai" xml:space="preserve">
+    <value>MOS426</value>
+  </data>
+  <data name="HisImpSource_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS425</value>
+  </data>
+  <data name="HisServiceFollow_CapNhatThatBai" xml:space="preserve">
+    <value>MOS408</value>
+  </data>
+  <data name="HisServiceFollow_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS407</value>
+  </data>
+  <data name="HisAggrImpMest_KhongChoPhepTaoPhieuTraChoNhieuKho" xml:space="preserve">
+    <value>MOS435</value>
+  </data>
+  <data name="HisAnticipateBlty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS439</value>
+  </data>
+  <data name="HisAnticipateBlty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS438</value>
+  </data>
+  <data name="HisExpMest_PhieuXuatDangKhongThuocPhieuLinhNao" xml:space="preserve">
+    <value>MOS440</value>
+  </data>
+  <data name="HisImpMestBlood_CapNhatThatBai" xml:space="preserve">
+    <value>MOS430</value>
+  </data>
+  <data name="HisImpMestBlood_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS429</value>
+  </data>
+  <data name="HisMestPeriodBlood_CapNhatThatBai" xml:space="preserve">
+    <value>MOS434</value>
+  </data>
+  <data name="HisMestPeriodBlood_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS433</value>
+  </data>
+  <data name="HisMestPeriodBlty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS432</value>
+  </data>
+  <data name="HisMestPeriodBlty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS431</value>
+  </data>
+  <data name="HisRoomTypeModule_CapNhatThatBai" xml:space="preserve">
+    <value>MOS437</value>
+  </data>
+  <data name="HisRoomTypeModule_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS436</value>
+  </data>
+  <data name="HisBaby_CapNhatThatBai" xml:space="preserve">
+    <value>MOS456</value>
+  </data>
+  <data name="HisBaby_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS455</value>
+  </data>
+  <data name="HisBidBloodType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS442</value>
+  </data>
+  <data name="HisBidBloodType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS441</value>
+  </data>
+  <data name="HisBornPosition_CapNhatThatBai" xml:space="preserve">
+    <value>MOS454</value>
+  </data>
+  <data name="HisBornPosition_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS453</value>
+  </data>
+  <data name="HisBornResult_CapNhatThatBai" xml:space="preserve">
+    <value>MOS452</value>
+  </data>
+  <data name="HisBornResult_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS451</value>
+  </data>
+  <data name="HisBornType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS450</value>
+  </data>
+  <data name="HisBornType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS449</value>
+  </data>
+  <data name="HisExamServiceTemp_CapNhatThatBai" xml:space="preserve">
+    <value>MOS458</value>
+  </data>
+  <data name="HisExamServiceTemp_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS457</value>
+  </data>
+  <data name="HisRegisterGate_CapNhatThatBai" xml:space="preserve">
+    <value>MOS444</value>
+  </data>
+  <data name="HisRegisterGate_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS443</value>
+  </data>
+  <data name="HisRegisterReq_CapNhatThatBai" xml:space="preserve">
+    <value>MOS446</value>
+  </data>
+  <data name="HisRegisterReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS445</value>
+  </data>
+  <data name="HisSereServExt_CapNhatThatBai" xml:space="preserve">
+    <value>MOS460</value>
+  </data>
+  <data name="HisSereServExt_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS459</value>
+  </data>
+  <data name="HisSereServTemp_CapNhatThatBai" xml:space="preserve">
+    <value>MOS448</value>
+  </data>
+  <data name="HisSereServTemp_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS447</value>
+  </data>
+  <data name="HisHtu_CapNhatThatBai" xml:space="preserve">
+    <value>MOS462</value>
+  </data>
+  <data name="HisHtu_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS461</value>
+  </data>
+  <data name="HisMediReactSum_CapNhatThatBai" xml:space="preserve">
+    <value>MOS464</value>
+  </data>
+  <data name="HisMediReactSum_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS463</value>
+  </data>
+  <data name="HisBhytBlacklist_CapNhatThatBai" xml:space="preserve">
+    <value>MOS466</value>
+  </data>
+  <data name="HisBhytBlacklist_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS465</value>
+  </data>
+  <data name="HisBhytWhitelist_CapNhatThatBai" xml:space="preserve">
+    <value>MOS468</value>
+  </data>
+  <data name="HisBhytWhitelist_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS467</value>
+  </data>
+  <data name="HisExecuteRoleUser_CapNhatThatBai" xml:space="preserve">
+    <value>MOS473</value>
+  </data>
+  <data name="HisExecuteRoleUser_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS472</value>
+  </data>
+  <data name="HisImpMestTypeUser_CapNhatThatBai" xml:space="preserve">
+    <value>MOS471</value>
+  </data>
+  <data name="HisImpMestTypeUser_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS470</value>
+  </data>
+  <data name="HisImpMest_PhieuXuatDangKhongThuocPhieuTraNao" xml:space="preserve">
+    <value>MOS469</value>
+  </data>
+  <data name="HisMestMetyDepa_CapNhatThatBai" xml:space="preserve">
+    <value>MOS475</value>
+  </data>
+  <data name="HisMestMetyDepa_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS474</value>
+  </data>
+  <data name="HisServiceReqMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS477</value>
+  </data>
+  <data name="HisServiceReqMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS476</value>
+  </data>
+  <data name="HisIcdCm_CapNhatThatBai" xml:space="preserve">
+    <value>MOS487</value>
+  </data>
+  <data name="HisIcdCm_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS486</value>
+  </data>
+  <data name="HisPaanLiquid_CapNhatThatBai" xml:space="preserve">
+    <value>MOS481</value>
+  </data>
+  <data name="HisPaanLiquid_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS480</value>
+  </data>
+  <data name="HisPaanPosition_CapNhatThatBai" xml:space="preserve">
+    <value>MOS483</value>
+  </data>
+  <data name="HisPaanPosition_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS482</value>
+  </data>
+  <data name="HisPaanServiceReq_CapNhatThatBai" xml:space="preserve">
+    <value>MOS485</value>
+  </data>
+  <data name="HisPaanServiceReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS484</value>
+  </data>
+  <data name="HisPaanServiceType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS479</value>
+  </data>
+  <data name="HisPaanServiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS478</value>
+  </data>
+  <data name="HisBidType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS491</value>
+  </data>
+  <data name="HisBidType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS490</value>
+  </data>
+  <data name="HisExpMestReason_CapNhatThatBai" xml:space="preserve">
+    <value>MOS493</value>
+  </data>
+  <data name="HisExpMestReason_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS492</value>
+  </data>
+  <data name="HisMedicineTypeTut_CapNhatThatBai" xml:space="preserve">
+    <value>MOS489</value>
+  </data>
+  <data name="HisMedicineTypeTut_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS488</value>
+  </data>
+  <data name="HisCashout_CapNhatThatBai" xml:space="preserve">
+    <value>MOS499</value>
+  </data>
+  <data name="HisCashout_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS498</value>
+  </data>
+  <data name="HisEmployee_CapNhatThatBai" xml:space="preserve">
+    <value>MOS503</value>
+  </data>
+  <data name="HisEmployee_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS502</value>
+  </data>
+  <data name="HisImpMestUser_CapNhatThatBai" xml:space="preserve">
+    <value>MOS505</value>
+  </data>
+  <data name="HisImpMestUser_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS504</value>
+  </data>
+  <data name="HisOweType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS495</value>
+  </data>
+  <data name="HisOweType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS494</value>
+  </data>
+  <data name="HisRemuneration_CapNhatThatBai" xml:space="preserve">
+    <value>MOS497</value>
+  </data>
+  <data name="HisRemuneration_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS496</value>
+  </data>
+  <data name="HisSereServBill_CapNhatThatBai" xml:space="preserve">
+    <value>MOS501</value>
+  </data>
+  <data name="HisSereServBill_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS500</value>
+  </data>
+  <data name="HisMestInveUser_CapNhatThatBai" xml:space="preserve">
+    <value>MOS507</value>
+  </data>
+  <data name="HisMestInveUser_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS506</value>
+  </data>
+  <data name="HisMestInventory_CapNhatThatBai" xml:space="preserve">
+    <value>MOS508</value>
+  </data>
+  <data name="HisMestInventory_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS509</value>
+  </data>
+  <data name="HisBillGoods_CapNhatThatBai" xml:space="preserve">
+    <value>MOS511</value>
+  </data>
+  <data name="HisBillGoods_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS510</value>
+  </data>
+  <data name="HisMediOrg_CapNhatThatBai" xml:space="preserve">
+    <value>MOS513</value>
+  </data>
+  <data name="HisMediOrg_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS512</value>
+  </data>
+  <data name="HisTreatmentLogging_CapNhatThatBai" xml:space="preserve">
+    <value>MOS515</value>
+  </data>
+  <data name="HisTreatmentLogging_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS514</value>
+  </data>
+  <data name="HisExpMestUser_CapNhatThatBai" xml:space="preserve">
+    <value>MOS517</value>
+  </data>
+  <data name="HisExpMestUser_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS516</value>
+  </data>
+  <data name="HisPackage_CapNhatThatBai" xml:space="preserve">
+    <value>MOS519</value>
+  </data>
+  <data name="HisPackage_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS518</value>
+  </data>
+  <data name="HisServiceReqMety_CapNhatThatBai" xml:space="preserve">
+    <value>MOS521</value>
+  </data>
+  <data name="HisServiceReqMety_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS520</value>
+  </data>
+  <data name="HisExpMestMatyReq_CapNhatThatBai" xml:space="preserve">
+    <value>MOS523</value>
+  </data>
+  <data name="HisExpMestMatyReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS522</value>
+  </data>
+  <data name="HisExpMestMetyReq_CapNhatThatBai" xml:space="preserve">
+    <value>MOS525</value>
+  </data>
+  <data name="HisExpMestMetyReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS524</value>
+  </data>
+  <data name="HisSereServDeposit_CapNhatThatBai" xml:space="preserve">
+    <value>MOS527</value>
+  </data>
+  <data name="HisSereServDeposit_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS526</value>
+  </data>
+  <data name="HisSereServRepay_CapNhatThatBai" xml:space="preserve">
+    <value>MOS529</value>
+  </data>
+  <data name="HisSereServRepay_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS528</value>
+  </data>
+  <data name="HisSeseDepoRepay_CapNhatThatBai" xml:space="preserve">
+    <value>MOS531</value>
+  </data>
+  <data name="HisSeseDepoRepay_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS530</value>
+  </data>
+  <data name="HisExpMestBltyReq_CapNhatThatBai" xml:space="preserve">
+    <value>MOS532</value>
+  </data>
+  <data name="HisExpMestBltyReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS533</value>
+  </data>
+  <data name="HisMetyAvailable_CapNhatThatBai" xml:space="preserve">
+    <value>MOS534</value>
+  </data>
+  <data name="HisMatyAvailable_CapNhatThatBai" xml:space="preserve">
+    <value>MOS536</value>
+  </data>
+  <data name="HisMatyAvailable_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS535</value>
+  </data>
+  <data name="HisBltyAvailable_CapNhatThatBai" xml:space="preserve">
+    <value>MOS538</value>
+  </data>
+  <data name="HisBltyAvailable_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS537</value>
+  </data>
+  <data name="HisSereServMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS540</value>
+  </data>
+  <data name="HisSereServMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS539</value>
+  </data>
+  <data name="HisIcdService_CapNhatThatBai" xml:space="preserve">
+    <value>MOS542</value>
+  </data>
+  <data name="HisIcdService_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS541</value>
+  </data>
+  <data name="HisEquipmentSetMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS546</value>
+  </data>
+  <data name="HisEquipmentSetMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS545</value>
+  </data>
+  <data name="HisEquipmentSet_CapNhatThatBai" xml:space="preserve">
+    <value>MOS544</value>
+  </data>
+  <data name="HisEquipmentSet_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS543</value>
+  </data>
+  <data name="HisMedicineGroup_CapNhatThatBai" xml:space="preserve">
+    <value>MOS548</value>
+  </data>
+  <data name="HisMedicineGroup_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS547</value>
+  </data>
+  <data name="HisCoTreatment_CapNhatThatBai" xml:space="preserve">
+    <value>MOS550</value>
+  </data>
+  <data name="HisCoTreatment_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS549</value>
+  </data>
+  <data name="HisMedicineMaterial_CapNhatThatBai" xml:space="preserve">
+    <value>MOS552</value>
+  </data>
+  <data name="HisMedicineMaterial_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS551</value>
+  </data>
+  <data name="HisMetyMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS554</value>
+  </data>
+  <data name="HisMetyMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS553</value>
+  </data>
+  <data name="HisMedicineMedicine_CapNhatThatBai" xml:space="preserve">
+    <value>MOS556</value>
+  </data>
+  <data name="HisMedicineMedicine_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS555</value>
+  </data>
+  <data name="HisMetyMety_CapNhatThatBai" xml:space="preserve">
+    <value>MOS558</value>
+  </data>
+  <data name="HisMetyMety_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS557</value>
+  </data>
+  <data name="HisMedicineTypeRoom_CapNhatThatBai" xml:space="preserve">
+    <value>MOS560</value>
+  </data>
+  <data name="HisMedicineTypeRoom_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS559</value>
+  </data>
+  <data name="HisExroRoom_CapNhatThatBai" xml:space="preserve">
+    <value>MOS562</value>
+  </data>
+  <data name="HisExroRoom_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS561</value>
+  </data>
+  <data name="HisRoomTime_CapNhatThatBai" xml:space="preserve">
+    <value>MOS564</value>
+  </data>
+  <data name="HisRoomTime_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS563</value>
+  </data>
+  <data name="HisBranchTime_CapNhatThatBai" xml:space="preserve">
+    <value>MOS566</value>
+  </data>
+  <data name="HisBranchTime_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS565</value>
+  </data>
+  <data name="HisDispense_CapNhatThatBai" xml:space="preserve">
+    <value>MOS568</value>
+  </data>
+  <data name="HisDispense_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS567</value>
+  </data>
+  <data name="HisAppointmentServ_CapNhatThatBai" xml:space="preserve">
+    <value>MOS570</value>
+  </data>
+  <data name="HisAppointmentServ_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS569</value>
+  </data>
+  <data name="HisSpeciality_CapNhatThatBai" xml:space="preserve">
+    <value>MOS572</value>
+  </data>
+  <data name="HisSpeciality_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS571</value>
+  </data>
+  <data name="HisAdrMedicineType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS576</value>
+  </data>
+  <data name="HisAdrMedicineType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS575</value>
+  </data>
+  <data name="HisAdr_CapNhatThatBai" xml:space="preserve">
+    <value>MOS574</value>
+  </data>
+  <data name="HisAdr_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS573</value>
+  </data>
+  <data name="HisUnlimitReason_CapNhatThatBai" xml:space="preserve">
+    <value>MOS580</value>
+  </data>
+  <data name="HisUnlimitReason_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS579</value>
+  </data>
+  <data name="HisUnlimitType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS578</value>
+  </data>
+  <data name="HisUnlimitType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS577</value>
+  </data>
+  <data name="HisTreatmentUnlimit_CapNhatThatBai" xml:space="preserve">
+    <value>MOS582</value>
+  </data>
+  <data name="HisTreatmentUnlimit_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS581</value>
+  </data>
+  <data name="HisAllergenic_CapNhatThatBai" xml:space="preserve">
+    <value>MOS586</value>
+  </data>
+  <data name="HisAllergenic_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS585</value>
+  </data>
+  <data name="HisAllergyCard_CapNhatThatBai" xml:space="preserve">
+    <value>MOS584</value>
+  </data>
+  <data name="HisAllergyCard_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS583</value>
+  </data>
+  <data name="HisStation_CapNhatThatBai" xml:space="preserve">
+    <value>MOS588</value>
+  </data>
+  <data name="HisStation_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS587</value>
+  </data>
+  <data name="HisFinancePeriod_CapNhatThatBai" xml:space="preserve">
+    <value>MOS590</value>
+  </data>
+  <data name="HisFinancePeriod_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS589</value>
+  </data>
+  <data name="HisKskService_CapNhatThatBai" xml:space="preserve">
+    <value>MOS594</value>
+  </data>
+  <data name="HisKskService_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS593</value>
+  </data>
+  <data name="HisKsk_CapNhatThatBai" xml:space="preserve">
+    <value>MOS592</value>
+  </data>
+  <data name="HisKsk_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS591</value>
+  </data>
+  <data name="HisTreatmentBorrow_CapNhatThatBai" xml:space="preserve">
+    <value>MOS596</value>
+  </data>
+  <data name="HisTreatmentBorrow_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS595</value>
+  </data>
+  <data name="HisVitaminA_CapNhatThatBai" xml:space="preserve">
+    <value>MOS598</value>
+  </data>
+  <data name="HisVitaminA_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS597</value>
+  </data>
+  <data name="HisCareTempDetail_CapNhatThatBai" xml:space="preserve">
+    <value>MOS602</value>
+  </data>
+  <data name="HisCareTempDetail_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS601</value>
+  </data>
+  <data name="HisCareTemp_CapNhatThatBai" xml:space="preserve">
+    <value>MOS600</value>
+  </data>
+  <data name="HisCareTemp_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS599</value>
+  </data>
+  <data name="HisTrackingTemp_CapNhatThatBai" xml:space="preserve">
+    <value>MOS604</value>
+  </data>
+  <data name="HisTrackingTemp_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS603</value>
+  </data>
+  <data name="HisVaccExamResult_CapNhatThatBai" xml:space="preserve">
+    <value>MOS606</value>
+  </data>
+  <data name="HisVaccExamResult_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS605</value>
+  </data>
+  <data name="HisVaccinationExam_CapNhatThatBai" xml:space="preserve">
+    <value>MOS610</value>
+  </data>
+  <data name="HisVaccinationExam_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS609</value>
+  </data>
+  <data name="HisVaccinationMety_CapNhatThatBai" xml:space="preserve">
+    <value>MOS612</value>
+  </data>
+  <data name="HisVaccinationMety_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS611</value>
+  </data>
+  <data name="HisVaccinationReact_CapNhatThatBai" xml:space="preserve">
+    <value>MOS614</value>
+  </data>
+  <data name="HisVaccinationReact_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS613</value>
+  </data>
+  <data name="HisVaccinationResult_CapNhatThatBai" xml:space="preserve">
+    <value>MOS616</value>
+  </data>
+  <data name="HisVaccinationResult_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS615</value>
+  </data>
+  <data name="HisVaccination_CapNhatThatBai" xml:space="preserve">
+    <value>MOS608</value>
+  </data>
+  <data name="HisVaccination_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS607</value>
+  </data>
+  <data name="HisVaccReactType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS618</value>
+  </data>
+  <data name="HisVaccReactType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS617</value>
+  </data>
+  <data name="HisVaexVaer_CapNhatThatBai" xml:space="preserve">
+    <value>MOS620</value>
+  </data>
+  <data name="HisVaexVaer_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS619</value>
+  </data>
+  <data name="HisVareVart_CapNhatThatBai" xml:space="preserve">
+    <value>MOS622</value>
+  </data>
+  <data name="HisVareVart_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS621</value>
+  </data>
+  <data name="HisAntigenMety_CapNhatThatBai" xml:space="preserve">
+    <value>MOS624</value>
+  </data>
+  <data name="HisAntigenMety_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS623</value>
+  </data>
+  <data name="HisAntigen_CapNhatThatBai" xml:space="preserve">
+    <value>MOS626</value>
+  </data>
+  <data name="HisAntigen_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS625</value>
+  </data>
+  <data name="HisRoomMachine_CapNhatThatBai" xml:space="preserve">
+    <value>MOS628</value>
+  </data>
+  <data name="HisRoomMachine_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS627</value>
+  </data>
+  <data name="HisNutritionTime_CapNhatThatBai" xml:space="preserve">
+    <value>MOS630</value>
+  </data>
+  <data name="HisNutritionTime_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS629</value>
+  </data>
+  <data name="HisPtttCalendar_CapNhatThatBai" xml:space="preserve">
+    <value>MOS632</value>
+  </data>
+  <data name="HisPtttCalendar_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS631</value>
+  </data>
+  <data name="HisRationSum_CapNhatThatBai" xml:space="preserve">
+    <value>MOS634</value>
+  </data>
+  <data name="HisRationSum_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS633</value>
+  </data>
+  <data name="HisRationTime_CapNhatThatBai" xml:space="preserve">
+    <value>MOS636</value>
+  </data>
+  <data name="HisRationTime_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS635</value>
+  </data>
+  <data name="HisServiceRati_CapNhatThatBai" xml:space="preserve">
+    <value>MOS638</value>
+  </data>
+  <data name="HisServiceRati_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS637</value>
+  </data>
+  <data name="HisTransfusionSum_CapNhatThatBai" xml:space="preserve">
+    <value>MOS642</value>
+  </data>
+  <data name="HisTransfusionSum_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS641</value>
+  </data>
+  <data name="HisTransfusion_CapNhatThatBai" xml:space="preserve">
+    <value>MOS640</value>
+  </data>
+  <data name="HisTransfusion_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS639</value>
+  </data>
+  <data name="HisRefectory_CapNhatThatBai" xml:space="preserve">
+    <value>MOS644</value>
+  </data>
+  <data name="HisRefectory_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS643</value>
+  </data>
+  <data name="HisEkipPlanUser_CapNhatThatBai" xml:space="preserve">
+    <value>MOS646</value>
+  </data>
+  <data name="HisEkipPlanUser_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS645</value>
+  </data>
+  <data name="HisEkipPlan_CapNhatThatBai" xml:space="preserve">
+    <value>MOS648</value>
+  </data>
+  <data name="HisEkipPlan_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS647</value>
+  </data>
+  <data name="HisExeServiceModule_CapNhatThatBai" xml:space="preserve">
+    <value>MOS650</value>
+  </data>
+  <data name="HisExeServiceModule_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS649</value>
+  </data>
+  <data name="HisPtttGroupBest_CapNhatThatBai" xml:space="preserve">
+    <value>MOS652</value>
+  </data>
+  <data name="HisPtttGroupBest_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS651</value>
+  </data>
+  <data name="HisTranPatiTech_CapNhatThatBai" xml:space="preserve">
+    <value>MOS654</value>
+  </data>
+  <data name="HisTranPatiTech_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS653</value>
+  </data>
+  <data name="HisFormTypeConfig_CapNhatThatBai" xml:space="preserve">
+    <value>MOS656</value>
+  </data>
+  <data name="HisFormTypeConfig_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS655</value>
+  </data>
+  <data name="HisVaccHealthStt_CapNhatThatBai" xml:space="preserve">
+    <value>MOS658</value>
+  </data>
+  <data name="HisVaccHealthStt_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS657</value>
+  </data>
+  <data name="HisVaccinationVrpl_CapNhatThatBai" xml:space="preserve">
+    <value>MOS660</value>
+  </data>
+  <data name="HisVaccinationVrpl_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS659</value>
+  </data>
+  <data name="HisVaccinationVrty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS662</value>
+  </data>
+  <data name="HisVaccinationVrty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS661</value>
+  </data>
+  <data name="HisVaccReactPlace_CapNhatThatBai" xml:space="preserve">
+    <value>MOS664</value>
+  </data>
+  <data name="HisVaccReactPlace_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS663</value>
+  </data>
+  <data name="HisHeinServiceType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS665</value>
+  </data>
+  <data name="HisServiceHein_CapNhatThatBai" xml:space="preserve">
+    <value>MOS667</value>
+  </data>
+  <data name="HisServiceHein_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS666</value>
+  </data>
+  <data name="HisMachineServMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS668</value>
+  </data>
+  <data name="HisMachineServMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS669</value>
+  </data>
+  <data name="HisPrepareMety_CapNhatThatBai" xml:space="preserve">
+    <value>MOS673</value>
+  </data>
+  <data name="HisPrepareMety_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS672</value>
+  </data>
+  <data name="HisPrepare_CapNhatThatBai" xml:space="preserve">
+    <value>MOS671</value>
+  </data>
+  <data name="HisPrepare_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS670</value>
+  </data>
+  <data name="HisPrepareMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS675</value>
+  </data>
+  <data name="HisPrepareMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS674</value>
+  </data>
+  <data name="HisFormTypeCfgData_CapNhatThatBai" xml:space="preserve">
+    <value>MOS677</value>
+  </data>
+  <data name="HisFormTypeCfgData_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS676</value>
+  </data>
+  <data name="HisFormTypeCfg_CapNhatThatBai" xml:space="preserve">
+    <value>MOS679</value>
+  </data>
+  <data name="HisFormTypeCfg_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS678</value>
+  </data>
+  <data name="HisImpMestPay_CapNhatThatBai" xml:space="preserve">
+    <value>MOS681</value>
+  </data>
+  <data name="HisImpMestPay_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS680</value>
+  </data>
+  <data name="HisHealthExamRank_CapNhatThatBai" xml:space="preserve">
+    <value>MOS683</value>
+  </data>
+  <data name="HisHealthExamRank_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS682</value>
+  </data>
+  <data name="HisPatientTypeRoom_CapNhatThatBai" xml:space="preserve">
+    <value>MOS685</value>
+  </data>
+  <data name="HisPatientTypeRoom_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS684</value>
+  </data>
+  <data name="HisEmotionlessResult_CapNhatThatBai" xml:space="preserve">
+    <value>MOS687</value>
+  </data>
+  <data name="HisEmotionlessResult_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS686</value>
+  </data>
+  <data name="HisNextTreaIntr_CapNhatThatBai" xml:space="preserve">
+    <value>MOS689</value>
+  </data>
+  <data name="HisNextTreaIntr_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS688</value>
+  </data>
+  <data name="HisPtttHighTech_CapNhatThatBai" xml:space="preserve">
+    <value>MOS691</value>
+  </data>
+  <data name="HisPtttHighTech_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS690</value>
+  </data>
+  <data name="HisPtttPriority_CapNhatThatBai" xml:space="preserve">
+    <value>MOS693</value>
+  </data>
+  <data name="HisPtttPriority_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS692</value>
+  </data>
+  <data name="HisUserAccountBook_CapNhatThatBai" xml:space="preserve">
+    <value>MOS695</value>
+  </data>
+  <data name="HisUserAccountBook_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS694</value>
+  </data>
+  <data name="HisCaroAccountBook_CapNhatThatBai" xml:space="preserve">
+    <value>MOS697</value>
+  </data>
+  <data name="HisCaroAccountBook_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS696</value>
+  </data>
+  <data name="HisMaterialMaterial_CapNhatThatBai" xml:space="preserve">
+    <value>MOS699</value>
+  </data>
+  <data name="HisMaterialMaterial_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS698</value>
+  </data>
+  <data name="HisMatyMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS701</value>
+  </data>
+  <data name="HisMatyMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS700</value>
+  </data>
+  <data name="HisDispenseType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS703</value>
+  </data>
+  <data name="HisDispenseType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS702</value>
+  </data>
+  <data name="HisDocHoldType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS705</value>
+  </data>
+  <data name="HisDocHoldType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS704</value>
+  </data>
+  <data name="HisHoldReturn_CapNhatThatBai" xml:space="preserve">
+    <value>MOS707</value>
+  </data>
+  <data name="HisHoldReturn_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS706</value>
+  </data>
+  <data name="HisMestMetyUnit_CapNhatThatBai" xml:space="preserve">
+    <value>MOS709</value>
+  </data>
+  <data name="HisMestMetyUnit_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS708</value>
+  </data>
+  <data name="HisDebateTemp_CapNhatThatBai" xml:space="preserve">
+    <value>MOS711</value>
+  </data>
+  <data name="HisDebateTemp_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS710</value>
+  </data>
+  <data name="HisWarningFeeCfg_CapNhatThatBai" xml:space="preserve">
+    <value>MOS713</value>
+  </data>
+  <data name="HisWarningFeeCfg_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS712</value>
+  </data>
+  <data name="HisSereServRation_CapNhatThatBai" xml:space="preserve">
+    <value>MOS715</value>
+  </data>
+  <data name="HisSereServRation_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS714</value>
+  </data>
+  <data name="HisBcsMatyReqDt_CapNhatThatBai" xml:space="preserve">
+    <value>MOS717</value>
+  </data>
+  <data name="HisBcsMatyReqDt_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS716</value>
+  </data>
+  <data name="HisBcsMatyReqReq_CapNhatThatBai" xml:space="preserve">
+    <value>MOS719</value>
+  </data>
+  <data name="HisBcsMatyReqReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS718</value>
+  </data>
+  <data name="HisBcsMetyReqDt_CapNhatThatBai" xml:space="preserve">
+    <value>MOS721</value>
+  </data>
+  <data name="HisBcsMetyReqDt_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS720</value>
+  </data>
+  <data name="HisBcsMetyReqReq_CapNhatThatBai" xml:space="preserve">
+    <value>MOS723</value>
+  </data>
+  <data name="HisBcsMetyReqReq_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS722</value>
+  </data>
+  <data name="HisMediStockPeriod_CapNhatThatBai" xml:space="preserve">
+    <value>MOS724</value>
+  </data>
+  <data name="HisSpeedUnit_CapNhatThatBai" xml:space="preserve">
+    <value>MOS726</value>
+  </data>
+  <data name="HisSpeedUnit_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS725</value>
+  </data>
+  <data name="HisMediStockMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS728</value>
+  </data>
+  <data name="HisMediStockMety_CapNhatThatBai" xml:space="preserve">
+    <value>MOS727</value>
+  </data>
+  <data name="HisMetyProduct_CapNhatThatBai" xml:space="preserve">
+    <value>MOS730</value>
+  </data>
+  <data name="HisMetyProduct_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS729</value>
+  </data>
+  <data name="HisRationSumStt_CapNhatThatBai" xml:space="preserve">
+    <value>MOS732</value>
+  </data>
+  <data name="HisRationSumStt_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS731</value>
+  </data>
+  <data name="HisMediRecordBorrow_CapNhatThatBai" xml:space="preserve">
+    <value>MOS734</value>
+  </data>
+  <data name="HisMediRecordBorrow_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS733</value>
+  </data>
+  <data name="HisTestSampleType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS736</value>
+  </data>
+  <data name="HisTestSampleType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS735</value>
+  </data>
+  <data name="HisMestMatyDepa_CapNhatThatBai" xml:space="preserve">
+    <value>MOS738</value>
+  </data>
+  <data name="HisMestMatyDepa_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS737</value>
+  </data>
+  <data name="HisDebateType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS740</value>
+  </data>
+  <data name="HisDebateType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS739</value>
+  </data>
+  <data name="HisDocumentBook_CapNhatThatBai" xml:space="preserve">
+    <value>MOS742</value>
+  </data>
+  <data name="HisDocumentBook_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS741</value>
+  </data>
+  <data name="HisEinvoiceType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS744</value>
+  </data>
+  <data name="HisEinvoiceType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS743</value>
+  </data>
+  <data name="HisBank_CapNhatThatBai" xml:space="preserve">
+    <value>MOS746</value>
+  </data>
+  <data name="HisBank_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS745</value>
+  </data>
+  <data name="HisSubclinicalRsAdd_CapNhatThatBai" xml:space="preserve">
+    <value>MOS748</value>
+  </data>
+  <data name="HisSubclinicalRsAdd_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS747</value>
+  </data>
+  <data name="HisTestType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS750</value>
+  </data>
+  <data name="HisTestType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS749</value>
+  </data>
+  <data name="HisBltyService_CapNhatThatBai" xml:space="preserve">
+    <value>MOS752</value>
+  </data>
+  <data name="HisBltyService_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS751</value>
+  </data>
+  <data name="HisCashierAddConfig_CapNhatThatBai" xml:space="preserve">
+    <value>MOS754</value>
+  </data>
+  <data name="HisCashierAddConfig_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS753</value>
+  </data>
+  <data name="HisServiceRereTime_CapNhatThatBai" xml:space="preserve">
+    <value>MOS756</value>
+  </data>
+  <data name="HisServiceRereTime_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS755</value>
+  </data>
+  <data name="HisServiceNumOrder_CapNhatThatBai" xml:space="preserve">
+    <value>MOS758</value>
+  </data>
+  <data name="HisServiceNumOrder_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS757</value>
+  </data>
+  <data name="HisExpBltyService_CapNhatThatBai" xml:space="preserve">
+    <value>MOS760</value>
+  </data>
+  <data name="HisExpBltyService_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS759</value>
+  </data>
+  <data name="HisEmrCoverConfig_CapNhatThatBai" xml:space="preserve">
+    <value>MOS762</value>
+  </data>
+  <data name="HisEmrCoverConfig_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS761</value>
+  </data>
+  <data name="HisEmrCoverType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS764</value>
+  </data>
+  <data name="HisEmrCoverType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS763</value>
+  </data>
+  <data name="HisEmrForm_CapNhatThatBai" xml:space="preserve">
+    <value>MOS766</value>
+  </data>
+  <data name="HisEmrForm_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS765</value>
+  </data>
+  <data name="HisMestPatyTrty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS768</value>
+  </data>
+  <data name="HisMestPatyTrty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS767</value>
+  </data>
+  <data name="HisPermission_CapNhatThatBai" xml:space="preserve">
+    <value>MOS770</value>
+  </data>
+  <data name="HisPermission_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS769</value>
+  </data>
+  <data name="HisServiceCondition_CapNhatThatBai" xml:space="preserve">
+    <value>MOS772</value>
+  </data>
+  <data name="HisServiceCondition_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS771</value>
+  </data>
+  <data name="HisContraindication_CapNhatThatBai" xml:space="preserve">
+    <value>MOS774</value>
+  </data>
+  <data name="HisContraindication_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS773</value>
+  </data>
+  <data name="HisExamSchedule_CapNhatThatBai" xml:space="preserve">
+    <value>MOS776</value>
+  </data>
+  <data name="HisExamSchedule_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS775</value>
+  </data>
+  <data name="HisMedicalContract_CapNhatThatBai" xml:space="preserve">
+    <value>MOS778</value>
+  </data>
+  <data name="HisMedicalContract_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS777</value>
+  </data>
+  <data name="HisMediContractMaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS780</value>
+  </data>
+  <data name="HisMediContractMaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS779</value>
+  </data>
+  <data name="HisMediContractMety_CapNhatThatBai" xml:space="preserve">
+    <value>MOS782</value>
+  </data>
+  <data name="HisMediContractMety_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS781</value>
+  </data>
+  <data name="HisSereServPtttTemp_CapNhatThatBai" xml:space="preserve">
+    <value>MOS784</value>
+  </data>
+  <data name="HisSereServPtttTemp_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS783</value>
+  </data>
+  <data name="HisKskDriver_CapNhatThatBai" xml:space="preserve">
+    <value>MOS786</value>
+  </data>
+  <data name="HisKskDriver_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS785</value>
+  </data>
+  <data name="HisFileType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS788</value>
+  </data>
+  <data name="HisFileType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS787</value>
+  </data>
+  <data name="HisTreatmentFile_CapNhatThatBai" xml:space="preserve">
+    <value>MOS790</value>
+  </data>
+  <data name="HisTreatmentFile_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS789</value>
+  </data>
+  <data name="HisDepositReason_CapNhatThatBai" xml:space="preserve">
+    <value>MOS798</value>
+  </data>
+  <data name="HisDepositReason_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS797</value>
+  </data>
+  <data name="HisDrugIntervention_CapNhatThatBai" xml:space="preserve">
+    <value>MOS802</value>
+  </data>
+  <data name="HisDrugIntervention_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS801</value>
+  </data>
+  <data name="HisNumOrderBlock_CapNhatThatBai" xml:space="preserve">
+    <value>MOS792</value>
+  </data>
+  <data name="HisNumOrderBlock_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS791</value>
+  </data>
+  <data name="HisNumOrderIssue_CapNhatThatBai" xml:space="preserve">
+    <value>MOS793</value>
+  </data>
+  <data name="HisNumOrderIssue_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS794</value>
+  </data>
+  <data name="HisPosition_CapNhatThatBai" xml:space="preserve">
+    <value>MOS800</value>
+  </data>
+  <data name="HisPosition_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS799</value>
+  </data>
+  <data name="HisSesePtttMethod_CapNhatThatBai" xml:space="preserve">
+    <value>MOS796</value>
+  </data>
+  <data name="HisSesePtttMethod_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS795</value>
+  </data>
+  <data name="HisKskGeneral_CapNhatThatBai" xml:space="preserve">
+    <value>MOS804</value>
+  </data>
+  <data name="HisKskGeneral_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS803</value>
+  </data>
+  <data name="HisKskOccupational_CapNhatThatBai" xml:space="preserve">
+    <value>MOS806</value>
+  </data>
+  <data name="HisKskOccupational_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS805</value>
+  </data>
+  <data name="HisDiseaseType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS808</value>
+  </data>
+  <data name="HisDiseaseType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS807</value>
+  </data>
+  <data name="HisKskDriverCar_CapNhatThatBai" xml:space="preserve">
+    <value>MOS810</value>
+  </data>
+  <data name="HisKskDriverCar_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS809</value>
+  </data>
+  <data name="HisKskOverEighteen_CapNhatThatBai" xml:space="preserve">
+    <value>MOS812</value>
+  </data>
+  <data name="HisKskOverEighteen_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS811</value>
+  </data>
+  <data name="HisKskPeriodDriver_CapNhatThatBai" xml:space="preserve">
+    <value>MOS814</value>
+  </data>
+  <data name="HisKskPeriodDriver_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS813</value>
+  </data>
+  <data name="HisKskUnderEighteen_CapNhatThatBai" xml:space="preserve">
+    <value>MOS816</value>
+  </data>
+  <data name="HisKskUnderEighteen_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS815</value>
+  </data>
+  <data name="HisKskUneiVaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS818</value>
+  </data>
+  <data name="HisKskUneiVaty_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS817</value>
+  </data>
+  <data name="HisPeriodDriverDity_CapNhatThatBai" xml:space="preserve">
+    <value>MOS820</value>
+  </data>
+  <data name="HisPeriodDriverDity_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS819</value>
+  </data>
+  <data name="HisBloodGiver_CapNhatThatBai" xml:space="preserve">
+    <value>MOS822</value>
+  </data>
+  <data name="HisBloodGiver_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS821</value>
+  </data>
+  <data name="HisBltyVolume_CapNhatThatBai" xml:space="preserve">
+    <value>MOS824</value>
+  </data>
+  <data name="HisBltyVolume_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS823</value>
+  </data>
+  <data name="HisCarerCardBorrow_CapNhatThatBai" xml:space="preserve">
+    <value>MOS826</value>
+  </data>
+  <data name="HisCarerCardBorrow_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS825</value>
+  </data>
+  <data name="HisInteractiveGrade_CapNhatThatBai" xml:space="preserve">
+    <value>MOS828</value>
+  </data>
+  <data name="HisInteractiveGrade_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS827</value>
+  </data>
+  <data name="HisTranPatiTemp_CapNhatThatBai" xml:space="preserve">
+    <value>MOS830</value>
+  </data>
+  <data name="HisTranPatiTemp_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS829</value>
+  </data>
+  <data name="HisKskAccess_CapNhatThatBai" xml:space="preserve">
+    <value>MOS832</value>
+  </data>
+  <data name="HisKskAccess_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS831</value>
+  </data>
+  <data name="HisMedicineInteractive_CapNhatThatBai" xml:space="preserve">
+    <value>MOS834</value>
+  </data>
+  <data name="HisMedicineInteractive_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS833</value>
+  </data>
+  <data name="HisExmeReasonCfg_CapNhatThatBai" xml:space="preserve">
+    <value>MOS836</value>
+  </data>
+  <data name="HisExmeReasonCfg_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS835</value>
+  </data>
+  <data name="HisObeyContraindi_CapNhatThatBai" xml:space="preserve">
+    <value>MOS838</value>
+  </data>
+  <data name="HisObeyContraindi_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS837</value>
+  </data>
+  <data name="HisDebateReason_CapNhatThatBai" xml:space="preserve">
+    <value>MOS840</value>
+  </data>
+  <data name="HisDebateReason_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS839</value>
+  </data>
+  <data name="HisConfigGroup_CapNhatThatBai" xml:space="preserve">
+    <value>MOS842</value>
+  </data>
+  <data name="HisConfigGroup_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS841</value>
+  </data>
+  <data name="HisSevereIllnessInfo_CapNhatThatBai" xml:space="preserve">
+    <value>MOS844</value>
+  </data>
+  <data name="HisSevereIllnessInfo_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS843</value>
+  </data>
+  <data name="HisEventsCausesDeath_CapNhatThatBai" xml:space="preserve">
+    <value>MOS846</value>
+  </data>
+  <data name="HisEventsCausesDeath_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS845</value>
+  </data>
+  <data name="DuLieuKhongHopLe" xml:space="preserve">
+    <value>MOS999</value>
+  </data>
+  <data name="HisServicePaty_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1000</value>
+  </data>
+  <data name="HisAlert_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1002</value>
+  </data>
+  <data name="HisAlert_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1001</value>
+  </data>
+  <data name="HisRejectAlert_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1004</value>
+  </data>
+  <data name="HisRejectAlert_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1003</value>
+  </data>
+  <data name="HisPetroleum_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1006</value>
+  </data>
+  <data name="HisPetroleum_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1005</value>
+  </data>
+  <data name="HisProcessingMethod_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1008</value>
+  </data>
+  <data name="HisProcessingMethod_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1007</value>
+  </data>
+  <data name="HisHospitalizeReason_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1010</value>
+  </data>
+  <data name="HisHospitalizeReason_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1009</value>
+  </data>
+  <data name="HisIcd_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1012</value>
+  </data>
+  <data name="HisIcd_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1011</value>
+  </data>
+  <data name="HisHivTreatment_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1014</value>
+  </data>
+  <data name="HisHivTreatment_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1013</value>
+  </data>
+  <data name="HisRegimenHiv_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1016</value>
+  </data>
+  <data name="HisRegimenHiv_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1015</value>
+  </data>
+  <data name="HisAssessmentMember_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1020</value>
+  </data>
+  <data name="HisAssessmentMember_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1019</value>
+  </data>
+  <data name="HisAssessmentObject_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1022</value>
+  </data>
+  <data name="HisAssessmentObject_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1021</value>
+  </data>
+  <data name="HisEmployeeSchedule_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1018</value>
+  </data>
+  <data name="HisEmployeeSchedule_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1017</value>
+  </data>
+  <data name="HisMedicalAssessment_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1024</value>
+  </data>
+  <data name="HisMedicalAssessment_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1023</value>
+  </data>
+  <data name="HisWelfareType_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1020</value>
+  </data>
+  <data name="HisWelfareType_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1019</value>
+  </data>
+  <data name="HisDosageForm_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1020</value>
+  </data>
+  <data name="HisDosageForm_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1019</value>
+  </data>
+  <data name="HisRationSchedule_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1022</value>
+  </data>
+  <data name="HisRationSchedule_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1021</value>
+  </data>
+  <data name="HisStentConclude_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1024</value>
+  </data>
+  <data name="HisStentConclude_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1023</value>
+  </data>
+  <data name="HisMedicineService_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1026</value>
+  </data>
+  <data name="HisMedicineService_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1025</value>
+  </data>
+  <data name="HisSourceMedicine_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1028</value>
+  </data>
+  <data name="HisSourceMedicine_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1027</value>
+  </data>
+  <data name="HisLocationStore_CapNhatThatBai" xml:space="preserve">
+    <value>MOS1030</value>
+  </data>
+  <data name="HisLocationStore_ThemMoiThatBai" xml:space="preserve">
+    <value>MOS1029</value>
+  </data>
+</root>

@@ -1,0 +1,6 @@
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DynamicDTO\bin\Debug\MOS.DynamicDTO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DynamicDTO\bin\Debug\MOS.DynamicDTO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DynamicDTO\bin\Debug\MOS.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DynamicDTO\obj\Debug\MOS.DynamicDTO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DynamicDTO\obj\Debug\MOS.DynamicDTO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DynamicDTO\obj\Debug\MOS.DynamicDTO.csprojResolveAssemblyReference.cache

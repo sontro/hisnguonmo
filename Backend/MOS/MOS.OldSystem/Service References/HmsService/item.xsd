@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GetCopyright">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCopyrightResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetCopyrightResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_AddNewParaclinical">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DateMake" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PatID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MedID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RoomID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="GroupID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ParaclinicalID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DoctorID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isEmergency" type="xs:boolean" />
+        <xs:element minOccurs="0" name="isPayCard" type="xs:boolean" />
+        <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isService" type="xs:boolean" />
+        <xs:element minOccurs="0" name="login_name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CodeParaclinical_NewHis" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_AddNewParaclinicalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="srv_hms_AddNewParaclinicalResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_SetUpdPatient">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PatientID" type="xs:long" />
+        <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="YBrith" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="Sex" type="xs:int" />
+        <xs:element minOccurs="0" name="HomeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PrecintID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Relatedinfo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Work" type="xs:int" />
+        <xs:element minOccurs="0" name="Ethnic" type="xs:int" />
+        <xs:element minOccurs="0" name="Military" type="xs:int" />
+        <xs:element minOccurs="0" name="Company" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tax" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_SetUpdPatientResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="srv_hms_SetUpdPatientResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="insReceivePatient_NonInsurance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PatID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MedID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="YBrith" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Sex" type="xs:int" />
+        <xs:element minOccurs="0" name="HomeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProvinceID" type="xs:int" />
+        <xs:element minOccurs="0" name="Districtid" type="xs:int" />
+        <xs:element minOccurs="0" name="PrecintID" type="xs:int" />
+        <xs:element minOccurs="0" name="Relatedinfo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Diag" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Doctor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ExamRoom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ExamStyle" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Emergency" type="xs:int" />
+        <xs:element minOccurs="0" name="WorkID" type="xs:int" />
+        <xs:element minOccurs="0" name="Chanel" type="xs:int" />
+        <xs:element minOccurs="0" name="Hospital" type="xs:int" />
+        <xs:element minOccurs="0" name="ICD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DoubleExam" type="xs:int" />
+        <xs:element minOccurs="0" name="ListExam" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Military" type="xs:int" />
+        <xs:element minOccurs="0" name="login_name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EthnicID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="insReceivePatient_NonInsuranceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="insReceivePatient_NonInsuranceResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_insReceivePatient_Insurance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PatID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MedID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="YBrith" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Sex" type="xs:int" />
+        <xs:element minOccurs="0" name="CardCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="InsFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="InsTo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Hospital" type="xs:int" />
+        <xs:element minOccurs="0" name="CardAdd" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HomeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ProvinceID" type="xs:int" />
+        <xs:element minOccurs="0" name="Districtid" type="xs:int" />
+        <xs:element minOccurs="0" name="PrecintID" type="xs:int" />
+        <xs:element minOccurs="0" name="Relatedinfo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Diag" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Doctor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ExamRoom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ExamStyle" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Emergency" type="xs:int" />
+        <xs:element minOccurs="0" name="WorkID" type="xs:int" />
+        <xs:element minOccurs="0" name="Chanel" type="xs:int" />
+        <xs:element minOccurs="0" name="Hospital1" type="xs:int" />
+        <xs:element minOccurs="0" name="ICD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DoubleExam" type="xs:int" />
+        <xs:element minOccurs="0" name="ListExam" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Military" type="xs:int" />
+        <xs:element minOccurs="0" name="login_name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="EthnicID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_insReceivePatient_InsuranceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="srv_hms_insReceivePatient_InsuranceResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_GetPrecinctID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PrecintAdd" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_GetPrecinctIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="srv_hms_GetPrecinctIDResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_AddNewReception">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PatID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RoomExamID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ServiceID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isLine" type="xs:int" />
+        <xs:element minOccurs="0" name="isDoubleExam" type="xs:int" />
+        <xs:element minOccurs="0" name="CardCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="InsFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="InsTo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Hospital" type="xs:int" />
+        <xs:element minOccurs="0" name="ICD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ListExam" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Login_name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MedID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_AddNewReceptionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="srv_hms_AddNewReceptionResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_get_ordernumber">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_get_ordernumberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="srv_hms_get_ordernumberResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_ExamResult">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ReceptionID" type="xs:long" />
+        <xs:element minOccurs="0" name="MedID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ExamDate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SuggestID" type="xs:int" />
+        <xs:element minOccurs="0" name="ConclusionID" type="xs:int" />
+        <xs:element minOccurs="0" name="TreatmentdivisionID" type="xs:int" />
+        <xs:element minOccurs="0" name="Day" type="xs:int" />
+        <xs:element minOccurs="0" name="RoomID" type="xs:int" />
+        <xs:element minOccurs="0" name="ICD" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HospitalID" type="xs:int" />
+        <xs:element minOccurs="0" name="login_name" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="srv_hms_ExamResultResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="srv_hms_ExamResultResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

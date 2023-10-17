@@ -1,0 +1,3 @@
+Để cài postsharp:
+- B1: Chạy NuGet.Tools.vsix
+- B2: Tắt visual studio, rồi chạy PostSharp-4.2.22.exe

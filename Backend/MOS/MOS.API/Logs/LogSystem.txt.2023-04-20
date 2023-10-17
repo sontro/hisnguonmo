@@ -1,0 +1,2022 @@
+﻿INFO 2023-04-20 00:00:00,043 [DefaultQuartzScheduler_Worker-10] - AutoSetIsNotTakenJob bat dau
+
+INFO 2023-04-20 00:00:00,501 [DefaultQuartzScheduler_Worker-10] - Query is taken:SELECT * FROM HIS_EXP_MEST EM WHERE 1=1 AND EM.EXP_MEST_TYPE_ID IN (1)  AND EM.EXP_MEST_STT_ID = 2 AND (EM.TDL_INTRUCTION_DATE < 20230419000000 OR (EM.EXP_MEST_TYPE_ID = 15 AND EM.CREATE_TIME < 20230419000000)) AND EM.AGGR_EXP_MEST_ID IS NULL AND (EM.IS_NOT_TAKEN IS NULL OR EM.IS_NOT_TAKEN <> 1) AND (EM.IS_NOT_TAKEN_FAIL IS NULL OR EM.IS_NOT_TAKEN_FAIL <> 1) AND EXISTS (SELECT 1 FROM HIS_TREATMENT WHERE EM.TDL_TREATMENT_ID = ID AND IS_ACTIVE = 1 AND (IS_PAUSE IS NULL OR IS_PAUSE <> 1)) AND ((EM.EXP_MEST_TYPE_ID = 15) OR (EXISTS (SELECT 1 FROM HIS_EXP_MEST_MEDICINE WHERE EM.ID = EXP_MEST_ID) AND NOT EXISTS (SELECT 1 FROM HIS_EXP_MEST_MEDICINE WHERE EM.ID = EXP_MEST_ID AND IS_EXPORT = 1)) OR (EXISTS (SELECT 1 FROM HIS_EXP_MEST_MATERIAL WHERE EM.ID = EXP_MEST_ID) AND NOT EXISTS (SELECT 1 FROM HIS_EXP_MEST_MATERIAL WHERE EM.ID = EXP_MEST_ID AND IS_EXPORT = 1)))
+
+INFO 2023-04-20 00:00:00,624 [DefaultQuartzScheduler_Worker-10] - AutoSetIsNotTakenJob ket thuc
+
+INFO 2023-04-20 00:02:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 00:02:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 00:02:40,821 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 00:02:40,821 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 00:02:40,845 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 00:02:41,306 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 00:07:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 00:07:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 00:12:40,806 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 00:12:40,806 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 00:16:10,247 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-20 00:16:10,251 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-20 00:17:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 00:17:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 00:22:40,812 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 00:22:40,812 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 00:22:40,812 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 00:22:40,812 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 00:22:40,834 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 00:22:41,458 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 00:27:40,810 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 00:27:40,810 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 00:32:40,816 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 00:32:40,816 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 00:36:00,253 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-20 00:36:00,257 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-20 00:37:40,812 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 00:37:40,812 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 00:42:40,813 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 00:42:40,813 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 00:42:40,813 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 00:42:40,813 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 00:42:40,837 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 00:42:41,285 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 00:47:40,811 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 00:47:40,811 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 00:52:40,817 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 00:52:40,817 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 00:55:50,250 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-20 00:55:50,255 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-20 00:57:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 00:57:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:02:40,816 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 01:02:40,816 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 01:02:40,816 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 01:02:40,816 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:02:41,006 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 01:02:41,393 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 01:07:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 01:07:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:12:40,806 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 01:12:40,806 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:15:40,249 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-20 01:15:40,253 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-20 01:17:40,817 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 01:17:40,817 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:22:40,818 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 01:22:40,818 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:22:40,818 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 01:22:40,818 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 01:22:40,838 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 01:22:41,320 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 01:27:40,819 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 01:27:40,819 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:32:40,814 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 01:32:40,814 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:35:30,250 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-20 01:35:30,254 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-20 01:37:40,812 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 01:37:40,812 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:42:40,819 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 01:42:40,819 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:42:40,819 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 01:42:40,819 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 01:42:40,840 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 01:42:41,247 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 01:47:40,809 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 01:47:40,809 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:52:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 01:52:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 01:55:20,247 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-20 01:55:20,252 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-20 01:57:40,805 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 01:57:40,805 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:02:40,814 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 02:02:40,814 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:02:40,814 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 02:02:40,814 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 02:02:40,837 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 02:02:41,286 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 02:07:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 02:07:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:12:40,814 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 02:12:40,814 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:15:10,248 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-20 02:15:10,252 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-20 02:17:40,809 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 02:17:40,809 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:22:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 02:22:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:22:40,821 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 02:22:40,821 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 02:22:40,849 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 02:22:41,296 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 02:27:40,807 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 02:27:40,807 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:32:40,811 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 02:32:40,811 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:35:00,249 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-20 02:35:00,254 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-20 02:37:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 02:37:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:42:40,808 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 02:42:40,808 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:42:40,808 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 02:42:40,808 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 02:42:40,831 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 02:42:41,221 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 02:47:40,811 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 02:47:40,811 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:52:40,806 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 02:52:40,806 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 02:54:50,261 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-20 02:54:50,266 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-20 02:57:40,809 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 02:57:40,809 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:02:40,810 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 03:02:40,810 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:02:40,810 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 03:02:40,810 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 03:02:40,831 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 03:02:41,245 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 03:07:40,816 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 03:07:40,816 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:12:40,807 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 03:12:40,807 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:14:40,248 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-20 03:14:40,253 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-20 03:17:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 03:17:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:22:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 03:22:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:22:40,820 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 03:22:40,820 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 03:22:40,843 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 03:22:41,256 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 03:27:40,814 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 03:27:40,814 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:32:40,817 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 03:32:40,817 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:34:30,257 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-20 03:34:30,261 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-20 03:37:40,813 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 03:37:40,813 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:42:40,809 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 03:42:40,809 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 03:42:40,809 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 03:42:40,809 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:42:40,829 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 03:42:41,228 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 03:47:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 03:47:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:52:40,815 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 03:52:40,815 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 03:54:20,254 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-20 03:54:20,259 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-20 03:57:40,811 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 03:57:40,811 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:02:40,807 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 04:02:40,807 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:02:40,808 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 04:02:40,808 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 04:02:40,830 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 04:02:41,260 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 04:07:40,805 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 04:07:40,805 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:12:40,814 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 04:12:40,814 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:14:10,258 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-20 04:14:10,262 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-20 04:17:40,817 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 04:17:40,817 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:22:40,808 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 04:22:40,808 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:22:40,808 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 04:22:40,808 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 04:22:40,827 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 04:22:41,215 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 04:27:40,817 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 04:27:40,817 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:32:40,812 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 04:32:40,812 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:34:00,248 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-20 04:34:00,253 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-20 04:37:40,816 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 04:37:40,816 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:42:40,816 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 04:42:40,816 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 04:42:40,816 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 04:42:40,816 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:42:40,840 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 04:42:41,261 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 04:47:40,817 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 04:47:40,817 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:52:40,814 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 04:52:40,814 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 04:53:50,248 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-20 04:53:50,252 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-20 04:57:40,809 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 04:57:40,809 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:02:40,811 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 05:02:40,811 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 05:02:40,811 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 05:02:40,811 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:02:40,833 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 05:02:41,242 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 05:07:40,806 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 05:07:40,806 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:12:40,812 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 05:12:40,812 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:13:40,260 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-20 05:13:40,265 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-20 05:17:40,807 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 05:17:40,807 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:22:40,810 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 05:22:40,810 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:22:40,810 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 05:22:40,810 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 05:22:40,837 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 05:22:41,279 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 05:27:40,806 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 05:27:40,806 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:32:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 05:32:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:33:30,261 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-20 05:33:30,265 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-20 05:37:40,811 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 05:37:40,811 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:42:40,811 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 05:42:40,811 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 05:42:40,811 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 05:42:40,811 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:42:40,835 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 05:42:41,286 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 05:47:40,817 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 05:47:40,817 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:52:40,820 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 05:52:40,820 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 05:53:20,250 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-20 05:53:20,255 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-20 05:57:40,818 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 05:57:40,818 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:02:40,816 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 06:02:40,816 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 06:02:40,816 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 06:02:40,816 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:02:40,983 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 06:02:41,403 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 06:07:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 06:07:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:12:40,805 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 06:12:40,805 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:13:10,259 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-20 06:13:10,264 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-20 06:17:40,812 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 06:17:40,812 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:22:40,808 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 06:22:40,808 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:22:40,808 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 06:22:40,808 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 06:22:40,831 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 06:22:41,255 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 06:27:40,817 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 06:27:40,817 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:32:40,817 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 06:32:40,817 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:33:00,251 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-20 06:33:00,256 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-20 06:37:40,813 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 06:37:40,813 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:42:40,814 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 06:42:40,814 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:42:40,814 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 06:42:40,814 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 06:42:40,833 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 06:42:41,272 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 06:47:40,815 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 06:47:40,815 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:52:40,812 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 06:52:40,812 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 06:52:50,253 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-20 06:52:50,258 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-20 06:57:40,807 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 06:57:40,807 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:02:40,815 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 07:02:40,815 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:02:40,815 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 07:02:40,815 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 07:02:40,838 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 07:02:41,211 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 07:07:40,807 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 07:07:40,807 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:12:40,250 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-20 07:12:40,255 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-20 07:12:40,810 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 07:12:40,810 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:17:40,806 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 07:17:40,806 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:22:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 07:22:40,817 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 07:22:40,817 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 07:22:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:22:40,838 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 07:22:41,300 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 07:27:40,820 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 07:27:40,820 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:32:30,253 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-20 07:32:30,270 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-20 07:32:40,805 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 07:32:40,805 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:37:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 07:37:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:42:40,809 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 07:42:40,809 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:42:40,809 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 07:42:40,809 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 07:42:40,831 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 07:42:41,240 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 07:47:40,814 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 07:47:40,814 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:52:20,260 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-20 07:52:20,264 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-20 07:52:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 07:52:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 07:57:40,807 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 07:57:40,807 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:02:40,817 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 08:02:40,817 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:02:40,817 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 08:02:40,817 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 08:02:40,840 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 08:02:41,285 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 08:07:40,809 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 08:07:40,809 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:12:10,247 [DefaultQuartzScheduler_Worker-8] - Begin BrowserJob.
+
+INFO 2023-04-20 08:12:10,252 [DefaultQuartzScheduler_Worker-8] - End BrowserJob.
+
+INFO 2023-04-20 08:12:40,813 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 08:12:40,813 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:17:40,806 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 08:17:40,806 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:22:40,809 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 08:22:40,809 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:22:40,809 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 08:22:40,809 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 08:22:40,833 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 08:22:41,252 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 08:27:40,814 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 08:27:40,814 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:32:00,252 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-04-20 08:32:00,257 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-04-20 08:32:40,811 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 08:32:40,811 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:37:40,818 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 08:37:40,818 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:42:40,814 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 08:42:40,814 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 08:42:40,814 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 08:42:40,814 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:42:40,840 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 08:42:41,292 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 08:47:40,812 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 08:47:40,812 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:51:50,249 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-20 08:51:50,254 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-20 08:52:40,820 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 08:52:40,820 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 08:57:40,817 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 08:57:40,817 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:02:40,808 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 09:02:40,808 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 09:02:40,808 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 09:02:40,808 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:02:40,830 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 09:02:41,235 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 09:07:40,811 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 09:07:40,811 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:11:40,254 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-20 09:11:40,260 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-20 09:12:40,812 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 09:12:40,812 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:17:40,817 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 09:17:40,817 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:22:40,818 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 09:22:40,818 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:22:40,818 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 09:22:40,818 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 09:22:40,840 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 09:22:41,295 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 09:27:40,811 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 09:27:40,811 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:31:30,249 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-20 09:31:30,265 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-20 09:32:40,819 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 09:32:40,819 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:37:40,805 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 09:37:40,805 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:42:40,809 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 09:42:40,809 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 09:42:40,809 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 09:42:40,809 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:42:40,832 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 09:42:41,377 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 09:47:40,810 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 09:47:40,810 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:51:20,260 [DefaultQuartzScheduler_Worker-8] - Begin BrowserJob.
+
+INFO 2023-04-20 09:51:20,267 [DefaultQuartzScheduler_Worker-8] - End BrowserJob.
+
+INFO 2023-04-20 09:52:40,815 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 09:52:40,815 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 09:57:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 09:57:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:02:40,818 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 10:02:40,818 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:02:40,818 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 10:02:40,818 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 10:02:40,841 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 10:02:41,346 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 10:07:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 10:07:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:11:10,255 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-04-20 10:11:10,261 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-04-20 10:12:40,815 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 10:12:40,815 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:17:40,805 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 10:17:40,805 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:22:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 10:22:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:22:40,818 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 10:22:40,818 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 10:22:40,850 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 10:22:41,297 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 10:27:40,811 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 10:27:40,811 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:31:00,256 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-20 10:31:00,263 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-20 10:32:40,811 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 10:32:40,811 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:37:40,812 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 10:37:40,812 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:42:40,818 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 10:42:40,818 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:42:40,818 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 10:42:40,818 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 10:42:40,841 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 10:42:41,323 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 10:47:40,819 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 10:47:40,819 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:50:50,259 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-20 10:50:50,267 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-20 10:52:40,819 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 10:52:40,819 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 10:57:40,813 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 10:57:40,813 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:02:40,808 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 11:02:40,808 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:02:40,808 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 11:02:40,808 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 11:02:40,831 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 11:02:41,312 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 11:07:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 11:07:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:10:40,255 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-20 11:10:40,269 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-20 11:12:40,808 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 11:12:40,808 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:17:40,811 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 11:17:40,811 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:22:40,813 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 11:22:40,813 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:22:40,813 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 11:22:40,813 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 11:22:40,834 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 11:22:41,382 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 11:27:40,805 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 11:27:40,805 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:30:30,249 [DefaultQuartzScheduler_Worker-8] - Begin BrowserJob.
+
+INFO 2023-04-20 11:30:30,255 [DefaultQuartzScheduler_Worker-8] - End BrowserJob.
+
+INFO 2023-04-20 11:32:40,815 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 11:32:40,815 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:37:40,817 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 11:37:40,817 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:42:40,808 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 11:42:40,808 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:42:40,808 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 11:42:40,808 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 11:42:40,832 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 11:42:41,265 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 11:47:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 11:47:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:50:20,257 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-04-20 11:50:20,264 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-04-20 11:52:40,812 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 11:52:40,812 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 11:57:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 11:57:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:02:40,817 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 12:02:40,817 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 12:02:40,817 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 12:02:40,817 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:02:40,839 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 12:02:41,322 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 12:07:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 12:07:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:10:10,251 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-20 12:10:10,257 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-20 12:12:40,816 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 12:12:40,816 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:17:40,819 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 12:17:40,819 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:22:40,814 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 12:22:40,814 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 12:22:40,814 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 12:22:40,814 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:22:40,837 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 12:22:41,356 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 12:27:40,814 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 12:27:40,814 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:30:00,249 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-20 12:30:00,255 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-20 12:32:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 12:32:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:37:40,805 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 12:37:40,805 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:42:40,815 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 12:42:40,815 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 12:42:40,815 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 12:42:40,815 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:42:40,840 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 12:42:41,294 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 12:47:40,814 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 12:47:40,814 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:49:50,260 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-20 12:49:50,267 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-20 12:52:40,807 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 12:52:40,807 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 12:57:40,808 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 12:57:40,808 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:02:40,805 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 13:02:40,805 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:02:40,820 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 13:02:40,820 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 13:02:40,843 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 13:02:41,322 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 13:07:40,809 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 13:07:40,809 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:09:40,251 [DefaultQuartzScheduler_Worker-8] - Begin BrowserJob.
+
+INFO 2023-04-20 13:09:40,257 [DefaultQuartzScheduler_Worker-8] - End BrowserJob.
+
+INFO 2023-04-20 13:12:40,814 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 13:12:40,814 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:17:40,811 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 13:17:40,811 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:22:40,809 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 13:22:40,809 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:22:40,809 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 13:22:40,809 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 13:22:40,832 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 13:22:41,343 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 13:27:40,813 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 13:27:40,813 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:29:30,252 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-04-20 13:29:30,260 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-04-20 13:32:40,815 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 13:32:40,815 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:37:40,816 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 13:37:40,816 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:42:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 13:42:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:42:40,818 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 13:42:40,818 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 13:42:40,835 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 13:42:41,332 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 13:47:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 13:47:40,805 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:49:20,253 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-20 13:49:20,259 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-20 13:52:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 13:52:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 13:57:40,820 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 13:57:40,820 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:02:40,815 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 14:02:40,815 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:02:40,815 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 14:02:40,815 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 14:02:40,839 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 14:02:41,385 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 14:07:40,806 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 14:07:40,806 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:09:10,248 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-20 14:09:10,255 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-20 14:12:40,805 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 14:12:40,805 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:17:40,806 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 14:17:40,806 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:22:40,816 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 14:22:40,816 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:22:40,816 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 14:22:40,816 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 14:22:40,838 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 14:22:41,422 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 14:27:40,806 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 14:27:40,806 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:29:00,253 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-20 14:29:00,260 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-20 14:32:40,813 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 14:32:40,813 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:37:40,809 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 14:37:40,809 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:42:40,818 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 14:42:40,818 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:42:40,818 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 14:42:40,818 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 14:42:40,845 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 14:42:41,342 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 14:47:40,814 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 14:47:40,814 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:48:50,255 [DefaultQuartzScheduler_Worker-8] - Begin BrowserJob.
+
+INFO 2023-04-20 14:48:50,263 [DefaultQuartzScheduler_Worker-8] - End BrowserJob.
+
+INFO 2023-04-20 14:52:40,811 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 14:52:40,811 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 14:57:40,818 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 14:57:40,818 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:02:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 15:02:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:02:40,808 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 15:02:40,808 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 15:02:40,832 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 15:02:41,343 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 15:07:40,812 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 15:07:40,812 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:08:40,260 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-04-20 15:08:40,269 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-04-20 15:12:40,817 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 15:12:40,817 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:17:40,813 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 15:17:40,813 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:22:40,809 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 15:22:40,809 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:22:40,809 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 15:22:40,809 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 15:22:40,830 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 15:22:41,371 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 15:27:40,809 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 15:27:40,809 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:28:30,256 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-04-20 15:28:30,267 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-04-20 15:32:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 15:32:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:37:40,811 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 15:37:40,811 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:42:40,813 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 15:42:40,813 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 15:42:40,813 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 15:42:40,813 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:42:40,836 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 15:42:41,287 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 15:47:40,806 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 15:47:40,806 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:48:20,261 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-20 15:48:20,270 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-20 15:52:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 15:52:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 15:57:40,819 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 15:57:40,819 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:02:40,812 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 16:02:40,812 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:02:40,812 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 16:02:40,812 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 16:02:40,839 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 16:02:41,313 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 16:07:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 16:07:40,807 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:08:10,250 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-20 16:08:10,259 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-20 16:12:40,808 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 16:12:40,808 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:17:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 16:17:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:22:40,818 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 16:22:40,818 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:22:40,818 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 16:22:40,818 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 16:22:40,844 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 16:22:41,306 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 16:27:40,817 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 16:27:40,817 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:28:00,254 [DefaultQuartzScheduler_Worker-8] - Begin BrowserJob.
+
+INFO 2023-04-20 16:28:00,262 [DefaultQuartzScheduler_Worker-8] - End BrowserJob.
+
+INFO 2023-04-20 16:32:40,807 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 16:32:40,807 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:37:40,819 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 16:37:40,819 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:42:40,806 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 16:42:40,806 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:42:40,822 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 16:42:40,822 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 16:42:40,844 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 16:42:41,295 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 16:47:40,806 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 16:47:40,806 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:47:50,258 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-04-20 16:47:50,266 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-04-20 16:52:40,808 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 16:52:40,808 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 16:57:40,805 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 16:57:40,805 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:02:40,815 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 17:02:40,815 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 17:02:40,815 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 17:02:40,815 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:02:40,836 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 17:02:41,225 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 17:07:40,258 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-20 17:07:40,267 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-20 17:07:40,807 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 17:07:40,807 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:12:40,809 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 17:12:40,809 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:17:40,810 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 17:17:40,810 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:22:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 17:22:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:22:40,820 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 17:22:40,820 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 17:22:40,846 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 17:22:41,244 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 17:27:30,257 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-20 17:27:30,264 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-20 17:27:40,815 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 17:27:40,815 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:32:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 17:32:40,818 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:37:40,812 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 17:37:40,812 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:42:40,807 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 17:42:40,807 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:42:40,808 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 17:42:40,808 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 17:42:40,830 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 17:42:41,302 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 17:47:20,254 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-20 17:47:20,263 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-20 17:47:40,813 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 17:47:40,813 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:52:40,815 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 17:52:40,815 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 17:57:40,806 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 17:57:40,806 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:02:40,813 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 18:02:40,813 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 18:02:40,813 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 18:02:40,813 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:02:40,999 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 18:02:41,390 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 18:07:10,260 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-20 18:07:10,266 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-20 18:07:40,814 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 18:07:40,814 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:12:40,818 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 18:12:40,818 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:17:40,813 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 18:17:40,813 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:22:40,808 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 18:22:40,808 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:22:40,808 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 18:22:40,808 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 18:22:40,829 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 18:22:41,293 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 18:27:00,248 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-20 18:27:00,256 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-20 18:27:40,805 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 18:27:40,805 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:32:40,815 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 18:32:40,815 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:37:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 18:37:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:42:42,089 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 18:42:42,089 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:42:42,089 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 18:42:42,089 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 18:42:42,111 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 18:42:42,592 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 18:46:50,259 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-20 18:46:50,268 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-20 18:47:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 18:47:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:52:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 18:52:40,805 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 18:57:40,808 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 18:57:40,808 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:02:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 19:02:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:02:40,820 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 19:02:40,820 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 19:02:41,024 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 19:02:41,476 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 19:06:40,253 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-20 19:06:40,261 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-20 19:07:40,815 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 19:07:40,815 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:12:40,816 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 19:12:40,816 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:17:40,815 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 19:17:40,815 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:22:40,810 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 19:22:40,810 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:22:40,810 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 19:22:40,810 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 19:22:40,839 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 19:22:41,351 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 19:26:30,248 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-20 19:26:30,258 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-20 19:27:40,806 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 19:27:40,806 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:32:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 19:32:40,805 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:37:40,814 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 19:37:40,814 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:42:40,805 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 19:42:40,805 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:42:40,821 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 19:42:40,821 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 19:42:40,841 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 19:42:41,249 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 19:46:20,253 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-20 19:46:20,260 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-20 19:47:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 19:47:40,810 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:52:40,814 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 19:52:40,814 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 19:57:40,813 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 19:57:40,813 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:02:40,806 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 20:02:40,806 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:02:40,821 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 20:02:40,821 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 20:02:40,843 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 20:02:41,270 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 20:06:10,249 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-20 20:06:10,257 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-20 20:07:40,813 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 20:07:40,813 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:12:40,814 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 20:12:40,814 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:17:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 20:17:40,810 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:22:40,806 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 20:22:40,806 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:22:40,822 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 20:22:40,822 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 20:22:40,844 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 20:22:41,320 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 20:26:00,247 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-20 20:26:00,255 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-20 20:27:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 20:27:40,805 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:32:40,810 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 20:32:40,810 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:37:40,818 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 20:37:40,818 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:42:40,818 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 20:42:40,818 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:42:40,818 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 20:42:40,818 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 20:42:40,839 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 20:42:41,283 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 20:45:50,255 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-20 20:45:50,263 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-20 20:47:40,806 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 20:47:40,806 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:52:40,812 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 20:52:40,812 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 20:57:40,818 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 20:57:40,818 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:02:40,814 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 21:02:40,814 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:02:40,814 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 21:02:40,814 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 21:02:40,835 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 21:02:41,268 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 21:05:40,253 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-20 21:05:40,262 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-20 21:07:40,818 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 21:07:40,818 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:12:40,810 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 21:12:40,810 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:17:40,806 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 21:17:40,806 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:22:40,819 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 21:22:40,819 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:22:40,819 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 21:22:40,819 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 21:22:40,842 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 21:22:41,326 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 21:25:30,258 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-20 21:25:30,267 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-20 21:27:40,809 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 21:27:40,809 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:32:40,809 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 21:32:40,809 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:37:40,806 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 21:37:40,806 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:42:40,818 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 21:42:40,818 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 21:42:40,818 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 21:42:40,818 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:42:40,840 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 21:42:41,222 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 21:45:20,250 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-20 21:45:20,258 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-20 21:47:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 21:47:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:52:40,805 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 21:52:40,805 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 21:57:40,809 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 21:57:40,809 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:02:40,811 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 22:02:40,811 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:02:40,811 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 22:02:40,811 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 22:02:40,834 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 22:02:41,286 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 22:05:10,254 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-20 22:05:10,262 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-20 22:07:40,814 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 22:07:40,814 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:12:40,813 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 22:12:40,813 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:17:40,805 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 22:17:40,805 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:22:40,814 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 22:22:40,814 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:22:40,814 [DefaultQuartzScheduler_Worker-4] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 22:22:40,814 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 22:22:40,836 [DefaultQuartzScheduler_Worker-4] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 22:22:41,295 [DefaultQuartzScheduler_Worker-4] - LicenseJob kết thúc.
+
+INFO 2023-04-20 22:25:00,248 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-04-20 22:25:00,257 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-04-20 22:27:40,817 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 22:27:40,817 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:32:40,817 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 22:32:40,817 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:37:40,816 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 22:37:40,816 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:42:40,819 [DefaultQuartzScheduler_Worker-10] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 22:42:40,819 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 22:42:40,819 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 22:42:40,819 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:42:40,842 [DefaultQuartzScheduler_Worker-10] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 22:42:41,327 [DefaultQuartzScheduler_Worker-10] - LicenseJob kết thúc.
+
+INFO 2023-04-20 22:44:50,250 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-20 22:44:50,259 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-20 22:47:40,819 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 22:47:40,819 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:52:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-20 22:52:40,817 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-20 22:57:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 22:57:40,815 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:02:40,815 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 23:02:40,815 [DefaultQuartzScheduler_Worker-6] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 23:02:40,815 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 23:02:40,815 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:02:40,838 [DefaultQuartzScheduler_Worker-6] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 23:02:41,259 [DefaultQuartzScheduler_Worker-6] - LicenseJob kết thúc.
+
+INFO 2023-04-20 23:04:40,253 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-04-20 23:04:40,261 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-04-20 23:07:40,805 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-20 23:07:40,805 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:12:40,818 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-20 23:12:40,818 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:17:40,810 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 23:17:40,810 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:22:40,819 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 23:22:40,819 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:22:40,819 [DefaultQuartzScheduler_Worker-1] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 23:22:40,819 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 23:22:40,841 [DefaultQuartzScheduler_Worker-1] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 23:22:41,315 [DefaultQuartzScheduler_Worker-1] - LicenseJob kết thúc.
+
+INFO 2023-04-20 23:24:30,254 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-04-20 23:24:30,263 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-04-20 23:27:40,809 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-20 23:27:40,809 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:32:40,812 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-20 23:32:40,812 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:37:40,808 [DefaultQuartzScheduler_Worker-6] - PubSubJob bat dau
+
+INFO 2023-04-20 23:37:40,808 [DefaultQuartzScheduler_Worker-6] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:42:40,816 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-20 23:42:40,816 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:42:40,816 [DefaultQuartzScheduler_Worker-8] - LicenseJob bắt đầu.
+
+INFO 2023-04-20 23:42:40,816 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__Begin
+
+INFO 2023-04-20 23:42:40,837 [DefaultQuartzScheduler_Worker-8] - WebApiClient.Get. api:api/SdaLicense/Get__End
+
+INFO 2023-04-20 23:42:41,298 [DefaultQuartzScheduler_Worker-8] - LicenseJob kết thúc.
+
+INFO 2023-04-20 23:44:20,251 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-04-20 23:44:20,260 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-04-20 23:47:40,806 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-20 23:47:40,806 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:52:40,814 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-20 23:52:40,814 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-20 23:57:40,815 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-20 23:57:40,815 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+

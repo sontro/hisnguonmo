@@ -1,0 +1,14 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.Roche\bin\Debug\MOS.LIS.Roche.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.Roche\bin\Debug\MOS.LIS.Roche.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.Roche\bin\Debug\Inventec.Common.DateTime.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.Roche\bin\Debug\Inventec.Common.String.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.Roche\obj\Debug\MOS.LIS.Roche.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.Roche\obj\Debug\MOS.LIS.Roche.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.Roche\obj\Debug\MOS.LIS.Roche.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\MOS.LIS.Roche.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\MOS.LIS.Roche.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\Inventec.Common.DateTime.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\Inventec.Common.String.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.Roche\obj\Debug\MOS.LIS.Roche.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.Roche\obj\Debug\MOS.LIS.Roche.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.Roche\obj\Debug\MOS.LIS.Roche.pdb

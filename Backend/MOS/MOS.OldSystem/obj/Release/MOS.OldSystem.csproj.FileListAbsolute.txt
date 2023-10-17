@@ -1,0 +1,10 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Release\MOS.OldSystem.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Release\MOS.OldSystem.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Release\Inventec.Common.Logging.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Release\Newtonsoft.Json.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Release\log4net.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Release\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Release\Inventec.Common.Logging.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Release\MOS.OldSystem.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Release\MOS.OldSystem.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Release\MOS.OldSystem.pdb

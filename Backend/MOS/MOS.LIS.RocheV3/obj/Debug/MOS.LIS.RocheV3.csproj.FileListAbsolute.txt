@@ -1,0 +1,11 @@
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV3\bin\Debug\MOS.LIS.RocheV3.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV3\bin\Debug\MOS.LIS.RocheV3.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV3\bin\Debug\Inventec.Common.DateTime.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV3\bin\Debug\Inventec.Common.Logging.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV3\bin\Debug\Inventec.Common.String.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV3\bin\Debug\log4net.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV3\bin\Debug\Newtonsoft.Json.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV3\bin\Debug\EntityFramework.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV3\obj\Debug\MOS.LIS.RocheV3.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV3\obj\Debug\MOS.LIS.RocheV3.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheV3\obj\Debug\MOS.LIS.RocheV3.pdb

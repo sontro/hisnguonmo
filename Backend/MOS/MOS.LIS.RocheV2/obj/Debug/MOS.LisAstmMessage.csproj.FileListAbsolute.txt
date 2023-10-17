@@ -1,0 +1,11 @@
+D:\GoogleDrive\IVTSVN\IMSys.249\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\MOS.LisAstmMessage.dll
+D:\GoogleDrive\IVTSVN\IMSys.249\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\MOS.LisAstmMessage.pdb
+D:\GoogleDrive\IVTSVN\IMSys.249\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\Inventec.Common.DateTime.dll
+D:\GoogleDrive\IVTSVN\IMSys.249\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\Inventec.Common.Logging.dll
+D:\GoogleDrive\IVTSVN\IMSys.249\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\log4net.dll
+D:\GoogleDrive\IVTSVN\IMSys.249\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\EntityFramework.dll
+D:\GoogleDrive\IVTSVN\IMSys.249\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\Newtonsoft.Json.dll
+D:\GoogleDrive\IVTSVN\IMSys.249\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\Inventec.Common.DateTime.pdb
+D:\GoogleDrive\IVTSVN\IMSys.249\BACKEND\MOS\MOS.LIS.Roche\bin\Debug\Inventec.Common.Logging.pdb
+D:\GoogleDrive\IVTSVN\IMSys.249\BACKEND\MOS\MOS.LIS.Roche\obj\Debug\MOS.LisAstmMessage.dll
+D:\GoogleDrive\IVTSVN\IMSys.249\BACKEND\MOS\MOS.LIS.Roche\obj\Debug\MOS.LisAstmMessage.pdb

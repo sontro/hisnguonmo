@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FFD6CB67-8303-41C6-939C-EFA5C4CB873C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MOS.LibraryHein.Bhyt</RootNamespace>
+    <AssemblyName>MOS.LibraryHein.Bhyt</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Inventec.Common.DateTime">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.DateTime\Inventec.Common.DateTime.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Logging">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Logging\Inventec.Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Xml, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Xml\Inventec.Common.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="MOS.EFMODEL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\MOS\MOS.EFMODEL.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\_Library\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BhytPriceCalculator.cs" />
+    <Compile Include="BhytServiceRequestData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HeinPaid6Month\HeinPaid6MonthCode.cs" />
+    <Compile Include="HeinPaid6Month\HeinPaid6MonthData.cs" />
+    <Compile Include="HeinPaid6Month\HeinPaid6MonthStore.cs" />
+    <Compile Include="HeinJoin5Year\HeinJoin5YearCode.cs" />
+    <Compile Include="HeinJoin5Year\HeinJoin5YearData.cs" />
+    <Compile Include="HeinJoin5Year\HeinJoin5YearStore.cs" />
+    <Compile Include="HeinHasBirthCertificate\HeinHasBirthCertificateCode.cs" />
+    <Compile Include="HeinHasBirthCertificate\HeinHasBirthCertificateData.cs" />
+    <Compile Include="HeinHasBirthCertificate\HeinHasBirthCertificateStore.cs" />
+    <Compile Include="HeinObject\HeinBenefitConverter.cs" />
+    <Compile Include="HeinRatio\HeinRatioStoreNew.cs" />
+    <Compile Include="HeinRatio\HeinRatioTypeCode.cs" />
+    <Compile Include="HeinRightRoute\HeinRightRouteCode.cs" />
+    <Compile Include="HeinRightRoute\HeinRightRouteData.cs" />
+    <Compile Include="HeinRightRoute\HeinRightRouteStore.cs" />
+    <Compile Include="HeinUpToStandard\HeinUpToStandardCode.cs" />
+    <Compile Include="HeinUpToStandard\HeinUpToStandardData.cs" />
+    <Compile Include="HeinUpToStandard\HeinUpToStandardStore.cs" />
+    <Compile Include="HeinRightRouteType\HeinRightRouteTypeCode.cs" />
+    <Compile Include="HeinRightRouteType\HeinRightRouteTypeData.cs" />
+    <Compile Include="HeinRightRouteType\HeinRightRouteTypeStore.cs" />
+    <Compile Include="HeinTreatmentType\HeinTreatmentTypeData.cs" />
+    <Compile Include="HeinTreatmentType\HeinTreatmentTypeStore.cs" />
+    <Compile Include="HeinLiveArea\HeinLiveAreaData.cs" />
+    <Compile Include="HeinLiveArea\HeinLiveAreaStore.cs" />
+    <Compile Include="HeinLiveArea\HeinLiveAreaCode.cs" />
+    <Compile Include="HeinTreatmentType\HeinTreatmentTypeCode.cs" />
+    <Compile Include="HeinLevel\HeinLevelCode.cs" />
+    <Compile Include="HeinObject\HeinBenefitData.cs" />
+    <Compile Include="HeinObject\HeinObjectCode.cs" />
+    <Compile Include="HeinRatio\HeinRatioData.cs" />
+    <Compile Include="HeinLevel\HeinLevelStore.cs" />
+    <Compile Include="HeinLevel\HeinLevelData.cs" />
+    <Compile Include="HeinObject\HeinObjectBenefitStore.cs" />
+    <Compile Include="HeinRatio\HeinRatioStore.cs" />
+    <Compile Include="BhytHeinProcessor.cs" />
+    <Compile Include="BhytPatientTypeData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MOS.LibraryHein.Common\MOS.LibraryHein.Common.csproj">
+      <Project>{4cc69c50-c6f8-4b7f-86cb-484eefcdd1db}</Project>
+      <Name>MOS.LibraryHein.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOS.UTILITY\MOS.UTILITY.csproj">
+      <Project>{1869d4b2-d4b3-40ea-ae3c-a83dfa795618}</Project>
+      <Name>MOS.UTILITY</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

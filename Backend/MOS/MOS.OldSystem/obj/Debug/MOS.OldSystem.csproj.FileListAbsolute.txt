@@ -1,0 +1,29 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\MOS.OldSystem.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\MOS.OldSystem.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\Inventec.Common.Logging.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\Newtonsoft.Json.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\log4net.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\Inventec.Common.Logging.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Debug\MOS.OldSystem.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Debug\MOS.OldSystem.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Debug\MOS.OldSystem.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\MOS.OldSystem.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\MOS.OldSystem.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\Inventec.Common.Logging.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\Newtonsoft.Json.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\log4net.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\EntityFramework.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\Inventec.Common.Logging.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Debug\MOS.OldSystem.csprojResolveAssemblyReference.cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Debug\MOS.OldSystem.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Debug\MOS.OldSystem.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\MOS.OldSystem.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\MOS.OldSystem.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\Inventec.Common.Logging.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\Newtonsoft.Json.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\log4net.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\bin\Debug\EntityFramework.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Debug\MOS.OldSystem.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Debug\MOS.OldSystem.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OldSystem\obj\Debug\MOS.OldSystem.pdb

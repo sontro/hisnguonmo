@@ -1,0 +1,6 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Release\MOS.OracleUDT.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Release\MOS.OracleUDT.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Release\Oracle.DataAccess.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Release\MOS.OracleUDT.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Release\MOS.OracleUDT.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Release\MOS.OracleUDT.pdb

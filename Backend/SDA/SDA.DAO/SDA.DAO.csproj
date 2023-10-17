@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B04CFDB-20C8-413F-91DF-A5309092B035}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SDA.DAO</RootNamespace>
+    <AssemblyName>SDA.DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Backend.EFMODEL">
+      <HintPath>..\..\..\RELEASE\Inventec.Backend\Inventec.Backend.EFMODEL\Inventec.Backend.EFMODEL.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Logging">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Logging\Inventec.Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Repository">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Repository\Inventec.Common.Repository.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Core">
+      <HintPath>..\..\..\RELEASE\Inventec.Core\Inventec.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Token.Core">
+      <HintPath>..\..\..\RELEASE\Inventec.Token\Inventec.Token.Core\Inventec.Token.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Token.ResourceSystem">
+      <HintPath>..\..\..\RELEASE\Inventec.Token\Inventec.Token.ResourceSystem\Inventec.Token.ResourceSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\AppContext.cs" />
+    <Compile Include="Base\BridgeDAO.cs" />
+    <Compile Include="Base\ContextUtil.cs" />
+    <Compile Include="Base\ReflectionQueryable.cs" />
+    <Compile Include="Base\StagingObjectBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SdaCommuneMap\SdaCommuneMapCheck.cs" />
+    <Compile Include="SdaCommuneMap\SdaCommuneMapCreate.cs" />
+    <Compile Include="SdaCommuneMap\SdaCommuneMapDAO.cs" />
+    <Compile Include="SdaCommuneMap\SdaCommuneMapDelete.cs" />
+    <Compile Include="SdaCommuneMap\SdaCommuneMapGet.cs" />
+    <Compile Include="SdaCommuneMap\SdaCommuneMapTruncate.cs" />
+    <Compile Include="SdaCommuneMap\SdaCommuneMapUpdate.cs" />
+    <Compile Include="SdaCommune\SdaCommuneCheck.cs" />
+    <Compile Include="SdaCommune\SdaCommuneCheckExistsCode.cs" />
+    <Compile Include="SdaCommune\SdaCommuneCreate.cs" />
+    <Compile Include="SdaCommune\SdaCommuneDAO.cs" />
+    <Compile Include="SdaCommune\SdaCommuneDAOPlus_Full.cs" />
+    <Compile Include="SdaCommune\SdaCommuneDelete.cs" />
+    <Compile Include="SdaCommune\SdaCommuneGet.cs" />
+    <Compile Include="SdaCommune\SdaCommuneGetByCode.cs" />
+    <Compile Include="SdaCommune\SdaCommuneGetDicByCode.cs" />
+    <Compile Include="SdaCommune\SdaCommuneGetView.cs" />
+    <Compile Include="SdaCommune\SdaCommuneGetViewByCode.cs" />
+    <Compile Include="SdaCommune\SdaCommuneGetViewById.cs" />
+    <Compile Include="SdaCommune\SdaCommuneTruncate.cs" />
+    <Compile Include="SdaCommune\SdaCommuneUpdate.cs" />
+    <Compile Include="SdaConfigAppUser\SdaConfigAppUserCheck.cs" />
+    <Compile Include="SdaConfigAppUser\SdaConfigAppUserCreate.cs" />
+    <Compile Include="SdaConfigAppUser\SdaConfigAppUserDAO.cs" />
+    <Compile Include="SdaConfigAppUser\SdaConfigAppUserDAOPlus_Full_NoCode.cs" />
+    <Compile Include="SdaConfigAppUser\SdaConfigAppUserDelete.cs" />
+    <Compile Include="SdaConfigAppUser\SdaConfigAppUserGet.cs" />
+    <Compile Include="SdaConfigAppUser\SdaConfigAppUserGetView.cs" />
+    <Compile Include="SdaConfigAppUser\SdaConfigAppUserGetViewById.cs" />
+    <Compile Include="SdaConfigAppUser\SdaConfigAppUserTruncate.cs" />
+    <Compile Include="SdaConfigAppUser\SdaConfigAppUserUpdate.cs" />
+    <Compile Include="SdaConfigApp\SdaConfigAppCheck.cs" />
+    <Compile Include="SdaConfigApp\SdaConfigAppCheckExistsCode.cs" />
+    <Compile Include="SdaConfigApp\SdaConfigAppCreate.cs" />
+    <Compile Include="SdaConfigApp\SdaConfigAppDAO.cs" />
+    <Compile Include="SdaConfigApp\SdaConfigAppDAOPlus_Full_NoView.cs" />
+    <Compile Include="SdaConfigApp\SdaConfigAppDelete.cs" />
+    <Compile Include="SdaConfigApp\SdaConfigAppGet.cs" />
+    <Compile Include="SdaConfigApp\SdaConfigAppGetByCode.cs" />
+    <Compile Include="SdaConfigApp\SdaConfigAppGetDicByCode.cs" />
+    <Compile Include="SdaConfigApp\SdaConfigAppTruncate.cs" />
+    <Compile Include="SdaConfigApp\SdaConfigAppUpdate.cs" />
+    <Compile Include="SdaConfig\SdaConfigCheck.cs" />
+    <Compile Include="SdaConfig\SdaConfigCheckExistsCode.cs" />
+    <Compile Include="SdaConfig\SdaConfigCreate.cs" />
+    <Compile Include="SdaConfig\SdaConfigDAO.cs" />
+    <Compile Include="SdaConfig\SdaConfigDAOPlus_Full_NoView.cs" />
+    <Compile Include="SdaConfig\SdaConfigDelete.cs" />
+    <Compile Include="SdaConfig\SdaConfigGet.cs" />
+    <Compile Include="SdaConfig\SdaConfigGetByCode.cs" />
+    <Compile Include="SdaConfig\SdaConfigGetDicByCode.cs" />
+    <Compile Include="SdaConfig\SdaConfigTruncate.cs" />
+    <Compile Include="SdaConfig\SdaConfigUpdate.cs" />
+    <Compile Include="SdaCustomizaButton\SdaCustomizaButtonCheck.cs" />
+    <Compile Include="SdaCustomizaButton\SdaCustomizaButtonCheckExistsCode.cs" />
+    <Compile Include="SdaCustomizaButton\SdaCustomizaButtonCreate.cs" />
+    <Compile Include="SdaCustomizaButton\SdaCustomizaButtonDAO.cs" />
+    <Compile Include="SdaCustomizaButton\SdaCustomizaButtonDAOPlus_Full_NoView.cs" />
+    <Compile Include="SdaCustomizaButton\SdaCustomizaButtonDelete.cs" />
+    <Compile Include="SdaCustomizaButton\SdaCustomizaButtonGet.cs" />
+    <Compile Include="SdaCustomizaButton\SdaCustomizaButtonGetByCode.cs" />
+    <Compile Include="SdaCustomizaButton\SdaCustomizaButtonGetDicByCode.cs" />
+    <Compile Include="SdaCustomizaButton\SdaCustomizaButtonTruncate.cs" />
+    <Compile Include="SdaCustomizaButton\SdaCustomizaButtonUpdate.cs" />
+    <Compile Include="SdaCustomizeUi\SdaCustomizeUiCheck.cs" />
+    <Compile Include="SdaCustomizeUi\SdaCustomizeUiCreate.cs" />
+    <Compile Include="SdaCustomizeUi\SdaCustomizeUiDAO.cs" />
+    <Compile Include="SdaCustomizeUi\SdaCustomizeUiDelete.cs" />
+    <Compile Include="SdaCustomizeUi\SdaCustomizeUiGet.cs" />
+    <Compile Include="SdaCustomizeUi\SdaCustomizeUiTruncate.cs" />
+    <Compile Include="SdaCustomizeUi\SdaCustomizeUiUpdate.cs" />
+    <Compile Include="SdaDeleteData\SdaDeleteDataCheck.cs" />
+    <Compile Include="SdaDeleteData\SdaDeleteDataCreate.cs" />
+    <Compile Include="SdaDeleteData\SdaDeleteDataDAO.cs" />
+    <Compile Include="SdaDeleteData\SdaDeleteDataDelete.cs" />
+    <Compile Include="SdaDeleteData\SdaDeleteDataGet.cs" />
+    <Compile Include="SdaDeleteData\SdaDeleteDataTruncate.cs" />
+    <Compile Include="SdaDeleteData\SdaDeleteDataUpdate.cs" />
+    <Compile Include="SdaDistrictMap\SdaDistrictMapCheck.cs" />
+    <Compile Include="SdaDistrictMap\SdaDistrictMapCreate.cs" />
+    <Compile Include="SdaDistrictMap\SdaDistrictMapDAO.cs" />
+    <Compile Include="SdaDistrictMap\SdaDistrictMapDelete.cs" />
+    <Compile Include="SdaDistrictMap\SdaDistrictMapGet.cs" />
+    <Compile Include="SdaDistrictMap\SdaDistrictMapTruncate.cs" />
+    <Compile Include="SdaDistrictMap\SdaDistrictMapUpdate.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictCheck.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictCheckExistsCode.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictCreate.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictDAO.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictDAOPlus_Full.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictDelete.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictGet.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictGetByCode.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictGetDicByCode.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictGetView.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictGetViewByCode.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictGetViewById.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictTruncate.cs" />
+    <Compile Include="SdaDistrict\SdaDistrictUpdate.cs" />
+    <Compile Include="SdaEthnic\SdaEthnicCheck.cs" />
+    <Compile Include="SdaEthnic\SdaEthnicCheckExistsCode.cs" />
+    <Compile Include="SdaEthnic\SdaEthnicCreate.cs" />
+    <Compile Include="SdaEthnic\SdaEthnicDAO.cs" />
+    <Compile Include="SdaEthnic\SdaEthnicDAOPlus_Full_NoView.cs" />
+    <Compile Include="SdaEthnic\SdaEthnicDelete.cs" />
+    <Compile Include="SdaEthnic\SdaEthnicGet.cs" />
+    <Compile Include="SdaEthnic\SdaEthnicGetByCode.cs" />
+    <Compile Include="SdaEthnic\SdaEthnicGetDicByCode.cs" />
+    <Compile Include="SdaEthnic\SdaEthnicTruncate.cs" />
+    <Compile Include="SdaEthnic\SdaEthnicUpdate.cs" />
+    <Compile Include="SdaEventLog\SdaEventLogCheck.cs" />
+    <Compile Include="SdaEventLog\SdaEventLogCreate.cs" />
+    <Compile Include="SdaEventLog\SdaEventLogDAO.cs" />
+    <Compile Include="SdaEventLog\SdaEventLogDelete.cs" />
+    <Compile Include="SdaEventLog\SdaEventLogGet.cs" />
+    <Compile Include="SdaEventLog\SdaEventLogTruncate.cs" />
+    <Compile Include="SdaEventLog\SdaEventLogUpdate.cs" />
+    <Compile Include="SdaGroupType\SdaGroupTypeCheck.cs" />
+    <Compile Include="SdaGroupType\SdaGroupTypeCheckExistsCode.cs" />
+    <Compile Include="SdaGroupType\SdaGroupTypeCreate.cs" />
+    <Compile Include="SdaGroupType\SdaGroupTypeDAO.cs" />
+    <Compile Include="SdaGroupType\SdaGroupTypeDAOPlus_Full_NoView.cs" />
+    <Compile Include="SdaGroupType\SdaGroupTypeDelete.cs" />
+    <Compile Include="SdaGroupType\SdaGroupTypeGet.cs" />
+    <Compile Include="SdaGroupType\SdaGroupTypeGetByCode.cs" />
+    <Compile Include="SdaGroupType\SdaGroupTypeGetDicByCode.cs" />
+    <Compile Include="SdaGroupType\SdaGroupTypeTruncate.cs" />
+    <Compile Include="SdaGroupType\SdaGroupTypeUpdate.cs" />
+    <Compile Include="SdaGroup\SdaGroupCheck.cs" />
+    <Compile Include="SdaGroup\SdaGroupCheckExistsCode.cs" />
+    <Compile Include="SdaGroup\SdaGroupCreate.cs" />
+    <Compile Include="SdaGroup\SdaGroupDAO.cs" />
+    <Compile Include="SdaGroup\SdaGroupDAOPlus_Full.cs" />
+    <Compile Include="SdaGroup\SdaGroupDelete.cs" />
+    <Compile Include="SdaGroup\SdaGroupGet.cs" />
+    <Compile Include="SdaGroup\SdaGroupGetByCode.cs" />
+    <Compile Include="SdaGroup\SdaGroupGetDicByCode.cs" />
+    <Compile Include="SdaGroup\SdaGroupGetView.cs" />
+    <Compile Include="SdaGroup\SdaGroupGetViewByCode.cs" />
+    <Compile Include="SdaGroup\SdaGroupGetViewById.cs" />
+    <Compile Include="SdaGroup\SdaGroupTruncate.cs" />
+    <Compile Include="SdaGroup\SdaGroupUpdate.cs" />
+    <Compile Include="SdaHideControl\SdaHideControlCheck.cs" />
+    <Compile Include="SdaHideControl\SdaHideControlCreate.cs" />
+    <Compile Include="SdaHideControl\SdaHideControlDAO.cs" />
+    <Compile Include="SdaHideControl\SdaHideControlDelete.cs" />
+    <Compile Include="SdaHideControl\SdaHideControlGet.cs" />
+    <Compile Include="SdaHideControl\SdaHideControlTruncate.cs" />
+    <Compile Include="SdaHideControl\SdaHideControlUpdate.cs" />
+    <Compile Include="SdaLanguage\SdaLanguageCheck.cs" />
+    <Compile Include="SdaLanguage\SdaLanguageCheckExistsCode.cs" />
+    <Compile Include="SdaLanguage\SdaLanguageCreate.cs" />
+    <Compile Include="SdaLanguage\SdaLanguageDAO.cs" />
+    <Compile Include="SdaLanguage\SdaLanguageDAOPlus_Full_NoView.cs" />
+    <Compile Include="SdaLanguage\SdaLanguageDelete.cs" />
+    <Compile Include="SdaLanguage\SdaLanguageGet.cs" />
+    <Compile Include="SdaLanguage\SdaLanguageGetByCode.cs" />
+    <Compile Include="SdaLanguage\SdaLanguageGetDicByCode.cs" />
+    <Compile Include="SdaLanguage\SdaLanguageTruncate.cs" />
+    <Compile Include="SdaLanguage\SdaLanguageUpdate.cs" />
+    <Compile Include="SdaLicense\SdaLicenseCheck.cs" />
+    <Compile Include="SdaLicense\SdaLicenseCreate.cs" />
+    <Compile Include="SdaLicense\SdaLicenseDAO.cs" />
+    <Compile Include="SdaLicense\SdaLicenseDelete.cs" />
+    <Compile Include="SdaLicense\SdaLicenseGet.cs" />
+    <Compile Include="SdaLicense\SdaLicenseTruncate.cs" />
+    <Compile Include="SdaLicense\SdaLicenseUpdate.cs" />
+    <Compile Include="SdaMetadata\SdaMetadataCheck.cs" />
+    <Compile Include="SdaMetadata\SdaMetadataCreate.cs" />
+    <Compile Include="SdaMetadata\SdaMetadataDAO.cs" />
+    <Compile Include="SdaMetadata\SdaMetadataDelete.cs" />
+    <Compile Include="SdaMetadata\SdaMetadataGet.cs" />
+    <Compile Include="SdaMetadata\SdaMetadataTruncate.cs" />
+    <Compile Include="SdaMetadata\SdaMetadataUpdate.cs" />
+    <Compile Include="SdaModuleField\SdaModuleFieldCheck.cs" />
+    <Compile Include="SdaModuleField\SdaModuleFieldCreate.cs" />
+    <Compile Include="SdaModuleField\SdaModuleFieldDAO.cs" />
+    <Compile Include="SdaModuleField\SdaModuleFieldDelete.cs" />
+    <Compile Include="SdaModuleField\SdaModuleFieldGet.cs" />
+    <Compile Include="SdaModuleField\SdaModuleFieldTruncate.cs" />
+    <Compile Include="SdaModuleField\SdaModuleFieldUpdate.cs" />
+    <Compile Include="SdaNational\SdaNationalCheck.cs" />
+    <Compile Include="SdaNational\SdaNationalCheckExistsCode.cs" />
+    <Compile Include="SdaNational\SdaNationalCreate.cs" />
+    <Compile Include="SdaNational\SdaNationalDAO.cs" />
+    <Compile Include="SdaNational\SdaNationalDAOPlus_Full.cs" />
+    <Compile Include="SdaNational\SdaNationalDelete.cs" />
+    <Compile Include="SdaNational\SdaNationalGet.cs" />
+    <Compile Include="SdaNational\SdaNationalGetByCode.cs" />
+    <Compile Include="SdaNational\SdaNationalGetDicByCode.cs" />
+    <Compile Include="SdaNational\SdaNationalGetView.cs" />
+    <Compile Include="SdaNational\SdaNationalGetViewByCode.cs" />
+    <Compile Include="SdaNational\SdaNationalGetViewById.cs" />
+    <Compile Include="SdaNational\SdaNationalTruncate.cs" />
+    <Compile Include="SdaNational\SdaNationalUpdate.cs" />
+    <Compile Include="SdaNotify\SdaNotifyCheck.cs" />
+    <Compile Include="SdaNotify\SdaNotifyCreate.cs" />
+    <Compile Include="SdaNotify\SdaNotifyDAO.cs" />
+    <Compile Include="SdaNotify\SdaNotifyDelete.cs" />
+    <Compile Include="SdaNotify\SdaNotifyGet.cs" />
+    <Compile Include="SdaNotify\SdaNotifyTruncate.cs" />
+    <Compile Include="SdaNotify\SdaNotifyUpdate.cs" />
+    <Compile Include="SdaProvinceMap\SdaProvinceMapCheck.cs" />
+    <Compile Include="SdaProvinceMap\SdaProvinceMapCreate.cs" />
+    <Compile Include="SdaProvinceMap\SdaProvinceMapDAO.cs" />
+    <Compile Include="SdaProvinceMap\SdaProvinceMapDelete.cs" />
+    <Compile Include="SdaProvinceMap\SdaProvinceMapGet.cs" />
+    <Compile Include="SdaProvinceMap\SdaProvinceMapTruncate.cs" />
+    <Compile Include="SdaProvinceMap\SdaProvinceMapUpdate.cs" />
+    <Compile Include="SdaProvince\SdaProvinceCheck.cs" />
+    <Compile Include="SdaProvince\SdaProvinceCheckExistsCode.cs" />
+    <Compile Include="SdaProvince\SdaProvinceCreate.cs" />
+    <Compile Include="SdaProvince\SdaProvinceDAO.cs" />
+    <Compile Include="SdaProvince\SdaProvinceDAOPlus_Full.cs" />
+    <Compile Include="SdaProvince\SdaProvinceDelete.cs" />
+    <Compile Include="SdaProvince\SdaProvinceGet.cs" />
+    <Compile Include="SdaProvince\SdaProvinceGetByCode.cs" />
+    <Compile Include="SdaProvince\SdaProvinceGetDicByCode.cs" />
+    <Compile Include="SdaProvince\SdaProvinceGetView.cs" />
+    <Compile Include="SdaProvince\SdaProvinceGetViewByCode.cs" />
+    <Compile Include="SdaProvince\SdaProvinceGetViewById.cs" />
+    <Compile Include="SdaProvince\SdaProvinceTruncate.cs" />
+    <Compile Include="SdaProvince\SdaProvinceUpdate.cs" />
+    <Compile Include="SdaReligion\SdaReligionCheck.cs" />
+    <Compile Include="SdaReligion\SdaReligionCheckExistsCode.cs" />
+    <Compile Include="SdaReligion\SdaReligionCreate.cs" />
+    <Compile Include="SdaReligion\SdaReligionDAO.cs" />
+    <Compile Include="SdaReligion\SdaReligionDAOPlus_Full_NoView.cs" />
+    <Compile Include="SdaReligion\SdaReligionDelete.cs" />
+    <Compile Include="SdaReligion\SdaReligionGet.cs" />
+    <Compile Include="SdaReligion\SdaReligionGetByCode.cs" />
+    <Compile Include="SdaReligion\SdaReligionGetDicByCode.cs" />
+    <Compile Include="SdaReligion\SdaReligionTruncate.cs" />
+    <Compile Include="SdaReligion\SdaReligionUpdate.cs" />
+    <Compile Include="SdaSqlParam\SdaSqlParamCheck.cs" />
+    <Compile Include="SdaSqlParam\SdaSqlParamCreate.cs" />
+    <Compile Include="SdaSqlParam\SdaSqlParamDAO.cs" />
+    <Compile Include="SdaSqlParam\SdaSqlParamDelete.cs" />
+    <Compile Include="SdaSqlParam\SdaSqlParamGet.cs" />
+    <Compile Include="SdaSqlParam\SdaSqlParamTruncate.cs" />
+    <Compile Include="SdaSqlParam\SdaSqlParamUpdate.cs" />
+    <Compile Include="SdaSql\SdaSqlCheck.cs" />
+    <Compile Include="SdaSql\SdaSqlCreate.cs" />
+    <Compile Include="SdaSql\SdaSqlDAO.cs" />
+    <Compile Include="SdaSql\SdaSqlDelete.cs" />
+    <Compile Include="SdaSql\SdaSqlGet.cs" />
+    <Compile Include="SdaSql\SdaSqlTruncate.cs" />
+    <Compile Include="SdaSql\SdaSqlUpdate.cs" />
+    <Compile Include="SdaTranslate\SdaTranslateCheck.cs" />
+    <Compile Include="SdaTranslate\SdaTranslateCreate.cs" />
+    <Compile Include="SdaTranslate\SdaTranslateDAO.cs" />
+    <Compile Include="SdaTranslate\SdaTranslateDelete.cs" />
+    <Compile Include="SdaTranslate\SdaTranslateGet.cs" />
+    <Compile Include="SdaTranslate\SdaTranslateTruncate.cs" />
+    <Compile Include="SdaTranslate\SdaTranslateUpdate.cs" />
+    <Compile Include="SdaTrouble\SdaTroubleCheck.cs" />
+    <Compile Include="SdaTrouble\SdaTroubleCheckExistsCode.cs" />
+    <Compile Include="SdaTrouble\SdaTroubleCreate.cs" />
+    <Compile Include="SdaTrouble\SdaTroubleDAO.cs" />
+    <Compile Include="SdaTrouble\SdaTroubleDAOPlus_Full_NoView.cs" />
+    <Compile Include="SdaTrouble\SdaTroubleDelete.cs" />
+    <Compile Include="SdaTrouble\SdaTroubleGet.cs" />
+    <Compile Include="SdaTrouble\SdaTroubleGetByCode.cs" />
+    <Compile Include="SdaTrouble\SdaTroubleGetDicByCode.cs" />
+    <Compile Include="SdaTrouble\SdaTroubleTruncate.cs" />
+    <Compile Include="SdaTrouble\SdaTroubleUpdate.cs" />
+    <Compile Include="Sql\DatabaseExtension.cs" />
+    <Compile Include="Sql\SqlDAO.cs" />
+    <Compile Include="Sql\SqlExecute.cs" />
+    <Compile Include="StagingObject\SdaCommuneMapSO.cs" />
+    <Compile Include="StagingObject\SdaCommuneSO.cs" />
+    <Compile Include="StagingObject\SdaConfigAppSO.cs" />
+    <Compile Include="StagingObject\SdaConfigAppUserSO_Full.cs" />
+    <Compile Include="StagingObject\SdaConfigSO.cs" />
+    <Compile Include="StagingObject\SdaCustomizaButtonSO.cs" />
+    <Compile Include="StagingObject\SdaCustomizeUiSO.cs" />
+    <Compile Include="StagingObject\SdaDeleteDataSO.cs" />
+    <Compile Include="StagingObject\SdaDistrictMapSO.cs" />
+    <Compile Include="StagingObject\SdaDistrictSO.cs" />
+    <Compile Include="StagingObject\SdaEthnicSO.cs" />
+    <Compile Include="StagingObject\SdaEventLogSO.cs" />
+    <Compile Include="StagingObject\SdaGroupSO.cs" />
+    <Compile Include="StagingObject\SdaGroupTypeSO.cs" />
+    <Compile Include="StagingObject\SdaHideControlSO.cs" />
+    <Compile Include="StagingObject\SdaLanguageSO.cs" />
+    <Compile Include="StagingObject\SdaLicenseSO.cs" />
+    <Compile Include="StagingObject\SdaMetadataSO.cs" />
+    <Compile Include="StagingObject\SdaModuleFieldSO.cs" />
+    <Compile Include="StagingObject\SdaNationalSO.cs" />
+    <Compile Include="StagingObject\SdaNotifySO.cs" />
+    <Compile Include="StagingObject\SdaProvinceMapSO.cs" />
+    <Compile Include="StagingObject\SdaProvinceSO.cs" />
+    <Compile Include="StagingObject\SdaReligionSO.cs" />
+    <Compile Include="StagingObject\SdaSqlParamSO.cs" />
+    <Compile Include="StagingObject\SdaSqlSO.cs" />
+    <Compile Include="StagingObject\SdaTranslateSO.cs" />
+    <Compile Include="StagingObject\SdaTroubleSO.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SDA.EFMODEL\SDA.EFMODEL.csproj">
+      <Project>{6e89816e-d0e8-4f0e-a88e-4a60a049a26f}</Project>
+      <Name>SDA.EFMODEL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

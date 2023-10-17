@@ -1,0 +1,1121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13BE5145-8900-48AC-AFF7-478EA87A8A79}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MOS.API</RootNamespace>
+    <AssemblyName>MOS.API</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <DontImportPostSharp>True</DontImportPostSharp>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>bin\MOS.API.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ACS.EFMODEL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\ACS\ACS.EFMODEL.dll</HintPath>
+    </Reference>
+    <Reference Include="ACS.Filter">
+      <HintPath>..\..\..\RELEASE\ACS\ACS.Filter.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper, Version=4.0.4.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="IMSys.DbConfig.HIS_RS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\IMSys.DbConfig\IMSys.DbConfig.HIS_RS\IMSys.DbConfig.HIS_RS.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Logging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Logging\Inventec.Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Scheduler, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Scheduler\Inventec.Common.Scheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.TypeConvert">
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.TypeConvert\Inventec.Common.TypeConvert.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Inventec.Core\Inventec.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Token.Core">
+      <HintPath>..\..\..\RELEASE\Inventec.Token\Inventec.Token.ResourceSystem\Inventec.Token.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Token.ResourceSystem, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Inventec.Token\Inventec.Token.ResourceSystem\Inventec.Token.ResourceSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.1.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Library packages\itextsharp\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagePack">
+      <HintPath>..\..\..\RELEASE\Library packages\MessagePack.1.7.3.4\MessagePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Library packages\Microsoft.AspNet.SignalR.Core\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MOS.EFMODEL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\MOS\MOS.EFMODEL.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="PostSharp, Version=4.2.22.0, Culture=neutral, PublicKeyToken=b13fd38b8f9c99d7, processorArchitecture=MSIL">
+      <HintPath>..\packages\PostSharp.4.2.22\lib\net35-client\PostSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PostSharp.Patterns.Diagnostics, Version=4.2.22.0, Culture=neutral, PublicKeyToken=e7f631e6ce13f078, processorArchitecture=MSIL">
+      <HintPath>..\packages\PostSharp.Patterns.Diagnostics.4.2.22\lib\net40\PostSharp.Patterns.Diagnostics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Swashbuckle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swashbuckle.Core.5.5.3\lib\net40\Swashbuckle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Library packages\MessagePack.1.7.3.4\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.3\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.1\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\SwaggerConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Base\ApiForbiddenResult.cs" />
+    <Compile Include="Base\ApiParam.cs" />
+    <Compile Include="Base\ApiParamFilter.cs" />
+    <Compile Include="Base\ApiResult.cs" />
+    <Compile Include="Controllers\HisDosageFormController.cs" />
+    <Compile Include="Controllers\HisHivTreatmentControllerView.cs" />
+    <Compile Include="Controllers\HisLocationStoreController.cs" />
+    <Compile Include="Controllers\HisMedicineServiceController.cs" />
+    <Compile Include="Controllers\HisRationScheduleController.cs" />
+    <Compile Include="Controllers\HisRationScheduleControllerView.cs" />
+    <Compile Include="Controllers\HisStentConcludeController.cs" />
+    <Compile Include="SwaggerExtensions\AuthorizationHeaderParameterOperationFilter.cs" />
+    <Compile Include="Base\BaseApiController.cs" />
+    <Compile Include="Base\ApiHeaderParamFilter.cs" />
+    <Compile Include="Base\ApiResultZip.cs" />
+    <Compile Include="Base\HipoApiParam.cs" />
+    <Compile Include="Base\HipoApiResult.cs" />
+    <Compile Include="Base\LicenseFilter.cs" />
+    <Compile Include="Base\NotCamelFormatResult.cs" />
+    <Compile Include="SwaggerExtensions\SelectedControllersDocumentFilter.cs" />
+    <Compile Include="Controllers\AcsUserControllerIntegrate.cs" />
+    <Compile Include="Controllers\CodeGenerationController.cs" />
+    <Compile Include="Controllers\HisAlertController.cs" />
+    <Compile Include="Controllers\HisAssessmentMemberController.cs" />
+    <Compile Include="Controllers\HisAssessmentObjectController.cs" />
+    <Compile Include="Controllers\HisCarerCardBorrowController.cs" />
+    <Compile Include="Controllers\HisCarerCardBorrowControllerView.cs" />
+    <Compile Include="Controllers\HisAgeTypeController.cs" />
+    <Compile Include="Controllers\HisAntibioticMicrobiController.cs" />
+    <Compile Include="Controllers\HisAntibioticNewRegController.cs" />
+    <Compile Include="Controllers\HisAntibioticNewRegControllerView.cs" />
+    <Compile Include="Controllers\HisAntibioticOldRegController.cs" />
+    <Compile Include="Controllers\HisAntibioticRequestController.cs" />
+    <Compile Include="Controllers\HisAntibioticRequestControllerView.cs" />
+    <Compile Include="Controllers\HisBloodGiverController.cs" />
+    <Compile Include="Controllers\HisBltyVolumeController.cs" />
+    <Compile Include="Controllers\HisCarerCardController.cs" />
+    <Compile Include="Controllers\HisCarerCardControllerView.cs" />
+    <Compile Include="Controllers\HisConfigGroupController.cs" />
+    <Compile Include="Controllers\HisDebateInviteUserController.cs" />
+    <Compile Include="Controllers\HisDebateReasonController.cs" />
+    <Compile Include="Controllers\HisDiseaseTypeController.cs" />
+    <Compile Include="Controllers\HisEmployeeScheduleController.cs" />
+    <Compile Include="Controllers\HisEventsCausesDeathController.cs" />
+    <Compile Include="Controllers\HisExmeReasonCfgController.cs" />
+    <Compile Include="Controllers\HisExmeReasonCfgControllerView.cs" />
+    <Compile Include="Controllers\HisExpMestBltyReqControllerView2.cs" />
+    <Compile Include="Controllers\HisHivTreatmentController.cs" />
+    <Compile Include="Controllers\HisHospitalizeReasonController.cs" />
+    <Compile Include="Controllers\HisInteractiveGradeController.cs" />
+    <Compile Include="Controllers\HisKskAccessController.cs" />
+    <Compile Include="Controllers\HisKskAccessControllerView.cs" />
+    <Compile Include="Controllers\HisKskDriverCarController.cs" />
+    <Compile Include="Controllers\HisKskGeneralController.cs" />
+    <Compile Include="Controllers\HisKskOccupationalController.cs" />
+    <Compile Include="Controllers\HisKskOtherController.cs" />
+    <Compile Include="Controllers\HisKskOverEighteenController.cs" />
+    <Compile Include="Controllers\HisKskPeriodDriverController.cs" />
+    <Compile Include="Controllers\HisKskUnderEighteenController.cs" />
+    <Compile Include="Controllers\HisKskUneiVatyController.cs" />
+    <Compile Include="Controllers\HisLicenseClassController.cs" />
+    <Compile Include="Controllers\HisMedicalAssessmentController.cs" />
+    <Compile Include="Controllers\HisMedicalAssessmentControllerView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\HisMedicineInteractiveController.cs" />
+    <Compile Include="Controllers\HisMediRecordControllerView2.cs" />
+    <Compile Include="Controllers\HisMestPeriodBloodControllerView.cs" />
+    <Compile Include="Controllers\HisMixedMedicineController.cs" />
+    <Compile Include="Controllers\HisMrCheckItemController.cs" />
+    <Compile Include="Controllers\HisMrCheckItemTypeController.cs" />
+    <Compile Include="Controllers\HisMrChecklistController.cs" />
+    <Compile Include="Controllers\HisMrCheckSummaryController.cs" />
+    <Compile Include="Controllers\HisObeyContraindiController.cs" />
+    <Compile Include="Controllers\HisPatientObservationController.cs" />
+    <Compile Include="Controllers\HisPeriodDriverDityController.cs" />
+    <Compile Include="Controllers\HisPetroleumController.cs" />
+    <Compile Include="Controllers\HisProcessingMethodController.cs" />
+    <Compile Include="Controllers\HisRegimenHivController.cs" />
+    <Compile Include="Controllers\HisRejectAlertController.cs" />
+    <Compile Include="Controllers\HisSereServControllerView17.cs" />
+    <Compile Include="Controllers\HisSereServPtttControllerView1.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerKsk.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerView12.cs" />
+    <Compile Include="Controllers\HisSeseDepoRepayControllerView.cs" />
+    <Compile Include="Controllers\HisSevereIllnessInfoController.cs" />
+    <Compile Include="Controllers\HisTranPatiTempController.cs" />
+    <Compile Include="Controllers\HisTransactionControllerEpayment.cs" />
+    <Compile Include="Controllers\EmrIntegrateController.cs" />
+    <Compile Include="Controllers\HisDepositReasonController.cs" />
+    <Compile Include="Controllers\HisDrugInterventionController.cs" />
+    <Compile Include="Controllers\HisDrugInterventionControllerPlus.cs" />
+    <Compile Include="Controllers\HisFileTypeController.cs" />
+    <Compile Include="Controllers\HisNumOrderBlockController.cs" />
+    <Compile Include="Controllers\HisNumOrderIssueController.cs" />
+    <Compile Include="Controllers\HisPositionController.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerLView1.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerPacs.cs" />
+    <Compile Include="Controllers\HisBodyPartController.cs" />
+    <Compile Include="Controllers\HisContactController.cs" />
+    <Compile Include="Controllers\HisContactPointController.cs" />
+    <Compile Include="Controllers\HisContactPointControllerView.cs" />
+    <Compile Include="Controllers\HisDeathCertBookController.cs" />
+    <Compile Include="Controllers\HisDeathCertBookControllerView.cs" />
+    <Compile Include="Controllers\HisExpiredDateCfgController.cs" />
+    <Compile Include="Controllers\HisKskDriverController.cs" />
+    <Compile Include="Controllers\HisKskDriverControllerView.cs" />
+    <Compile Include="Controllers\HisMedicalContractController.cs" />
+    <Compile Include="Controllers\HisMedicalContractControllerView.cs" />
+    <Compile Include="Controllers\HisMediContractMatyController.cs" />
+    <Compile Include="Controllers\HisMediContractMatyControllerView.cs" />
+    <Compile Include="Controllers\HisMediContractMetyController.cs" />
+    <Compile Include="Controllers\HisMediContractMetyControllerView.cs" />
+    <Compile Include="Controllers\HisSereServPtttTempController.cs" />
+    <Compile Include="Controllers\HisSereServTempControllerDynamic.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerTestPlus.cs" />
+    <Compile Include="Controllers\HisSesePtttMethodController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\HisTreatmentControllerView11.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerView12.cs" />
+    <Compile Include="Controllers\HisTreatmentFileController.cs" />
+    <Compile Include="Controllers\HisTreatmentRoomController.cs" />
+    <Compile Include="Controllers\HisTreatmentRoomControllerView.cs" />
+    <Compile Include="Controllers\HisVaccAppointmentController.cs" />
+    <Compile Include="Controllers\HisVaccAppointmentControllerView.cs" />
+    <Compile Include="Controllers\HisVaccineTypeController.cs" />
+    <Compile Include="Controllers\HisWelfareTypeController.cs" />
+    <Compile Include="Controllers\SqlExecuteController.cs" />
+    <Compile Include="Controllers\HisContraindicationController.cs" />
+    <Compile Include="Controllers\HisExamScheduleController.cs" />
+    <Compile Include="Controllers\HisExamScheduleControllerView.cs" />
+    <Compile Include="Controllers\HisPatientTypeControllerIntergrate.cs" />
+    <Compile Include="Controllers\HisCancelReasonController.cs" />
+    <Compile Include="Controllers\HisExpMestControllerTest.cs" />
+    <Compile Include="Controllers\HisQcNormationController.cs" />
+    <Compile Include="Controllers\HisQcNormationControllerView.cs" />
+    <Compile Include="Controllers\HisQcTypeController.cs" />
+    <Compile Include="Controllers\HisServiceChangeReqController.cs" />
+    <Compile Include="Controllers\HisServiceChangeReqControllerView.cs" />
+    <Compile Include="Controllers\HisServiceConditionController.cs" />
+    <Compile Include="Controllers\HisServiceConditionControllerView.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerView11.cs" />
+    <Compile Include="Controllers\DanhSachDangKyKhamController.cs" />
+    <Compile Include="Controllers\DuLieuDonThuocController.cs" />
+    <Compile Include="Controllers\DuLieuXetNghiemController.cs" />
+    <Compile Include="Controllers\HisBankController.cs" />
+    <Compile Include="Controllers\HisBltyServiceController.cs" />
+    <Compile Include="Controllers\HisBltyServiceControllerView.cs" />
+    <Compile Include="Controllers\HisCashierAddConfigController.cs" />
+    <Compile Include="Controllers\HisCashierAddConfigControllerView.cs" />
+    <Compile Include="Controllers\HisEinvoiceTypeController.cs" />
+    <Compile Include="Controllers\HisEmrCoverConfigController.cs" />
+    <Compile Include="Controllers\HisEmrCoverConfigControllerView.cs" />
+    <Compile Include="Controllers\HisEmrCoverTypeController.cs" />
+    <Compile Include="Controllers\HisEmrFormController.cs" />
+    <Compile Include="Controllers\HisExpBltyServiceController.cs" />
+    <Compile Include="Controllers\HisExpBltyServiceControllerView.cs" />
+    <Compile Include="Controllers\HisMestPatyTrtyController.cs" />
+    <Compile Include="Controllers\HisMestPatyTrtyControllerView.cs" />
+    <Compile Include="Controllers\HisPermissionController.cs" />
+    <Compile Include="Controllers\HisSereServControllerView15.cs" />
+    <Compile Include="Controllers\HisAccountBookControllerAuthority.cs" />
+    <Compile Include="Controllers\HisPackageDetailController.cs" />
+    <Compile Include="Controllers\HisPackageDetailControllerView.cs" />
+    <Compile Include="Controllers\HisPatientClassifyController.cs" />
+    <Compile Include="Controllers\HisServiceNumOrderController.cs" />
+    <Compile Include="Controllers\HisServiceNumOrderControllerView.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerView10.cs" />
+    <Compile Include="Controllers\HisDocumentBookController.cs" />
+    <Compile Include="Controllers\HisDocumentBookControllerView.cs" />
+    <Compile Include="Controllers\HisServiceRereTimeController.cs" />
+    <Compile Include="Controllers\HisServiceRereTimeControllerView.cs" />
+    <Compile Include="Controllers\HisSeseTransReqController.cs" />
+    <Compile Include="Controllers\HisSeseTransReqControllerView.cs" />
+    <Compile Include="Controllers\HisSkinSurgeryDescController.cs" />
+    <Compile Include="Controllers\HisStorageConditionController.cs" />
+    <Compile Include="Controllers\HisSubclinicalRsAddController.cs" />
+    <Compile Include="Controllers\HisSubclinicalRsAddControllerView.cs" />
+    <Compile Include="Controllers\HisTestIndexGroupController.cs" />
+    <Compile Include="Controllers\HisTestTypeController.cs" />
+    <Compile Include="Controllers\HisTransReqController.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerView10.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerView5.cs" />
+    <Compile Include="Controllers\HisAppointmentPeriodController.cs" />
+    <Compile Include="Controllers\HisAppointmentPeriodControllerView.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerOptometrist.cs" />
+    <Compile Include="Controllers\HisDebtGoodsController.cs" />
+    <Compile Include="Controllers\HisExpMestControllerSql.cs" />
+    <Compile Include="Controllers\GrantPermissionController.cs" />
+    <Compile Include="Controllers\HisDebateEkipUserController.cs" />
+    <Compile Include="Controllers\HisDebateEkipUserControllerView.cs" />
+    <Compile Include="Controllers\HisEyeSurgryDescController.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerDynamic.cs" />
+    <Compile Include="Controllers\HisDebateTypeController.cs" />
+    <Compile Include="Controllers\HisDeskController.cs" />
+    <Compile Include="Controllers\HisDeskControllerView.cs" />
+    <Compile Include="Controllers\HisMestMatyDepaController.cs" />
+    <Compile Include="Controllers\HisMestMatyDepaControllerView.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerSample.cs" />
+    <Compile Include="Controllers\HisDataStoreControllerView1.cs" />
+    <Compile Include="Controllers\HisMediRecordControllerView1.cs" />
+    <Compile Include="Controllers\HisBirthCertBookControllerView.cs" />
+    <Compile Include="Controllers\HisMediRecordBorrowController.cs" />
+    <Compile Include="Controllers\HisMediRecordControllerView.cs" />
+    <Compile Include="Controllers\HisMetyProductController.cs" />
+    <Compile Include="Controllers\HisMetyProductControllerView.cs" />
+    <Compile Include="Controllers\HisNoneMediServiceController.cs" />
+    <Compile Include="Controllers\HisNoneMediServiceControllerView.cs" />
+    <Compile Include="Controllers\HisOtherPaySourceController.cs" />
+    <Compile Include="Controllers\HisPatientCaseController.cs" />
+    <Compile Include="Controllers\HisProgramControllerView.cs" />
+    <Compile Include="Controllers\HisMediRecordController.cs" />
+    <Compile Include="Controllers\HisRationSumSttController.cs" />
+    <Compile Include="Controllers\HisSereServControllerView14.cs" />
+    <Compile Include="Controllers\HisSereServDebtControllerView.cs" />
+    <Compile Include="Controllers\HisTestSampleTypeController.cs" />
+    <Compile Include="Controllers\HisTransactionControllerView1.cs" />
+    <Compile Include="Controllers\HisAreaController.cs" />
+    <Compile Include="Controllers\HisAtcController.cs" />
+    <Compile Include="Controllers\HisBirthCertBookController.cs" />
+    <Compile Include="Controllers\HisExpMestMedicineControllerView6.cs" />
+    <Compile Include="Controllers\HisDashboardController.cs" />
+    <Compile Include="Controllers\HisDiimTypeController.cs" />
+    <Compile Include="Controllers\HisExpMestMedicineControllerLView1.cs" />
+    <Compile Include="Controllers\HisFuexTypeController.cs" />
+    <Compile Include="Controllers\HisPriorityTypeController.cs" />
+    <Compile Include="Controllers\HisSereServDebtController.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerViewDynamic.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerLView.cs" />
+    <Compile Include="Controllers\HisExpMestControllerView5.cs" />
+    <Compile Include="Controllers\HisBcsMatyReqDtController.cs" />
+    <Compile Include="Controllers\HisBcsMatyReqReqController.cs" />
+    <Compile Include="Controllers\HisBcsMetyReqDtController.cs" />
+    <Compile Include="Controllers\HisBcsMetyReqReqController.cs" />
+    <Compile Include="Controllers\HisExpMestControllerView4.cs" />
+    <Compile Include="Controllers\HisExpMestControllerPharmacyCashier.cs" />
+    <Compile Include="Controllers\HisDebateTempController.cs" />
+    <Compile Include="Controllers\HisMaterialTypeMapController.cs" />
+    <Compile Include="Controllers\HisRationGroupController.cs" />
+    <Compile Include="Controllers\HisSaleProfitCfgController.cs" />
+    <Compile Include="Controllers\HisSereServRationController.cs" />
+    <Compile Include="Controllers\HisSereServRationControllerView.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerDynamic.cs" />
+    <Compile Include="Controllers\HisBhytParamController.cs" />
+    <Compile Include="Controllers\HisDocHoldTypeController.cs" />
+    <Compile Include="Controllers\HisFilmSizeController.cs" />
+    <Compile Include="Controllers\HisHoldReturnController.cs" />
+    <Compile Include="Controllers\HisHoldReturnControllerView.cs" />
+    <Compile Include="Controllers\HisHoreDhtyController.cs" />
+    <Compile Include="Controllers\HisHoreDhtyControllerView.cs" />
+    <Compile Include="Controllers\HisHoreHandoverController.cs" />
+    <Compile Include="Controllers\HisHoreHandoverControllerView.cs" />
+    <Compile Include="Controllers\HisHoreHandoverSttController.cs" />
+    <Compile Include="Controllers\HisHoreHohaController.cs" />
+    <Compile Include="Controllers\HisHoreHohaControllerView.cs" />
+    <Compile Include="Controllers\HisMediRecordTypeController.cs" />
+    <Compile Include="Controllers\HisMestMetyUnitController.cs" />
+    <Compile Include="Controllers\HisRoomSaroController.cs" />
+    <Compile Include="Controllers\HisRoomSaroControllerView.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerView9.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerKidney.cs" />
+    <Compile Include="Controllers\HisDispenseTypeController.cs" />
+    <Compile Include="Controllers\HisSereServControllerView8.cs" />
+    <Compile Include="Controllers\HisCaroAccountBookController.cs" />
+    <Compile Include="Controllers\HisCaroAccountBookControllerView.cs" />
+    <Compile Include="Controllers\HisDebateControllerView.cs" />
+    <Compile Include="Controllers\HisBillGoodsController.cs" />
+    <Compile Include="Controllers\HisEmotionlessResultController.cs" />
+    <Compile Include="Controllers\HisHealthExamRankController.cs" />
+    <Compile Include="Controllers\HisImpMestProposeController.cs" />
+    <Compile Include="Controllers\HisImpMestProposeControllerView.cs" />
+    <Compile Include="Controllers\HisImpUserTempController.cs" />
+    <Compile Include="Controllers\HisImpUserTempDtController.cs" />
+    <Compile Include="Controllers\HisImpUserTempDtControllerView.cs" />
+    <Compile Include="Controllers\HisMaterialMaterialController.cs" />
+    <Compile Include="Controllers\HisMatyMatyController.cs" />
+    <Compile Include="Controllers\HisNextTreaIntrController.cs" />
+    <Compile Include="Controllers\HisPatientTypeRoomController.cs" />
+    <Compile Include="Controllers\HisPatientTypeRoomControllerView.cs" />
+    <Compile Include="Controllers\HisPtttHighTechController.cs" />
+    <Compile Include="Controllers\HisPtttPriorityController.cs" />
+    <Compile Include="Controllers\HisPtttTableController.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerView8.cs" />
+    <Compile Include="Controllers\HisSpeedUnitController.cs" />
+    <Compile Include="Controllers\HisSurgRemuDetailController.cs" />
+    <Compile Include="Controllers\HisSurgRemuDetailControllerView.cs" />
+    <Compile Include="Controllers\HisSurgRemunerationController.cs" />
+    <Compile Include="Controllers\HisSurgRemunerationControllerView.cs" />
+    <Compile Include="Controllers\HisTransactionExpController.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerLView.cs" />
+    <Compile Include="Controllers\HisExpMestMedicineControllerView5.cs" />
+    <Compile Include="Controllers\HisBedLogControllerView3.cs" />
+    <Compile Include="Controllers\HisExeServiceModuleController.cs" />
+    <Compile Include="Controllers\HisFormTypeCfgController.cs" />
+    <Compile Include="Controllers\HisFormTypeCfgDataController.cs" />
+    <Compile Include="Controllers\HisFormTypeCfgDataControllerView.cs" />
+    <Compile Include="Controllers\HisImpMestPayController.cs" />
+    <Compile Include="Controllers\HisImpMestPayControllerView.cs" />
+    <Compile Include="Controllers\HisMachineServMatyController.cs" />
+    <Compile Include="Controllers\HisPrepareController.cs" />
+    <Compile Include="Controllers\HisPrepareControllerView.cs" />
+    <Compile Include="Controllers\HisPrepareMatyController.cs" />
+    <Compile Include="Controllers\HisPrepareMatyControllerView.cs" />
+    <Compile Include="Controllers\HisPrepareMetyController.cs" />
+    <Compile Include="Controllers\HisPrepareMetyControllerView.cs" />
+    <Compile Include="Controllers\HisPtttGroupBestController.cs" />
+    <Compile Include="Controllers\HisPtttGroupBestControllerView.cs" />
+    <Compile Include="Controllers\HisSereServControllerView13.cs" />
+    <Compile Include="Controllers\HisServiceHeinController.cs" />
+    <Compile Include="Controllers\HisServiceHeinControllerView.cs" />
+    <Compile Include="Controllers\HisTranPatiTechController.cs" />
+    <Compile Include="Controllers\HisTransactionControllerCheck.cs" />
+    <Compile Include="Controllers\HisPtttCalendarControllerView.cs" />
+    <Compile Include="Controllers\HisEkipPlanController.cs" />
+    <Compile Include="Controllers\HisEkipPlanUserController.cs" />
+    <Compile Include="Controllers\HisEkipPlanUserControllerView.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerRation.cs" />
+    <Compile Include="Controllers\HisPtttCalendarController.cs" />
+    <Compile Include="Controllers\HisRationSumController.cs" />
+    <Compile Include="Controllers\HisRationTimeController.cs" />
+    <Compile Include="Controllers\HisRefectoryController.cs" />
+    <Compile Include="Controllers\HisRefectoryControllerView.cs" />
+    <Compile Include="Controllers\HisServiceRatiController.cs" />
+    <Compile Include="Controllers\HisTransfusionController.cs" />
+    <Compile Include="Controllers\HisTransfusionSumController.cs" />
+    <Compile Include="Controllers\HisTreatmentEndTypeExtController.cs" />
+    <Compile Include="Controllers\HisUserAccountBookController.cs" />
+    <Compile Include="Controllers\HisUserAccountBookControllerView.cs" />
+    <Compile Include="Controllers\HisUserGroupTempController.cs" />
+    <Compile Include="Controllers\HisUserGroupTempDtController.cs" />
+    <Compile Include="Controllers\HisUserGroupTempDtControllerView.cs" />
+    <Compile Include="Controllers\HisVaccHealthSttController.cs" />
+    <Compile Include="Controllers\HisVaccinationExamController.cs" />
+    <Compile Include="Controllers\HisVaccinationExamControllerView.cs" />
+    <Compile Include="Controllers\HisVaccinationSttController.cs" />
+    <Compile Include="Controllers\HisVaccinationVrplController.cs" />
+    <Compile Include="Controllers\HisVaccinationVrtyController.cs" />
+    <Compile Include="Controllers\HisVaccReactPlaceController.cs" />
+    <Compile Include="Controllers\HisVaexVaerControllerView.cs" />
+    <Compile Include="Controllers\HisAntigenController.cs" />
+    <Compile Include="Controllers\HisAntigenMetyController.cs" />
+    <Compile Include="Controllers\HisVaccinationControllerView.cs" />
+    <Compile Include="Controllers\HisSereServControllerIntegrate.cs" />
+    <Compile Include="Controllers\HisCareTempController.cs" />
+    <Compile Include="Controllers\HisCareTempDetailController.cs" />
+    <Compile Include="Controllers\HisExpMestControllerVitaminA.cs" />
+    <Compile Include="Controllers\HisExpMestControllerView2.cs" />
+    <Compile Include="Controllers\HisExpMestControllerAggrExam.cs" />
+    <Compile Include="Controllers\HisKskContractControllerView.cs" />
+    <Compile Include="Controllers\HisAllergenicControllerView.cs" />
+    <Compile Include="Controllers\HisAdrController.cs" />
+    <Compile Include="Controllers\HisAdrControllerView.cs" />
+    <Compile Include="Controllers\HisAdrMedicineTypeController.cs" />
+    <Compile Include="Controllers\HisAdrMedicineTypeControllerView.cs" />
+    <Compile Include="Controllers\HisAllergenicController.cs" />
+    <Compile Include="Controllers\HisAllergyCardController.cs" />
+    <Compile Include="Controllers\HisAllergyCardControllerView.cs" />
+    <Compile Include="Controllers\HisExpMestMaterialControllerView2.cs" />
+    <Compile Include="Controllers\HisExpMestMedicineControllerView2.cs" />
+    <Compile Include="Controllers\HisFinancePeriodController.cs" />
+    <Compile Include="Controllers\HisFinancePeriodControllerView.cs" />
+    <Compile Include="Controllers\HisImpMestMaterialControllerView4.cs" />
+    <Compile Include="Controllers\HisImpMestMedicineControllerView4.cs" />
+    <Compile Include="Controllers\HisAppointmentServController.cs" />
+    <Compile Include="Controllers\HisAppointmentServControllerView.cs" />
+    <Compile Include="Controllers\HisKskController.cs" />
+    <Compile Include="Controllers\HisKskServiceController.cs" />
+    <Compile Include="Controllers\HisKskServiceControllerView.cs" />
+    <Compile Include="Controllers\HisPatientControllerSdo.cs" />
+    <Compile Include="Controllers\HisServiceSameController.cs" />
+    <Compile Include="Controllers\HisServiceSameControllerView.cs" />
+    <Compile Include="Controllers\HisSpecialityController.cs" />
+    <Compile Include="Controllers\HisStationController.cs" />
+    <Compile Include="Controllers\HisStationControllerView.cs" />
+    <Compile Include="Controllers\HisTrackingTempController.cs" />
+    <Compile Include="Controllers\HisTreatmentBorrowController.cs" />
+    <Compile Include="Controllers\HisTreatmentBorrowControllerView.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerView9.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerIntegrate.cs" />
+    <Compile Include="Controllers\HisBranchTimeController.cs" />
+    <Compile Include="Controllers\HisBranchTimeControllerView.cs" />
+    <Compile Include="Controllers\HisDispenseController.cs" />
+    <Compile Include="Controllers\HisExroRoomController.cs" />
+    <Compile Include="Controllers\HisExroRoomControllerView.cs" />
+    <Compile Include="Controllers\HisMedicineMaterialControllerView.cs" />
+    <Compile Include="Controllers\HisMedicineMedicineController.cs" />
+    <Compile Include="Controllers\HisMedicineMedicineControllerView.cs" />
+    <Compile Include="Controllers\HisCoTreatmentController.cs" />
+    <Compile Include="Controllers\HisCoTreatmentControllerView.cs" />
+    <Compile Include="Controllers\HisEquipmentSetController.cs" />
+    <Compile Include="Controllers\HisEquipmentSetMatyController.cs" />
+    <Compile Include="Controllers\HisEquipmentSetMatyControllerView.cs" />
+    <Compile Include="Controllers\HisExpMestControllerInPres.cs" />
+    <Compile Include="Controllers\HisCacheMonitorController.cs" />
+    <Compile Include="Controllers\HisEkipTempController.cs" />
+    <Compile Include="Controllers\HisEkipTempUserController.cs" />
+    <Compile Include="Controllers\HisEkipTempUserControllerView.cs" />
+    <Compile Include="Controllers\HisExpMestMaterialControllerView4.cs" />
+    <Compile Include="Controllers\HisExpMestMedicineControllerView4.cs" />
+    <Compile Include="Controllers\HisIcdServiceController.cs" />
+    <Compile Include="Controllers\HisMachineController.cs" />
+    <Compile Include="Controllers\HisMedicineGroupController.cs" />
+    <Compile Include="Controllers\HisMedicineMaterialController.cs" />
+    <Compile Include="Controllers\HisMedicineTypeRoomController.cs" />
+    <Compile Include="Controllers\HisMedicineTypeRoomControllerView.cs" />
+    <Compile Include="Controllers\HisMediStockExtyController.cs" />
+    <Compile Include="Controllers\HisMediStockExtyControllerView.cs" />
+    <Compile Include="Controllers\HisMediStockImtyController.cs" />
+    <Compile Include="Controllers\HisMediStockImtyControllerView.cs" />
+    <Compile Include="Controllers\HisMetyMatyController.cs" />
+    <Compile Include="Controllers\HisMetyMatyControllerView.cs" />
+    <Compile Include="Controllers\HisMetyMetyController.cs" />
+    <Compile Include="Controllers\HisMetyMetyControllerView.cs" />
+    <Compile Include="Controllers\HisRoomGroupController.cs" />
+    <Compile Include="Controllers\HisRoomTimeController.cs" />
+    <Compile Include="Controllers\HisRoomTimeControllerView.cs" />
+    <Compile Include="Controllers\HisSereServMatyController.cs" />
+    <Compile Include="Controllers\HisSereServMatyControllerView.cs" />
+    <Compile Include="Controllers\HisServiceMachineController.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerView7.cs" />
+    <Compile Include="Controllers\HisImpMestControllerView.cs" />
+    <Compile Include="Controllers\HisRepayReasonController.cs" />
+    <Compile Include="Controllers\HisSereServControllerSql.cs" />
+    <Compile Include="Controllers\HisExpMestBltyReqControllerView1.cs" />
+    <Compile Include="Controllers\HisExpMestControllerAggr.cs" />
+    <Compile Include="Controllers\HisExpMestControllerChms.cs" />
+    <Compile Include="Controllers\HisImpMestBloodControllerSdo.cs" />
+    <Compile Include="Controllers\HisImpMestMedicineControllerSdo.cs" />
+    <Compile Include="Controllers\HisImpMestMaterialControllerSdo.cs" />
+    <Compile Include="Controllers\HisExpMestControllerManu.cs" />
+    <Compile Include="Controllers\HisExpMestBltyReqController.cs" />
+    <Compile Include="Controllers\HisExpMestBltyReqControllerView.cs" />
+    <Compile Include="Controllers\HisExpMestControllerSale.cs" />
+    <Compile Include="Controllers\HisExpMestControllerOther.cs" />
+    <Compile Include="Controllers\HisExpMestControllerDepa.cs" />
+    <Compile Include="Controllers\HisExpMestMatyReqControllerView.cs" />
+    <Compile Include="Controllers\HisExpMestMetyReqControllerView.cs" />
+    <Compile Include="Controllers\HisImpMestMaterialControllerView3.cs" />
+    <Compile Include="Controllers\HisImpMestMaterialControllerView2.cs" />
+    <Compile Include="Controllers\HisImpMestMaterialController.cs" />
+    <Compile Include="Controllers\HisImpMestMedicineControllerView3.cs" />
+    <Compile Include="Controllers\HisImpMestMedicineControllerView2.cs" />
+    <Compile Include="Controllers\HisImpMestMedicineController.cs" />
+    <Compile Include="Controllers\HisImpMestControllerOther.cs" />
+    <Compile Include="Controllers\HisImpMestControllerMoba.cs" />
+    <Compile Include="Controllers\HisImpMestControllerManu.cs" />
+    <Compile Include="Controllers\HisImpMestControllerChms.cs" />
+    <Compile Include="Controllers\HisImpMestControllerAggr.cs" />
+    <Compile Include="Controllers\HisMediStockPeriodController.cs" />
+    <Compile Include="Controllers\HisSereServDepositController.cs" />
+    <Compile Include="Controllers\HisSereServDepositControllerView.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerPaan.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerAssignService.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerPres.cs" />
+    <Compile Include="Controllers\HisExpMestBloodController.cs" />
+    <Compile Include="Controllers\HisExpMestBloodControllerView.cs" />
+    <Compile Include="Controllers\HisExpMestController.cs" />
+    <Compile Include="Controllers\HisExpMestControllerView1.cs" />
+    <Compile Include="Controllers\HisExpMestMaterialController.cs" />
+    <Compile Include="Controllers\HisExpMestMaterialControllerView1.cs" />
+    <Compile Include="Controllers\HisExpMestMaterialControllerView3.cs" />
+    <Compile Include="Controllers\HisExpMestMatyReqController.cs" />
+    <Compile Include="Controllers\HisExpMestMedicineController.cs" />
+    <Compile Include="Controllers\HisExpMestMedicineControllerView1.cs" />
+    <Compile Include="Controllers\HisExpMestMedicineControllerView3.cs" />
+    <Compile Include="Controllers\HisExpMestMetyReqController.cs" />
+    <Compile Include="Controllers\HisExpMestReasonController.cs" />
+    <Compile Include="Controllers\HisImpMestBloodController.cs" />
+    <Compile Include="Controllers\HisImpMestBloodControllerView.cs" />
+    <Compile Include="Controllers\HisImpMestController.cs" />
+    <Compile Include="Controllers\HisMediStockController.cs" />
+    <Compile Include="Controllers\HisMediStockControllerSql.cs" />
+    <Compile Include="Controllers\HisMediStockMatyController.cs" />
+    <Compile Include="Controllers\HisMediStockMetyController.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerExam.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerBed.cs" />
+    <Compile Include="Controllers\HisPackageController.cs" />
+    <Compile Include="Controllers\HisServiceReqMetyController.cs" />
+    <Compile Include="Controllers\HisSeseDepoRepayController.cs" />
+    <Compile Include="Controllers\HisTransactionControllerView.cs" />
+    <Compile Include="Controllers\HisConfigController.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerReha.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerSurg.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerView6.cs" />
+    <Compile Include="Controllers\HisExpMestUserController.cs" />
+    <Compile Include="Controllers\HisExpMestUserControllerView.cs" />
+    <Compile Include="Controllers\HisMediOrgController.cs" />
+    <Compile Include="Controllers\HisMemaGroupController.cs" />
+    <Compile Include="Controllers\HisSereServControllerView1.cs" />
+    <Compile Include="Controllers\HisSereServControllerView12.cs" />
+    <Compile Include="Controllers\HisMestInveUserControllerView.cs" />
+    <Compile Include="Controllers\HisSereServControllerView11.cs" />
+    <Compile Include="Controllers\HisDepartmentControllerView1.cs" />
+    <Compile Include="Controllers\HisDepartmentControllerView.cs" />
+    <Compile Include="Controllers\HisMestInventoryController.cs" />
+    <Compile Include="Controllers\HisMestInveUserController.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\HisServiceReqControllerTestRoche.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\HisServiceReqControllerView3.cs" />
+    <Compile Include="Controllers\HisBidTypeController.cs" />
+    <Compile Include="Controllers\HisCashoutController.cs" />
+    <Compile Include="Controllers\HisEmployeeController.cs" />
+    <Compile Include="Controllers\HisImpMestUserController.cs" />
+    <Compile Include="Controllers\HisImpMestUserControllerView.cs" />
+    <Compile Include="Controllers\HisOweTypeController.cs" />
+    <Compile Include="Controllers\HisMedicineTypeTutController.cs" />
+    <Compile Include="Controllers\HisMedicineTypeTutControllerView.cs" />
+    <Compile Include="Controllers\HisIcdCmController.cs" />
+    <Compile Include="Controllers\HisPaanLiquidController.cs" />
+    <Compile Include="Controllers\HisPaanPositionController.cs" />
+    <Compile Include="Controllers\HisRemunerationController.cs" />
+    <Compile Include="Controllers\HisSereServBillController.cs" />
+    <Compile Include="Controllers\HisSereServBillControllerView.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerSql.cs" />
+    <Compile Include="Controllers\HisExecuteRoomControllerView1.cs" />
+    <Compile Include="Controllers\HisMestMetyDepaControllerView.cs" />
+    <Compile Include="Controllers\HisExecuteRoleUserController.cs" />
+    <Compile Include="Controllers\HisMestMetyDepaController.cs" />
+    <Compile Include="Controllers\HisPatientTypeAlterControllerSql.cs" />
+    <Compile Include="Controllers\HisImpMestTypeUserController.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerSql.cs" />
+    <Compile Include="Controllers\HisBhytBlacklistController.cs" />
+    <Compile Include="Controllers\HisBhytWhitelistController.cs" />
+    <Compile Include="Controllers\HisServiceReqMatyController.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerView7.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerView6.cs" />
+    <Compile Include="Controllers\HisInfusionSumControllerView.cs" />
+    <Compile Include="Controllers\HisMediReactSumController.cs" />
+    <Compile Include="Controllers\HisMediReactSumControllerView.cs" />
+    <Compile Include="Controllers\HisSereServControllerView9.cs" />
+    <Compile Include="Controllers\HisHtuController.cs" />
+    <Compile Include="Controllers\HisBabyController.cs" />
+    <Compile Include="Controllers\HisBabyControllerView.cs" />
+    <Compile Include="Controllers\HisBornPositionController.cs" />
+    <Compile Include="Controllers\HisBornResultController.cs" />
+    <Compile Include="Controllers\HisBornTypeController.cs" />
+    <Compile Include="Controllers\HisExamServiceTempController.cs" />
+    <Compile Include="Controllers\HisSereServExtController.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerView4.cs" />
+    <Compile Include="Controllers\HisSereServTempController.cs" />
+    <Compile Include="Controllers\HisSereServControllerView7.cs" />
+    <Compile Include="Controllers\HisSereServControllerView6.cs" />
+    <Compile Include="Controllers\HisBloodTypeControllerSdo.cs" />
+    <Compile Include="Controllers\HisMaterialControllerView1.cs" />
+    <Compile Include="Controllers\HisMedicineControllerView1.cs" />
+    <Compile Include="Controllers\HisRegisterGateController.cs" />
+    <Compile Include="Controllers\HisRegisterReqController.cs" />
+    <Compile Include="Controllers\HisRegisterReqControllerView.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerView2.cs" />
+    <Compile Include="Controllers\HisServiceReqControllerView1.cs" />
+    <Compile Include="Controllers\HisSereServControllerView5.cs" />
+    <Compile Include="Controllers\HisSereServControllerView4.cs" />
+    <Compile Include="Controllers\HisSereServControllerView3.cs" />
+    <Compile Include="Controllers\HisSereServControllerView2.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerView3.cs" />
+    <Compile Include="Controllers\HisBidBloodTypeController.cs" />
+    <Compile Include="Controllers\HisBidBloodTypeControllerView.cs" />
+    <Compile Include="Controllers\HisAnticipateControllerView.cs" />
+    <Compile Include="Controllers\HisAnticipateBltyController.cs" />
+    <Compile Include="Controllers\HisAnticipateBltyControllerView.cs" />
+    <Compile Include="Controllers\HisImpSourceController.cs" />
+    <Compile Include="Controllers\HisRoomTypeModuleController.cs" />
+    <Compile Include="Controllers\HisRoomTypeModuleControllerView.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerView2.cs" />
+    <Compile Include="Controllers\HisTreatmentControllerView1.cs" />
+    <Compile Include="Controllers\HisBedBstyController.cs" />
+    <Compile Include="Controllers\HisBedBstyControllerView.cs" />
+    <Compile Include="Controllers\HisBedController.cs" />
+    <Compile Include="Controllers\HisBedControllerView.cs" />
+    <Compile Include="Controllers\HisBedLogController.cs" />
+    <Compile Include="Controllers\HisBedLogControllerView.cs" />
+    <Compile Include="Controllers\HisBedTypeController.cs" />
+    <Compile Include="Controllers\HisBloodAboController.cs" />
+    <Compile Include="Controllers\HisBloodControllerView.cs" />
+    <Compile Include="Controllers\HisBloodGroupController.cs" />
+    <Compile Include="Controllers\HisBloodTypeController.cs" />
+    <Compile Include="Controllers\HisBloodTypeControllerView.cs" />
+    <Compile Include="Controllers\HisBloodVolumeController.cs" />
+    <Compile Include="Controllers\HisCaroDepartmentController.cs" />
+    <Compile Include="Controllers\HisCashierRoomController.cs" />
+    <Compile Include="Controllers\HisAccidentBodyPartController.cs" />
+    <Compile Include="Controllers\HisAccidentCareController.cs" />
+    <Compile Include="Controllers\HisAccidentHelmetController.cs" />
+    <Compile Include="Controllers\HisAccidentLocationController.cs" />
+    <Compile Include="Controllers\HisAccidentPoisonController.cs" />
+    <Compile Include="Controllers\HisAccidentResultController.cs" />
+    <Compile Include="Controllers\HisAccidentVehicleController.cs" />
+    <Compile Include="Controllers\HisBidController.cs" />
+    <Compile Include="Controllers\HisBidMaterialTypeController.cs" />
+    <Compile Include="Controllers\HisBidMedicineTypeController.cs" />
+    <Compile Include="Controllers\HisBillFundController.cs" />
+    <Compile Include="Controllers\HisBillFundControllerView.cs" />
+    <Compile Include="Controllers\HisBranchController.cs" />
+    <Compile Include="Controllers\HisDepositReqController.cs" />
+    <Compile Include="Controllers\HisDepositReqControllerView.cs" />
+    <Compile Include="Controllers\HisEkipController.cs" />
+    <Compile Include="Controllers\HisEkipUserController.cs" />
+    <Compile Include="Controllers\HisEkipUserControllerView.cs" />
+    <Compile Include="Controllers\HisExecuteRoleController.cs" />
+    <Compile Include="Controllers\HisFundController.cs" />
+    <Compile Include="Controllers\HisInvoicePrintController.cs" />
+    <Compile Include="Controllers\HisMestPatySubController.cs" />
+    <Compile Include="Controllers\HisMestPeriodBloodController.cs" />
+    <Compile Include="Controllers\HisMestPeriodBltyController.cs" />
+    <Compile Include="Controllers\HisPatientProgramController.cs" />
+    <Compile Include="Controllers\HisPatientTypeSubController.cs" />
+    <Compile Include="Controllers\HisProgramController.cs" />
+    <Compile Include="Controllers\HisSaroExroController.cs" />
+    <Compile Include="Controllers\HisAccidentHurtTypeController.cs" />
+    <Compile Include="Controllers\HisAccidentHurtController.cs" />
+    <Compile Include="Controllers\HisExecuteGroupController.cs" />
+    <Compile Include="Controllers\HisSampleRoomController.cs" />
+    <Compile Include="Controllers\HisIcdGroupController.cs" />
+    <Compile Include="Controllers\HisEmergencyWtimeController.cs" />
+    <Compile Include="Controllers\HisReportTypeCatController.cs" />
+    <Compile Include="Controllers\HisServiceFollowController.cs" />
+    <Compile Include="Controllers\HisServiceFollowControllerView.cs" />
+    <Compile Include="Controllers\HisServiceRetyCatController.cs" />
+    <Compile Include="Controllers\HisTreatmentLoggingController.cs" />
+    <Compile Include="Controllers\HisTreatmentLoggingControllerView.cs" />
+    <Compile Include="Controllers\HisTreatmentUnlimitController.cs" />
+    <Compile Include="Controllers\HisTreatmentUnlimitControllerView.cs" />
+    <Compile Include="Controllers\HisUnlimitReasonController.cs" />
+    <Compile Include="Controllers\HisUnlimitTypeController.cs" />
+    <Compile Include="Controllers\HisVaccExamResultController.cs" />
+    <Compile Include="Controllers\HisVaccinationController.cs" />
+    <Compile Include="Controllers\HisVaccinationReactController.cs" />
+    <Compile Include="Controllers\HisVaccinationResultController.cs" />
+    <Compile Include="Controllers\HisVaccReactTypeController.cs" />
+    <Compile Include="Controllers\HisVaexVaerController.cs" />
+    <Compile Include="Controllers\HisVareVartController.cs" />
+    <Compile Include="Controllers\HisVitaminAController.cs" />
+    <Compile Include="Controllers\HisVitaminAControllerView.cs" />
+    <Compile Include="Controllers\HisWarningFeeCfgController.cs" />
+    <Compile Include="Controllers\HisWorkingShiftController.cs" />
+    <Compile Include="Controllers\HisWorkPlaceController.cs" />
+    <Compile Include="Controllers\HisMilitaryRankController.cs" />
+    <Compile Include="Controllers\HisCardController.cs" />
+    <Compile Include="Controllers\HisRehaTrainController.cs" />
+    <Compile Include="Controllers\HisRestRetrTypeController.cs" />
+    <Compile Include="Controllers\HisRehaTrainTypeController.cs" />
+    <Compile Include="Controllers\HisInvoiceDetailController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\HisUserInvoiceBookController.cs" />
+    <Compile Include="Controllers\HisInvoiceBookController.cs" />
+    <Compile Include="Controllers\HisInvoiceController.cs" />
+    <Compile Include="Controllers\HisInfusionSumController.cs" />
+    <Compile Include="Controllers\HisCareSumController.cs" />
+    <Compile Include="Controllers\HisRehaTrainUnitController.cs" />
+    <Compile Include="Controllers\HisRehaSumController.cs" />
+    <Compile Include="Controllers\HisSereServRehaController.cs" />
+    <Compile Include="Controllers\HisServiceMetyController.cs" />
+    <Compile Include="Controllers\HisServiceMatyController.cs" />
+    <Compile Include="Controllers\HisAnticipateMetyController.cs" />
+    <Compile Include="Controllers\HisAnticipateController.cs" />
+    <Compile Include="Controllers\HisAnticipateMatyController.cs" />
+    <Compile Include="Controllers\HisCareDetailController.cs" />
+    <Compile Include="Controllers\HisAwarenessController.cs" />
+    <Compile Include="Controllers\HisPackingTypeController.cs" />
+    <Compile Include="Controllers\HisCareTypeController.cs" />
+    <Compile Include="Controllers\HisDebateUserController.cs" />
+    <Compile Include="Controllers\HisDebateController.cs" />
+    <Compile Include="Controllers\HisTrackingController.cs" />
+    <Compile Include="Controllers\HisMedicineLineController.cs" />
+    <Compile Include="Controllers\HisDepartmentControllerIntegrate.cs" />
+    <Compile Include="Controllers\HisKskContractController.cs" />
+    <Compile Include="Controllers\HisSuimIndexController.cs" />
+    <Compile Include="Controllers\HisSuimIndexUnitController.cs" />
+    <Compile Include="Controllers\HisTreatmentBedRoomController.cs" />
+    <Compile Include="Controllers\HisTreatmentTypeController.cs" />
+    <Compile Include="Controllers\HisEmteMaterialTypeController.cs" />
+    <Compile Include="Controllers\HisMestPeriodMatyController.cs" />
+    <Compile Include="Controllers\HisMestPatientTypeController.cs" />
+    <Compile Include="Controllers\HisHeinServiceTypeController.cs" />
+    <Compile Include="Controllers\HisServiceReqTypeController.cs" />
+    <Compile Include="Controllers\HisMestPeriodMateController.cs" />
+    <Compile Include="Controllers\HisCareController.cs" />
+    <Compile Include="Controllers\HisExamSereDireController.cs" />
+    <Compile Include="Controllers\HisHeinApprovalController.cs" />
+    <Compile Include="Controllers\HisInfusionController.cs" />
+    <Compile Include="Controllers\HisMaterialBeanController.cs" />
+    <Compile Include="Controllers\HisMaterialController.cs" />
+    <Compile Include="Controllers\HisMaterialPatyController.cs" />
+    <Compile Include="Controllers\HisMaterialTypeController.cs" />
+    <Compile Include="Controllers\HisTestIndexControllerIntegrate.cs" />
+    <Compile Include="Controllers\HisBloodController.cs" />
+    <Compile Include="Controllers\HisBloodRhController.cs" />
+    <Compile Include="Controllers\HisEmotionlessMethodController.cs" />
+    <Compile Include="Controllers\HisPtttCatastropheController.cs" />
+    <Compile Include="Controllers\HisPtttConditionController.cs" />
+    <Compile Include="Controllers\HisPtttGroupController.cs" />
+    <Compile Include="Controllers\HisPtttMethodController.cs" />
+    <Compile Include="Controllers\HisSereServPtttController.cs" />
+    <Compile Include="Controllers\HisDepartmentTranController.cs" />
+    <Compile Include="Controllers\HisPatientTypeAllowController.cs" />
+    <Compile Include="Controllers\HisMediReactController.cs" />
+    <Compile Include="Controllers\HisMediReactTypeController.cs" />
+    <Compile Include="Controllers\HisAcinInteractiveController.cs" />
+    <Compile Include="Controllers\HisCareerController.cs" />
+    <Compile Include="Controllers\HisDataStoreController.cs" />
+    <Compile Include="Controllers\HisDeathCauseController.cs" />
+    <Compile Include="Controllers\HisDeathWithinController.cs" />
+    <Compile Include="Controllers\HisDiseaseRelationController.cs" />
+    <Compile Include="Controllers\HisEmteMedicineTypeController.cs" />
+    <Compile Include="Controllers\HisExecuteRoomController.cs" />
+    <Compile Include="Controllers\HisExpMestTemplateController.cs" />
+    <Compile Include="Controllers\HisManufacturerController.cs" />
+    <Compile Include="Controllers\HisMedicineController.cs" />
+    <Compile Include="Controllers\HisMedicinePatyController.cs" />
+    <Compile Include="Controllers\HisMedicineTypeAcinController.cs" />
+    <Compile Include="Controllers\HisMedicineTypeController.cs" />
+    <Compile Include="Controllers\HisMestPeriodMediController.cs" />
+    <Compile Include="Controllers\HisMestPeriodMetyController.cs" />
+    <Compile Include="Controllers\HisMestRoomController.cs" />
+    <Compile Include="Controllers\HisPatientTypeAlterController.cs" />
+    <Compile Include="Controllers\HisReceptionRoomController.cs" />
+    <Compile Include="Controllers\HisRoomTypeController.cs" />
+    <Compile Include="Controllers\HisSereServFileController.cs" />
+    <Compile Include="Controllers\HisSereServSuinController.cs" />
+    <Compile Include="Controllers\HisServiceGroupController.cs" />
+    <Compile Include="Controllers\HisServicePackageController.cs" />
+    <Compile Include="Controllers\HisServiceTypeController.cs" />
+    <Compile Include="Controllers\HisServiceUnitController.cs" />
+    <Compile Include="Controllers\HisServSegrController.cs" />
+    <Compile Include="Controllers\HisSuimSetySuinController.cs" />
+    <Compile Include="Controllers\HisSupplierController.cs" />
+    <Compile Include="Controllers\HisTestIndexUnitController.cs" />
+    <Compile Include="Controllers\HisTextLibController.cs" />
+    <Compile Include="Controllers\HisTransactionController.cs" />
+    <Compile Include="Controllers\HisActiveIngredientController.cs" />
+    <Compile Include="Controllers\HisBedRoomController.cs" />
+    <Compile Include="Controllers\HisExpMestSttController.cs" />
+    <Compile Include="Controllers\HisExpMestTypeController.cs" />
+    <Compile Include="Controllers\HisGenderController.cs" />
+    <Compile Include="Controllers\HisImpMestSttController.cs" />
+    <Compile Include="Controllers\HisImpMestTypeController.cs" />
+    <Compile Include="Controllers\HisMedicineBeanController.cs" />
+    <Compile Include="Controllers\HisMedicineUseFormController.cs" />
+    <Compile Include="Controllers\HisTreatmentController.cs" />
+    <Compile Include="Controllers\HisTreatmentEndTypeController.cs" />
+    <Compile Include="Controllers\HisTreatmentResultController.cs" />
+    <Compile Include="Controllers\statisticController.cs" />
+    <Compile Include="Controllers\ThongTinBenhNhanController.cs" />
+    <Compile Include="Controllers\TokenController.cs" />
+    <Compile Include="Controllers\HisAccountBookController.cs" />
+    <Compile Include="Controllers\HisDepartmentController.cs" />
+    <Compile Include="Controllers\HisDhstController.cs" />
+    <Compile Include="Controllers\HisIcdController.cs" />
+    <Compile Include="Controllers\HisPatientController.cs" />
+    <Compile Include="Controllers\HisPatientTypeController.cs" />
+    <Compile Include="Controllers\HisPayFormController.cs" />
+    <Compile Include="Controllers\HisRoomController.cs" />
+    <Compile Include="Controllers\HisSereServController.cs" />
+    <Compile Include="Controllers\HisSereServTeinController.cs" />
+    <Compile Include="Controllers\HisServiceController.cs" />
+    <Compile Include="Controllers\HisServicePatyController.cs" />
+    <Compile Include="Controllers\HisServiceReqController.cs" />
+    <Compile Include="Controllers\HisServiceReqSttController.cs" />
+    <Compile Include="Controllers\HisServiceRoomController.cs" />
+    <Compile Include="Controllers\HisTestIndexController.cs" />
+    <Compile Include="Controllers\HisTestIndexRangeController.cs" />
+    <Compile Include="Controllers\HisTranPatiFormController.cs" />
+    <Compile Include="Controllers\HisTranPatiReasonController.cs" />
+    <Compile Include="Controllers\HisTransactionTypeController.cs" />
+    <Compile Include="Controllers\HisUserRoomController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserSchedulerJobController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <None Include="Properties\PublishProfiles\publish.pubxml" />
+    <EmbeddedResource Include="SwaggerExtensions\inject.css" />
+    <EmbeddedResource Include="SwaggerExtensions\inject.js" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MOS.Dashboard.DDO\MOS.Dashboard.DDO.csproj">
+      <Project>{f9f69d1a-8ff6-4d2e-a66d-3353a8ab9042}</Project>
+      <Name>MOS.Dashboard.DDO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOS.Dashboard.Filter\MOS.Dashboard.Filter.csproj">
+      <Project>{abf90d0b-e7ba-4895-9328-b98119b00725}</Project>
+      <Name>MOS.Dashboard.Filter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOS.Dashboard\MOS.Dashboard.csproj">
+      <Project>{d5013265-6ec6-46ad-bb32-b2ea35701abb}</Project>
+      <Name>MOS.Dashboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOS.DynamicDTO\MOS.DynamicDTO.csproj">
+      <Project>{66a69d46-1f2d-4edc-b852-88c65ec6c1f9}</Project>
+      <Name>MOS.DynamicDTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOS.Filter\MOS.Filter.csproj">
+      <Project>{cd9aaed8-b621-4075-91f7-ededa6531b46}</Project>
+      <Name>MOS.Filter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOS.LibraryHein\MOS.LibraryHein.Bhyt.csproj">
+      <Project>{ffd6cb67-8303-41c6-939c-efa5c4cb873c}</Project>
+      <Name>MOS.LibraryHein.Bhyt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOS.MANAGER\MOS.MANAGER.csproj">
+      <Project>{4c003ab6-895f-4c05-9a5a-f760c553bbb8}</Project>
+      <Name>MOS.MANAGER</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOS.QuartzScheduler\MOS.QuartzScheduler.csproj">
+      <Project>{2a591637-fb46-4843-bc58-b3cb12abf369}</Project>
+      <Name>MOS.QuartzScheduler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOS.SDO\MOS.SDO.csproj">
+      <Project>{47227303-0660-4297-962e-1e0859ce6177}</Project>
+      <Name>MOS.SDO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MOS.TDO\MOS.TDO.csproj">
+      <Project>{a956bfcb-3da8-4b16-9764-e73009598e11}</Project>
+      <Name>MOS.TDO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>30969</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:12117/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\PostSharp.4.2.22\tools\PostSharp.targets" Condition="Exists('..\packages\PostSharp.4.2.22\tools\PostSharp.targets')" />
+  <Target Name="EnsurePostSharpImported" BeforeTargets="BeforeBuild" Condition="'$(PostSharp30Imported)' == ''">
+    <Error Condition="!Exists('..\packages\PostSharp.4.2.22\tools\PostSharp.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://www.postsharp.net/links/nuget-restore." />
+    <Error Condition="Exists('..\packages\PostSharp.4.2.22\tools\PostSharp.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://www.postsharp.net/links/nuget-restore." />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

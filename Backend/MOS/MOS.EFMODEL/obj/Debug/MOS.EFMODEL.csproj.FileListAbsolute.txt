@@ -1,0 +1,7 @@
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.EFMODEL\bin\Debug\MOS.EFMODEL.dll.config
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.EFMODEL\bin\Debug\MOS.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.EFMODEL\bin\Debug\MOS.EFMODEL.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.EFMODEL\bin\Debug\EntityFramework.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.EFMODEL\obj\Debug\MOS.EFMODEL.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.EFMODEL\obj\Debug\MOS.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.EFMODEL\obj\Debug\MOS.EFMODEL.pdb

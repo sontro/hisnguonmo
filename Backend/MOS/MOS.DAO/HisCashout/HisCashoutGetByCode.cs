@@ -1,0 +1,46 @@
+using MOS.DAO.Base;
+using MOS.DAO.StagingObject;
+using MOS.EFMODEL.DataModels;
+using Inventec.Common.Logging;
+using Inventec.Core;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace MOS.DAO.HisCashout
+{
+    partial class HisCashoutGet : EntityBase
+    {
+        public HIS_CASHOUT GetByCode(string code, HisCashoutSO search)
+        {
+            HIS_CASHOUT result = null;
+            try
+            {
+                bool valid = true;
+                valid = valid && IsNotNullOrEmpty(code);
+                if (valid)
+                {
+                    using (var ctx = new AppContext())
+                    {
+                        var query = ctx.HIS_CASHOUT.AsQueryable().Where(p => p.CASHOUT_CODE == code);
+                        if (search.listHisCashoutExpression != null && search.listHisCashoutExpression.Count > 0)
+                        {
+                            foreach (var item in search.listHisCashoutExpression)
+                            {
+                                query = query.Where(item);
+                            }
+                        }
+                        result = query.SingleOrDefault();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Logging(Inventec.Common.Logging.LogUtil.TraceData(Inventec.Common.Logging.LogUtil.GetMemberName(() => code), code) + Inventec.Common.Logging.LogUtil.TraceData(Inventec.Common.Logging.LogUtil.GetMemberName(() => search), search), LogType.Error);
+                LogSystem.Error(ex);
+                result = null;
+            }
+            return result;
+        }
+    }
+}

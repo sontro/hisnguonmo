@@ -1,0 +1,1664 @@
+﻿INFO 2023-04-17 12:27:47,516 [5] - Application_Start. Bat dau start Time=17/04/2023 12:27:47
+
+INFO 2023-04-17 12:27:53,043 [5] - Application_Start. Bat dau load HisConfig Time=17/04/2023 12:27:53
+
+INFO 2023-04-17 12:27:53,043 [5] - Bat dau get HisConfig.
+
+INFO 2023-04-17 12:30:28,530 [5] - Ket thuc get HisConfig.
+
+INFO 2023-04-17 12:30:28,530 [5] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-04-17 12:30:28,530 [5] - Application_Start. Ket thuc load HisConfig Time=17/04/2023 12:30:28
+
+INFO 2023-04-17 12:30:28,534 [5] - Application_Start. Ket thuc start Time=17/04/2023 12:30:28
+
+INFO 2023-04-17 12:30:28,535 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-04-17 12:30:28,536 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-04-17 12:30:28,716 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-04-17 12:30:29,222 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-04-17 12:30:29,223 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-04-17 12:30:29,477 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-04-17 12:30:29,477 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-04-17 12:30:29,675 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-04-17 12:30:29,675 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-04-17 12:30:29,676 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-04-17 12:30:29,677 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-04-17 12:30:29,884 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-04-17 12:30:29,884 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-04-17 12:30:30,864 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-04-17 12:30:30,865 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-04-17 12:30:31,059 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-04-17 12:30:31,060 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-17 12:30:31,061 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-17 12:30:31,085 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-04-17 12:30:31,086 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-04-17 12:30:31,267 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-04-17 12:30:31,267 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-04-17 12:30:31,437 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-04-17 12:30:31,437 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-04-17 12:30:31,612 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-04-17 12:30:31,812 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-04-17 12:30:31,813 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-04-17 12:30:31,981 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-04-17 12:30:31,981 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-04-17 12:30:32,148 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-04-17 12:30:32,148 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-04-17 12:30:32,150 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-17 12:30:32,154 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-17 12:30:32,155 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-17 12:30:32,682 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-17 12:35:32,164 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 12:35:32,164 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 12:35:32,164 [5] - MOS.PubSub. New pubsubProcessor
+
+WARN 2023-04-17 12:35:32,190 [5] - Chua ket noi den Server pubsub. Khong subscribe duoc
+
+INFO 2023-04-17 12:35:32,304 [15] - PubSubClient Start
+
+INFO 2023-04-17 12:40:32,155 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 12:40:32,155 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 12:45:32,155 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 12:45:32,155 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 12:50:21,627 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 12:50:21,634 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 12:50:32,167 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 12:50:32,167 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 12:55:32,164 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 12:55:32,164 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 13:00:32,153 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 13:00:32,153 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 13:05:32,167 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 13:05:32,167 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 13:10:11,625 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 13:10:11,637 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 13:10:32,163 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 13:10:32,163 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 13:15:32,158 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 13:15:32,158 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 13:20:32,161 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 13:20:32,161 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 13:25:32,159 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 13:25:32,159 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 13:30:01,619 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 13:30:01,627 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 13:30:32,162 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 13:30:32,162 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 13:35:32,165 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 13:35:32,165 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 13:40:32,164 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 13:40:32,164 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+ERROR 2023-04-17 13:41:05,883 [55] - 
+System.Exception: khong co thong tin cmnd, the bhyt, sdt
+   at MOS.MANAGER.HisPatient.HisPatientCreateRegisterCode.CheckDataCreate(CommonParam param, HIS_PATIENT raw) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientCreateRegisterCode.cs:line 103
+
+INFO 2023-04-17 13:41:06,882 [57] - WebApiClient.Post. api:api/EmrTreatment/CreateOrUpdate__Begin
+
+ERROR 2023-04-17 13:41:07,053 [57] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at Inventec.Common.WebApiClient.ApiConsumer.HttpRequestBuilder(HttpClient client, String uri, String& requestedUrl, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisTreatment.Util.HisTreatmentUploadEmr.CreateOrUpdateEmrTreatment(HIS_TREATMENT data) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisTreatment\Util\HisTreatmentUploadEmr.cs:line 283
+
+ERROR 2023-04-17 13:41:12,319 [15] - Loi khi lay Config: MOS.HIS_SERVICE_REQ.RESERVED_NUM_ORDER
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE_REQ.RESERVED_NUM_ORDER
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-04-17 13:43:08,338 [15] - 
+System.ArgumentException: Value does not fall within the expected range.
+   at Oracle.ManagedDataAccess.Client.OracleParameter.set_Value(Object value)
+   at System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Objects.ObjectContext.ExecuteStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at MOS.DAO.Sql.SqlExecute.Execute(List`1 sqls, Object[] parameters) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DAO\Sql\SqlExecute.cs:line 149
+
+ERROR 2023-04-17 13:43:08,778 [15] - sql: BEGIN UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param1 WHERE ID = :param2; END;
+
+ERROR 2023-04-17 13:43:25,861 [15] - Cap nhat y lenh dinh kem (ATTACHED_ID trong HIS_SERVICE_REQ) that bai
+
+ERROR 2023-04-17 13:43:27,941 [33] - ________________LastError: The client has been inactive since 4/17/2023 6:41:44 AM and it has exceeded the inactivity timeout of 00:00:50. Stopping the connection.
+
+INFO 2023-04-17 13:43:27,989 [33] - Client disconnected
+
+ERROR 2023-04-17 13:43:28,176 [15] - 
+System.ArgumentException: Value does not fall within the expected range.
+   at Oracle.ManagedDataAccess.Client.OracleParameter.set_Value(Object value)
+   at System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Objects.ObjectContext.ExecuteStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at MOS.DAO.Sql.SqlExecute.Execute(List`1 sqls, Object[] parameters) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DAO\Sql\SqlExecute.cs:line 149
+
+ERROR 2023-04-17 13:43:28,176 [15] - sql: BEGIN UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param1 WHERE ID = :param2;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param3 WHERE ID = :param4; END;
+
+ERROR 2023-04-17 13:43:28,176 [15] - Cap nhat y lenh dinh kem (ATTACHED_ID trong HIS_SERVICE_REQ) that bai
+
+ERROR 2023-04-17 13:43:29,310 [15] - 
+System.ArgumentException: Value does not fall within the expected range.
+   at Oracle.ManagedDataAccess.Client.OracleParameter.set_Value(Object value)
+   at System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Objects.ObjectContext.ExecuteStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at MOS.DAO.Sql.SqlExecute.Execute(List`1 sqls, Object[] parameters) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DAO\Sql\SqlExecute.cs:line 149
+
+ERROR 2023-04-17 13:43:29,310 [15] - sql: BEGIN UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param1 WHERE ID = :param2;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param3 WHERE ID = :param4;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param5 WHERE ID = :param6; END;
+
+ERROR 2023-04-17 13:43:29,310 [15] - Cap nhat y lenh dinh kem (ATTACHED_ID trong HIS_SERVICE_REQ) that bai
+
+ERROR 2023-04-17 13:43:30,293 [15] - 
+System.ArgumentException: Value does not fall within the expected range.
+   at Oracle.ManagedDataAccess.Client.OracleParameter.set_Value(Object value)
+   at System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Objects.ObjectContext.ExecuteStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at MOS.DAO.Sql.SqlExecute.Execute(List`1 sqls, Object[] parameters) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DAO\Sql\SqlExecute.cs:line 149
+
+ERROR 2023-04-17 13:43:30,293 [15] - sql: BEGIN UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param1 WHERE ID = :param2;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param3 WHERE ID = :param4;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param5 WHERE ID = :param6;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param7 WHERE ID = :param8; END;
+
+ERROR 2023-04-17 13:43:30,293 [15] - Cap nhat y lenh dinh kem (ATTACHED_ID trong HIS_SERVICE_REQ) that bai
+
+ERROR 2023-04-17 13:43:31,656 [15] - 
+System.ArgumentException: Value does not fall within the expected range.
+   at Oracle.ManagedDataAccess.Client.OracleParameter.set_Value(Object value)
+   at System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Objects.ObjectContext.ExecuteStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at MOS.DAO.Sql.SqlExecute.Execute(List`1 sqls, Object[] parameters) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DAO\Sql\SqlExecute.cs:line 149
+
+ERROR 2023-04-17 13:43:31,656 [15] - sql: BEGIN UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param1 WHERE ID = :param2;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param3 WHERE ID = :param4;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param5 WHERE ID = :param6;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param7 WHERE ID = :param8; END;
+
+ERROR 2023-04-17 13:43:31,656 [15] - Cap nhat y lenh dinh kem (ATTACHED_ID trong HIS_SERVICE_REQ) that bai
+
+ERROR 2023-04-17 13:43:32,698 [15] - 
+System.ArgumentException: Value does not fall within the expected range.
+   at Oracle.ManagedDataAccess.Client.OracleParameter.set_Value(Object value)
+   at System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Objects.ObjectContext.ExecuteStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at MOS.DAO.Sql.SqlExecute.Execute(List`1 sqls, Object[] parameters) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DAO\Sql\SqlExecute.cs:line 149
+
+ERROR 2023-04-17 13:43:32,698 [15] - sql: BEGIN UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param1 WHERE ID = :param2;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param3 WHERE ID = :param4;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param5 WHERE ID = :param6;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param7 WHERE ID = :param8; END;
+
+ERROR 2023-04-17 13:43:32,698 [15] - Cap nhat y lenh dinh kem (ATTACHED_ID trong HIS_SERVICE_REQ) that bai
+
+ERROR 2023-04-17 13:43:33,622 [15] - 
+System.ArgumentException: Value does not fall within the expected range.
+   at Oracle.ManagedDataAccess.Client.OracleParameter.set_Value(Object value)
+   at System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Objects.ObjectContext.ExecuteStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at MOS.DAO.Sql.SqlExecute.Execute(List`1 sqls, Object[] parameters) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DAO\Sql\SqlExecute.cs:line 149
+
+ERROR 2023-04-17 13:43:33,623 [15] - sql: BEGIN UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param1 WHERE ID = :param2;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param3 WHERE ID = :param4;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param5 WHERE ID = :param6;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param7 WHERE ID = :param8; END;
+
+ERROR 2023-04-17 13:43:33,623 [15] - Cap nhat y lenh dinh kem (ATTACHED_ID trong HIS_SERVICE_REQ) that bai
+
+ERROR 2023-04-17 13:43:34,524 [15] - 
+System.ArgumentException: Value does not fall within the expected range.
+   at Oracle.ManagedDataAccess.Client.OracleParameter.set_Value(Object value)
+   at System.Data.Objects.ObjectContext.CreateStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Objects.ObjectContext.ExecuteStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at MOS.DAO.Sql.SqlExecute.Execute(List`1 sqls, Object[] parameters) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DAO\Sql\SqlExecute.cs:line 149
+
+ERROR 2023-04-17 13:43:34,524 [15] - sql: BEGIN UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param1 WHERE ID = :param2;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param3 WHERE ID = :param4;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param5 WHERE ID = :param6;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param7 WHERE ID = :param8; END;
+
+ERROR 2023-04-17 13:43:34,524 [15] - Cap nhat y lenh dinh kem (ATTACHED_ID trong HIS_SERVICE_REQ) that bai
+
+ERROR 2023-04-17 13:43:35,027 [15] - Loi khi lay Config: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-04-17 13:43:37,570 [15] - 
+System.Exception: Ket thuc nghiep vu, rollback du lieu
+   at MOS.MANAGER.HisSereServ.HisSereServUpdateHein.AddInfo(List`1 hisSereServs) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServUpdateHein.cs:line 380
+   at MOS.MANAGER.HisSereServ.HisSereServUpdateHein.Update(List`1 olds, List`1 sereServs, List`1 toSetFundAcceptedSereServs, List`1& changeRecords, List`1& oldOfChangeRecords) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServUpdateHein.cs:line 251
+
+ERROR 2023-04-17 13:43:37,947 [15] - 
+System.Exception: Rollback du lieu
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.ProcessSereServ(Int64 requestRoomId, Int64 instructionTime, HIS_TREATMENT treatment, List`1 serviceReqs, List`1& newSereServs) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 173
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.Create(AssignServiceSDO data, HIS_TREATMENT treatment, HIS_PATIENT_TYPE_ALTER pta, HisServiceReqListResultSDO& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 117
+
+ERROR 2023-04-17 13:43:38,982 [15] - 
+System.Exception: Du lieu se bi rollback. Ket thuc nghiep vu
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqExamRegister.Create(HisServiceReqExamRegisterSDO data, Boolean forceUseClientTime, HisServiceReqExamRegisterResultSDO& resultData, HIS_TREATMENT& treatment, WorkPlaceSDO& workPlace) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqExamRegister.cs:line 151
+
+ERROR 2023-04-17 13:43:39,103 [15] - 
+--LoginName: tiencb 
+--Class: HisServiceReqManager 
+--Method: ExamRegister 
+--Input: {"HisPatientProfile":{"HisPatient":{"ID":66594,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"PATIENT_CODE":"0000065857","FIRST_NAME":"KÈM","LAST_NAME":"ĐÍNH","VIR_PATIENT_NAME":"ĐÍNH KÈM","GENDER_ID":1,"DOB":19871010000000,"IS_HAS_NOT_DAY_DOB":0,"PERSON_CODE":null,"REFERENCE_ID":null,"NATIONAL_CODE":null,"NATIONAL_NAME":null,"ETHNIC_CODE":"01","ETHNIC_NAME":"Kinh","RELIGION_NAME":null,"PROVINCE_CODE":"","PROVINCE_NAME":"","DISTRICT_CODE":"","DISTRICT_NAME":"","COMMUNE_CODE":"","COMMUNE_NAME":"","ADDRESS":"","VIR_ADDRESS":null,"HT_PROVINCE_NAME":"","HT_DISTRICT_NAME":"","HT_COMMUNE_NAME":"","HT_ADDRESS":null,"VIR_HT_ADDRESS":null,"MOBILE":null,"PHONE":null,"EMAIL":null,"RELATIVE_TYPE":"","RELATIVE_NAME":"","RELATIVE_ADDRESS":"","RELATIVE_CMND_NUMBER":null,"RELATIVE_MOBILE":null,"RELATIVE_PHONE":"","CAREER_CODE":"99","CAREER_NAME":"Khác","CAREER_ID":null,"WORK_PLACE_ID":null,"WORK_PLACE":null,"MILITARY_RANK_ID":null,"BRANCH_ID":1,"IS_OWN_BRANCH_WAIT":null,"RECENT_SERVICE_ID":null,"RECENT_ROOM_ID":null,"IS_CHRONIC":null,"BHYT_URL":null,"AVATAR_URL":null,"TDL_HEIN_CARD_NUMBER":null,"PATIENT_STORE_CODE":null,"HRM_EMPLOYEE_CODE":"","BORN_PROVINCE_CODE":"000","BORN_PROVINCE_NAME":null,"BLOOD_ABO_CODE":null,"BLOOD_RH_CODE":null,"CMND_NUMBER":null,"CMND_DATE":null,"CMND_PLACE":null,"CCCD_NUMBER":null,"CCCD_DATE":null,"CCCD_PLACE":null,"MOTHER_NAME":"","FATHER_NAME":"","HOUSEHOLD_CODE":null,"HOUSEHOLD_RELATION_NAME":null,"PT_PATHOLOGICAL_HISTORY":null,"PT_PATHOLOGICAL_HISTORY_FAMILY":null,"ACCOUNT_NUMBER":null,"TAX_CODE":null,"OWN_BRANCH_IDS":"1","UUID":null,"SYS_CODE":null,"UUID_BHYT_NUMBER":null,"IS_CREATE_UUID_FAIL":null,"IS_UPDATE_UUID_FAIL":null,"REGISTER_CODE":null,"FATHER_EDUCATIIONAL_LEVEL":null,"FATHER_CAREER":null,"MOTHER_EDUCATIIONAL_LEVEL":null,"MOTHER_CAREER":null,"PATIENT_CLASSIFY_ID":null,"TDL_LIVE_AREA_CODE":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"TDL_HEIN_CARD_ADDRESS":null,"TDL_JOIN_5_YEAR":null,"TDL_PAID_6_MONTH":null,"CMND_BEFORE_URL":null,"CMND_AFTER_URL":null,"SOCIAL_INSURANCE_NUMBER":null,"VIR_DOB_YEAR":1987.0,"PT_ALLERGIC_HISTORY":null,"POSITION_ID":null,"PASSPORT_NUMBER":null,"PASSPORT_DATE":null,"PASSPORT_PLACE":null,"IS_TUBERCULOSIS":0,"HAS_CARD":null,"NOTE":null,"MPS_NATIONAL_CODE":null,"FATHER_SOCIAL_INSURANCE_NUMBER":null,"MOTHER_SOCIAL_INSURANCE_NUMBER":null,"IS_HIV":null,"HIS_ALLERGENIC":[],"HIS_APPOINTMENT":[],"HIS_APPOINTMENT_SERV":[],"HIS_CARD":[],"HIS_CAREER":null,"HIS_CONTACT_POINT":[],"HIS_EXP_MEST":[],"HIS_GENDER":null,"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_RECORD":[],"HIS_MILITARY_RANK":null,"HIS_ROOM":null,"HIS_WORK_PLACE":null,"HIS_PATIENT1":[],"HIS_PATIENT2":null,"HIS_PATIENT_CLASSIFY":null,"HIS_POSITION":null,"HIS_SERVICE":null,"HIS_PATIENT_PROGRAM":[],"HIS_PATIENT_TYPE_ALTER":[],"HIS_REGISTER_REQ":[],"HIS_SERE_SERV":[],"HIS_SERVICE_REQ":[],"HIS_TRANSACTION":[],"HIS_TREATMENT":[],"HIS_VACCINATION_EXAM":[],"HIS_VACCINATION":[],"HIS_VITAMIN_A":[]},"HisTreatment":{"ID":79629,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"TREATMENT_CODE":"000000077125","TREATMENT_STT_ID":null,"PATIENT_ID":66594,"BRANCH_ID":1,"IS_PAUSE":null,"IS_LOCK_HEIN":null,"IS_TEMPORARY_LOCK":null,"IS_LOCK_FEE":null,"IS_REMOTE":null,"ICD_ID__DELETE":null,"ICD_CODE":null,"ICD_NAME":null,"ICD_SUB_CODE":null,"ICD_TEXT":null,"ICD_CAUSE_CODE":null,"ICD_CAUSE_NAME":null,"IS_HOLD_BHYT_CARD":null,"IS_AUTO_DISCOUNT":null,"AUTO_DISCOUNT_RATIO":null,"FEE_LOCK_TIME":null,"FEE_LOCK_ORDER":null,"FEE_LOCK_ROOM_ID":null,"FEE_LOCK_DEPARTMENT_ID":null,"IN_TIME":20230417124600,"IN_DATE":0,"CLINICAL_IN_TIME":null,"OUT_TIME":null,"IS_IN_CODE_REQUEST":null,"IN_CODE":"","IN_ROOM_ID":null,"IN_DEPARTMENT_ID":null,"IN_LOGINNAME":null,"IN_USERNAME":null,"IN_TREATMENT_TYPE_ID":null,"IN_ICD_ID__DELETE":null,"IN_ICD_CODE":null,"IN_ICD_NAME":null,"IN_ICD_SUB_CODE":null,"IN_ICD_TEXT":null,"HOSPITALIZATION_REASON":null,"DOCTOR_LOGINNAME":null,"DOCTOR_USERNAME":null,"END_LOGINNAME":null,"END_USERNAME":null,"END_ROOM_ID":null,"END_DEPARTMENT_ID":null,"END_CODE":null,"EXTRA_END_CODE":null,"IS_END_CODE_REQUEST":null,"TREATMENT_DAY_COUNT":null,"TREATMENT_RESULT_ID":null,"TREATMENT_END_TYPE_ID":null,"TREATMENT_END_TYPE_EXT_ID":null,"ADVISE":null,"APPOINTMENT_TIME":null,"APPOINTMENT_DESC":null,"APPOINTMENT_CODE":null,"OUT_DATE":null,"OUT_CODE":null,"IS_OUT_CODE_REQUEST":null,"IS_CHRONIC":null,"IS_YDT_UPLOAD":null,"OWE_TYPE_ID":null,"OWE_MODIFY_TIME":null,"STORE_TIME":null,"DATA_STORE_ID":null,"STORE_CODE":null,"IS_NOT_CHECK_LHMP":null,"IS_NOT_CHECK_LHSP":null,"TDL_HEIN_CARD_NUMBER":null,"JSON_PRINT_ID":null,"JSON_FORM_ID":null,"IS_EMERGENCY":null,"EMERGENCY_WTIME_ID":null,"KSK_ORDER":null,"TDL_KSK_CONTRACT_ID":null,"HRM_KSK_CODE":null,"CLINICAL_NOTE":null,"SUBCLINICAL_RESULT":null,"TREATMENT_DIRECTION":null,"TREATMENT_METHOD":null,"PATIENT_CONDITION":null,"MEDI_ORG_CODE":null,"MEDI_ORG_NAME":null,"TRAN_PATI_FORM_ID":null,"TRAN_PATI_REASON_ID":null,"TRAN_PATI_TECH_ID":null,"USED_MEDICINE":null,"TRANSPORT_VEHICLE":null,"TRANSPORTER":null,"IS_TRANSFER_IN":null,"TRANSFER_IN_MEDI_ORG_CODE":null,"TRANSFER_IN_MEDI_ORG_NAME":null,"TRANSFER_IN_CODE":null,"TRANSFER_IN_ICD_ID__DELETE":null,"TRANSFER_IN_ICD_CODE":null,"TRANSFER_IN_ICD_NAME":null,"TRANSFER_IN_CMKT":null,"TRANSFER_IN_FORM_ID":null,"TRANSFER_IN_REASON_ID":null,"SICK_LEAVE_DAY":null,"SICK_LEAVE_FROM":null,"SICK_LEAVE_TO":null,"DEATH_TIME":null,"DEATH_CAUSE_ID":null,"DEATH_WITHIN_ID":null,"DEATH_PLACE":null,"DEATH_DOCUMENT_TYPE":null,"DEATH_DOCUMENT_NUMBER":null,"DEATH_DOCUMENT_PLACE":null,"DEATH_DOCUMENT_DATE":null,"MAIN_CAUSE":null,"SURGERY":null,"IS_HAS_AUPOPSY":null,"TDL_FIRST_EXAM_ROOM_ID":null,"TDL_TREATMENT_TYPE_ID":null,"TDL_PATIENT_TYPE_ID":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"XML4210_URL":null,"FUND_ID":null,"FUND_NUMBER":null,"FUND_FROM_TIME":null,"FUND_TO_TIME":null,"FUND_ISSUE_TIME":null,"FUND_TYPE_NAME":null,"FUND_COMPANY_NAME":null,"FUND_BUDGET":null,"FUND_PAY_TIME":null,"FUND_SEND_FILE_TIME":null,"FUND_CUSTOMER_NAME":null,"IS_INTEGRATE_HIS_SENT":null,"TDL_PATIENT_CODE":"0000065857","TDL_PATIENT_NAME":"ĐÍNH KÈM ","TDL_PATIENT_FIRST_NAME":"KÈM","TDL_PATIENT_LAST_NAME":"ĐÍNH","TDL_PATIENT_DOB":19871010000000,"TDL_PATIENT_IS_HAS_NOT_DAY_DOB":0,"TDL_PATIENT_AVATAR_URL":null,"TDL_PATIENT_ADDRESS":"","TDL_PATIENT_GENDER_ID":1,"TDL_PATIENT_GENDER_NAME":"Nữ","TDL_PATIENT_CAREER_NAME":"Khác","TDL_PATIENT_WORK_PLACE":null,"TDL_PATIENT_WORK_PLACE_NAME":null,"TDL_PATIENT_DISTRICT_CODE":"","TDL_PATIENT_PROVINCE_CODE":"","TDL_PATIENT_COMMUNE_CODE":"","TDL_PATIENT_MILITARY_RANK_NAME":null,"TDL_PATIENT_NATIONAL_NAME":null,"TDL_PATIENT_RELATIVE_TYPE":"","TDL_PATIENT_RELATIVE_NAME":"","TDL_PATIENT_ACCOUNT_NUMBER":null,"TDL_PATIENT_TAX_CODE":null,"TRANSFER_IN_TIME_FROM":null,"TRANSFER_IN_TIME_TO":null,"SURGERY_APPOINTMENT_TIME":null,"APPOINTMENT_SURGERY":null,"MEDI_RECORD_TYPE_ID":null,"APPOINTMENT_EXAM_ROOM_IDS":null,"DEPARTMENT_IDS":"303","CO_DEPARTMENT_IDS":null,"LAST_DEPARTMENT_ID":null,"PROVISIONAL_DIAGNOSIS":null,"TREATMENT_ORDER":null,"TDL_PATIENT_MOBILE":null,"TDL_PATIENT_PHONE":null,"SICK_HEIN_CARD_NUMBER":null,"NEED_SICK_LEAVE_CERT":null,"MEDI_RECORD_ID":null,"PROGRAM_ID":null,"IS_SYNC_EMR":null,"XML4210_RESULT":null,"XML4210_DESC":null,"COLLINEAR_XML4210_URL":null,"COLLINEAR_XML4210_RESULT":null,"COLLINEAR_XML4210_DESC":null,"REJECT_STORE_REASON":null,"IS_APPROVE_FINISH":null,"APPROVE_FINISH_NOTE":null,"TRADITIONAL_ICD_CODE":null,"TRADITIONAL_ICD_NAME":null,"TRADITIONAL_IN_ICD_CODE":null,"TRADITIONAL_IN_ICD_NAME":null,"TRADITIONAL_ICD_SUB_CODE":null,"TRADITIONAL_ICD_TEXT":null,"TRADITIONAL_IN_ICD_SUB_CODE":null,"TRADITIONAL_IN_ICD_TEXT":null,"TRADITIONAL_TRANS_IN_ICD_CODE":null,"TRADITIONAL_TRANS_IN_ICD_NAME":null,"OTHER_PAY_SOURCE_ID":null,"IS_KSK_APPROVE":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"APPOINTMENT_DATE":null,"EYE_TENSION_LEFT":null,"EYE_TENSION_RIGHT":null,"EYESIGHT_LEFT":null,"EYESIGHT_RIGHT":null,"EYESIGHT_GLASS_LEFT":null,"EYESIGHT_GLASS_RIGHT":null,"APPOINTMENT_PERIOD_ID":null,"SICK_LOGINNAME":null,"SICK_USERNAME":null,"IS_EXPORTED_XML2076":null,"DOCUMENT_BOOK_ID":null,"SICK_NUM_ORDER":null,"TDL_DOCUMENT_BOOK_CODE":null,"APPROVAL_STORE_STT_ID":null,"TDL_PATIENT_CLASSIFY_ID":null,"VIR_IN_MONTH":20230400000000.0,"VIR_OUT_MONTH":null,"IN_CODE_SEED_CODE":null,"EXTRA_END_CODE_SEED_CODE":null,"XML2076_URL":null,"XML2076_DESC":null,"VIR_IN_YEAR":20230000000000.0,"VIR_OUT_YEAR":null,"FEE_LOCK_LOGINNAME":null,"FEE_LOCK_USERNAME":null,"EMR_COVER_TYPE_ID":null,"CONTRAINDICATION_IDS":null,"IS_CREATING_TRANSACTION":null,"CO_TREAT_DEPARTMENT_IDS":null,"RECORD_INSPECTION_STT_ID":null,"RECORD_INSPECTION_REJECT_NOTE":null,"TDL_SOCIAL_INSURANCE_NUMBER":null,"APPOINTMENT_EXAM_SERVICE_ID":null,"TRANSFER_IN_URL":null,"HOSPITALIZE_DEPARTMENT_ID":null,"DEATH_CERT_BOOK_ID":null,"DEATH_CERT_NUM":null,"TDL_PATIENT_CMND_NUMBER":null,"TDL_PATIENT_CMND_DATE":null,"TDL_PATIENT_CMND_PLACE":null,"TDL_PATIENT_CCCD_NUMBER":null,"TDL_PATIENT_CCCD_DATE":null,"TDL_PATIENT_CCCD_PLACE":null,"NUM_ORDER_ISSUE_ID":null,"NEXT_EXAM_NUM_ORDER":null,"NEXT_EXAM_FROM_TIME":null,"NEXT_EXAM_TO_TIME":null,"TDL_PATIENT_RELATIVE_ADDRESS":"","TDL_RELATIVE_CMND_NUMBER":null,"TDL_PATIENT_RELATIVE_MOBILE":null,"TDL_PATIENT_RELATIVE_PHONE":"","TDL_PATIENT_MOTHER_NAME":"","TDL_PATIENT_FATHER_NAME":"","PERMISION_UPDATE":null,"TDL_PATIENT_NATIONAL_CODE":null,"TDL_PATIENT_PROVINCE_NAME":"","TDL_PATIENT_DISTRICT_NAME":"","TDL_PATIENT_COMMUNE_NAME":"","TDL_PATIENT_POSITION_ID":null,"IS_BHYT_HOLDED":null,"TDL_PATIENT_PASSPORT_NUMBER":null,"TDL_PATIENT_PASSPORT_DATE":null,"TDL_PATIENT_PASSPORT_PLACE":null,"TDL_PATIENT_WORK_PLACE_ID":null,"SHOW_ICD_CODE":null,"SHOW_ICD_NAME":null,"SHOW_ICD_SUB_CODE":null,"SHOW_ICD_TEXT":null,"TRAN_PATI_BOOK_TIME":null,"TRAN_PATI_BOOK_NUMBER":null,"TRAN_PATI_DOCTOR_LOGINNAME":null,"TRAN_PATI_DOCTOR_USERNAME":null,"TRAN_PATI_DEPARTMENT_LOGINNAME":null,"TRAN_PATI_DEPARTMENT_USERNAME":null,"TRAN_PATI_HOSPITAL_LOGINNAME":null,"TRAN_PATI_HOSPITAL_USERNAME":null,"VIR_TRAN_PATI_BOOK_YEAR":null,"TDL_PATIENT_UNSIGNED_NAME":"DINH KEM ","OUTPATIENT_DATE_FROM":null,"OUTPATIENT_DATE_TO":null,"VACCINE_ID":null,"VACINATION_ORDER":null,"EPIDEMILOGY_CONTACT_TYPE":null,"EPIDEMILOGY_SYMPTOM":null,"TDL_PATIENT_ETHNIC_NAME":"Kinh","IS_TUBERCULOSIS":0,"DOCUMENT_VIEW_COUNT":null,"EXIT_DEPARTMENT_ID":null,"COVID_PATIENT_CODE":null,"STORE_BORDEREAU_CODE":null,"HEIN_LOCK_TIME":null,"HAS_AUTO_CREATE_RATION":null,"IS_OLD_TEMP_BED":null,"TDL_KSK_CONTRACT_IS_RESTRICTED":null,"NUMBER_OF_FULL_TERM_BIRTH":null,"NUMBER_OF_PREMATURE_BIRTH":null,"NUMBER_OF_MISCARRIAGE":null,"NUMBER_OF_TESTS":null,"TEST_HIV":null,"TEST_SYPHILIS":null,"IS_TEST_BLOOD_SUGAR":null,"IS_EARLY_NEWBORN_CARE":null,"NEWBORN_CARE_AT_HOME":null,"TEST_HEPATITIS_B":null,"RECEPTION_FORM":null,"END_DEPARTMENT_HEAD_LOGINNAME":null,"END_DEPARTMENT_HEAD_USERNAME":null,"HOSPITAL_DIRECTOR_LOGINNAME":null,"HOSPITAL_DIRECTOR_USERNAME":null,"END_DEPT_SUBS_HEAD_LOGINNAME":null,"END_DEPT_SUBS_HEAD_USERNAME":null,"HOSP_SUBS_DIRECTOR_LOGINNAME":null,"HOSP_SUBS_DIRECTOR_USERNAME":null,"TUBERCULOSIS_ISSUED_ORG_CODE":null,"TUBERCULOSIS_ISSUED_ORG_NAME":null,"TUBERCULOSIS_ISSUED_DATE":null,"HAS_CARD":null,"APPROVAL_LOGINNAME":null,"APPROVAL_USERNAME":null,"APPROVAL_TIME":null,"UNAPPROVAL_LOGINNAME":null,"UNAPPROVAL_USERNAME":null,"UNAPPROVAL_TIME":null,"TRANSFER_IN_REVIEWS":null,"HOSPITALIZE_REASON_CODE":null,"HOSPITALIZE_REASON_NAME":null,"END_TYPE_EXT_NOTE":null,"TDL_PATIENT_MPS_NATIONAL_CODE":null,"IS_PREGNANCY_TERMINATION":null,"PREGNANCY_TERMINATION_REASON":null,"GESTATIONAL_AGE":null,"DEATH_CERT_BOOK_FIRST_ID":null,"DEATH_CERT_NUM_FIRST":null,"DEATH_CERT_ISSUER_LOGINNAME":null,"DEATH_CERT_ISSUER_USERNAME":null,"DEATH_SYNC_FAILD_REASON":null,"DEATH_SYNC_RESULT_TYPE":null,"DEATH_SYNC_TIME":null,"PREGNANCY_TERMINATION_TIME":null,"IS_HIV":null,"XML_CHECKIN_URL":null,"XML_CHECKIN_DESC":null,"HIS_ACCIDENT_HURT":[],"HIS_ADR":[],"HIS_ALLERGY_CARD":[],"HIS_ANTIBIOTIC_REQUEST":[],"HIS_APPOINTMENT_PERIOD":null,"HIS_APPOINTMENT_SERV":[],"HIS_BABY":[],"HIS_CARE":[],"HIS_CARE_SUM":[],"HIS_CARER_CARD_BORROW":[],"HIS_CO_TREATMENT":[],"HIS_DATA_STORE":null,"HIS_DEATH_CERT_BOOK":null,"HIS_DEBATE":[],"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_DEPARTMENT2":null,"HIS_DEPARTMENT3":null,"HIS_DEPARTMENT4":null,"HIS_DEPARTMENT5":null,"HIS_DEPARTMENT_TRAN":[],"HIS_DEPOSIT_REQ":[],"HIS_DHST":[],"HIS_DOCUMENT_BOOK":null,"HIS_EMR_COVER_TYPE":null,"HIS_EXP_MEST":[],"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATY_REQ":[],"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_METY_REQ":[],"HIS_FUND":null,"HIS_GENDER":null,"HIS_HEIN_APPROVAL":[],"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_IMP_MEST_MATE_REQ":[],"HIS_IMP_MEST_MEDI_REQ":[],"HIS_INFUSION_SUM":[],"HIS_KSK_CONTRACT":null,"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_REACT_SUM":[],"HIS_MEDI_RECORD":null,"HIS_MEDI_RECORD_TYPE":null,"HIS_MEDICINE_INTERACTIVE":[],"HIS_MEDICINE_TYPE":null,"HIS_MR_CHECK_SUMMARY":[],"HIS_NUM_ORDER_ISSUE":null,"HIS_OBEY_CONTRAINDI":[],"HIS_OTHER_PAY_SOURCE":null,"HIS_OWE_TYPE":null,"HIS_PATIENT":null,"HIS_PATIENT_CLASSIFY":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE_ALTER":[],"HIS_PREPARE":[],"HIS_PREPARE_METY":[],"HIS_PROGRAM":null,"HIS_REHA_SUM":[],"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_ROOM2":null,"HIS_ROOM3":null,"HIS_SERE_SERV":[],"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_EXT":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_REQ":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SEVERE_ILLNESS_INFO":[],"HIS_TRACKING":[],"HIS_TRAN_PATI_TECH":null,"HIS_TRANS_REQ":[],"HIS_TRANSACTION":[],"HIS_TRANSFUSION_SUM":[],"HIS_TREATMENT_BED_ROOM":[],"HIS_TREATMENT_BORROW":[],"HIS_TREATMENT_FILE":[],"HIS_TREATMENT_RESULT":null,"HIS_TREATMENT_STT":null,"HIS_TREATMENT_TYPE":null,"HIS_TREATMENT_END_TYPE_EXT":null,"HIS_TREATMENT_END_TYPE":null,"HIS_TREATMENT_TYPE1":null,"HIS_TREATMENT_LOGGING":[],"HIS_TREATMENT_UNLIMIT":[]},"HisPatientTypeAlter":{"ID":90874,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"DEPARTMENT_TRAN_ID":94573,"TREATMENT_TYPE_ID":1,"PATIENT_TYPE_ID":42,"LOG_TIME":20230417124600,"TREATMENT_ID":79629,"TDL_PATIENT_ID":66594,"EXECUTE_ROOM_ID":3072,"EXECUTE_LOGINNAME":null,"EXECUTE_USERNAME":null,"LEVEL_CODE":null,"RIGHT_ROUTE_CODE":null,"RIGHT_ROUTE_TYPE_CODE":null,"LIVE_AREA_CODE":null,"HEIN_MEDI_ORG_CODE":null,"HEIN_MEDI_ORG_NAME":null,"HAS_BIRTH_CERTIFICATE":null,"HEIN_CARD_NUMBER":null,"HEIN_CARD_FROM_TIME":null,"HEIN_CARD_TO_TIME":null,"ADDRESS":null,"HNCODE":null,"JOIN_5_YEAR":null,"PAID_6_MONTH":null,"IS_NO_CHECK_EXPIRE":null,"FREE_CO_PAID_TIME":null,"IS_TEMP_QN":null,"BHYT_URL":null,"KSK_CONTRACT_ID":null,"JOIN_5_YEAR_TIME":null,"PRIMARY_PATIENT_TYPE_ID":null,"HEIN_CARD_TO_TIME_TMP":null,"HAS_WORKING_LETTER":null,"HAS_ABSENT_LETTER":null,"IS_TT46":null,"TT46_NOTE":null,"GUARANTEE_LOGINNAME":null,"GUARANTEE_USERNAME":null,"GUARANTEE_REASON":"","HIS_DEPARTMENT_TRAN":null,"HIS_KSK_CONTRACT":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_TREATMENT_TYPE":null,"HIS_ROOM":null,"HIS_TREATMENT":null},"DepartmentId":303,"CardCode":null,"CardServiceCode":null,"BankCardCode":null,"TreatmentTime":20230417124600,"ProvinceCode":"","DistrictCode":"","RequestRoomId":3072,"IsChronic":false,"ImgBhytData":null,"ImgAvatarData":null,"ImgCmndBeforeData":null,"ImgCmndAfterData":null,"ImgTransferInData":null},"AccountBookId":null,"PayFormId":null,"TransNumOrder":null,"CashierLoginName":null,"CashierUserName":null,"CashierWorkingRoomId":null,"IsAutoCreateBillForNonBhyt":false,"IsAutoCreateDepositForNonBhyt":false,"IsUsingEpayment":false,"InstructionTime":20230417124600,"ServiceReqDetails":[{"DummyId":1,"AttachedDummyId":null,"PatientTypeId":42,"ServiceId":27046,"ParentId":null,"RoomId":940,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":"sinhtest","AssignedExecuteUserName":"sinhtest","ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":4,"AttachedDummyId":null,"PatientTypeId":284,"ServiceId":40834,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":0,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":7,"AttachedDummyId":null,"PatientTypeId":42,"ServiceId":31173,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":0,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":10,"AttachedDummyId":null,"PatientTypeId":42,"ServiceId":27615,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":0,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":2,"AttachedDummyId":1,"PatientTypeId":42,"ServiceId":31173,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":3,"AttachedDummyId":1,"PatientTypeId":42,"ServiceId":27615,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":5,"AttachedDummyId":4,"PatientTypeId":284,"ServiceId":31173,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":6,"AttachedDummyId":4,"PatientTypeId":284,"ServiceId":27615,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":8,"AttachedDummyId":7,"PatientTypeId":42,"ServiceId":31173,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":9,"AttachedDummyId":7,"PatientTypeId":42,"ServiceId":27615,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":11,"AttachedDummyId":10,"PatientTypeId":42,"ServiceId":31173,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":12,"AttachedDummyId":10,"PatientTypeId":42,"ServiceId":27615,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null}],"ExecuteGroupId":null,"Priority":0,"PriorityTypeId":null,"IsNotRequireFee":null,"IsNoExecute":false,"IsEmergency":false,"IsInformResultBySms":false,"ManualRequestRoomId":false,"SessionCode":null,"InstructionTimes":[20230417124600],"TrackingInfos":null,"Note":"","NumOrder":null,"Id":null,"ParentServiceReqId":null,"IcdText":null,"IcdCode":null,"IcdName":null,"IcdCauseCode":null,"IcdCauseName":null,"IcdSubCode":null,"ProvisionalDiagnosis":null,"Description":null,"TreatmentId":79629,"TrackingId":null,"RequestRoomId":3072,"RequestLoginName":"tiencb","RequestUserName":"tiencb","ConsultantLoginName":null,"ConsultantUserName":null,"KidneyShift":null,"MachineId":null,"ExpMestTemplateId":null,"IsKidney":false} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["Không hỗ trợ chuyển đổi đối tượng thanh toán từ \"Viện Phí\" sang \"Ngoại quốc\" đối với \"Khám tự nguyện\""],"BugCodes":[],"MessageCodes":["HisSereServ_DoiTuongThanhToanKhongDuocPhepChuyenDoi"],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","Now":20230417134335,"HasException":true}}
+
+INFO 2023-04-17 13:45:32,163 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 13:45:32,163 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 13:45:32,323 [33] - MOS.PubSub. New pubsubProcessor
+
+WARN 2023-04-17 13:45:32,323 [33] - Is disconnected. Return and not process continue
+
+WARN 2023-04-17 13:45:32,323 [33] - Chua ket noi den Server pubsub. Khong subscribe duoc
+
+INFO 2023-04-17 13:45:32,336 [51] - PubSubClient Start
+
+INFO 2023-04-17 13:49:51,626 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 13:49:51,633 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 13:50:32,155 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 13:50:32,155 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+ERROR 2023-04-17 13:53:39,297 [42] - Application_End. Time=17/04/2023 13:53:39
+
+INFO 2023-04-17 13:56:22,429 [5] - Application_Start. Bat dau start Time=17/04/2023 13:56:22
+
+INFO 2023-04-17 13:56:27,761 [5] - Application_Start. Bat dau load HisConfig Time=17/04/2023 13:56:27
+
+INFO 2023-04-17 13:56:27,762 [5] - Bat dau get HisConfig.
+
+INFO 2023-04-17 13:59:18,113 [5] - Ket thuc get HisConfig.
+
+INFO 2023-04-17 13:59:18,113 [5] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-04-17 13:59:18,113 [5] - Application_Start. Ket thuc load HisConfig Time=17/04/2023 13:59:18
+
+INFO 2023-04-17 13:59:18,130 [5] - Application_Start. Ket thuc start Time=17/04/2023 13:59:18
+
+INFO 2023-04-17 13:59:18,131 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-04-17 13:59:18,132 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-04-17 13:59:18,320 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-04-17 13:59:18,326 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-04-17 13:59:18,327 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-04-17 13:59:18,483 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-04-17 13:59:18,483 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-04-17 13:59:18,633 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-04-17 13:59:18,633 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-04-17 13:59:18,634 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-04-17 13:59:18,635 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-04-17 13:59:18,785 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-04-17 13:59:18,785 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-04-17 13:59:19,538 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-04-17 13:59:19,539 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-04-17 13:59:19,844 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-04-17 13:59:19,844 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-17 13:59:19,844 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-17 13:59:19,899 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-04-17 13:59:19,900 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-04-17 13:59:20,057 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-04-17 13:59:20,058 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-04-17 13:59:20,205 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-04-17 13:59:20,205 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-04-17 13:59:20,502 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-04-17 13:59:20,793 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-04-17 13:59:20,793 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-04-17 13:59:20,953 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-04-17 13:59:20,953 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+INFO 2023-04-17 13:59:21,163 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+ERROR 2023-04-17 13:59:21,258 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-04-17 13:59:21,258 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-04-17 13:59:21,266 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-17 13:59:21,266 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-17 13:59:22,105 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-17 14:04:21,265 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 14:04:21,265 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 14:04:21,280 [5] - MOS.PubSub. New pubsubProcessor
+
+WARN 2023-04-17 14:04:21,313 [5] - Chua ket noi den Server pubsub. Khong subscribe duoc
+
+INFO 2023-04-17 14:04:21,385 [5] - PubSubClient Start
+
+WARN 2023-04-17 14:04:49,513 [27] - ___________________________ConnectionSlow_________ 89613d09-3df0-477c-8b70-5e9073e2ad6c
+
+WARN 2023-04-17 14:04:49,535 [27] - Invoke ConnectionSlow
+
+ERROR 2023-04-17 14:04:49,814 [38] - 
+System.Exception: khong co thong tin cmnd, the bhyt, sdt
+   at MOS.MANAGER.HisPatient.HisPatientCreateRegisterCode.CheckDataCreate(CommonParam param, HIS_PATIENT raw) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientCreateRegisterCode.cs:line 103
+
+INFO 2023-04-17 14:04:50,607 [33] - WebApiClient.Post. api:api/EmrTreatment/CreateOrUpdate__Begin
+
+ERROR 2023-04-17 14:04:50,759 [33] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at Inventec.Common.WebApiClient.ApiConsumer.HttpRequestBuilder(HttpClient client, String uri, String& requestedUrl, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisTreatment.Util.HisTreatmentUploadEmr.CreateOrUpdateEmrTreatment(HIS_TREATMENT data) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisTreatment\Util\HisTreatmentUploadEmr.cs:line 283
+
+ERROR 2023-04-17 14:05:08,224 [14] - 
+System.Exception: service sau ko co trong cau hinh duoc load san vao RAM cua MOS. NV van hanh kiem tra lai hoac restart MOS de cap nhat lai cau hinh vao RAM. service_id: 31093
+   at MOS.MANAGER.HisServiceReq.AssignService.HisServiceReqRoomAssign.ConvertServiceReqDetail(List`1 serviceReqDetails, List`1 services) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\AssignService\HisServiceReqRoomAssign.cs:line 223
+   at MOS.MANAGER.HisServiceReq.AssignService.HisServiceReqRoomAssign.Init(List`1 data, List`1 services, Int64 reqRoomId, Int64 reqDepartmentId, Int64 reqBranchId, List`1 intructionTimes, List`1 existSerServs) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\AssignService\HisServiceReqRoomAssign.cs:line 67
+   at MOS.MANAGER.HisServiceReq.AssignService.HisServiceReqRoomAssign..ctor(CommonParam param, List`1 services, List`1 data, Int64 reqRoomId, Int64 reqDepartmentId, Int64 reqBranchId, List`1 intructionTimes, List`1 existSerServs) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\AssignService\HisServiceReqRoomAssign.cs:line 60
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.MakeServiceReq(AssignServiceSDO data, List`1 services, HIS_TREATMENT treatment, HIS_PATIENT_TYPE_ALTER pta, String sessionCode, WorkPlaceSDO workPlace) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 207
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.Create(AssignServiceSDO data, HIS_TREATMENT treatment, HIS_PATIENT_TYPE_ALTER pta, HisServiceReqListResultSDO& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 105
+
+ERROR 2023-04-17 14:05:09,049 [14] - 
+System.Exception: Du lieu se bi rollback. Ket thuc nghiep vu
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqExamRegister.Create(HisServiceReqExamRegisterSDO data, Boolean forceUseClientTime, HisServiceReqExamRegisterResultSDO& resultData, HIS_TREATMENT& treatment, WorkPlaceSDO& workPlace) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqExamRegister.cs:line 151
+
+ERROR 2023-04-17 14:05:09,168 [14] - 
+--LoginName: tiencb 
+--Class: HisServiceReqManager 
+--Method: ExamRegister 
+--Input: {"HisPatientProfile":{"HisPatient":{"ID":66595,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"PATIENT_CODE":"0000065858","FIRST_NAME":"KÈM","LAST_NAME":"ĐÍNH","VIR_PATIENT_NAME":"ĐÍNH KÈM","GENDER_ID":1,"DOB":19871010000000,"IS_HAS_NOT_DAY_DOB":0,"PERSON_CODE":null,"REFERENCE_ID":null,"NATIONAL_CODE":null,"NATIONAL_NAME":null,"ETHNIC_CODE":"01","ETHNIC_NAME":"Kinh","RELIGION_NAME":null,"PROVINCE_CODE":"","PROVINCE_NAME":"","DISTRICT_CODE":"","DISTRICT_NAME":"","COMMUNE_CODE":"","COMMUNE_NAME":"","ADDRESS":"","VIR_ADDRESS":null,"HT_PROVINCE_NAME":"","HT_DISTRICT_NAME":"","HT_COMMUNE_NAME":"","HT_ADDRESS":null,"VIR_HT_ADDRESS":null,"MOBILE":null,"PHONE":null,"EMAIL":null,"RELATIVE_TYPE":"","RELATIVE_NAME":"","RELATIVE_ADDRESS":"","RELATIVE_CMND_NUMBER":null,"RELATIVE_MOBILE":null,"RELATIVE_PHONE":"","CAREER_CODE":"99","CAREER_NAME":"Khác","CAREER_ID":null,"WORK_PLACE_ID":null,"WORK_PLACE":null,"MILITARY_RANK_ID":null,"BRANCH_ID":1,"IS_OWN_BRANCH_WAIT":null,"RECENT_SERVICE_ID":null,"RECENT_ROOM_ID":null,"IS_CHRONIC":null,"BHYT_URL":null,"AVATAR_URL":null,"TDL_HEIN_CARD_NUMBER":null,"PATIENT_STORE_CODE":null,"HRM_EMPLOYEE_CODE":"","BORN_PROVINCE_CODE":"000","BORN_PROVINCE_NAME":null,"BLOOD_ABO_CODE":null,"BLOOD_RH_CODE":null,"CMND_NUMBER":null,"CMND_DATE":null,"CMND_PLACE":null,"CCCD_NUMBER":null,"CCCD_DATE":null,"CCCD_PLACE":null,"MOTHER_NAME":"","FATHER_NAME":"","HOUSEHOLD_CODE":null,"HOUSEHOLD_RELATION_NAME":null,"PT_PATHOLOGICAL_HISTORY":null,"PT_PATHOLOGICAL_HISTORY_FAMILY":null,"ACCOUNT_NUMBER":null,"TAX_CODE":null,"OWN_BRANCH_IDS":"1","UUID":null,"SYS_CODE":null,"UUID_BHYT_NUMBER":null,"IS_CREATE_UUID_FAIL":null,"IS_UPDATE_UUID_FAIL":null,"REGISTER_CODE":null,"FATHER_EDUCATIIONAL_LEVEL":null,"FATHER_CAREER":null,"MOTHER_EDUCATIIONAL_LEVEL":null,"MOTHER_CAREER":null,"PATIENT_CLASSIFY_ID":null,"TDL_LIVE_AREA_CODE":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"TDL_HEIN_CARD_ADDRESS":null,"TDL_JOIN_5_YEAR":null,"TDL_PAID_6_MONTH":null,"CMND_BEFORE_URL":null,"CMND_AFTER_URL":null,"SOCIAL_INSURANCE_NUMBER":null,"VIR_DOB_YEAR":1987.0,"PT_ALLERGIC_HISTORY":null,"POSITION_ID":null,"PASSPORT_NUMBER":null,"PASSPORT_DATE":null,"PASSPORT_PLACE":null,"IS_TUBERCULOSIS":0,"HAS_CARD":null,"NOTE":null,"MPS_NATIONAL_CODE":null,"FATHER_SOCIAL_INSURANCE_NUMBER":null,"MOTHER_SOCIAL_INSURANCE_NUMBER":null,"IS_HIV":null,"HIS_ALLERGENIC":[],"HIS_APPOINTMENT":[],"HIS_APPOINTMENT_SERV":[],"HIS_CARD":[],"HIS_CAREER":null,"HIS_CONTACT_POINT":[],"HIS_EXP_MEST":[],"HIS_GENDER":null,"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_RECORD":[],"HIS_MILITARY_RANK":null,"HIS_ROOM":null,"HIS_WORK_PLACE":null,"HIS_PATIENT1":[],"HIS_PATIENT2":null,"HIS_PATIENT_CLASSIFY":null,"HIS_POSITION":null,"HIS_SERVICE":null,"HIS_PATIENT_PROGRAM":[],"HIS_PATIENT_TYPE_ALTER":[],"HIS_REGISTER_REQ":[],"HIS_SERE_SERV":[],"HIS_SERVICE_REQ":[],"HIS_TRANSACTION":[],"HIS_TREATMENT":[],"HIS_VACCINATION_EXAM":[],"HIS_VACCINATION":[],"HIS_VITAMIN_A":[]},"HisTreatment":{"ID":79630,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"TREATMENT_CODE":"000000077126","TREATMENT_STT_ID":null,"PATIENT_ID":66595,"BRANCH_ID":1,"IS_PAUSE":null,"IS_LOCK_HEIN":null,"IS_TEMPORARY_LOCK":null,"IS_LOCK_FEE":null,"IS_REMOTE":null,"ICD_ID__DELETE":null,"ICD_CODE":null,"ICD_NAME":null,"ICD_SUB_CODE":null,"ICD_TEXT":null,"ICD_CAUSE_CODE":null,"ICD_CAUSE_NAME":null,"IS_HOLD_BHYT_CARD":null,"IS_AUTO_DISCOUNT":null,"AUTO_DISCOUNT_RATIO":null,"FEE_LOCK_TIME":null,"FEE_LOCK_ORDER":null,"FEE_LOCK_ROOM_ID":null,"FEE_LOCK_DEPARTMENT_ID":null,"IN_TIME":20230417140300,"IN_DATE":0,"CLINICAL_IN_TIME":null,"OUT_TIME":null,"IS_IN_CODE_REQUEST":null,"IN_CODE":"","IN_ROOM_ID":null,"IN_DEPARTMENT_ID":null,"IN_LOGINNAME":null,"IN_USERNAME":null,"IN_TREATMENT_TYPE_ID":null,"IN_ICD_ID__DELETE":null,"IN_ICD_CODE":null,"IN_ICD_NAME":null,"IN_ICD_SUB_CODE":null,"IN_ICD_TEXT":null,"HOSPITALIZATION_REASON":null,"DOCTOR_LOGINNAME":null,"DOCTOR_USERNAME":null,"END_LOGINNAME":null,"END_USERNAME":null,"END_ROOM_ID":null,"END_DEPARTMENT_ID":null,"END_CODE":null,"EXTRA_END_CODE":null,"IS_END_CODE_REQUEST":null,"TREATMENT_DAY_COUNT":null,"TREATMENT_RESULT_ID":null,"TREATMENT_END_TYPE_ID":null,"TREATMENT_END_TYPE_EXT_ID":null,"ADVISE":null,"APPOINTMENT_TIME":null,"APPOINTMENT_DESC":null,"APPOINTMENT_CODE":null,"OUT_DATE":null,"OUT_CODE":null,"IS_OUT_CODE_REQUEST":null,"IS_CHRONIC":null,"IS_YDT_UPLOAD":null,"OWE_TYPE_ID":null,"OWE_MODIFY_TIME":null,"STORE_TIME":null,"DATA_STORE_ID":null,"STORE_CODE":null,"IS_NOT_CHECK_LHMP":null,"IS_NOT_CHECK_LHSP":null,"TDL_HEIN_CARD_NUMBER":null,"JSON_PRINT_ID":null,"JSON_FORM_ID":null,"IS_EMERGENCY":null,"EMERGENCY_WTIME_ID":null,"KSK_ORDER":null,"TDL_KSK_CONTRACT_ID":null,"HRM_KSK_CODE":null,"CLINICAL_NOTE":null,"SUBCLINICAL_RESULT":null,"TREATMENT_DIRECTION":null,"TREATMENT_METHOD":null,"PATIENT_CONDITION":null,"MEDI_ORG_CODE":null,"MEDI_ORG_NAME":null,"TRAN_PATI_FORM_ID":null,"TRAN_PATI_REASON_ID":null,"TRAN_PATI_TECH_ID":null,"USED_MEDICINE":null,"TRANSPORT_VEHICLE":null,"TRANSPORTER":null,"IS_TRANSFER_IN":null,"TRANSFER_IN_MEDI_ORG_CODE":null,"TRANSFER_IN_MEDI_ORG_NAME":null,"TRANSFER_IN_CODE":null,"TRANSFER_IN_ICD_ID__DELETE":null,"TRANSFER_IN_ICD_CODE":null,"TRANSFER_IN_ICD_NAME":null,"TRANSFER_IN_CMKT":null,"TRANSFER_IN_FORM_ID":null,"TRANSFER_IN_REASON_ID":null,"SICK_LEAVE_DAY":null,"SICK_LEAVE_FROM":null,"SICK_LEAVE_TO":null,"DEATH_TIME":null,"DEATH_CAUSE_ID":null,"DEATH_WITHIN_ID":null,"DEATH_PLACE":null,"DEATH_DOCUMENT_TYPE":null,"DEATH_DOCUMENT_NUMBER":null,"DEATH_DOCUMENT_PLACE":null,"DEATH_DOCUMENT_DATE":null,"MAIN_CAUSE":null,"SURGERY":null,"IS_HAS_AUPOPSY":null,"TDL_FIRST_EXAM_ROOM_ID":null,"TDL_TREATMENT_TYPE_ID":null,"TDL_PATIENT_TYPE_ID":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"XML4210_URL":null,"FUND_ID":null,"FUND_NUMBER":null,"FUND_FROM_TIME":null,"FUND_TO_TIME":null,"FUND_ISSUE_TIME":null,"FUND_TYPE_NAME":null,"FUND_COMPANY_NAME":null,"FUND_BUDGET":null,"FUND_PAY_TIME":null,"FUND_SEND_FILE_TIME":null,"FUND_CUSTOMER_NAME":null,"IS_INTEGRATE_HIS_SENT":null,"TDL_PATIENT_CODE":"0000065858","TDL_PATIENT_NAME":"ĐÍNH KÈM ","TDL_PATIENT_FIRST_NAME":"KÈM","TDL_PATIENT_LAST_NAME":"ĐÍNH","TDL_PATIENT_DOB":19871010000000,"TDL_PATIENT_IS_HAS_NOT_DAY_DOB":0,"TDL_PATIENT_AVATAR_URL":null,"TDL_PATIENT_ADDRESS":"","TDL_PATIENT_GENDER_ID":1,"TDL_PATIENT_GENDER_NAME":"Nữ","TDL_PATIENT_CAREER_NAME":"Khác","TDL_PATIENT_WORK_PLACE":null,"TDL_PATIENT_WORK_PLACE_NAME":null,"TDL_PATIENT_DISTRICT_CODE":"","TDL_PATIENT_PROVINCE_CODE":"","TDL_PATIENT_COMMUNE_CODE":"","TDL_PATIENT_MILITARY_RANK_NAME":null,"TDL_PATIENT_NATIONAL_NAME":null,"TDL_PATIENT_RELATIVE_TYPE":"","TDL_PATIENT_RELATIVE_NAME":"","TDL_PATIENT_ACCOUNT_NUMBER":null,"TDL_PATIENT_TAX_CODE":null,"TRANSFER_IN_TIME_FROM":null,"TRANSFER_IN_TIME_TO":null,"SURGERY_APPOINTMENT_TIME":null,"APPOINTMENT_SURGERY":null,"MEDI_RECORD_TYPE_ID":null,"APPOINTMENT_EXAM_ROOM_IDS":null,"DEPARTMENT_IDS":"303","CO_DEPARTMENT_IDS":null,"LAST_DEPARTMENT_ID":null,"PROVISIONAL_DIAGNOSIS":null,"TREATMENT_ORDER":null,"TDL_PATIENT_MOBILE":null,"TDL_PATIENT_PHONE":null,"SICK_HEIN_CARD_NUMBER":null,"NEED_SICK_LEAVE_CERT":null,"MEDI_RECORD_ID":null,"PROGRAM_ID":null,"IS_SYNC_EMR":null,"XML4210_RESULT":null,"XML4210_DESC":null,"COLLINEAR_XML4210_URL":null,"COLLINEAR_XML4210_RESULT":null,"COLLINEAR_XML4210_DESC":null,"REJECT_STORE_REASON":null,"IS_APPROVE_FINISH":null,"APPROVE_FINISH_NOTE":null,"TRADITIONAL_ICD_CODE":null,"TRADITIONAL_ICD_NAME":null,"TRADITIONAL_IN_ICD_CODE":null,"TRADITIONAL_IN_ICD_NAME":null,"TRADITIONAL_ICD_SUB_CODE":null,"TRADITIONAL_ICD_TEXT":null,"TRADITIONAL_IN_ICD_SUB_CODE":null,"TRADITIONAL_IN_ICD_TEXT":null,"TRADITIONAL_TRANS_IN_ICD_CODE":null,"TRADITIONAL_TRANS_IN_ICD_NAME":null,"OTHER_PAY_SOURCE_ID":null,"IS_KSK_APPROVE":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"APPOINTMENT_DATE":null,"EYE_TENSION_LEFT":null,"EYE_TENSION_RIGHT":null,"EYESIGHT_LEFT":null,"EYESIGHT_RIGHT":null,"EYESIGHT_GLASS_LEFT":null,"EYESIGHT_GLASS_RIGHT":null,"APPOINTMENT_PERIOD_ID":null,"SICK_LOGINNAME":null,"SICK_USERNAME":null,"IS_EXPORTED_XML2076":null,"DOCUMENT_BOOK_ID":null,"SICK_NUM_ORDER":null,"TDL_DOCUMENT_BOOK_CODE":null,"APPROVAL_STORE_STT_ID":null,"TDL_PATIENT_CLASSIFY_ID":null,"VIR_IN_MONTH":20230400000000.0,"VIR_OUT_MONTH":null,"IN_CODE_SEED_CODE":null,"EXTRA_END_CODE_SEED_CODE":null,"XML2076_URL":null,"XML2076_DESC":null,"VIR_IN_YEAR":20230000000000.0,"VIR_OUT_YEAR":null,"FEE_LOCK_LOGINNAME":null,"FEE_LOCK_USERNAME":null,"EMR_COVER_TYPE_ID":null,"CONTRAINDICATION_IDS":null,"IS_CREATING_TRANSACTION":null,"CO_TREAT_DEPARTMENT_IDS":null,"RECORD_INSPECTION_STT_ID":null,"RECORD_INSPECTION_REJECT_NOTE":null,"TDL_SOCIAL_INSURANCE_NUMBER":null,"APPOINTMENT_EXAM_SERVICE_ID":null,"TRANSFER_IN_URL":null,"HOSPITALIZE_DEPARTMENT_ID":null,"DEATH_CERT_BOOK_ID":null,"DEATH_CERT_NUM":null,"TDL_PATIENT_CMND_NUMBER":null,"TDL_PATIENT_CMND_DATE":null,"TDL_PATIENT_CMND_PLACE":null,"TDL_PATIENT_CCCD_NUMBER":null,"TDL_PATIENT_CCCD_DATE":null,"TDL_PATIENT_CCCD_PLACE":null,"NUM_ORDER_ISSUE_ID":null,"NEXT_EXAM_NUM_ORDER":null,"NEXT_EXAM_FROM_TIME":null,"NEXT_EXAM_TO_TIME":null,"TDL_PATIENT_RELATIVE_ADDRESS":"","TDL_RELATIVE_CMND_NUMBER":null,"TDL_PATIENT_RELATIVE_MOBILE":null,"TDL_PATIENT_RELATIVE_PHONE":"","TDL_PATIENT_MOTHER_NAME":"","TDL_PATIENT_FATHER_NAME":"","PERMISION_UPDATE":null,"TDL_PATIENT_NATIONAL_CODE":null,"TDL_PATIENT_PROVINCE_NAME":"","TDL_PATIENT_DISTRICT_NAME":"","TDL_PATIENT_COMMUNE_NAME":"","TDL_PATIENT_POSITION_ID":null,"IS_BHYT_HOLDED":null,"TDL_PATIENT_PASSPORT_NUMBER":null,"TDL_PATIENT_PASSPORT_DATE":null,"TDL_PATIENT_PASSPORT_PLACE":null,"TDL_PATIENT_WORK_PLACE_ID":null,"SHOW_ICD_CODE":null,"SHOW_ICD_NAME":null,"SHOW_ICD_SUB_CODE":null,"SHOW_ICD_TEXT":null,"TRAN_PATI_BOOK_TIME":null,"TRAN_PATI_BOOK_NUMBER":null,"TRAN_PATI_DOCTOR_LOGINNAME":null,"TRAN_PATI_DOCTOR_USERNAME":null,"TRAN_PATI_DEPARTMENT_LOGINNAME":null,"TRAN_PATI_DEPARTMENT_USERNAME":null,"TRAN_PATI_HOSPITAL_LOGINNAME":null,"TRAN_PATI_HOSPITAL_USERNAME":null,"VIR_TRAN_PATI_BOOK_YEAR":null,"TDL_PATIENT_UNSIGNED_NAME":"DINH KEM ","OUTPATIENT_DATE_FROM":null,"OUTPATIENT_DATE_TO":null,"VACCINE_ID":null,"VACINATION_ORDER":null,"EPIDEMILOGY_CONTACT_TYPE":null,"EPIDEMILOGY_SYMPTOM":null,"TDL_PATIENT_ETHNIC_NAME":"Kinh","IS_TUBERCULOSIS":0,"DOCUMENT_VIEW_COUNT":null,"EXIT_DEPARTMENT_ID":null,"COVID_PATIENT_CODE":null,"STORE_BORDEREAU_CODE":null,"HEIN_LOCK_TIME":null,"HAS_AUTO_CREATE_RATION":null,"IS_OLD_TEMP_BED":null,"TDL_KSK_CONTRACT_IS_RESTRICTED":null,"NUMBER_OF_FULL_TERM_BIRTH":null,"NUMBER_OF_PREMATURE_BIRTH":null,"NUMBER_OF_MISCARRIAGE":null,"NUMBER_OF_TESTS":null,"TEST_HIV":null,"TEST_SYPHILIS":null,"IS_TEST_BLOOD_SUGAR":null,"IS_EARLY_NEWBORN_CARE":null,"NEWBORN_CARE_AT_HOME":null,"TEST_HEPATITIS_B":null,"RECEPTION_FORM":null,"END_DEPARTMENT_HEAD_LOGINNAME":null,"END_DEPARTMENT_HEAD_USERNAME":null,"HOSPITAL_DIRECTOR_LOGINNAME":null,"HOSPITAL_DIRECTOR_USERNAME":null,"END_DEPT_SUBS_HEAD_LOGINNAME":null,"END_DEPT_SUBS_HEAD_USERNAME":null,"HOSP_SUBS_DIRECTOR_LOGINNAME":null,"HOSP_SUBS_DIRECTOR_USERNAME":null,"TUBERCULOSIS_ISSUED_ORG_CODE":null,"TUBERCULOSIS_ISSUED_ORG_NAME":null,"TUBERCULOSIS_ISSUED_DATE":null,"HAS_CARD":null,"APPROVAL_LOGINNAME":null,"APPROVAL_USERNAME":null,"APPROVAL_TIME":null,"UNAPPROVAL_LOGINNAME":null,"UNAPPROVAL_USERNAME":null,"UNAPPROVAL_TIME":null,"TRANSFER_IN_REVIEWS":null,"HOSPITALIZE_REASON_CODE":null,"HOSPITALIZE_REASON_NAME":null,"END_TYPE_EXT_NOTE":null,"TDL_PATIENT_MPS_NATIONAL_CODE":null,"IS_PREGNANCY_TERMINATION":null,"PREGNANCY_TERMINATION_REASON":null,"GESTATIONAL_AGE":null,"DEATH_CERT_BOOK_FIRST_ID":null,"DEATH_CERT_NUM_FIRST":null,"DEATH_CERT_ISSUER_LOGINNAME":null,"DEATH_CERT_ISSUER_USERNAME":null,"DEATH_SYNC_FAILD_REASON":null,"DEATH_SYNC_RESULT_TYPE":null,"DEATH_SYNC_TIME":null,"PREGNANCY_TERMINATION_TIME":null,"IS_HIV":null,"XML_CHECKIN_URL":null,"XML_CHECKIN_DESC":null,"HIS_ACCIDENT_HURT":[],"HIS_ADR":[],"HIS_ALLERGY_CARD":[],"HIS_ANTIBIOTIC_REQUEST":[],"HIS_APPOINTMENT_PERIOD":null,"HIS_APPOINTMENT_SERV":[],"HIS_BABY":[],"HIS_CARE":[],"HIS_CARE_SUM":[],"HIS_CARER_CARD_BORROW":[],"HIS_CO_TREATMENT":[],"HIS_DATA_STORE":null,"HIS_DEATH_CERT_BOOK":null,"HIS_DEBATE":[],"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_DEPARTMENT2":null,"HIS_DEPARTMENT3":null,"HIS_DEPARTMENT4":null,"HIS_DEPARTMENT5":null,"HIS_DEPARTMENT_TRAN":[],"HIS_DEPOSIT_REQ":[],"HIS_DHST":[],"HIS_DOCUMENT_BOOK":null,"HIS_EMR_COVER_TYPE":null,"HIS_EXP_MEST":[],"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATY_REQ":[],"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_METY_REQ":[],"HIS_FUND":null,"HIS_GENDER":null,"HIS_HEIN_APPROVAL":[],"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_IMP_MEST_MATE_REQ":[],"HIS_IMP_MEST_MEDI_REQ":[],"HIS_INFUSION_SUM":[],"HIS_KSK_CONTRACT":null,"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_REACT_SUM":[],"HIS_MEDI_RECORD":null,"HIS_MEDI_RECORD_TYPE":null,"HIS_MEDICINE_INTERACTIVE":[],"HIS_MEDICINE_TYPE":null,"HIS_MR_CHECK_SUMMARY":[],"HIS_NUM_ORDER_ISSUE":null,"HIS_OBEY_CONTRAINDI":[],"HIS_OTHER_PAY_SOURCE":null,"HIS_OWE_TYPE":null,"HIS_PATIENT":null,"HIS_PATIENT_CLASSIFY":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE_ALTER":[],"HIS_PREPARE":[],"HIS_PREPARE_METY":[],"HIS_PROGRAM":null,"HIS_REHA_SUM":[],"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_ROOM2":null,"HIS_ROOM3":null,"HIS_SERE_SERV":[],"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_EXT":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_REQ":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SEVERE_ILLNESS_INFO":[],"HIS_TRACKING":[],"HIS_TRAN_PATI_TECH":null,"HIS_TRANS_REQ":[],"HIS_TRANSACTION":[],"HIS_TRANSFUSION_SUM":[],"HIS_TREATMENT_BED_ROOM":[],"HIS_TREATMENT_BORROW":[],"HIS_TREATMENT_FILE":[],"HIS_TREATMENT_RESULT":null,"HIS_TREATMENT_STT":null,"HIS_TREATMENT_TYPE":null,"HIS_TREATMENT_END_TYPE_EXT":null,"HIS_TREATMENT_END_TYPE":null,"HIS_TREATMENT_TYPE1":null,"HIS_TREATMENT_LOGGING":[],"HIS_TREATMENT_UNLIMIT":[]},"HisPatientTypeAlter":{"ID":90875,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"DEPARTMENT_TRAN_ID":94574,"TREATMENT_TYPE_ID":1,"PATIENT_TYPE_ID":42,"LOG_TIME":20230417140300,"TREATMENT_ID":79630,"TDL_PATIENT_ID":66595,"EXECUTE_ROOM_ID":3072,"EXECUTE_LOGINNAME":null,"EXECUTE_USERNAME":null,"LEVEL_CODE":null,"RIGHT_ROUTE_CODE":null,"RIGHT_ROUTE_TYPE_CODE":null,"LIVE_AREA_CODE":null,"HEIN_MEDI_ORG_CODE":null,"HEIN_MEDI_ORG_NAME":null,"HAS_BIRTH_CERTIFICATE":null,"HEIN_CARD_NUMBER":null,"HEIN_CARD_FROM_TIME":null,"HEIN_CARD_TO_TIME":null,"ADDRESS":null,"HNCODE":null,"JOIN_5_YEAR":null,"PAID_6_MONTH":null,"IS_NO_CHECK_EXPIRE":null,"FREE_CO_PAID_TIME":null,"IS_TEMP_QN":null,"BHYT_URL":null,"KSK_CONTRACT_ID":null,"JOIN_5_YEAR_TIME":null,"PRIMARY_PATIENT_TYPE_ID":null,"HEIN_CARD_TO_TIME_TMP":null,"HAS_WORKING_LETTER":null,"HAS_ABSENT_LETTER":null,"IS_TT46":null,"TT46_NOTE":null,"GUARANTEE_LOGINNAME":null,"GUARANTEE_USERNAME":null,"GUARANTEE_REASON":"","HIS_DEPARTMENT_TRAN":null,"HIS_KSK_CONTRACT":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_TREATMENT_TYPE":null,"HIS_ROOM":null,"HIS_TREATMENT":null},"DepartmentId":303,"CardCode":null,"CardServiceCode":null,"BankCardCode":null,"TreatmentTime":20230417140300,"ProvinceCode":"","DistrictCode":"","RequestRoomId":3072,"IsChronic":false,"ImgBhytData":null,"ImgAvatarData":null,"ImgCmndBeforeData":null,"ImgCmndAfterData":null,"ImgTransferInData":null},"AccountBookId":null,"PayFormId":null,"TransNumOrder":null,"CashierLoginName":null,"CashierUserName":null,"CashierWorkingRoomId":null,"IsAutoCreateBillForNonBhyt":false,"IsAutoCreateDepositForNonBhyt":false,"IsUsingEpayment":false,"InstructionTime":20230417140300,"ServiceReqDetails":[{"DummyId":1,"AttachedDummyId":null,"PatientTypeId":42,"ServiceId":27054,"ParentId":null,"RoomId":940,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":"sinhtest","AssignedExecuteUserName":"sinhtest","ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":2,"AttachedDummyId":1,"PatientTypeId":42,"ServiceId":31093,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null}],"ExecuteGroupId":null,"Priority":0,"PriorityTypeId":null,"IsNotRequireFee":null,"IsNoExecute":false,"IsEmergency":false,"IsInformResultBySms":false,"ManualRequestRoomId":false,"SessionCode":null,"InstructionTimes":[20230417140300],"TrackingInfos":null,"Note":"","NumOrder":null,"Id":null,"ParentServiceReqId":null,"IcdText":null,"IcdCode":null,"IcdName":null,"IcdCauseCode":null,"IcdCauseName":null,"IcdSubCode":null,"ProvisionalDiagnosis":null,"Description":null,"TreatmentId":79630,"TrackingId":null,"RequestRoomId":3072,"RequestLoginName":"tiencb","RequestUserName":"tiencb","ConsultantLoginName":null,"ConsultantUserName":null,"KidneyShift":null,"MachineId":null,"ExpMestTemplateId":null,"IsKidney":false} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["Dịch vụ yêu cầu chưa được cấu hình trên hệ thống. Vui lòng liên hệ với nhân viên vận hành hoặc khởi động lại hệ thống MOS để cập nhật thông tin dịch vụ vào hệ thống."],"BugCodes":[],"MessageCodes":["DuLieuKhongTonTaiTrongCauHinh"],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","Now":20230417140508,"HasException":true}}
+
+ERROR 2023-04-17 14:06:06,575 [46] - 
+System.Exception: khong co thong tin cmnd, the bhyt, sdt
+   at MOS.MANAGER.HisPatient.HisPatientCreateRegisterCode.CheckDataCreate(CommonParam param, HIS_PATIENT raw) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientCreateRegisterCode.cs:line 103
+
+ERROR 2023-04-17 14:06:06,788 [5] - 
+System.Exception: service sau ko co trong cau hinh duoc load san vao RAM cua MOS. NV van hanh kiem tra lai hoac restart MOS de cap nhat lai cau hinh vao RAM. service_id: 31173
+   at MOS.MANAGER.HisServiceReq.AssignService.HisServiceReqRoomAssign.ConvertServiceReqDetail(List`1 serviceReqDetails, List`1 services) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\AssignService\HisServiceReqRoomAssign.cs:line 223
+   at MOS.MANAGER.HisServiceReq.AssignService.HisServiceReqRoomAssign.Init(List`1 data, List`1 services, Int64 reqRoomId, Int64 reqDepartmentId, Int64 reqBranchId, List`1 intructionTimes, List`1 existSerServs) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\AssignService\HisServiceReqRoomAssign.cs:line 67
+   at MOS.MANAGER.HisServiceReq.AssignService.HisServiceReqRoomAssign..ctor(CommonParam param, List`1 services, List`1 data, Int64 reqRoomId, Int64 reqDepartmentId, Int64 reqBranchId, List`1 intructionTimes, List`1 existSerServs) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\AssignService\HisServiceReqRoomAssign.cs:line 60
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.MakeServiceReq(AssignServiceSDO data, List`1 services, HIS_TREATMENT treatment, HIS_PATIENT_TYPE_ALTER pta, String sessionCode, WorkPlaceSDO workPlace) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 207
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.Create(AssignServiceSDO data, HIS_TREATMENT treatment, HIS_PATIENT_TYPE_ALTER pta, HisServiceReqListResultSDO& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 105
+
+INFO 2023-04-17 14:06:07,357 [45] - WebApiClient.Post. api:api/EmrTreatment/CreateOrUpdate__Begin
+
+ERROR 2023-04-17 14:06:07,543 [45] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at Inventec.Common.WebApiClient.ApiConsumer.HttpRequestBuilder(HttpClient client, String uri, String& requestedUrl, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisTreatment.Util.HisTreatmentUploadEmr.CreateOrUpdateEmrTreatment(HIS_TREATMENT data) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisTreatment\Util\HisTreatmentUploadEmr.cs:line 283
+
+ERROR 2023-04-17 14:06:07,904 [5] - 
+System.Exception: Du lieu se bi rollback. Ket thuc nghiep vu
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqExamRegister.Create(HisServiceReqExamRegisterSDO data, Boolean forceUseClientTime, HisServiceReqExamRegisterResultSDO& resultData, HIS_TREATMENT& treatment, WorkPlaceSDO& workPlace) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqExamRegister.cs:line 151
+
+ERROR 2023-04-17 14:06:07,905 [5] - 
+--LoginName: tiencb 
+--Class: HisServiceReqManager 
+--Method: ExamRegister 
+--Input: {"HisPatientProfile":{"HisPatient":{"ID":66596,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"PATIENT_CODE":"0000065859","FIRST_NAME":"KÈM","LAST_NAME":"ĐÍNH","VIR_PATIENT_NAME":"ĐÍNH KÈM","GENDER_ID":1,"DOB":19871010000000,"IS_HAS_NOT_DAY_DOB":0,"PERSON_CODE":null,"REFERENCE_ID":null,"NATIONAL_CODE":null,"NATIONAL_NAME":null,"ETHNIC_CODE":"01","ETHNIC_NAME":"Kinh","RELIGION_NAME":null,"PROVINCE_CODE":"","PROVINCE_NAME":"","DISTRICT_CODE":"","DISTRICT_NAME":"","COMMUNE_CODE":"","COMMUNE_NAME":"","ADDRESS":"","VIR_ADDRESS":null,"HT_PROVINCE_NAME":"","HT_DISTRICT_NAME":"","HT_COMMUNE_NAME":"","HT_ADDRESS":null,"VIR_HT_ADDRESS":null,"MOBILE":null,"PHONE":null,"EMAIL":null,"RELATIVE_TYPE":"","RELATIVE_NAME":"","RELATIVE_ADDRESS":"","RELATIVE_CMND_NUMBER":null,"RELATIVE_MOBILE":null,"RELATIVE_PHONE":"","CAREER_CODE":"99","CAREER_NAME":"Khác","CAREER_ID":null,"WORK_PLACE_ID":null,"WORK_PLACE":null,"MILITARY_RANK_ID":null,"BRANCH_ID":1,"IS_OWN_BRANCH_WAIT":null,"RECENT_SERVICE_ID":null,"RECENT_ROOM_ID":null,"IS_CHRONIC":null,"BHYT_URL":null,"AVATAR_URL":null,"TDL_HEIN_CARD_NUMBER":null,"PATIENT_STORE_CODE":null,"HRM_EMPLOYEE_CODE":"","BORN_PROVINCE_CODE":"000","BORN_PROVINCE_NAME":null,"BLOOD_ABO_CODE":null,"BLOOD_RH_CODE":null,"CMND_NUMBER":null,"CMND_DATE":null,"CMND_PLACE":null,"CCCD_NUMBER":null,"CCCD_DATE":null,"CCCD_PLACE":null,"MOTHER_NAME":"","FATHER_NAME":"","HOUSEHOLD_CODE":null,"HOUSEHOLD_RELATION_NAME":null,"PT_PATHOLOGICAL_HISTORY":null,"PT_PATHOLOGICAL_HISTORY_FAMILY":null,"ACCOUNT_NUMBER":null,"TAX_CODE":null,"OWN_BRANCH_IDS":"1","UUID":null,"SYS_CODE":null,"UUID_BHYT_NUMBER":null,"IS_CREATE_UUID_FAIL":null,"IS_UPDATE_UUID_FAIL":null,"REGISTER_CODE":null,"FATHER_EDUCATIIONAL_LEVEL":null,"FATHER_CAREER":null,"MOTHER_EDUCATIIONAL_LEVEL":null,"MOTHER_CAREER":null,"PATIENT_CLASSIFY_ID":null,"TDL_LIVE_AREA_CODE":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"TDL_HEIN_CARD_ADDRESS":null,"TDL_JOIN_5_YEAR":null,"TDL_PAID_6_MONTH":null,"CMND_BEFORE_URL":null,"CMND_AFTER_URL":null,"SOCIAL_INSURANCE_NUMBER":null,"VIR_DOB_YEAR":1987.0,"PT_ALLERGIC_HISTORY":null,"POSITION_ID":null,"PASSPORT_NUMBER":null,"PASSPORT_DATE":null,"PASSPORT_PLACE":null,"IS_TUBERCULOSIS":0,"HAS_CARD":null,"NOTE":null,"MPS_NATIONAL_CODE":null,"FATHER_SOCIAL_INSURANCE_NUMBER":null,"MOTHER_SOCIAL_INSURANCE_NUMBER":null,"IS_HIV":null,"HIS_ALLERGENIC":[],"HIS_APPOINTMENT":[],"HIS_APPOINTMENT_SERV":[],"HIS_CARD":[],"HIS_CAREER":null,"HIS_CONTACT_POINT":[],"HIS_EXP_MEST":[],"HIS_GENDER":null,"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_RECORD":[],"HIS_MILITARY_RANK":null,"HIS_ROOM":null,"HIS_WORK_PLACE":null,"HIS_PATIENT1":[],"HIS_PATIENT2":null,"HIS_PATIENT_CLASSIFY":null,"HIS_POSITION":null,"HIS_SERVICE":null,"HIS_PATIENT_PROGRAM":[],"HIS_PATIENT_TYPE_ALTER":[],"HIS_REGISTER_REQ":[],"HIS_SERE_SERV":[],"HIS_SERVICE_REQ":[],"HIS_TRANSACTION":[],"HIS_TREATMENT":[],"HIS_VACCINATION_EXAM":[],"HIS_VACCINATION":[],"HIS_VITAMIN_A":[]},"HisTreatment":{"ID":79631,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"TREATMENT_CODE":"000000077127","TREATMENT_STT_ID":null,"PATIENT_ID":66596,"BRANCH_ID":1,"IS_PAUSE":null,"IS_LOCK_HEIN":null,"IS_TEMPORARY_LOCK":null,"IS_LOCK_FEE":null,"IS_REMOTE":null,"ICD_ID__DELETE":null,"ICD_CODE":null,"ICD_NAME":null,"ICD_SUB_CODE":null,"ICD_TEXT":null,"ICD_CAUSE_CODE":null,"ICD_CAUSE_NAME":null,"IS_HOLD_BHYT_CARD":null,"IS_AUTO_DISCOUNT":null,"AUTO_DISCOUNT_RATIO":null,"FEE_LOCK_TIME":null,"FEE_LOCK_ORDER":null,"FEE_LOCK_ROOM_ID":null,"FEE_LOCK_DEPARTMENT_ID":null,"IN_TIME":20230417140300,"IN_DATE":0,"CLINICAL_IN_TIME":null,"OUT_TIME":null,"IS_IN_CODE_REQUEST":null,"IN_CODE":"","IN_ROOM_ID":null,"IN_DEPARTMENT_ID":null,"IN_LOGINNAME":null,"IN_USERNAME":null,"IN_TREATMENT_TYPE_ID":null,"IN_ICD_ID__DELETE":null,"IN_ICD_CODE":null,"IN_ICD_NAME":null,"IN_ICD_SUB_CODE":null,"IN_ICD_TEXT":null,"HOSPITALIZATION_REASON":null,"DOCTOR_LOGINNAME":null,"DOCTOR_USERNAME":null,"END_LOGINNAME":null,"END_USERNAME":null,"END_ROOM_ID":null,"END_DEPARTMENT_ID":null,"END_CODE":null,"EXTRA_END_CODE":null,"IS_END_CODE_REQUEST":null,"TREATMENT_DAY_COUNT":null,"TREATMENT_RESULT_ID":null,"TREATMENT_END_TYPE_ID":null,"TREATMENT_END_TYPE_EXT_ID":null,"ADVISE":null,"APPOINTMENT_TIME":null,"APPOINTMENT_DESC":null,"APPOINTMENT_CODE":null,"OUT_DATE":null,"OUT_CODE":null,"IS_OUT_CODE_REQUEST":null,"IS_CHRONIC":null,"IS_YDT_UPLOAD":null,"OWE_TYPE_ID":null,"OWE_MODIFY_TIME":null,"STORE_TIME":null,"DATA_STORE_ID":null,"STORE_CODE":null,"IS_NOT_CHECK_LHMP":null,"IS_NOT_CHECK_LHSP":null,"TDL_HEIN_CARD_NUMBER":null,"JSON_PRINT_ID":null,"JSON_FORM_ID":null,"IS_EMERGENCY":null,"EMERGENCY_WTIME_ID":null,"KSK_ORDER":null,"TDL_KSK_CONTRACT_ID":null,"HRM_KSK_CODE":null,"CLINICAL_NOTE":null,"SUBCLINICAL_RESULT":null,"TREATMENT_DIRECTION":null,"TREATMENT_METHOD":null,"PATIENT_CONDITION":null,"MEDI_ORG_CODE":null,"MEDI_ORG_NAME":null,"TRAN_PATI_FORM_ID":null,"TRAN_PATI_REASON_ID":null,"TRAN_PATI_TECH_ID":null,"USED_MEDICINE":null,"TRANSPORT_VEHICLE":null,"TRANSPORTER":null,"IS_TRANSFER_IN":null,"TRANSFER_IN_MEDI_ORG_CODE":null,"TRANSFER_IN_MEDI_ORG_NAME":null,"TRANSFER_IN_CODE":null,"TRANSFER_IN_ICD_ID__DELETE":null,"TRANSFER_IN_ICD_CODE":null,"TRANSFER_IN_ICD_NAME":null,"TRANSFER_IN_CMKT":null,"TRANSFER_IN_FORM_ID":null,"TRANSFER_IN_REASON_ID":null,"SICK_LEAVE_DAY":null,"SICK_LEAVE_FROM":null,"SICK_LEAVE_TO":null,"DEATH_TIME":null,"DEATH_CAUSE_ID":null,"DEATH_WITHIN_ID":null,"DEATH_PLACE":null,"DEATH_DOCUMENT_TYPE":null,"DEATH_DOCUMENT_NUMBER":null,"DEATH_DOCUMENT_PLACE":null,"DEATH_DOCUMENT_DATE":null,"MAIN_CAUSE":null,"SURGERY":null,"IS_HAS_AUPOPSY":null,"TDL_FIRST_EXAM_ROOM_ID":null,"TDL_TREATMENT_TYPE_ID":null,"TDL_PATIENT_TYPE_ID":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"XML4210_URL":null,"FUND_ID":null,"FUND_NUMBER":null,"FUND_FROM_TIME":null,"FUND_TO_TIME":null,"FUND_ISSUE_TIME":null,"FUND_TYPE_NAME":null,"FUND_COMPANY_NAME":null,"FUND_BUDGET":null,"FUND_PAY_TIME":null,"FUND_SEND_FILE_TIME":null,"FUND_CUSTOMER_NAME":null,"IS_INTEGRATE_HIS_SENT":null,"TDL_PATIENT_CODE":"0000065859","TDL_PATIENT_NAME":"ĐÍNH KÈM ","TDL_PATIENT_FIRST_NAME":"KÈM","TDL_PATIENT_LAST_NAME":"ĐÍNH","TDL_PATIENT_DOB":19871010000000,"TDL_PATIENT_IS_HAS_NOT_DAY_DOB":0,"TDL_PATIENT_AVATAR_URL":null,"TDL_PATIENT_ADDRESS":"","TDL_PATIENT_GENDER_ID":1,"TDL_PATIENT_GENDER_NAME":"Nữ","TDL_PATIENT_CAREER_NAME":"Khác","TDL_PATIENT_WORK_PLACE":null,"TDL_PATIENT_WORK_PLACE_NAME":null,"TDL_PATIENT_DISTRICT_CODE":"","TDL_PATIENT_PROVINCE_CODE":"","TDL_PATIENT_COMMUNE_CODE":"","TDL_PATIENT_MILITARY_RANK_NAME":null,"TDL_PATIENT_NATIONAL_NAME":null,"TDL_PATIENT_RELATIVE_TYPE":"","TDL_PATIENT_RELATIVE_NAME":"","TDL_PATIENT_ACCOUNT_NUMBER":null,"TDL_PATIENT_TAX_CODE":null,"TRANSFER_IN_TIME_FROM":null,"TRANSFER_IN_TIME_TO":null,"SURGERY_APPOINTMENT_TIME":null,"APPOINTMENT_SURGERY":null,"MEDI_RECORD_TYPE_ID":null,"APPOINTMENT_EXAM_ROOM_IDS":null,"DEPARTMENT_IDS":"303","CO_DEPARTMENT_IDS":null,"LAST_DEPARTMENT_ID":null,"PROVISIONAL_DIAGNOSIS":null,"TREATMENT_ORDER":null,"TDL_PATIENT_MOBILE":null,"TDL_PATIENT_PHONE":null,"SICK_HEIN_CARD_NUMBER":null,"NEED_SICK_LEAVE_CERT":null,"MEDI_RECORD_ID":null,"PROGRAM_ID":null,"IS_SYNC_EMR":null,"XML4210_RESULT":null,"XML4210_DESC":null,"COLLINEAR_XML4210_URL":null,"COLLINEAR_XML4210_RESULT":null,"COLLINEAR_XML4210_DESC":null,"REJECT_STORE_REASON":null,"IS_APPROVE_FINISH":null,"APPROVE_FINISH_NOTE":null,"TRADITIONAL_ICD_CODE":null,"TRADITIONAL_ICD_NAME":null,"TRADITIONAL_IN_ICD_CODE":null,"TRADITIONAL_IN_ICD_NAME":null,"TRADITIONAL_ICD_SUB_CODE":null,"TRADITIONAL_ICD_TEXT":null,"TRADITIONAL_IN_ICD_SUB_CODE":null,"TRADITIONAL_IN_ICD_TEXT":null,"TRADITIONAL_TRANS_IN_ICD_CODE":null,"TRADITIONAL_TRANS_IN_ICD_NAME":null,"OTHER_PAY_SOURCE_ID":null,"IS_KSK_APPROVE":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"APPOINTMENT_DATE":null,"EYE_TENSION_LEFT":null,"EYE_TENSION_RIGHT":null,"EYESIGHT_LEFT":null,"EYESIGHT_RIGHT":null,"EYESIGHT_GLASS_LEFT":null,"EYESIGHT_GLASS_RIGHT":null,"APPOINTMENT_PERIOD_ID":null,"SICK_LOGINNAME":null,"SICK_USERNAME":null,"IS_EXPORTED_XML2076":null,"DOCUMENT_BOOK_ID":null,"SICK_NUM_ORDER":null,"TDL_DOCUMENT_BOOK_CODE":null,"APPROVAL_STORE_STT_ID":null,"TDL_PATIENT_CLASSIFY_ID":null,"VIR_IN_MONTH":20230400000000.0,"VIR_OUT_MONTH":null,"IN_CODE_SEED_CODE":null,"EXTRA_END_CODE_SEED_CODE":null,"XML2076_URL":null,"XML2076_DESC":null,"VIR_IN_YEAR":20230000000000.0,"VIR_OUT_YEAR":null,"FEE_LOCK_LOGINNAME":null,"FEE_LOCK_USERNAME":null,"EMR_COVER_TYPE_ID":null,"CONTRAINDICATION_IDS":null,"IS_CREATING_TRANSACTION":null,"CO_TREAT_DEPARTMENT_IDS":null,"RECORD_INSPECTION_STT_ID":null,"RECORD_INSPECTION_REJECT_NOTE":null,"TDL_SOCIAL_INSURANCE_NUMBER":null,"APPOINTMENT_EXAM_SERVICE_ID":null,"TRANSFER_IN_URL":null,"HOSPITALIZE_DEPARTMENT_ID":null,"DEATH_CERT_BOOK_ID":null,"DEATH_CERT_NUM":null,"TDL_PATIENT_CMND_NUMBER":null,"TDL_PATIENT_CMND_DATE":null,"TDL_PATIENT_CMND_PLACE":null,"TDL_PATIENT_CCCD_NUMBER":null,"TDL_PATIENT_CCCD_DATE":null,"TDL_PATIENT_CCCD_PLACE":null,"NUM_ORDER_ISSUE_ID":null,"NEXT_EXAM_NUM_ORDER":null,"NEXT_EXAM_FROM_TIME":null,"NEXT_EXAM_TO_TIME":null,"TDL_PATIENT_RELATIVE_ADDRESS":"","TDL_RELATIVE_CMND_NUMBER":null,"TDL_PATIENT_RELATIVE_MOBILE":null,"TDL_PATIENT_RELATIVE_PHONE":"","TDL_PATIENT_MOTHER_NAME":"","TDL_PATIENT_FATHER_NAME":"","PERMISION_UPDATE":null,"TDL_PATIENT_NATIONAL_CODE":null,"TDL_PATIENT_PROVINCE_NAME":"","TDL_PATIENT_DISTRICT_NAME":"","TDL_PATIENT_COMMUNE_NAME":"","TDL_PATIENT_POSITION_ID":null,"IS_BHYT_HOLDED":null,"TDL_PATIENT_PASSPORT_NUMBER":null,"TDL_PATIENT_PASSPORT_DATE":null,"TDL_PATIENT_PASSPORT_PLACE":null,"TDL_PATIENT_WORK_PLACE_ID":null,"SHOW_ICD_CODE":null,"SHOW_ICD_NAME":null,"SHOW_ICD_SUB_CODE":null,"SHOW_ICD_TEXT":null,"TRAN_PATI_BOOK_TIME":null,"TRAN_PATI_BOOK_NUMBER":null,"TRAN_PATI_DOCTOR_LOGINNAME":null,"TRAN_PATI_DOCTOR_USERNAME":null,"TRAN_PATI_DEPARTMENT_LOGINNAME":null,"TRAN_PATI_DEPARTMENT_USERNAME":null,"TRAN_PATI_HOSPITAL_LOGINNAME":null,"TRAN_PATI_HOSPITAL_USERNAME":null,"VIR_TRAN_PATI_BOOK_YEAR":null,"TDL_PATIENT_UNSIGNED_NAME":"DINH KEM ","OUTPATIENT_DATE_FROM":null,"OUTPATIENT_DATE_TO":null,"VACCINE_ID":null,"VACINATION_ORDER":null,"EPIDEMILOGY_CONTACT_TYPE":null,"EPIDEMILOGY_SYMPTOM":null,"TDL_PATIENT_ETHNIC_NAME":"Kinh","IS_TUBERCULOSIS":0,"DOCUMENT_VIEW_COUNT":null,"EXIT_DEPARTMENT_ID":null,"COVID_PATIENT_CODE":null,"STORE_BORDEREAU_CODE":null,"HEIN_LOCK_TIME":null,"HAS_AUTO_CREATE_RATION":null,"IS_OLD_TEMP_BED":null,"TDL_KSK_CONTRACT_IS_RESTRICTED":null,"NUMBER_OF_FULL_TERM_BIRTH":null,"NUMBER_OF_PREMATURE_BIRTH":null,"NUMBER_OF_MISCARRIAGE":null,"NUMBER_OF_TESTS":null,"TEST_HIV":null,"TEST_SYPHILIS":null,"IS_TEST_BLOOD_SUGAR":null,"IS_EARLY_NEWBORN_CARE":null,"NEWBORN_CARE_AT_HOME":null,"TEST_HEPATITIS_B":null,"RECEPTION_FORM":null,"END_DEPARTMENT_HEAD_LOGINNAME":null,"END_DEPARTMENT_HEAD_USERNAME":null,"HOSPITAL_DIRECTOR_LOGINNAME":null,"HOSPITAL_DIRECTOR_USERNAME":null,"END_DEPT_SUBS_HEAD_LOGINNAME":null,"END_DEPT_SUBS_HEAD_USERNAME":null,"HOSP_SUBS_DIRECTOR_LOGINNAME":null,"HOSP_SUBS_DIRECTOR_USERNAME":null,"TUBERCULOSIS_ISSUED_ORG_CODE":null,"TUBERCULOSIS_ISSUED_ORG_NAME":null,"TUBERCULOSIS_ISSUED_DATE":null,"HAS_CARD":null,"APPROVAL_LOGINNAME":null,"APPROVAL_USERNAME":null,"APPROVAL_TIME":null,"UNAPPROVAL_LOGINNAME":null,"UNAPPROVAL_USERNAME":null,"UNAPPROVAL_TIME":null,"TRANSFER_IN_REVIEWS":null,"HOSPITALIZE_REASON_CODE":null,"HOSPITALIZE_REASON_NAME":null,"END_TYPE_EXT_NOTE":null,"TDL_PATIENT_MPS_NATIONAL_CODE":null,"IS_PREGNANCY_TERMINATION":null,"PREGNANCY_TERMINATION_REASON":null,"GESTATIONAL_AGE":null,"DEATH_CERT_BOOK_FIRST_ID":null,"DEATH_CERT_NUM_FIRST":null,"DEATH_CERT_ISSUER_LOGINNAME":null,"DEATH_CERT_ISSUER_USERNAME":null,"DEATH_SYNC_FAILD_REASON":null,"DEATH_SYNC_RESULT_TYPE":null,"DEATH_SYNC_TIME":null,"PREGNANCY_TERMINATION_TIME":null,"IS_HIV":null,"XML_CHECKIN_URL":null,"XML_CHECKIN_DESC":null,"HIS_ACCIDENT_HURT":[],"HIS_ADR":[],"HIS_ALLERGY_CARD":[],"HIS_ANTIBIOTIC_REQUEST":[],"HIS_APPOINTMENT_PERIOD":null,"HIS_APPOINTMENT_SERV":[],"HIS_BABY":[],"HIS_CARE":[],"HIS_CARE_SUM":[],"HIS_CARER_CARD_BORROW":[],"HIS_CO_TREATMENT":[],"HIS_DATA_STORE":null,"HIS_DEATH_CERT_BOOK":null,"HIS_DEBATE":[],"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_DEPARTMENT2":null,"HIS_DEPARTMENT3":null,"HIS_DEPARTMENT4":null,"HIS_DEPARTMENT5":null,"HIS_DEPARTMENT_TRAN":[],"HIS_DEPOSIT_REQ":[],"HIS_DHST":[],"HIS_DOCUMENT_BOOK":null,"HIS_EMR_COVER_TYPE":null,"HIS_EXP_MEST":[],"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATY_REQ":[],"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_METY_REQ":[],"HIS_FUND":null,"HIS_GENDER":null,"HIS_HEIN_APPROVAL":[],"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_IMP_MEST_MATE_REQ":[],"HIS_IMP_MEST_MEDI_REQ":[],"HIS_INFUSION_SUM":[],"HIS_KSK_CONTRACT":null,"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_REACT_SUM":[],"HIS_MEDI_RECORD":null,"HIS_MEDI_RECORD_TYPE":null,"HIS_MEDICINE_INTERACTIVE":[],"HIS_MEDICINE_TYPE":null,"HIS_MR_CHECK_SUMMARY":[],"HIS_NUM_ORDER_ISSUE":null,"HIS_OBEY_CONTRAINDI":[],"HIS_OTHER_PAY_SOURCE":null,"HIS_OWE_TYPE":null,"HIS_PATIENT":null,"HIS_PATIENT_CLASSIFY":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE_ALTER":[],"HIS_PREPARE":[],"HIS_PREPARE_METY":[],"HIS_PROGRAM":null,"HIS_REHA_SUM":[],"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_ROOM2":null,"HIS_ROOM3":null,"HIS_SERE_SERV":[],"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_EXT":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_REQ":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SEVERE_ILLNESS_INFO":[],"HIS_TRACKING":[],"HIS_TRAN_PATI_TECH":null,"HIS_TRANS_REQ":[],"HIS_TRANSACTION":[],"HIS_TRANSFUSION_SUM":[],"HIS_TREATMENT_BED_ROOM":[],"HIS_TREATMENT_BORROW":[],"HIS_TREATMENT_FILE":[],"HIS_TREATMENT_RESULT":null,"HIS_TREATMENT_STT":null,"HIS_TREATMENT_TYPE":null,"HIS_TREATMENT_END_TYPE_EXT":null,"HIS_TREATMENT_END_TYPE":null,"HIS_TREATMENT_TYPE1":null,"HIS_TREATMENT_LOGGING":[],"HIS_TREATMENT_UNLIMIT":[]},"HisPatientTypeAlter":{"ID":90876,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"DEPARTMENT_TRAN_ID":94575,"TREATMENT_TYPE_ID":1,"PATIENT_TYPE_ID":42,"LOG_TIME":20230417140300,"TREATMENT_ID":79631,"TDL_PATIENT_ID":66596,"EXECUTE_ROOM_ID":3072,"EXECUTE_LOGINNAME":null,"EXECUTE_USERNAME":null,"LEVEL_CODE":null,"RIGHT_ROUTE_CODE":null,"RIGHT_ROUTE_TYPE_CODE":null,"LIVE_AREA_CODE":null,"HEIN_MEDI_ORG_CODE":null,"HEIN_MEDI_ORG_NAME":null,"HAS_BIRTH_CERTIFICATE":null,"HEIN_CARD_NUMBER":null,"HEIN_CARD_FROM_TIME":null,"HEIN_CARD_TO_TIME":null,"ADDRESS":null,"HNCODE":null,"JOIN_5_YEAR":null,"PAID_6_MONTH":null,"IS_NO_CHECK_EXPIRE":null,"FREE_CO_PAID_TIME":null,"IS_TEMP_QN":null,"BHYT_URL":null,"KSK_CONTRACT_ID":null,"JOIN_5_YEAR_TIME":null,"PRIMARY_PATIENT_TYPE_ID":null,"HEIN_CARD_TO_TIME_TMP":null,"HAS_WORKING_LETTER":null,"HAS_ABSENT_LETTER":null,"IS_TT46":null,"TT46_NOTE":null,"GUARANTEE_LOGINNAME":null,"GUARANTEE_USERNAME":null,"GUARANTEE_REASON":"","HIS_DEPARTMENT_TRAN":null,"HIS_KSK_CONTRACT":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_TREATMENT_TYPE":null,"HIS_ROOM":null,"HIS_TREATMENT":null},"DepartmentId":303,"CardCode":null,"CardServiceCode":null,"BankCardCode":null,"TreatmentTime":20230417140300,"ProvinceCode":"","DistrictCode":"","RequestRoomId":3072,"IsChronic":false,"ImgBhytData":null,"ImgAvatarData":null,"ImgCmndBeforeData":null,"ImgCmndAfterData":null,"ImgTransferInData":null},"AccountBookId":null,"PayFormId":null,"TransNumOrder":null,"CashierLoginName":null,"CashierUserName":null,"CashierWorkingRoomId":null,"IsAutoCreateBillForNonBhyt":false,"IsAutoCreateDepositForNonBhyt":false,"IsUsingEpayment":false,"InstructionTime":20230417140300,"ServiceReqDetails":[{"DummyId":1,"AttachedDummyId":null,"PatientTypeId":42,"ServiceId":27046,"ParentId":null,"RoomId":940,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":"sinhtest","AssignedExecuteUserName":"sinhtest","ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":2,"AttachedDummyId":1,"PatientTypeId":42,"ServiceId":31173,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":3,"AttachedDummyId":1,"PatientTypeId":42,"ServiceId":27615,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null}],"ExecuteGroupId":null,"Priority":0,"PriorityTypeId":null,"IsNotRequireFee":null,"IsNoExecute":false,"IsEmergency":false,"IsInformResultBySms":false,"ManualRequestRoomId":false,"SessionCode":null,"InstructionTimes":[20230417140300],"TrackingInfos":null,"Note":"","NumOrder":null,"Id":null,"ParentServiceReqId":null,"IcdText":null,"IcdCode":null,"IcdName":null,"IcdCauseCode":null,"IcdCauseName":null,"IcdSubCode":null,"ProvisionalDiagnosis":null,"Description":null,"TreatmentId":79631,"TrackingId":null,"RequestRoomId":3072,"RequestLoginName":"tiencb","RequestUserName":"tiencb","ConsultantLoginName":null,"ConsultantUserName":null,"KidneyShift":null,"MachineId":null,"ExpMestTemplateId":null,"IsKidney":false} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["Dịch vụ yêu cầu chưa được cấu hình trên hệ thống. Vui lòng liên hệ với nhân viên vận hành hoặc khởi động lại hệ thống MOS để cập nhật thông tin dịch vụ vào hệ thống."],"BugCodes":[],"MessageCodes":["DuLieuKhongTonTaiTrongCauHinh"],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","Now":20230417140606,"HasException":true}}
+
+ERROR 2023-04-17 14:07:01,682 [43] - 
+System.Exception: khong co thong tin cmnd, the bhyt, sdt
+   at MOS.MANAGER.HisPatient.HisPatientCreateRegisterCode.CheckDataCreate(CommonParam param, HIS_PATIENT raw) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientCreateRegisterCode.cs:line 103
+
+ERROR 2023-04-17 14:07:01,957 [39] - 
+System.Exception: service sau ko co trong cau hinh duoc load san vao RAM cua MOS. NV van hanh kiem tra lai hoac restart MOS de cap nhat lai cau hinh vao RAM. service_id: 31173
+   at MOS.MANAGER.HisServiceReq.AssignService.HisServiceReqRoomAssign.ConvertServiceReqDetail(List`1 serviceReqDetails, List`1 services) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\AssignService\HisServiceReqRoomAssign.cs:line 223
+   at MOS.MANAGER.HisServiceReq.AssignService.HisServiceReqRoomAssign.Init(List`1 data, List`1 services, Int64 reqRoomId, Int64 reqDepartmentId, Int64 reqBranchId, List`1 intructionTimes, List`1 existSerServs) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\AssignService\HisServiceReqRoomAssign.cs:line 67
+   at MOS.MANAGER.HisServiceReq.AssignService.HisServiceReqRoomAssign..ctor(CommonParam param, List`1 services, List`1 data, Int64 reqRoomId, Int64 reqDepartmentId, Int64 reqBranchId, List`1 intructionTimes, List`1 existSerServs) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\AssignService\HisServiceReqRoomAssign.cs:line 60
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.MakeServiceReq(AssignServiceSDO data, List`1 services, HIS_TREATMENT treatment, HIS_PATIENT_TYPE_ALTER pta, String sessionCode, WorkPlaceSDO workPlace) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 207
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqCreateOnRegister.Create(AssignServiceSDO data, HIS_TREATMENT treatment, HIS_PATIENT_TYPE_ALTER pta, HisServiceReqListResultSDO& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqCreateOnRegister.cs:line 105
+
+INFO 2023-04-17 14:07:02,350 [42] - WebApiClient.Post. api:api/EmrTreatment/CreateOrUpdate__Begin
+
+ERROR 2023-04-17 14:07:02,535 [42] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at Inventec.Common.WebApiClient.ApiConsumer.HttpRequestBuilder(HttpClient client, String uri, String& requestedUrl, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisTreatment.Util.HisTreatmentUploadEmr.CreateOrUpdateEmrTreatment(HIS_TREATMENT data) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisTreatment\Util\HisTreatmentUploadEmr.cs:line 283
+
+ERROR 2023-04-17 14:07:02,909 [39] - 
+System.Exception: Du lieu se bi rollback. Ket thuc nghiep vu
+   at MOS.MANAGER.HisServiceReq.Exam.Register.HisServiceReqExamRegister.Create(HisServiceReqExamRegisterSDO data, Boolean forceUseClientTime, HisServiceReqExamRegisterResultSDO& resultData, HIS_TREATMENT& treatment, WorkPlaceSDO& workPlace) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisServiceReq\Exam\Register\HisServiceReqExamRegister.cs:line 151
+
+ERROR 2023-04-17 14:07:02,910 [39] - 
+--LoginName: tiencb 
+--Class: HisServiceReqManager 
+--Method: ExamRegister 
+--Input: {"HisPatientProfile":{"HisPatient":{"ID":66597,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"PATIENT_CODE":"0000065860","FIRST_NAME":"KÈM","LAST_NAME":"ĐÍNH","VIR_PATIENT_NAME":"ĐÍNH KÈM","GENDER_ID":1,"DOB":19871010000000,"IS_HAS_NOT_DAY_DOB":0,"PERSON_CODE":null,"REFERENCE_ID":null,"NATIONAL_CODE":null,"NATIONAL_NAME":null,"ETHNIC_CODE":"01","ETHNIC_NAME":"Kinh","RELIGION_NAME":null,"PROVINCE_CODE":"","PROVINCE_NAME":"","DISTRICT_CODE":"","DISTRICT_NAME":"","COMMUNE_CODE":"","COMMUNE_NAME":"","ADDRESS":"","VIR_ADDRESS":null,"HT_PROVINCE_NAME":"","HT_DISTRICT_NAME":"","HT_COMMUNE_NAME":"","HT_ADDRESS":null,"VIR_HT_ADDRESS":null,"MOBILE":null,"PHONE":null,"EMAIL":null,"RELATIVE_TYPE":"","RELATIVE_NAME":"","RELATIVE_ADDRESS":"","RELATIVE_CMND_NUMBER":null,"RELATIVE_MOBILE":null,"RELATIVE_PHONE":"","CAREER_CODE":"99","CAREER_NAME":"Khác","CAREER_ID":null,"WORK_PLACE_ID":null,"WORK_PLACE":null,"MILITARY_RANK_ID":null,"BRANCH_ID":1,"IS_OWN_BRANCH_WAIT":null,"RECENT_SERVICE_ID":null,"RECENT_ROOM_ID":null,"IS_CHRONIC":null,"BHYT_URL":null,"AVATAR_URL":null,"TDL_HEIN_CARD_NUMBER":null,"PATIENT_STORE_CODE":null,"HRM_EMPLOYEE_CODE":"","BORN_PROVINCE_CODE":"000","BORN_PROVINCE_NAME":null,"BLOOD_ABO_CODE":null,"BLOOD_RH_CODE":null,"CMND_NUMBER":null,"CMND_DATE":null,"CMND_PLACE":null,"CCCD_NUMBER":null,"CCCD_DATE":null,"CCCD_PLACE":null,"MOTHER_NAME":"","FATHER_NAME":"","HOUSEHOLD_CODE":null,"HOUSEHOLD_RELATION_NAME":null,"PT_PATHOLOGICAL_HISTORY":null,"PT_PATHOLOGICAL_HISTORY_FAMILY":null,"ACCOUNT_NUMBER":null,"TAX_CODE":null,"OWN_BRANCH_IDS":"1","UUID":null,"SYS_CODE":null,"UUID_BHYT_NUMBER":null,"IS_CREATE_UUID_FAIL":null,"IS_UPDATE_UUID_FAIL":null,"REGISTER_CODE":null,"FATHER_EDUCATIIONAL_LEVEL":null,"FATHER_CAREER":null,"MOTHER_EDUCATIIONAL_LEVEL":null,"MOTHER_CAREER":null,"PATIENT_CLASSIFY_ID":null,"TDL_LIVE_AREA_CODE":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"TDL_HEIN_CARD_ADDRESS":null,"TDL_JOIN_5_YEAR":null,"TDL_PAID_6_MONTH":null,"CMND_BEFORE_URL":null,"CMND_AFTER_URL":null,"SOCIAL_INSURANCE_NUMBER":null,"VIR_DOB_YEAR":1987.0,"PT_ALLERGIC_HISTORY":null,"POSITION_ID":null,"PASSPORT_NUMBER":null,"PASSPORT_DATE":null,"PASSPORT_PLACE":null,"IS_TUBERCULOSIS":0,"HAS_CARD":null,"NOTE":null,"MPS_NATIONAL_CODE":null,"FATHER_SOCIAL_INSURANCE_NUMBER":null,"MOTHER_SOCIAL_INSURANCE_NUMBER":null,"IS_HIV":null,"HIS_ALLERGENIC":[],"HIS_APPOINTMENT":[],"HIS_APPOINTMENT_SERV":[],"HIS_CARD":[],"HIS_CAREER":null,"HIS_CONTACT_POINT":[],"HIS_EXP_MEST":[],"HIS_GENDER":null,"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_RECORD":[],"HIS_MILITARY_RANK":null,"HIS_ROOM":null,"HIS_WORK_PLACE":null,"HIS_PATIENT1":[],"HIS_PATIENT2":null,"HIS_PATIENT_CLASSIFY":null,"HIS_POSITION":null,"HIS_SERVICE":null,"HIS_PATIENT_PROGRAM":[],"HIS_PATIENT_TYPE_ALTER":[],"HIS_REGISTER_REQ":[],"HIS_SERE_SERV":[],"HIS_SERVICE_REQ":[],"HIS_TRANSACTION":[],"HIS_TREATMENT":[],"HIS_VACCINATION_EXAM":[],"HIS_VACCINATION":[],"HIS_VITAMIN_A":[]},"HisTreatment":{"ID":79632,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"TREATMENT_CODE":"000000077128","TREATMENT_STT_ID":null,"PATIENT_ID":66597,"BRANCH_ID":1,"IS_PAUSE":null,"IS_LOCK_HEIN":null,"IS_TEMPORARY_LOCK":null,"IS_LOCK_FEE":null,"IS_REMOTE":null,"ICD_ID__DELETE":null,"ICD_CODE":null,"ICD_NAME":null,"ICD_SUB_CODE":null,"ICD_TEXT":null,"ICD_CAUSE_CODE":null,"ICD_CAUSE_NAME":null,"IS_HOLD_BHYT_CARD":null,"IS_AUTO_DISCOUNT":null,"AUTO_DISCOUNT_RATIO":null,"FEE_LOCK_TIME":null,"FEE_LOCK_ORDER":null,"FEE_LOCK_ROOM_ID":null,"FEE_LOCK_DEPARTMENT_ID":null,"IN_TIME":20230417140300,"IN_DATE":0,"CLINICAL_IN_TIME":null,"OUT_TIME":null,"IS_IN_CODE_REQUEST":null,"IN_CODE":"","IN_ROOM_ID":null,"IN_DEPARTMENT_ID":null,"IN_LOGINNAME":null,"IN_USERNAME":null,"IN_TREATMENT_TYPE_ID":null,"IN_ICD_ID__DELETE":null,"IN_ICD_CODE":null,"IN_ICD_NAME":null,"IN_ICD_SUB_CODE":null,"IN_ICD_TEXT":null,"HOSPITALIZATION_REASON":null,"DOCTOR_LOGINNAME":null,"DOCTOR_USERNAME":null,"END_LOGINNAME":null,"END_USERNAME":null,"END_ROOM_ID":null,"END_DEPARTMENT_ID":null,"END_CODE":null,"EXTRA_END_CODE":null,"IS_END_CODE_REQUEST":null,"TREATMENT_DAY_COUNT":null,"TREATMENT_RESULT_ID":null,"TREATMENT_END_TYPE_ID":null,"TREATMENT_END_TYPE_EXT_ID":null,"ADVISE":null,"APPOINTMENT_TIME":null,"APPOINTMENT_DESC":null,"APPOINTMENT_CODE":null,"OUT_DATE":null,"OUT_CODE":null,"IS_OUT_CODE_REQUEST":null,"IS_CHRONIC":null,"IS_YDT_UPLOAD":null,"OWE_TYPE_ID":null,"OWE_MODIFY_TIME":null,"STORE_TIME":null,"DATA_STORE_ID":null,"STORE_CODE":null,"IS_NOT_CHECK_LHMP":null,"IS_NOT_CHECK_LHSP":null,"TDL_HEIN_CARD_NUMBER":null,"JSON_PRINT_ID":null,"JSON_FORM_ID":null,"IS_EMERGENCY":null,"EMERGENCY_WTIME_ID":null,"KSK_ORDER":null,"TDL_KSK_CONTRACT_ID":null,"HRM_KSK_CODE":null,"CLINICAL_NOTE":null,"SUBCLINICAL_RESULT":null,"TREATMENT_DIRECTION":null,"TREATMENT_METHOD":null,"PATIENT_CONDITION":null,"MEDI_ORG_CODE":null,"MEDI_ORG_NAME":null,"TRAN_PATI_FORM_ID":null,"TRAN_PATI_REASON_ID":null,"TRAN_PATI_TECH_ID":null,"USED_MEDICINE":null,"TRANSPORT_VEHICLE":null,"TRANSPORTER":null,"IS_TRANSFER_IN":null,"TRANSFER_IN_MEDI_ORG_CODE":null,"TRANSFER_IN_MEDI_ORG_NAME":null,"TRANSFER_IN_CODE":null,"TRANSFER_IN_ICD_ID__DELETE":null,"TRANSFER_IN_ICD_CODE":null,"TRANSFER_IN_ICD_NAME":null,"TRANSFER_IN_CMKT":null,"TRANSFER_IN_FORM_ID":null,"TRANSFER_IN_REASON_ID":null,"SICK_LEAVE_DAY":null,"SICK_LEAVE_FROM":null,"SICK_LEAVE_TO":null,"DEATH_TIME":null,"DEATH_CAUSE_ID":null,"DEATH_WITHIN_ID":null,"DEATH_PLACE":null,"DEATH_DOCUMENT_TYPE":null,"DEATH_DOCUMENT_NUMBER":null,"DEATH_DOCUMENT_PLACE":null,"DEATH_DOCUMENT_DATE":null,"MAIN_CAUSE":null,"SURGERY":null,"IS_HAS_AUPOPSY":null,"TDL_FIRST_EXAM_ROOM_ID":null,"TDL_TREATMENT_TYPE_ID":null,"TDL_PATIENT_TYPE_ID":null,"TDL_HEIN_MEDI_ORG_CODE":null,"TDL_HEIN_MEDI_ORG_NAME":null,"XML4210_URL":null,"FUND_ID":null,"FUND_NUMBER":null,"FUND_FROM_TIME":null,"FUND_TO_TIME":null,"FUND_ISSUE_TIME":null,"FUND_TYPE_NAME":null,"FUND_COMPANY_NAME":null,"FUND_BUDGET":null,"FUND_PAY_TIME":null,"FUND_SEND_FILE_TIME":null,"FUND_CUSTOMER_NAME":null,"IS_INTEGRATE_HIS_SENT":null,"TDL_PATIENT_CODE":"0000065860","TDL_PATIENT_NAME":"ĐÍNH KÈM ","TDL_PATIENT_FIRST_NAME":"KÈM","TDL_PATIENT_LAST_NAME":"ĐÍNH","TDL_PATIENT_DOB":19871010000000,"TDL_PATIENT_IS_HAS_NOT_DAY_DOB":0,"TDL_PATIENT_AVATAR_URL":null,"TDL_PATIENT_ADDRESS":"","TDL_PATIENT_GENDER_ID":1,"TDL_PATIENT_GENDER_NAME":"Nữ","TDL_PATIENT_CAREER_NAME":"Khác","TDL_PATIENT_WORK_PLACE":null,"TDL_PATIENT_WORK_PLACE_NAME":null,"TDL_PATIENT_DISTRICT_CODE":"","TDL_PATIENT_PROVINCE_CODE":"","TDL_PATIENT_COMMUNE_CODE":"","TDL_PATIENT_MILITARY_RANK_NAME":null,"TDL_PATIENT_NATIONAL_NAME":null,"TDL_PATIENT_RELATIVE_TYPE":"","TDL_PATIENT_RELATIVE_NAME":"","TDL_PATIENT_ACCOUNT_NUMBER":null,"TDL_PATIENT_TAX_CODE":null,"TRANSFER_IN_TIME_FROM":null,"TRANSFER_IN_TIME_TO":null,"SURGERY_APPOINTMENT_TIME":null,"APPOINTMENT_SURGERY":null,"MEDI_RECORD_TYPE_ID":null,"APPOINTMENT_EXAM_ROOM_IDS":null,"DEPARTMENT_IDS":"303","CO_DEPARTMENT_IDS":null,"LAST_DEPARTMENT_ID":null,"PROVISIONAL_DIAGNOSIS":null,"TREATMENT_ORDER":null,"TDL_PATIENT_MOBILE":null,"TDL_PATIENT_PHONE":null,"SICK_HEIN_CARD_NUMBER":null,"NEED_SICK_LEAVE_CERT":null,"MEDI_RECORD_ID":null,"PROGRAM_ID":null,"IS_SYNC_EMR":null,"XML4210_RESULT":null,"XML4210_DESC":null,"COLLINEAR_XML4210_URL":null,"COLLINEAR_XML4210_RESULT":null,"COLLINEAR_XML4210_DESC":null,"REJECT_STORE_REASON":null,"IS_APPROVE_FINISH":null,"APPROVE_FINISH_NOTE":null,"TRADITIONAL_ICD_CODE":null,"TRADITIONAL_ICD_NAME":null,"TRADITIONAL_IN_ICD_CODE":null,"TRADITIONAL_IN_ICD_NAME":null,"TRADITIONAL_ICD_SUB_CODE":null,"TRADITIONAL_ICD_TEXT":null,"TRADITIONAL_IN_ICD_SUB_CODE":null,"TRADITIONAL_IN_ICD_TEXT":null,"TRADITIONAL_TRANS_IN_ICD_CODE":null,"TRADITIONAL_TRANS_IN_ICD_NAME":null,"OTHER_PAY_SOURCE_ID":null,"IS_KSK_APPROVE":null,"TDL_HEIN_CARD_FROM_TIME":null,"TDL_HEIN_CARD_TO_TIME":null,"APPOINTMENT_DATE":null,"EYE_TENSION_LEFT":null,"EYE_TENSION_RIGHT":null,"EYESIGHT_LEFT":null,"EYESIGHT_RIGHT":null,"EYESIGHT_GLASS_LEFT":null,"EYESIGHT_GLASS_RIGHT":null,"APPOINTMENT_PERIOD_ID":null,"SICK_LOGINNAME":null,"SICK_USERNAME":null,"IS_EXPORTED_XML2076":null,"DOCUMENT_BOOK_ID":null,"SICK_NUM_ORDER":null,"TDL_DOCUMENT_BOOK_CODE":null,"APPROVAL_STORE_STT_ID":null,"TDL_PATIENT_CLASSIFY_ID":null,"VIR_IN_MONTH":20230400000000.0,"VIR_OUT_MONTH":null,"IN_CODE_SEED_CODE":null,"EXTRA_END_CODE_SEED_CODE":null,"XML2076_URL":null,"XML2076_DESC":null,"VIR_IN_YEAR":20230000000000.0,"VIR_OUT_YEAR":null,"FEE_LOCK_LOGINNAME":null,"FEE_LOCK_USERNAME":null,"EMR_COVER_TYPE_ID":null,"CONTRAINDICATION_IDS":null,"IS_CREATING_TRANSACTION":null,"CO_TREAT_DEPARTMENT_IDS":null,"RECORD_INSPECTION_STT_ID":null,"RECORD_INSPECTION_REJECT_NOTE":null,"TDL_SOCIAL_INSURANCE_NUMBER":null,"APPOINTMENT_EXAM_SERVICE_ID":null,"TRANSFER_IN_URL":null,"HOSPITALIZE_DEPARTMENT_ID":null,"DEATH_CERT_BOOK_ID":null,"DEATH_CERT_NUM":null,"TDL_PATIENT_CMND_NUMBER":null,"TDL_PATIENT_CMND_DATE":null,"TDL_PATIENT_CMND_PLACE":null,"TDL_PATIENT_CCCD_NUMBER":null,"TDL_PATIENT_CCCD_DATE":null,"TDL_PATIENT_CCCD_PLACE":null,"NUM_ORDER_ISSUE_ID":null,"NEXT_EXAM_NUM_ORDER":null,"NEXT_EXAM_FROM_TIME":null,"NEXT_EXAM_TO_TIME":null,"TDL_PATIENT_RELATIVE_ADDRESS":"","TDL_RELATIVE_CMND_NUMBER":null,"TDL_PATIENT_RELATIVE_MOBILE":null,"TDL_PATIENT_RELATIVE_PHONE":"","TDL_PATIENT_MOTHER_NAME":"","TDL_PATIENT_FATHER_NAME":"","PERMISION_UPDATE":null,"TDL_PATIENT_NATIONAL_CODE":null,"TDL_PATIENT_PROVINCE_NAME":"","TDL_PATIENT_DISTRICT_NAME":"","TDL_PATIENT_COMMUNE_NAME":"","TDL_PATIENT_POSITION_ID":null,"IS_BHYT_HOLDED":null,"TDL_PATIENT_PASSPORT_NUMBER":null,"TDL_PATIENT_PASSPORT_DATE":null,"TDL_PATIENT_PASSPORT_PLACE":null,"TDL_PATIENT_WORK_PLACE_ID":null,"SHOW_ICD_CODE":null,"SHOW_ICD_NAME":null,"SHOW_ICD_SUB_CODE":null,"SHOW_ICD_TEXT":null,"TRAN_PATI_BOOK_TIME":null,"TRAN_PATI_BOOK_NUMBER":null,"TRAN_PATI_DOCTOR_LOGINNAME":null,"TRAN_PATI_DOCTOR_USERNAME":null,"TRAN_PATI_DEPARTMENT_LOGINNAME":null,"TRAN_PATI_DEPARTMENT_USERNAME":null,"TRAN_PATI_HOSPITAL_LOGINNAME":null,"TRAN_PATI_HOSPITAL_USERNAME":null,"VIR_TRAN_PATI_BOOK_YEAR":null,"TDL_PATIENT_UNSIGNED_NAME":"DINH KEM ","OUTPATIENT_DATE_FROM":null,"OUTPATIENT_DATE_TO":null,"VACCINE_ID":null,"VACINATION_ORDER":null,"EPIDEMILOGY_CONTACT_TYPE":null,"EPIDEMILOGY_SYMPTOM":null,"TDL_PATIENT_ETHNIC_NAME":"Kinh","IS_TUBERCULOSIS":0,"DOCUMENT_VIEW_COUNT":null,"EXIT_DEPARTMENT_ID":null,"COVID_PATIENT_CODE":null,"STORE_BORDEREAU_CODE":null,"HEIN_LOCK_TIME":null,"HAS_AUTO_CREATE_RATION":null,"IS_OLD_TEMP_BED":null,"TDL_KSK_CONTRACT_IS_RESTRICTED":null,"NUMBER_OF_FULL_TERM_BIRTH":null,"NUMBER_OF_PREMATURE_BIRTH":null,"NUMBER_OF_MISCARRIAGE":null,"NUMBER_OF_TESTS":null,"TEST_HIV":null,"TEST_SYPHILIS":null,"IS_TEST_BLOOD_SUGAR":null,"IS_EARLY_NEWBORN_CARE":null,"NEWBORN_CARE_AT_HOME":null,"TEST_HEPATITIS_B":null,"RECEPTION_FORM":null,"END_DEPARTMENT_HEAD_LOGINNAME":null,"END_DEPARTMENT_HEAD_USERNAME":null,"HOSPITAL_DIRECTOR_LOGINNAME":null,"HOSPITAL_DIRECTOR_USERNAME":null,"END_DEPT_SUBS_HEAD_LOGINNAME":null,"END_DEPT_SUBS_HEAD_USERNAME":null,"HOSP_SUBS_DIRECTOR_LOGINNAME":null,"HOSP_SUBS_DIRECTOR_USERNAME":null,"TUBERCULOSIS_ISSUED_ORG_CODE":null,"TUBERCULOSIS_ISSUED_ORG_NAME":null,"TUBERCULOSIS_ISSUED_DATE":null,"HAS_CARD":null,"APPROVAL_LOGINNAME":null,"APPROVAL_USERNAME":null,"APPROVAL_TIME":null,"UNAPPROVAL_LOGINNAME":null,"UNAPPROVAL_USERNAME":null,"UNAPPROVAL_TIME":null,"TRANSFER_IN_REVIEWS":null,"HOSPITALIZE_REASON_CODE":null,"HOSPITALIZE_REASON_NAME":null,"END_TYPE_EXT_NOTE":null,"TDL_PATIENT_MPS_NATIONAL_CODE":null,"IS_PREGNANCY_TERMINATION":null,"PREGNANCY_TERMINATION_REASON":null,"GESTATIONAL_AGE":null,"DEATH_CERT_BOOK_FIRST_ID":null,"DEATH_CERT_NUM_FIRST":null,"DEATH_CERT_ISSUER_LOGINNAME":null,"DEATH_CERT_ISSUER_USERNAME":null,"DEATH_SYNC_FAILD_REASON":null,"DEATH_SYNC_RESULT_TYPE":null,"DEATH_SYNC_TIME":null,"PREGNANCY_TERMINATION_TIME":null,"IS_HIV":null,"XML_CHECKIN_URL":null,"XML_CHECKIN_DESC":null,"HIS_ACCIDENT_HURT":[],"HIS_ADR":[],"HIS_ALLERGY_CARD":[],"HIS_ANTIBIOTIC_REQUEST":[],"HIS_APPOINTMENT_PERIOD":null,"HIS_APPOINTMENT_SERV":[],"HIS_BABY":[],"HIS_CARE":[],"HIS_CARE_SUM":[],"HIS_CARER_CARD_BORROW":[],"HIS_CO_TREATMENT":[],"HIS_DATA_STORE":null,"HIS_DEATH_CERT_BOOK":null,"HIS_DEBATE":[],"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_DEPARTMENT2":null,"HIS_DEPARTMENT3":null,"HIS_DEPARTMENT4":null,"HIS_DEPARTMENT5":null,"HIS_DEPARTMENT_TRAN":[],"HIS_DEPOSIT_REQ":[],"HIS_DHST":[],"HIS_DOCUMENT_BOOK":null,"HIS_EMR_COVER_TYPE":null,"HIS_EXP_MEST":[],"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATY_REQ":[],"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_METY_REQ":[],"HIS_FUND":null,"HIS_GENDER":null,"HIS_HEIN_APPROVAL":[],"HIS_HOLD_RETURN":[],"HIS_IMP_MEST":[],"HIS_IMP_MEST_MATE_REQ":[],"HIS_IMP_MEST_MEDI_REQ":[],"HIS_INFUSION_SUM":[],"HIS_KSK_CONTRACT":null,"HIS_KSK_DRIVER":[],"HIS_KSK_DRIVER_CAR":[],"HIS_KSK_OTHER":[],"HIS_KSK_OVER_EIGHTEEN":[],"HIS_KSK_PERIOD_DRIVER":[],"HIS_KSK_UNDER_EIGHTEEN":[],"HIS_MEDI_REACT_SUM":[],"HIS_MEDI_RECORD":null,"HIS_MEDI_RECORD_TYPE":null,"HIS_MEDICINE_INTERACTIVE":[],"HIS_MEDICINE_TYPE":null,"HIS_MR_CHECK_SUMMARY":[],"HIS_NUM_ORDER_ISSUE":null,"HIS_OBEY_CONTRAINDI":[],"HIS_OTHER_PAY_SOURCE":null,"HIS_OWE_TYPE":null,"HIS_PATIENT":null,"HIS_PATIENT_CLASSIFY":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE_ALTER":[],"HIS_PREPARE":[],"HIS_PREPARE_METY":[],"HIS_PROGRAM":null,"HIS_REHA_SUM":[],"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_ROOM2":null,"HIS_ROOM3":null,"HIS_SERE_SERV":[],"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_EXT":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_REQ":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SEVERE_ILLNESS_INFO":[],"HIS_TRACKING":[],"HIS_TRAN_PATI_TECH":null,"HIS_TRANS_REQ":[],"HIS_TRANSACTION":[],"HIS_TRANSFUSION_SUM":[],"HIS_TREATMENT_BED_ROOM":[],"HIS_TREATMENT_BORROW":[],"HIS_TREATMENT_FILE":[],"HIS_TREATMENT_RESULT":null,"HIS_TREATMENT_STT":null,"HIS_TREATMENT_TYPE":null,"HIS_TREATMENT_END_TYPE_EXT":null,"HIS_TREATMENT_END_TYPE":null,"HIS_TREATMENT_TYPE1":null,"HIS_TREATMENT_LOGGING":[],"HIS_TREATMENT_UNLIMIT":[]},"HisPatientTypeAlter":{"ID":90877,"CREATE_TIME":null,"MODIFY_TIME":null,"CREATOR":"tiencb","MODIFIER":"tiencb","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"DEPARTMENT_TRAN_ID":94576,"TREATMENT_TYPE_ID":1,"PATIENT_TYPE_ID":42,"LOG_TIME":20230417140300,"TREATMENT_ID":79632,"TDL_PATIENT_ID":66597,"EXECUTE_ROOM_ID":3072,"EXECUTE_LOGINNAME":null,"EXECUTE_USERNAME":null,"LEVEL_CODE":null,"RIGHT_ROUTE_CODE":null,"RIGHT_ROUTE_TYPE_CODE":null,"LIVE_AREA_CODE":null,"HEIN_MEDI_ORG_CODE":null,"HEIN_MEDI_ORG_NAME":null,"HAS_BIRTH_CERTIFICATE":null,"HEIN_CARD_NUMBER":null,"HEIN_CARD_FROM_TIME":null,"HEIN_CARD_TO_TIME":null,"ADDRESS":null,"HNCODE":null,"JOIN_5_YEAR":null,"PAID_6_MONTH":null,"IS_NO_CHECK_EXPIRE":null,"FREE_CO_PAID_TIME":null,"IS_TEMP_QN":null,"BHYT_URL":null,"KSK_CONTRACT_ID":null,"JOIN_5_YEAR_TIME":null,"PRIMARY_PATIENT_TYPE_ID":null,"HEIN_CARD_TO_TIME_TMP":null,"HAS_WORKING_LETTER":null,"HAS_ABSENT_LETTER":null,"IS_TT46":null,"TT46_NOTE":null,"GUARANTEE_LOGINNAME":null,"GUARANTEE_USERNAME":null,"GUARANTEE_REASON":"","HIS_DEPARTMENT_TRAN":null,"HIS_KSK_CONTRACT":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_TREATMENT_TYPE":null,"HIS_ROOM":null,"HIS_TREATMENT":null},"DepartmentId":303,"CardCode":null,"CardServiceCode":null,"BankCardCode":null,"TreatmentTime":20230417140300,"ProvinceCode":"","DistrictCode":"","RequestRoomId":3072,"IsChronic":false,"ImgBhytData":null,"ImgAvatarData":null,"ImgCmndBeforeData":null,"ImgCmndAfterData":null,"ImgTransferInData":null},"AccountBookId":null,"PayFormId":null,"TransNumOrder":null,"CashierLoginName":null,"CashierUserName":null,"CashierWorkingRoomId":null,"IsAutoCreateBillForNonBhyt":false,"IsAutoCreateDepositForNonBhyt":false,"IsUsingEpayment":false,"InstructionTime":20230417140300,"ServiceReqDetails":[{"DummyId":1,"AttachedDummyId":null,"PatientTypeId":42,"ServiceId":27046,"ParentId":null,"RoomId":940,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":"sinhtest","AssignedExecuteUserName":"sinhtest","ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":2,"AttachedDummyId":1,"PatientTypeId":42,"ServiceId":31173,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null},{"DummyId":3,"AttachedDummyId":1,"PatientTypeId":42,"ServiceId":27615,"ParentId":null,"RoomId":null,"EkipId":null,"Amount":1.0,"IsExpend":null,"IsOutParentFee":null,"ShareCount":null,"IsNoHeinDifference":false,"InstructionNote":null,"SereServId":null,"PrimaryPatientTypeId":null,"UserPrice":null,"UserPackagePrice":null,"PackageId":null,"AssignedExecuteLoginName":null,"AssignedExecuteUserName":null,"ServiceConditionId":null,"OtherPaySourceId":null,"NumOrderBlockId":null,"NumOrderIssueId":null,"NumOrder":null,"BedStartTime":null,"BedFinishTime":null,"BedId":null,"IsNotUseBhyt":false,"EkipInfos":null}],"ExecuteGroupId":null,"Priority":0,"PriorityTypeId":null,"IsNotRequireFee":null,"IsNoExecute":false,"IsEmergency":false,"IsInformResultBySms":false,"ManualRequestRoomId":false,"SessionCode":null,"InstructionTimes":[20230417140300],"TrackingInfos":null,"Note":"","NumOrder":null,"Id":null,"ParentServiceReqId":null,"IcdText":null,"IcdCode":null,"IcdName":null,"IcdCauseCode":null,"IcdCauseName":null,"IcdSubCode":null,"ProvisionalDiagnosis":null,"Description":null,"TreatmentId":79632,"TrackingId":null,"RequestRoomId":3072,"RequestLoginName":"tiencb","RequestUserName":"tiencb","ConsultantLoginName":null,"ConsultantUserName":null,"KidneyShift":null,"MachineId":null,"ExpMestTemplateId":null,"IsKidney":false} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["Dịch vụ yêu cầu chưa được cấu hình trên hệ thống. Vui lòng liên hệ với nhân viên vận hành hoặc khởi động lại hệ thống MOS để cập nhật thông tin dịch vụ vào hệ thống."],"BugCodes":[],"MessageCodes":["DuLieuKhongTonTaiTrongCauHinh"],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","Now":20230417140701,"HasException":true}}
+
+INFO 2023-04-17 14:09:21,267 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 14:09:21,267 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 14:09:21,282 [5] - MOS.PubSub. New pubsubProcessor
+
+WARN 2023-04-17 14:09:21,282 [5] - Chua ket noi den Server pubsub. Khong subscribe duoc
+
+INFO 2023-04-17 14:09:21,589 [46] - PubSubClient Start
+
+INFO 2023-04-17 14:09:22,538 [6] - Client disconnected
+
+INFO 2023-04-17 14:14:21,274 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 14:14:21,274 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+ERROR 2023-04-17 14:14:48,071 [59] - Application_End. Time=17/04/2023 14:14:48
+
+INFO 2023-04-17 14:16:06,622 [5] - Application_Start. Bat dau start Time=17/04/2023 14:16:06
+
+INFO 2023-04-17 14:16:11,323 [5] - Application_Start. Bat dau load HisConfig Time=17/04/2023 14:16:11
+
+INFO 2023-04-17 14:16:11,323 [5] - Bat dau get HisConfig.
+
+INFO 2023-04-17 14:18:51,363 [5] - Ket thuc get HisConfig.
+
+INFO 2023-04-17 14:18:51,363 [5] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-04-17 14:18:51,363 [5] - Application_Start. Ket thuc load HisConfig Time=17/04/2023 14:18:51
+
+INFO 2023-04-17 14:18:51,365 [5] - Application_Start. Ket thuc start Time=17/04/2023 14:18:51
+
+INFO 2023-04-17 14:18:51,366 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-04-17 14:18:51,367 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-04-17 14:18:51,516 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-04-17 14:18:51,521 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-04-17 14:18:51,521 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-04-17 14:18:51,668 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-04-17 14:18:51,668 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-04-17 14:18:51,868 [8] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-04-17 14:18:51,869 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-04-17 14:18:51,869 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-04-17 14:18:51,870 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-04-17 14:18:52,018 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-04-17 14:18:52,018 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-04-17 14:18:53,003 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-04-17 14:18:53,003 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-04-17 14:18:53,296 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-04-17 14:18:53,296 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-17 14:18:53,299 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-17 14:18:53,443 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-04-17 14:18:53,444 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-04-17 14:18:53,596 [8] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-04-17 14:18:53,596 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-04-17 14:18:53,750 [8] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-04-17 14:18:53,751 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-04-17 14:18:53,906 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-04-17 14:18:54,067 [8] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-04-17 14:18:54,068 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-04-17 14:18:54,218 [8] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-04-17 14:18:54,218 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-04-17 14:18:54,367 [8] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-04-17 14:18:54,367 [8] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-04-17 14:18:54,369 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-17 14:18:54,375 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-17 14:18:54,376 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-17 14:18:55,234 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+ERROR 2023-04-17 14:22:43,976 [15] - 
+System.Exception: khong co thong tin cmnd, the bhyt, sdt
+   at MOS.MANAGER.HisPatient.HisPatientCreateRegisterCode.CheckDataCreate(CommonParam param, HIS_PATIENT raw) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientCreateRegisterCode.cs:line 103
+
+INFO 2023-04-17 14:22:44,982 [27] - WebApiClient.Post. api:api/EmrTreatment/CreateOrUpdate__Begin
+
+ERROR 2023-04-17 14:22:45,131 [27] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at Inventec.Common.WebApiClient.ApiConsumer.HttpRequestBuilder(HttpClient client, String uri, String& requestedUrl, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisTreatment.Util.HisTreatmentUploadEmr.CreateOrUpdateEmrTreatment(HIS_TREATMENT data) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisTreatment\Util\HisTreatmentUploadEmr.cs:line 283
+
+ERROR 2023-04-17 14:22:50,608 [5] - Loi khi lay Config: MOS.HIS_SERVICE_REQ.RESERVED_NUM_ORDER
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE_REQ.RESERVED_NUM_ORDER
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-04-17 14:23:43,190 [5] - 
+System.InvalidCastException: Unable to cast object of type 'System.Int64[]' to type 'System.IConvertible'.
+   at System.Convert.ToInt64(Object value)
+   at OracleInternal.ServiceObjects.OracleParameterImpl.SetInt64DataInBytes(Object paramValue, Byte[]& int64ByteArray)
+   at OracleInternal.ServiceObjects.OracleParameterImpl.SetInt64DataInBytes(Object paramValue)
+   at Oracle.ManagedDataAccess.Client.OracleParameter.PreBind_Int64()
+   at Oracle.ManagedDataAccess.Client.OracleParameter.PreBind(OracleConnectionImpl connImpl, ColumnDescribeInfo cachedParamMetadata, Boolean& bMetadataModified, Int32 arrayBindCount, ColumnDescribeInfo& paramMetaData, Object& paramValue, Boolean isEFSelectStatement, SqlStatementType stmtType)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.InitializeParamInfo(ICollection paramColl, OracleConnectionImpl connectionImpl, ColumnDescribeInfo[] cachedParamMetadata, Boolean& bMetadataModified, Boolean isEFSelectStatement, MarshalBindParameterValueHelper& marshalBindValuesHelper)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ProcessParameters(OracleParameterCollection paramColl, OracleConnectionImpl connectionImpl, ColumnDescribeInfo[] cachedParamMetadata, Boolean& bBindMetadataModified, Boolean isEFSelectStatement, MarshalBindParameterValueHelper& marshalBindValuesHelper)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, OracleException& exceptionForArrayBindDML, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at System.Data.Objects.ObjectContext.ExecuteStoreCommand(String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at MOS.DAO.Sql.SqlExecute.Execute(List`1 sqls, Object[] parameters) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.DAO\Sql\SqlExecute.cs:line 149
+
+ERROR 2023-04-17 14:23:43,357 [5] - sql: BEGIN UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param1 WHERE ID = :param2;UPDATE HIS_SERVICE_REQ SET ATTACHED_ID = :param3 WHERE ID = :param4; END;
+
+ERROR 2023-04-17 14:23:50,374 [5] - Cap nhat y lenh dinh kem (ATTACHED_ID trong HIS_SERVICE_REQ) that bai
+
+ERROR 2023-04-17 14:23:50,664 [5] - Loi khi lay Config: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-04-17 14:23:51,735 [5] - LICENSE_LIST is null
+
+INFO 2023-04-17 14:23:54,380 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 14:23:54,380 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 14:23:54,396 [6] - MOS.PubSub. New pubsubProcessor
+
+WARN 2023-04-17 14:23:54,424 [6] - Chua ket noi den Server pubsub. Khong subscribe duoc
+
+INFO 2023-04-17 14:23:54,513 [7] - PubSubClient Start
+
+ERROR 2023-04-17 14:23:54,721 [33] - 
+System.Exception: khong co thong tin cmnd, the bhyt, sdt
+   at MOS.MANAGER.HisPatient.HisPatientCreateRegisterCode.CheckDataCreate(CommonParam param, HIS_PATIENT raw) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientCreateRegisterCode.cs:line 103
+
+WARN 2023-04-17 14:25:10,431 [11] - ___________________________ConnectionSlow_________ 36fe9269-10fa-4ac8-ac90-13b2ec325bd5
+
+WARN 2023-04-17 14:25:10,448 [11] - Invoke ConnectionSlow
+
+INFO 2023-04-17 14:28:54,381 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 14:28:54,381 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 14:28:54,412 [6] - MOS.PubSub. New pubsubProcessor
+
+WARN 2023-04-17 14:28:54,412 [6] - Chua ket noi den Server pubsub. Khong subscribe duoc
+
+INFO 2023-04-17 14:28:54,450 [5] - PubSubClient Start
+
+INFO 2023-04-17 14:28:55,736 [8] - Client disconnected
+
+INFO 2023-04-17 14:33:54,387 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 14:33:54,387 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+ERROR 2023-04-17 14:37:25,672 [5] - Application_End. Time=17/04/2023 14:37:25
+
+INFO 2023-04-17 14:38:51,033 [6] - Application_Start. Bat dau start Time=17/04/2023 14:38:51
+
+INFO 2023-04-17 14:38:55,972 [6] - Application_Start. Bat dau load HisConfig Time=17/04/2023 14:38:55
+
+INFO 2023-04-17 14:38:55,973 [6] - Bat dau get HisConfig.
+
+INFO 2023-04-17 14:41:45,229 [6] - Ket thuc get HisConfig.
+
+INFO 2023-04-17 14:41:45,230 [6] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-04-17 14:41:45,230 [6] - Application_Start. Ket thuc load HisConfig Time=17/04/2023 14:41:45
+
+INFO 2023-04-17 14:41:45,232 [6] - Application_Start. Ket thuc start Time=17/04/2023 14:41:45
+
+INFO 2023-04-17 14:41:45,233 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-04-17 14:41:45,234 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-04-17 14:41:45,402 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-04-17 14:41:45,407 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-04-17 14:41:45,408 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-04-17 14:41:45,561 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-04-17 14:41:45,562 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-04-17 14:41:45,740 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-04-17 14:41:45,740 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-04-17 14:41:45,741 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-04-17 14:41:45,741 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-04-17 14:41:45,902 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-04-17 14:41:45,902 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-04-17 14:41:47,286 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-04-17 14:41:47,287 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-04-17 14:41:47,442 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-04-17 14:41:47,443 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-17 14:41:47,444 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-04-17 14:41:47,485 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-04-17 14:41:47,487 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-04-17 14:41:47,666 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-04-17 14:41:47,666 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-04-17 14:41:47,919 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-04-17 14:41:47,920 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-04-17 14:41:48,122 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-04-17 14:41:48,303 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-04-17 14:41:48,304 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-04-17 14:41:48,465 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-04-17 14:41:48,467 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-04-17 14:41:48,627 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-04-17 14:41:48,628 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-04-17 14:41:48,636 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-04-17 14:41:48,640 [DefaultQuartzScheduler_Worker-2] - PubSubJob bat dau
+
+INFO 2023-04-17 14:41:48,641 [DefaultQuartzScheduler_Worker-2] - PubSubJob ket thuc
+
+INFO 2023-04-17 14:41:49,497 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-04-17 14:46:48,643 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 14:46:48,643 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 14:46:48,643 [6] - MOS.PubSub. New pubsubProcessor
+
+WARN 2023-04-17 14:46:48,672 [6] - Chua ket noi den Server pubsub. Khong subscribe duoc
+
+INFO 2023-04-17 14:46:48,740 [29] - PubSubClient Start
+
+INFO 2023-04-17 14:51:48,647 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 14:51:48,647 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 14:56:48,646 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 14:56:48,646 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+ERROR 2023-04-17 14:57:46,723 [27] - 
+System.Exception: khong co thong tin cmnd, the bhyt, sdt
+   at MOS.MANAGER.HisPatient.HisPatientCreateRegisterCode.CheckDataCreate(CommonParam param, HIS_PATIENT raw) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientCreateRegisterCode.cs:line 103
+
+INFO 2023-04-17 14:57:47,761 [29] - WebApiClient.Post. api:api/EmrTreatment/CreateOrUpdate__Begin
+
+ERROR 2023-04-17 14:57:47,977 [29] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: uriString
+   at System.Uri..ctor(String uriString)
+   at Inventec.Common.WebApiClient.ApiConsumer.HttpRequestBuilder(HttpClient client, String uri, String& requestedUrl, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Int32 userTimeout, Object[] listParam)
+   at Inventec.Common.WebApiClient.ApiConsumer.Post[T](String uri, Object commonParam, Object data, Object[] listParam)
+   at MOS.MANAGER.HisTreatment.Util.HisTreatmentUploadEmr.CreateOrUpdateEmrTreatment(HIS_TREATMENT data) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisTreatment\Util\HisTreatmentUploadEmr.cs:line 283
+
+ERROR 2023-04-17 14:57:53,308 [5] - Loi khi lay Config: MOS.HIS_SERVICE_REQ.RESERVED_NUM_ORDER
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE_REQ.RESERVED_NUM_ORDER
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-04-17 14:57:59,516 [5] - Loi khi lay Config: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-04-17 14:58:00,479 [5] - LICENSE_LIST is null
+
+ERROR 2023-04-17 14:58:03,138 [45] - 
+System.Exception: khong co thong tin cmnd, the bhyt, sdt
+   at MOS.MANAGER.HisPatient.HisPatientCreateRegisterCode.CheckDataCreate(CommonParam param, HIS_PATIENT raw) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatient\HisPatientCreateRegisterCode.cs:line 103
+
+INFO 2023-04-17 15:01:38,126 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 15:01:38,132 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 15:01:48,646 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 15:01:48,646 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 15:06:48,648 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 15:06:48,648 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 15:11:48,645 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 15:11:48,645 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 15:16:48,649 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 15:16:48,649 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 15:21:28,139 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 15:21:28,147 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 15:21:48,652 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 15:21:48,652 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 15:26:48,645 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 15:26:48,645 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 15:31:48,649 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 15:31:48,649 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 15:36:48,645 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 15:36:48,645 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 15:41:18,141 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 15:41:18,149 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 15:41:48,639 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 15:41:48,639 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 15:46:48,638 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 15:46:48,638 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 15:51:48,649 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 15:51:48,649 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 15:56:48,651 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 15:56:48,651 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:01:08,140 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 16:01:08,147 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 16:01:48,638 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 16:01:48,638 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:06:48,647 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 16:06:48,647 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:11:48,650 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 16:11:48,650 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:16:48,642 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 16:16:48,642 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:20:58,127 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 16:20:58,136 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 16:21:48,638 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 16:21:48,638 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:26:48,638 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 16:26:48,638 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:31:48,638 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 16:31:48,638 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:36:48,643 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 16:36:48,643 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:40:48,134 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 16:40:48,141 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 16:41:48,646 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 16:41:48,646 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:46:48,653 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 16:46:48,653 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:51:48,644 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 16:51:48,644 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 16:56:48,642 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 16:56:48,642 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:00:38,136 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 17:00:38,145 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 17:01:48,639 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 17:01:48,639 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:06:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 17:06:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:11:48,640 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 17:11:48,640 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:16:48,642 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 17:16:48,642 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:20:28,126 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 17:20:28,134 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 17:21:48,651 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 17:21:48,651 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:26:48,638 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 17:26:48,638 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:31:48,640 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 17:31:48,640 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:36:48,639 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 17:36:48,639 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:40:18,132 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 17:40:18,139 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 17:41:48,647 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 17:41:48,647 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:46:48,646 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 17:46:48,646 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:51:48,638 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 17:51:48,638 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 17:56:48,644 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 17:56:48,644 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:00:08,137 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 18:00:08,143 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 18:01:48,652 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 18:01:48,652 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:06:48,643 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 18:06:48,643 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:11:48,646 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 18:11:48,646 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:16:48,648 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 18:16:48,648 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:19:58,141 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 18:19:58,147 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 18:21:48,639 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 18:21:48,639 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:26:48,642 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 18:26:48,642 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:31:48,639 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 18:31:48,639 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:36:48,645 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 18:36:48,645 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:39:48,125 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 18:39:48,132 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 18:41:48,646 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 18:41:48,646 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:46:48,645 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 18:46:48,645 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:51:48,649 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 18:51:48,649 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:56:48,653 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 18:56:48,653 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 18:59:38,131 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 18:59:38,140 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 19:01:48,648 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 19:01:48,648 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:06:48,650 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 19:06:48,650 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:11:48,651 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 19:11:48,651 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:16:48,643 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 19:16:48,643 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:19:28,139 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 19:19:28,147 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 19:21:48,647 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 19:21:48,647 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:26:48,644 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 19:26:48,644 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:31:48,653 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 19:31:48,653 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:36:48,643 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 19:36:48,643 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:39:18,129 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 19:39:18,138 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 19:41:48,649 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 19:41:48,649 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:46:48,649 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 19:46:48,649 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:51:48,639 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 19:51:48,639 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:56:48,647 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 19:56:48,647 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 19:59:08,136 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 19:59:08,144 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 20:01:48,652 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 20:01:48,652 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:06:48,638 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 20:06:48,638 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:11:48,647 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 20:11:48,647 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:16:48,647 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 20:16:48,647 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:18:58,126 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 20:18:58,135 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 20:21:48,645 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 20:21:48,645 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:26:48,640 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 20:26:48,640 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:31:48,643 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 20:31:48,643 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:36:48,648 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 20:36:48,648 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:38:48,135 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 20:38:48,145 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 20:41:48,645 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 20:41:48,645 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:46:48,641 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 20:46:48,641 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:51:48,643 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 20:51:48,643 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:56:48,648 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 20:56:48,648 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 20:58:38,128 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 20:58:38,137 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 21:01:48,652 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 21:01:48,652 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:06:48,641 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 21:06:48,641 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:11:48,653 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 21:11:48,653 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:16:48,647 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 21:16:48,647 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:18:28,136 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 21:18:28,146 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 21:21:48,643 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 21:21:48,643 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:26:48,648 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 21:26:48,648 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:31:48,652 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 21:31:48,652 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:36:48,645 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 21:36:48,645 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:38:18,128 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 21:38:18,137 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 21:41:48,652 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 21:41:48,652 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:46:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 21:46:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:51:48,640 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 21:51:48,640 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:56:48,645 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 21:56:48,645 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 21:58:08,131 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 21:58:08,141 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 22:01:48,644 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 22:01:48,644 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:06:48,640 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 22:06:48,640 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:11:48,651 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 22:11:48,651 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:16:48,641 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 22:16:48,641 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:17:58,129 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 22:17:58,138 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 22:21:48,653 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 22:21:48,653 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:26:48,645 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 22:26:48,645 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:31:48,651 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 22:31:48,651 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:36:48,639 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 22:36:48,639 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:37:48,129 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 22:37:48,138 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 22:41:48,649 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 22:41:48,649 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:46:48,653 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 22:46:48,653 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:51:48,642 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 22:51:48,642 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:56:48,638 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 22:56:48,638 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 22:57:38,128 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 22:57:38,137 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 23:01:48,642 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 23:01:48,642 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:06:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 23:06:48,643 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:11:48,646 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 23:11:48,646 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:16:48,650 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 23:16:48,650 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:17:28,140 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 23:17:28,149 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-04-17 23:21:48,638 [DefaultQuartzScheduler_Worker-1] - PubSubJob bat dau
+
+INFO 2023-04-17 23:21:48,638 [DefaultQuartzScheduler_Worker-1] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:26:48,650 [DefaultQuartzScheduler_Worker-3] - PubSubJob bat dau
+
+INFO 2023-04-17 23:26:48,650 [DefaultQuartzScheduler_Worker-3] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:31:48,647 [DefaultQuartzScheduler_Worker-4] - PubSubJob bat dau
+
+INFO 2023-04-17 23:31:48,647 [DefaultQuartzScheduler_Worker-4] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:36:48,650 [DefaultQuartzScheduler_Worker-5] - PubSubJob bat dau
+
+INFO 2023-04-17 23:36:48,650 [DefaultQuartzScheduler_Worker-5] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:37:18,132 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-04-17 23:37:18,140 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-04-17 23:41:48,641 [DefaultQuartzScheduler_Worker-7] - PubSubJob bat dau
+
+INFO 2023-04-17 23:41:48,641 [DefaultQuartzScheduler_Worker-7] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:46:48,645 [DefaultQuartzScheduler_Worker-8] - PubSubJob bat dau
+
+INFO 2023-04-17 23:46:48,645 [DefaultQuartzScheduler_Worker-8] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:51:48,641 [DefaultQuartzScheduler_Worker-9] - PubSubJob bat dau
+
+INFO 2023-04-17 23:51:48,641 [DefaultQuartzScheduler_Worker-9] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:56:48,640 [DefaultQuartzScheduler_Worker-10] - PubSubJob bat dau
+
+INFO 2023-04-17 23:56:48,640 [DefaultQuartzScheduler_Worker-10] - PubSubJob ket thuc
+
+INFO 2023-04-17 23:57:08,138 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-04-17 23:57:08,149 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+

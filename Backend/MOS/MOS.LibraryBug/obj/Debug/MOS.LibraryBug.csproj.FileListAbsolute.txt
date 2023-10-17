@@ -1,0 +1,7 @@
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBug\bin\Debug\MOS.LibraryBug.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBug\bin\Debug\MOS.LibraryBug.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBug\obj\Debug\MOS.LibraryBug.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBug\obj\Debug\MOS.LibraryBug.CodeResource.resources
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBug\obj\Debug\MOS.LibraryBug.csproj.GenerateResource.Cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBug\obj\Debug\MOS.LibraryBug.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryBug\obj\Debug\MOS.LibraryBug.pdb

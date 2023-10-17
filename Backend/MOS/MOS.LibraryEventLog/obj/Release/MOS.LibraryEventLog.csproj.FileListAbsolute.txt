@@ -1,0 +1,7 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\bin\Release\MOS.LibraryEventLog.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\bin\Release\MOS.LibraryEventLog.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Release\MOS.LibraryEventLog.EventLogEnResource.resources
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Release\MOS.LibraryEventLog.EventLogViResource.resources
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Release\MOS.LibraryEventLog.csproj.GenerateResource.Cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Release\MOS.LibraryEventLog.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryEventLog\obj\Release\MOS.LibraryEventLog.pdb

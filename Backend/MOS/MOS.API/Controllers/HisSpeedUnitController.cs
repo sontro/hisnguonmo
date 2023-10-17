@@ -1,0 +1,134 @@
+using Inventec.Common.Logging;
+using Inventec.Core;
+using MOS.API.Base;
+using MOS.EFMODEL.DataModels;
+using MOS.MANAGER.HisSpeedUnit;
+using System;
+using System.Collections.Generic;
+using System.Web.Http;
+
+namespace MOS.API.Controllers
+{
+    [System.Web.Http.Description.ApiExplorerSettings(IgnoreApi = true)]
+    public partial class HisSpeedUnitController : BaseApiController
+    {
+        [HttpGet]
+        [ApiParamFilter(typeof(ApiParam<HisSpeedUnitFilterQuery>), "param")]
+        [ActionName("Get")]
+        public ApiResult Get(ApiParam<HisSpeedUnitFilterQuery> param)
+        {
+            try
+            {
+                ApiResultObject<List<HIS_SPEED_UNIT>> result = new ApiResultObject<List<HIS_SPEED_UNIT>>(null);
+                if (param != null)
+                {
+                    HisSpeedUnitManager mng = new HisSpeedUnitManager(param.CommonParam);
+                    result = mng.Get(param.ApiData);
+                }
+                return new ApiResult(result, this.ActionContext);
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                return null;
+            }
+        }
+        
+        [HttpPost]
+        [ActionName("Create")]
+        public ApiResult Create(ApiParam<HIS_SPEED_UNIT> param)
+        {
+            try
+            {
+                ApiResultObject<HIS_SPEED_UNIT> result = new ApiResultObject<HIS_SPEED_UNIT>(null);
+                if (param != null)
+                {
+                    HisSpeedUnitManager mng = new HisSpeedUnitManager(param.CommonParam);
+                    result = mng.Create(param.ApiData);
+                }
+                return new ApiResult(result, this.ActionContext);
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                return null;
+            }
+        }
+
+        [HttpPost]
+        [ActionName("Update")]
+        public ApiResult Update(ApiParam<HIS_SPEED_UNIT> param)
+        {
+            try
+            {
+                ApiResultObject<HIS_SPEED_UNIT> result = new ApiResultObject<HIS_SPEED_UNIT>(null);
+                if (param != null)
+                {
+                    HisSpeedUnitManager mng = new HisSpeedUnitManager(param.CommonParam);
+                    result = mng.Update(param.ApiData);
+                }
+                return new ApiResult(result, this.ActionContext);
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                return null;
+            }
+        }
+
+        [HttpPost]
+        [ActionName("Delete")]
+        public ApiResult Delete(ApiParam<long> param)
+        {
+            try
+            {
+                ApiResultObject<bool> result = new ApiResultObject<bool>(false);
+                if (param != null)
+                {
+                    HisSpeedUnitManager mng = new HisSpeedUnitManager(param.CommonParam);
+                    result = mng.Delete(param.ApiData);
+                }
+                return new ApiResult(result, this.ActionContext);
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                return null;
+            }
+        }
+        
+        [HttpPost]
+        [ActionName("ChangeLock")]
+        public ApiResult ChangeLock(ApiParam<long> param)
+        {
+            try
+            {
+                ApiResultObject<HIS_SPEED_UNIT> result = new ApiResultObject<HIS_SPEED_UNIT>(null);
+                if (param != null && param.ApiData != null)
+                {
+                    HisSpeedUnitManager mng = new HisSpeedUnitManager(param.CommonParam);
+                    result = mng.ChangeLock(param.ApiData);
+                }
+                return new ApiResult(result, this.ActionContext);
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                return null;
+            }
+        }
+		
+		[HttpPost]
+        [ActionName("Lock")]
+        public ApiResult Lock(ApiParam<long> param)
+        {
+            ApiResultObject<HIS_SPEED_UNIT> result = null;
+            if (param != null && param.ApiData != null)
+            {
+                HisSpeedUnitManager mng = new HisSpeedUnitManager(param.CommonParam);
+                result = mng.Lock(param.ApiData);
+            }
+            return new ApiResult(result, this.ActionContext);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\MOS.HRM.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\MOS.HRM.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\Inventec.Common.Logging.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\Inventec.Core.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\Newtonsoft.Json.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\System.Net.Http.Formatting.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\log4net.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\Inventec.Common.Logging.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\Inventec.Core.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\Newtonsoft.Json.xml
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\bin\Release\System.Net.Http.Formatting.xml
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\obj\Release\MOS.HRM.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\obj\Release\MOS.HRM.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HRM\obj\Release\MOS.HRM.pdb

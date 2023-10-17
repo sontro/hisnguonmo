@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFC0DB9A-9DE2-45AE-9D5F-EB4424BC9716}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MOS.OracleUDT</RootNamespace>
+    <AssemblyName>MOS.OracleUDT</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="THisBcsMetyReqReqFactory.cs" />
+    <Compile Include="THisBcsMetyReqDtFactory.cs" />
+    <Compile Include="THisBcsMatyReqReqFactory.cs" />
+    <Compile Include="THisBcsMatyReqDtFactory.cs" />
+    <Compile Include="THisExpMestMetyReqFactory.cs" />
+    <Compile Include="THisExpMestMatyReqFactory.cs" />
+    <Compile Include="TBcsMetyReqReq.cs" />
+    <Compile Include="TBcsMetyReqReqFactory.cs" />
+    <Compile Include="THisBcsMetyReqReq.cs" />
+    <Compile Include="TBcsMetyReqDt.cs" />
+    <Compile Include="TBcsMetyReqDtFactory.cs" />
+    <Compile Include="THisBcsMetyReqDt.cs" />
+    <Compile Include="TBcsMatyReqReq.cs" />
+    <Compile Include="TBcsMatyReqReqFactory.cs" />
+    <Compile Include="THisBcsMatyReqReq.cs" />
+    <Compile Include="TBcsMatyReqDt.cs" />
+    <Compile Include="TBcsMatyReqDtFactory.cs" />
+    <Compile Include="THisBcsMatyReqDt.cs" />
+    <Compile Include="TExpMestMetyReqFactory.cs" />
+    <Compile Include="TExpMestMetyReq.cs" />
+    <Compile Include="THisExpMestMetyReq.cs" />
+    <Compile Include="TExpMestMatyReq.cs" />
+    <Compile Include="TExpMestMatyReqFactory.cs" />
+    <Compile Include="THisExpMestMaterialFactory.cs" />
+    <Compile Include="THisExpMestMatyReq.cs" />
+    <Compile Include="THisExpMestMedicineFactory.cs" />
+    <Compile Include="TExpMestMaterialFactory.cs" />
+    <Compile Include="TExpMestMedicineFactory.cs" />
+    <Compile Include="TExpMestMaterial.cs" />
+    <Compile Include="TExpMestMedicine.cs" />
+    <Compile Include="THisExpMestMaterial.cs" />
+    <Compile Include="THisExpMestMedicine.cs" />
+    <Compile Include="THisMestPeriodBlood.cs" />
+    <Compile Include="THisMestPeriodBloodFactory.cs" />
+    <Compile Include="THisMestPeriodBlty.cs" />
+    <Compile Include="THisMestPeriodBltyFactory.cs" />
+    <Compile Include="THisMestPeriodMate.cs" />
+    <Compile Include="THisMestPeriodMateFactory.cs" />
+    <Compile Include="THisMestPeriodMaty.cs" />
+    <Compile Include="THisMestPeriodMatyFactory.cs" />
+    <Compile Include="THisMestPeriodMedi.cs" />
+    <Compile Include="THisMestPeriodMediFactory.cs" />
+    <Compile Include="THisMestPeriodMety.cs" />
+    <Compile Include="THisMestPeriodMetyFactory.cs" />
+    <Compile Include="TInt64.cs" />
+    <Compile Include="TInt64Factory.cs" />
+    <Compile Include="TMaterialTypeFactory.cs" />
+    <Compile Include="TMestPeriodBlood.cs" />
+    <Compile Include="TMestPeriodBloodFactory.cs" />
+    <Compile Include="TMestPeriodBlty.cs" />
+    <Compile Include="TMestPeriodBltyFactory.cs" />
+    <Compile Include="TMestPeriodMate.cs" />
+    <Compile Include="TMestPeriodMateFactory.cs" />
+    <Compile Include="TMestPeriodMaty.cs" />
+    <Compile Include="TMestPeriodMatyFactory.cs" />
+    <Compile Include="TMestPeriodMedi.cs" />
+    <Compile Include="TMestPeriodMediFactory.cs" />
+    <Compile Include="TMestPeriodMety.cs" />
+    <Compile Include="TMestPeriodMetyFactory.cs" />
+    <Compile Include="TServiceFactory.cs" />
+    <Compile Include="TMedicineTypeFactory.cs" />
+    <Compile Include="TMaterialType.cs" />
+    <Compile Include="THisMaterialTypeFactory.cs" />
+    <Compile Include="THisMaterialType.cs" />
+    <Compile Include="TMedicineType.cs" />
+    <Compile Include="THisMedicineTypeFactory.cs" />
+    <Compile Include="THisMedicineType.cs" />
+    <Compile Include="TService.cs" />
+    <Compile Include="THisServiceFactory.cs" />
+    <Compile Include="THisService.cs" />
+    <Compile Include="THisMaterialBean.cs" />
+    <Compile Include="THisMaterialBeanFactory.cs" />
+    <Compile Include="TMaterialBean.cs" />
+    <Compile Include="TMaterialBeanFactory.cs" />
+    <Compile Include="TMedicineBean.cs" />
+    <Compile Include="TMedicineBeanFactory.cs" />
+    <Compile Include="THisMedicineBean.cs" />
+    <Compile Include="THisMedicineBeanFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TSereServ.cs" />
+    <Compile Include="TSereServFactory.cs" />
+    <Compile Include="THisSereServFactory.cs" />
+    <Compile Include="THisSereServ.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\bin\Release\MOS.LibraryHein.HcmPoorFund.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\bin\Release\MOS.LibraryHein.HcmPoorFund.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\bin\Release\MOS.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\bin\Release\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\bin\Release\MOS.EFMODEL.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\obj\Release\MOS.LibraryHein.HcmPoorFund.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\obj\Release\MOS.LibraryHein.HcmPoorFund.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\obj\Release\MOS.LibraryHein.HcmPoorFund.pdb

@@ -1,0 +1,76 @@
+using Inventec.Common.Logging;
+using Inventec.Core;
+using MOS.EFMODEL.DataModels;
+using MOS.MANAGER.Base;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace MOS.MANAGER.HisTracking
+{
+    partial class HisTrackingDelete : BusinessBase
+    {
+        internal HisTrackingDelete()
+            : base()
+        {
+
+        }
+
+        internal HisTrackingDelete(CommonParam paramDelete)
+            : base(paramDelete)
+        {
+
+        }
+
+        internal bool Delete(HIS_TRACKING data)
+        {
+            bool result = false;
+            try
+            {
+                bool valid = true;
+                HisTrackingCheck checker = new HisTrackingCheck(param);
+                valid = valid && IsNotNull(data);
+                HIS_TRACKING raw = null;
+                valid = valid && checker.VerifyId(data.ID, ref raw);
+                valid = valid && checker.IsUnLock(raw);
+                if (valid)
+                {
+                    result = DAOWorker.HisTrackingDAO.Delete(data);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                param.HasException = true;
+                result = false;
+            }
+            return result;
+        }
+
+        internal bool DeleteList(List<HIS_TRACKING> listData)
+        {
+            bool result = false;
+            try
+            {
+                bool valid = true;
+                valid = IsNotNullOrEmpty(listData);
+                HisTrackingCheck checker = new HisTrackingCheck(param);
+                List<HIS_TRACKING> listRaw = new List<HIS_TRACKING>();
+                List<long> listId = listData.Select(o => o.ID).ToList();
+                valid = valid && checker.VerifyIds(listId, listRaw);
+                valid = valid && checker.IsUnLock(listRaw);
+                if (valid)
+                {
+                    result = DAOWorker.HisTrackingDAO.DeleteList(listData);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                param.HasException = true;
+                result = false;
+            }
+            return result;
+        }
+    }
+}

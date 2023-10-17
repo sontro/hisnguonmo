@@ -1,0 +1,51 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.RocheFile.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.RocheFile.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.Logging.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.Roche.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.DateTime.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.String.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\bin\Debug\log4net.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\bin\Debug\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\bin\Debug\Newtonsoft.Json.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.Roche.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.Logging.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.RocheFile.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.RocheFile.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.Logging.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.Roche.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.DateTime.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.String.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\log4net.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Newtonsoft.Json.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.Roche.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.Logging.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.RocheFile.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.RocheFile.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.Logging.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.Roche.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.DateTime.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.String.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\log4net.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\EntityFramework.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Newtonsoft.Json.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.Roche.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.Logging.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.csprojResolveAssemblyReference.cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.RocheFile.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\MOS.LIS.RocheFile.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Inventec.Common.Logging.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\log4net.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\EntityFramework.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Debug\Newtonsoft.Json.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Debug\MOS.LIS.RocheFile.pdb

@@ -1,0 +1,24 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.OracleUdt\bin\Debug\MOS.OracleUDT.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.OracleUdt\bin\Debug\MOS.OracleUDT.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.OracleUdt\bin\Debug\Oracle.DataAccess.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Debug\MOS.OracleUDT.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Debug\MOS.OracleUDT.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Debug\Oracle.DataAccess.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.csprojResolveAssemblyReference.cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Debug\MOS.OracleUDT.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Debug\MOS.OracleUDT.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Debug\Oracle.DataAccess.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.csprojResolveAssemblyReference.cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Debug\MOS.OracleUDT.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Debug\MOS.OracleUDT.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\bin\Debug\Oracle.DataAccess.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.OracleUdt\obj\Debug\MOS.OracleUDT.pdb

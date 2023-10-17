@@ -1,0 +1,16 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryHein.HcmPoorFund\bin\Debug\MOS.LibraryHein.HcmPoorFund.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryHein.HcmPoorFund\bin\Debug\MOS.LibraryHein.HcmPoorFund.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryHein.HcmPoorFund\bin\Debug\MOS.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryHein.HcmPoorFund\bin\Debug\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryHein.HcmPoorFund\bin\Debug\MOS.EFMODEL.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryHein.HcmPoorFund\obj\Debug\MOS.LibraryHein.HcmPoorFund.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryHein.HcmPoorFund\obj\Debug\MOS.LibraryHein.HcmPoorFund.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.LibraryHein.HcmPoorFund\obj\Debug\MOS.LibraryHein.HcmPoorFund.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\bin\Debug\MOS.LibraryHein.HcmPoorFund.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\bin\Debug\MOS.LibraryHein.HcmPoorFund.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\bin\Debug\MOS.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\bin\Debug\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\bin\Debug\MOS.EFMODEL.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\obj\Debug\MOS.LibraryHein.HcmPoorFund.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\obj\Debug\MOS.LibraryHein.HcmPoorFund.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.HcmPoorFund\obj\Debug\MOS.LibraryHein.HcmPoorFund.pdb

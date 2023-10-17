@@ -1,0 +1,135 @@
+using Inventec.Common.Logging;
+using Inventec.Core;
+using MOS.EFMODEL.DataModels;
+using MOS.MANAGER.Base;
+using System;
+using System.Collections.Generic;
+
+namespace MOS.MANAGER.HisServiceRoom
+{
+    class HisServiceRoomTruncate : BusinessBase
+    {
+        internal HisServiceRoomTruncate()
+            : base()
+        {
+
+        }
+
+        internal HisServiceRoomTruncate(CommonParam paramTruncate)
+            : base(paramTruncate)
+        {
+
+        }
+
+        internal bool Truncate(HIS_SERVICE_ROOM data)
+        {
+            bool result = false;
+            try
+            {
+                bool valid = true;
+                HisServiceRoomCheck checker = new HisServiceRoomCheck(param);
+                valid = valid && IsNotNull(data) && IsGreaterThanZero(data.ID);
+                valid = valid && checker.IsUnLock(data.ID);
+                if (valid)
+                {
+                    result = DAOWorker.HisServiceRoomDAO.Truncate(data);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                param.HasException = true;
+                result = false;
+            }
+            return result;
+        }
+
+        internal bool TruncateByRoomId(long roomId)
+        {
+            bool result = false;
+            try
+            {
+                List<HIS_SERVICE_ROOM> serviceRooms = new HisServiceRoomGet().GetByRoomId(roomId);
+                if (IsNotNullOrEmpty(serviceRooms))
+                {
+                    result = TruncateList(serviceRooms);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                param.HasException = true;
+                result = false;
+            }
+            return result;
+        }
+
+        internal bool TruncateList(List<long> ids)
+        {
+            bool result = false;
+            try
+            {
+                bool valid = true;
+                valid = IsNotNullOrEmpty(ids);
+                HisServiceRoomCheck checker = new HisServiceRoomCheck(param);
+                List<HIS_SERVICE_ROOM> listRaw = new List<HIS_SERVICE_ROOM>();
+                valid = valid && checker.VerifyIds(ids, listRaw);
+                if (valid)
+                {
+                    result = this.TruncateList(listRaw);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                param.HasException = true;
+                result = false;
+            }
+            return result;
+        }
+
+        internal bool TruncateList(List<HIS_SERVICE_ROOM> listRaw)
+        {
+            bool result = false;
+            try
+            {
+                bool valid = true;
+                valid = IsNotNullOrEmpty(listRaw);
+                HisServiceRoomCheck checker = new HisServiceRoomCheck(param);
+                valid = valid && checker.IsUnLock(listRaw);
+
+                if (valid)
+                {
+                    result = DAOWorker.HisServiceRoomDAO.TruncateList(listRaw);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                param.HasException = true;
+                result = false;
+            }
+            return result;
+        }
+
+        internal bool TruncateByServiceId(long serviceId)
+        {
+            bool result = false;
+            try
+            {
+                List<HIS_SERVICE_ROOM> serviceRooms = new HisServiceRoomGet().GetByServiceId(serviceId);
+                if (IsNotNullOrEmpty(serviceRooms))
+                {
+                    result = this.TruncateList(serviceRooms);
+                }
+            }
+            catch (Exception ex)
+            {
+                LogSystem.Error(ex);
+                param.HasException = true;
+                result = false;
+            }
+            return result;
+        }
+    }
+}

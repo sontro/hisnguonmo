@@ -1,0 +1,804 @@
+﻿INFO 2023-01-16 10:17:30,882 [5] - Application_Start. Bat dau start Time=16/01/2023 10:17:30
+
+INFO 2023-01-16 10:17:36,651 [5] - Application_Start. Bat dau load HisConfig Time=16/01/2023 10:17:36
+
+INFO 2023-01-16 10:17:36,652 [5] - Bat dau get HisConfig.
+
+INFO 2023-01-16 10:20:12,399 [5] - Ket thuc get HisConfig.
+
+INFO 2023-01-16 10:20:12,399 [5] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-01-16 10:20:12,399 [5] - Application_Start. Ket thuc load HisConfig Time=16/01/2023 10:20:12
+
+INFO 2023-01-16 10:20:12,404 [5] - Application_Start. Ket thuc start Time=16/01/2023 10:20:12
+
+INFO 2023-01-16 10:20:12,405 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-01-16 10:20:12,405 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-01-16 10:20:12,568 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-01-16 10:20:12,574 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-01-16 10:20:12,574 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-01-16 10:20:12,730 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-01-16 10:20:12,731 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-01-16 10:20:12,894 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-01-16 10:20:12,894 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-01-16 10:20:12,895 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-01-16 10:20:12,896 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-01-16 10:20:13,051 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-01-16 10:20:13,051 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-01-16 10:20:13,854 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-01-16 10:20:13,855 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-01-16 10:20:14,153 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-01-16 10:20:14,154 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-16 10:20:14,155 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-16 10:20:14,181 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-01-16 10:20:14,182 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-01-16 10:20:14,348 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-01-16 10:20:14,348 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-01-16 10:20:14,500 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-01-16 10:20:14,500 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-01-16 10:20:14,666 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-01-16 10:20:14,824 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-01-16 10:20:14,824 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-01-16 10:20:14,983 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-01-16 10:20:14,983 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-01-16 10:20:15,136 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-01-16 10:20:15,138 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-01-16 10:20:15,142 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-01-16 10:20:15,384 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+INFO 2023-01-16 10:40:04,675 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-01-16 10:40:04,683 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-01-16 10:59:54,679 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-01-16 10:59:54,688 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-01-16 11:19:44,670 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-01-16 11:19:44,678 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+INFO 2023-01-16 11:39:34,678 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-01-16 11:39:34,686 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-01-16 11:59:24,677 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-01-16 11:59:24,686 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+ERROR 2023-01-16 11:59:44,713 [6] - Loi khi lay Config: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-01-16 12:04:15,103 [29] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 12:04:15,109 [29] - Ket thuc nghiep vu. Rollback du lieu
+
+ERROR 2023-01-16 12:04:40,141 [29] - Loi khi lay Config: MOS.HIS_SERE_SERV.DO_NOT_ALLOW_TO_UPDATE_WHEN_TREATMENT_IS_FINISHED
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERE_SERV.DO_NOT_ALLOW_TO_UPDATE_WHEN_TREATMENT_IS_FINISHED
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-01-16 12:04:40,331 [29] - Loi khi lay Config: MOS.HIS_SERE_SERV.DO_NOT_ALLOW_TO_UPDATE_WHEN_TREATMENT_IS_FINISHED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.MANAGER.Config.ConfigUtil.GetIntConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 45
+
+ERROR 2023-01-16 12:04:40,712 [29] - 
+System.Exception: Cap nhat doi tuong thanh toan, phu thu cho dich vu that bai
+   at MOS.MANAGER.HisSereServ.Update.PayslipInfo.HisSereServUpdateEachPayslipInfo.Run(HisSereServPayslipSDO data, List`1& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\PayslipInfo\HisSereServUpdateEachPayslipInfo.cs:line 64
+
+ERROR 2023-01-16 12:04:40,717 [29] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdateEveryPayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":[{"ID":1982097,"CREATE_TIME":20230116103224,"MODIFY_TIME":20230116103241,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":40327,"SERVICE_REQ_ID":1261819,"PATIENT_TYPE_ID":42,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":130000.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":130000.0,"ORIGINAL_PRICE":130000.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.02,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230116103100,"TDL_INTRUCTION_DATE":20230116000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"sinhcd2","TDL_SERVICE_NAME":"sinhcd2","TDL_HEIN_SERVICE_BHYT_CODE":"1111","TDL_HEIN_SERVICE_BHYT_NAME":"111","TDL_HEIN_ORDER":"1111","TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":3,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248306","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":132600.0,"VIR_PRICE_NO_ADD_PRICE":132600.0,"VIR_PRICE_NO_EXPEND":132600.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":132600.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":132600.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":132600.0,"VIR_TOTAL_PRICE_NO_EXPEND":132600.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":132600.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":132600.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982097,"TDL_RATION_TIME_ID":1982097,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982056,"CREATE_TIME":20230114112659,"MODIFY_TIME":20230114112712,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":31123,"SERVICE_REQ_ID":1261776,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":88.80,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":88.80,"ORIGINAL_PRICE":88.80,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230114112600,"TDL_INTRUCTION_DATE":20230114000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"DIN9165","TDL_SERVICE_NAME":"Định lượng Ferritin [Máu]","TDL_HEIN_SERVICE_BHYT_CODE":"23.0063.1514","TDL_HEIN_SERVICE_BHYT_NAME":"Định lượng Ferritin [Máu]","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248263","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":88.80,"VIR_PRICE_NO_ADD_PRICE":88.80,"VIR_PRICE_NO_EXPEND":88.80,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":88.80,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":88.80,"VIR_TOTAL_PRICE_NO_ADD_PRICE":88.80,"VIR_TOTAL_PRICE_NO_EXPEND":88.80,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":88.80,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":88.80,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982056,"TDL_RATION_TIME_ID":1982056,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982055,"CREATE_TIME":20230114112448,"MODIFY_TIME":20230114112448,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":27046,"SERVICE_REQ_ID":1261775,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":39500.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":39500.0,"ORIGINAL_PRICE":39500.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":null,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230114112400,"TDL_INTRUCTION_DATE":20230114000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"KHA091","TDL_SERVICE_NAME":"Khám Ngoại","TDL_HEIN_SERVICE_BHYT_CODE":"10.1896","TDL_HEIN_SERVICE_BHYT_NAME":"Khám Ngoại","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":1,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":5,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248262","TDL_REQUEST_ROOM_ID":778,"TDL_REQUEST_DEPARTMENT_ID":302,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":940,"TDL_EXECUTE_DEPARTMENT_ID":303,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":"12","TDL_SERVICE_REQ_TYPE_ID":1,"TDL_HST_BHYT_CODE":"13","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":1,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":39500.0,"VIR_PRICE_NO_ADD_PRICE":39500.0,"VIR_PRICE_NO_EXPEND":39500.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":39500.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":39500.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":39500.0,"VIR_TOTAL_PRICE_NO_EXPEND":39500.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":39500.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":39500.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982055,"TDL_RATION_TIME_ID":1982055,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982069,"CREATE_TIME":20230116090534,"MODIFY_TIME":20230116090540,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":31173,"SERVICE_REQ_ID":1261795,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":91000.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":91000.0,"ORIGINAL_PRICE":91000.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230116090500,"TDL_INTRUCTION_DATE":20230116000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"DIN9168","TDL_SERVICE_NAME":"Định lượng Folate [Máu]","TDL_HEIN_SERVICE_BHYT_CODE":"23.0067.1515","TDL_HEIN_SERVICE_BHYT_NAME":"Định lượng Folate [Máu]","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248282","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":91000.0,"VIR_PRICE_NO_ADD_PRICE":91000.0,"VIR_PRICE_NO_EXPEND":91000.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":91000.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":91000.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":91000.0,"VIR_TOTAL_PRICE_NO_EXPEND":91000.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":91000.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":91000.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982069,"TDL_RATION_TIME_ID":1982069,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]}],"Field":4} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["sinhcd1 (sinhcd1) không tồn tại chính sách giá tương ứng với đối tượng \"BHYT\". Vui lòng kiểm tra lại cấu hình hoặc liên hệ quản trị để được hỗ trợ","(Các) dịch vụ Định lượng Ferritin [Máu] bắt buộc chọn điều kiện"],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":true}}
+
+ERROR 2023-01-16 12:06:44,849 [29] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 12:06:44,850 [29] - Ket thuc nghiep vu. Rollback du lieu
+
+ERROR 2023-01-16 12:08:31,906 [29] - 
+System.Exception: Cap nhat doi tuong thanh toan, phu thu cho dich vu that bai
+   at MOS.MANAGER.HisSereServ.Update.PayslipInfo.HisSereServUpdateEachPayslipInfo.Run(HisSereServPayslipSDO data, List`1& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\PayslipInfo\HisSereServUpdateEachPayslipInfo.cs:line 64
+
+ERROR 2023-01-16 12:08:31,907 [29] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdateEveryPayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":[{"ID":1982097,"CREATE_TIME":20230116103224,"MODIFY_TIME":20230116103241,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":40327,"SERVICE_REQ_ID":1261819,"PATIENT_TYPE_ID":42,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":130000.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":130000.0,"ORIGINAL_PRICE":130000.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.02,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230116103100,"TDL_INTRUCTION_DATE":20230116000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"sinhcd2","TDL_SERVICE_NAME":"sinhcd2","TDL_HEIN_SERVICE_BHYT_CODE":"1111","TDL_HEIN_SERVICE_BHYT_NAME":"111","TDL_HEIN_ORDER":"1111","TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":3,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248306","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":132600.0,"VIR_PRICE_NO_ADD_PRICE":132600.0,"VIR_PRICE_NO_EXPEND":132600.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":132600.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":132600.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":132600.0,"VIR_TOTAL_PRICE_NO_EXPEND":132600.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":132600.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":132600.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982097,"TDL_RATION_TIME_ID":1982097,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982056,"CREATE_TIME":20230114112659,"MODIFY_TIME":20230114112712,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":31123,"SERVICE_REQ_ID":1261776,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":88.80,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":88.80,"ORIGINAL_PRICE":88.80,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230114112600,"TDL_INTRUCTION_DATE":20230114000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"DIN9165","TDL_SERVICE_NAME":"Định lượng Ferritin [Máu]","TDL_HEIN_SERVICE_BHYT_CODE":"23.0063.1514","TDL_HEIN_SERVICE_BHYT_NAME":"Định lượng Ferritin [Máu]","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248263","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":88.80,"VIR_PRICE_NO_ADD_PRICE":88.80,"VIR_PRICE_NO_EXPEND":88.80,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":88.80,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":88.80,"VIR_TOTAL_PRICE_NO_ADD_PRICE":88.80,"VIR_TOTAL_PRICE_NO_EXPEND":88.80,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":88.80,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":88.80,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982056,"TDL_RATION_TIME_ID":1982056,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982055,"CREATE_TIME":20230114112448,"MODIFY_TIME":20230114112448,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":27046,"SERVICE_REQ_ID":1261775,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":39500.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":39500.0,"ORIGINAL_PRICE":39500.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":null,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230114112400,"TDL_INTRUCTION_DATE":20230114000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"KHA091","TDL_SERVICE_NAME":"Khám Ngoại","TDL_HEIN_SERVICE_BHYT_CODE":"10.1896","TDL_HEIN_SERVICE_BHYT_NAME":"Khám Ngoại","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":1,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":5,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248262","TDL_REQUEST_ROOM_ID":778,"TDL_REQUEST_DEPARTMENT_ID":302,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":940,"TDL_EXECUTE_DEPARTMENT_ID":303,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":"12","TDL_SERVICE_REQ_TYPE_ID":1,"TDL_HST_BHYT_CODE":"13","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":1,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":39500.0,"VIR_PRICE_NO_ADD_PRICE":39500.0,"VIR_PRICE_NO_EXPEND":39500.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":39500.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":39500.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":39500.0,"VIR_TOTAL_PRICE_NO_EXPEND":39500.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":39500.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":39500.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982055,"TDL_RATION_TIME_ID":1982055,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982069,"CREATE_TIME":20230116090534,"MODIFY_TIME":20230116090540,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":31173,"SERVICE_REQ_ID":1261795,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":91000.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":91000.0,"ORIGINAL_PRICE":91000.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230116090500,"TDL_INTRUCTION_DATE":20230116000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"DIN9168","TDL_SERVICE_NAME":"Định lượng Folate [Máu]","TDL_HEIN_SERVICE_BHYT_CODE":"23.0067.1515","TDL_HEIN_SERVICE_BHYT_NAME":"Định lượng Folate [Máu]","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248282","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":91000.0,"VIR_PRICE_NO_ADD_PRICE":91000.0,"VIR_PRICE_NO_EXPEND":91000.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":91000.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":91000.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":91000.0,"VIR_TOTAL_PRICE_NO_EXPEND":91000.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":91000.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":91000.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982069,"TDL_RATION_TIME_ID":1982069,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]}],"Field":4} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["sinhcd1 (sinhcd1) không tồn tại chính sách giá tương ứng với đối tượng \"BHYT\". Vui lòng kiểm tra lại cấu hình hoặc liên hệ quản trị để được hỗ trợ","(Các) dịch vụ Định lượng Ferritin [Máu] bắt buộc chọn điều kiện"],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":true}}
+
+INFO 2023-01-16 12:19:14,669 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-01-16 12:19:14,730 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+INFO 2023-01-16 12:39:04,684 [DefaultQuartzScheduler_Worker-8] - Begin BrowserJob.
+
+INFO 2023-01-16 12:39:04,705 [DefaultQuartzScheduler_Worker-8] - End BrowserJob.
+
+INFO 2023-01-16 12:58:54,669 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-01-16 12:58:54,690 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+INFO 2023-01-16 13:18:44,684 [DefaultQuartzScheduler_Worker-10] - Begin BrowserJob.
+
+INFO 2023-01-16 13:18:44,714 [DefaultQuartzScheduler_Worker-10] - End BrowserJob.
+
+INFO 2023-01-16 13:38:34,693 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-01-16 13:38:34,734 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+ERROR 2023-01-16 13:45:07,163 [17] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 13:45:07,245 [17] - Ket thuc nghiep vu. Rollback du lieu
+
+ERROR 2023-01-16 13:55:28,530 [17] - 
+System.Exception: Cap nhat doi tuong thanh toan, phu thu cho dich vu that bai
+   at MOS.MANAGER.HisSereServ.Update.PayslipInfo.HisSereServUpdateEachPayslipInfo.Run(HisSereServPayslipSDO data, List`1& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\PayslipInfo\HisSereServUpdateEachPayslipInfo.cs:line 64
+
+ERROR 2023-01-16 13:55:28,654 [17] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdateEveryPayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":[{"ID":1982097,"CREATE_TIME":20230116103224,"MODIFY_TIME":20230116103241,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":40327,"SERVICE_REQ_ID":1261819,"PATIENT_TYPE_ID":42,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":130000.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":130000.0,"ORIGINAL_PRICE":130000.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.02,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230116103100,"TDL_INTRUCTION_DATE":20230116000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"sinhcd2","TDL_SERVICE_NAME":"sinhcd2","TDL_HEIN_SERVICE_BHYT_CODE":"1111","TDL_HEIN_SERVICE_BHYT_NAME":"111","TDL_HEIN_ORDER":"1111","TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":3,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248306","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":132600.0,"VIR_PRICE_NO_ADD_PRICE":132600.0,"VIR_PRICE_NO_EXPEND":132600.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":132600.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":132600.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":132600.0,"VIR_TOTAL_PRICE_NO_EXPEND":132600.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":132600.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":132600.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982097,"TDL_RATION_TIME_ID":1982097,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982056,"CREATE_TIME":20230114112659,"MODIFY_TIME":20230114112712,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":31123,"SERVICE_REQ_ID":1261776,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":88.80,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":88.80,"ORIGINAL_PRICE":88.80,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230114112600,"TDL_INTRUCTION_DATE":20230114000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"DIN9165","TDL_SERVICE_NAME":"Định lượng Ferritin [Máu]","TDL_HEIN_SERVICE_BHYT_CODE":"23.0063.1514","TDL_HEIN_SERVICE_BHYT_NAME":"Định lượng Ferritin [Máu]","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248263","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":88.80,"VIR_PRICE_NO_ADD_PRICE":88.80,"VIR_PRICE_NO_EXPEND":88.80,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":88.80,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":88.80,"VIR_TOTAL_PRICE_NO_ADD_PRICE":88.80,"VIR_TOTAL_PRICE_NO_EXPEND":88.80,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":88.80,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":88.80,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982056,"TDL_RATION_TIME_ID":1982056,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982055,"CREATE_TIME":20230114112448,"MODIFY_TIME":20230114112448,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":27046,"SERVICE_REQ_ID":1261775,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":39500.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":39500.0,"ORIGINAL_PRICE":39500.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":null,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230114112400,"TDL_INTRUCTION_DATE":20230114000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"KHA091","TDL_SERVICE_NAME":"Khám Ngoại","TDL_HEIN_SERVICE_BHYT_CODE":"10.1896","TDL_HEIN_SERVICE_BHYT_NAME":"Khám Ngoại","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":1,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":5,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248262","TDL_REQUEST_ROOM_ID":778,"TDL_REQUEST_DEPARTMENT_ID":302,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":940,"TDL_EXECUTE_DEPARTMENT_ID":303,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":"12","TDL_SERVICE_REQ_TYPE_ID":1,"TDL_HST_BHYT_CODE":"13","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":1,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":39500.0,"VIR_PRICE_NO_ADD_PRICE":39500.0,"VIR_PRICE_NO_EXPEND":39500.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":39500.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":39500.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":39500.0,"VIR_TOTAL_PRICE_NO_EXPEND":39500.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":39500.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":39500.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982055,"TDL_RATION_TIME_ID":1982055,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982069,"CREATE_TIME":20230116090534,"MODIFY_TIME":20230116090540,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":31173,"SERVICE_REQ_ID":1261795,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":91000.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":91000.0,"ORIGINAL_PRICE":91000.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230116090500,"TDL_INTRUCTION_DATE":20230116000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"DIN9168","TDL_SERVICE_NAME":"Định lượng Folate [Máu]","TDL_HEIN_SERVICE_BHYT_CODE":"23.0067.1515","TDL_HEIN_SERVICE_BHYT_NAME":"Định lượng Folate [Máu]","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248282","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":91000.0,"VIR_PRICE_NO_ADD_PRICE":91000.0,"VIR_PRICE_NO_EXPEND":91000.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":91000.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":91000.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":91000.0,"VIR_TOTAL_PRICE_NO_EXPEND":91000.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":91000.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":91000.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982069,"TDL_RATION_TIME_ID":1982069,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]}],"Field":4} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["sinhcd1 (sinhcd1) không tồn tại chính sách giá tương ứng với đối tượng \"BHYT\". Vui lòng kiểm tra lại cấu hình hoặc liên hệ quản trị để được hỗ trợ","(Các) dịch vụ Định lượng Ferritin [Máu] bắt buộc chọn điều kiện"],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":true}}
+
+INFO 2023-01-16 13:58:24,676 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-01-16 13:58:24,724 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-01-16 14:18:14,702 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-01-16 14:18:14,748 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+ERROR 2023-01-16 14:29:22,093 [72] - Application_End. Time=16/01/2023 14:29:22
+
+INFO 2023-01-16 14:31:51,480 [5] - Application_Start. Bat dau start Time=16/01/2023 14:31:51
+
+INFO 2023-01-16 14:31:57,670 [5] - Application_Start. Bat dau load HisConfig Time=16/01/2023 14:31:57
+
+INFO 2023-01-16 14:31:57,671 [5] - Bat dau get HisConfig.
+
+INFO 2023-01-16 14:34:35,298 [5] - Ket thuc get HisConfig.
+
+INFO 2023-01-16 14:34:35,298 [5] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-01-16 14:34:35,298 [5] - Application_Start. Ket thuc load HisConfig Time=16/01/2023 14:34:35
+
+INFO 2023-01-16 14:34:35,328 [5] - Application_Start. Ket thuc start Time=16/01/2023 14:34:35
+
+INFO 2023-01-16 14:34:35,330 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-01-16 14:34:35,331 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-01-16 14:34:35,501 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-01-16 14:34:35,508 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-01-16 14:34:35,508 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-01-16 14:34:35,646 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-01-16 14:34:35,646 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-01-16 14:34:35,790 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-01-16 14:34:35,790 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-01-16 14:34:35,790 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-01-16 14:34:35,791 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-01-16 14:34:35,953 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-01-16 14:34:35,954 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-01-16 14:34:36,343 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-01-16 14:34:36,344 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-01-16 14:34:36,596 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-01-16 14:34:36,596 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-16 14:34:36,597 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-16 14:34:36,726 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-01-16 14:34:36,828 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-01-16 14:34:36,971 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-01-16 14:34:36,971 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-01-16 14:34:37,225 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-01-16 14:34:37,225 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-01-16 14:34:37,477 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-01-16 14:34:37,651 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-01-16 14:34:37,652 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-01-16 14:34:37,840 [7] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-01-16 14:34:37,840 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+ERROR 2023-01-16 14:34:37,990 [7] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-01-16 14:34:37,990 [7] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-01-16 14:34:37,990 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+INFO 2023-01-16 14:34:39,243 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+ERROR 2023-01-16 14:37:08,270 [5] - Loi khi lay Config: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-01-16 14:37:50,303 [6] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 14:37:50,448 [6] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdateEveryPayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":[{"ID":1982097,"CREATE_TIME":20230116103224,"MODIFY_TIME":20230116103241,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":40327,"SERVICE_REQ_ID":1261819,"PATIENT_TYPE_ID":42,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":130000.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":130000.0,"ORIGINAL_PRICE":130000.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.02,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230116103100,"TDL_INTRUCTION_DATE":20230116000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"sinhcd2","TDL_SERVICE_NAME":"sinhcd2","TDL_HEIN_SERVICE_BHYT_CODE":"1111","TDL_HEIN_SERVICE_BHYT_NAME":"111","TDL_HEIN_ORDER":"1111","TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":3,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248306","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":132600.0,"VIR_PRICE_NO_ADD_PRICE":132600.0,"VIR_PRICE_NO_EXPEND":132600.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":132600.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":132600.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":132600.0,"VIR_TOTAL_PRICE_NO_EXPEND":132600.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":132600.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":132600.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982097,"TDL_RATION_TIME_ID":1982097,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982055,"CREATE_TIME":20230114112448,"MODIFY_TIME":20230114112448,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":27046,"SERVICE_REQ_ID":1261775,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":39500.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":39500.0,"ORIGINAL_PRICE":39500.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":null,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230114112400,"TDL_INTRUCTION_DATE":20230114000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"KHA091","TDL_SERVICE_NAME":"Khám Ngoại","TDL_HEIN_SERVICE_BHYT_CODE":"10.1896","TDL_HEIN_SERVICE_BHYT_NAME":"Khám Ngoại","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":1,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":5,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248262","TDL_REQUEST_ROOM_ID":778,"TDL_REQUEST_DEPARTMENT_ID":302,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":940,"TDL_EXECUTE_DEPARTMENT_ID":303,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":"12","TDL_SERVICE_REQ_TYPE_ID":1,"TDL_HST_BHYT_CODE":"13","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":1,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":39500.0,"VIR_PRICE_NO_ADD_PRICE":39500.0,"VIR_PRICE_NO_EXPEND":39500.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":39500.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":39500.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":39500.0,"VIR_TOTAL_PRICE_NO_EXPEND":39500.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":39500.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":39500.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982055,"TDL_RATION_TIME_ID":1982055,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982069,"CREATE_TIME":20230116090534,"MODIFY_TIME":20230116090540,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":31173,"SERVICE_REQ_ID":1261795,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":91000.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":91000.0,"ORIGINAL_PRICE":91000.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230116090500,"TDL_INTRUCTION_DATE":20230116000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"DIN9168","TDL_SERVICE_NAME":"Định lượng Folate [Máu]","TDL_HEIN_SERVICE_BHYT_CODE":"23.0067.1515","TDL_HEIN_SERVICE_BHYT_NAME":"Định lượng Folate [Máu]","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248282","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":91000.0,"VIR_PRICE_NO_ADD_PRICE":91000.0,"VIR_PRICE_NO_EXPEND":91000.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":91000.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":91000.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":91000.0,"VIR_TOTAL_PRICE_NO_EXPEND":91000.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":91000.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":91000.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982069,"TDL_RATION_TIME_ID":1982069,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]}],"Field":4} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":[],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":false}}
+
+ERROR 2023-01-16 14:41:11,347 [30] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 14:41:51,681 [30] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdateEveryPayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":[{"ID":1982097,"CREATE_TIME":20230116103224,"MODIFY_TIME":20230116103241,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":40327,"SERVICE_REQ_ID":1261819,"PATIENT_TYPE_ID":42,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":130000.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":130000.0,"ORIGINAL_PRICE":130000.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.02,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230116103100,"TDL_INTRUCTION_DATE":20230116000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"sinhcd2","TDL_SERVICE_NAME":"sinhcd2","TDL_HEIN_SERVICE_BHYT_CODE":"1111","TDL_HEIN_SERVICE_BHYT_NAME":"111","TDL_HEIN_ORDER":"1111","TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":3,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248306","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":132600.0,"VIR_PRICE_NO_ADD_PRICE":132600.0,"VIR_PRICE_NO_EXPEND":132600.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":132600.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":132600.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":132600.0,"VIR_TOTAL_PRICE_NO_EXPEND":132600.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":132600.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":132600.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982097,"TDL_RATION_TIME_ID":1982097,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982055,"CREATE_TIME":20230114112448,"MODIFY_TIME":20230114112448,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":27046,"SERVICE_REQ_ID":1261775,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":39500.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":39500.0,"ORIGINAL_PRICE":39500.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":null,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230114112400,"TDL_INTRUCTION_DATE":20230114000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"KHA091","TDL_SERVICE_NAME":"Khám Ngoại","TDL_HEIN_SERVICE_BHYT_CODE":"10.1896","TDL_HEIN_SERVICE_BHYT_NAME":"Khám Ngoại","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":1,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":5,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248262","TDL_REQUEST_ROOM_ID":778,"TDL_REQUEST_DEPARTMENT_ID":302,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":940,"TDL_EXECUTE_DEPARTMENT_ID":303,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":"12","TDL_SERVICE_REQ_TYPE_ID":1,"TDL_HST_BHYT_CODE":"13","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":1,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":39500.0,"VIR_PRICE_NO_ADD_PRICE":39500.0,"VIR_PRICE_NO_EXPEND":39500.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":39500.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":39500.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":39500.0,"VIR_TOTAL_PRICE_NO_EXPEND":39500.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":39500.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":39500.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982055,"TDL_RATION_TIME_ID":1982055,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]},{"ID":1982069,"CREATE_TIME":20230116090534,"MODIFY_TIME":20230116090540,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS_THREAD","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"SERVICE_ID":31173,"SERVICE_REQ_ID":1261795,"PATIENT_TYPE_ID":1,"PRIMARY_PATIENT_TYPE_ID":null,"PRIMARY_PRICE":91000.0,"LIMIT_PRICE":null,"PARENT_ID":null,"HEIN_APPROVAL_ID":null,"JSON_PATIENT_TYPE_ALTER":null,"AMOUNT":1.0,"PRICE":91000.0,"ORIGINAL_PRICE":91000.0,"HEIN_PRICE":null,"HEIN_RATIO":null,"HEIN_LIMIT_PRICE":null,"HEIN_LIMIT_RATIO":null,"HEIN_NORMAL_PRICE":null,"ADD_PRICE":null,"OVERTIME_PRICE":null,"DISCOUNT":null,"VAT_RATIO":0.0,"SHARE_COUNT":null,"STENT_ORDER":null,"IS_EXPEND":null,"IS_NO_PAY":null,"IS_NO_EXECUTE":null,"IS_OUT_PARENT_FEE":null,"IS_NO_HEIN_DIFFERENCE":null,"IS_SPECIMEN":null,"IS_ADDITION":null,"IS_SENT_EXT":1,"EXECUTE_TIME":null,"HEIN_CARD_NUMBER":null,"MEDICINE_ID":null,"MATERIAL_ID":null,"EXP_MEST_MEDICINE_ID":null,"EXP_MEST_MATERIAL_ID":null,"BLOOD_ID":null,"EKIP_ID":null,"PACKAGE_ID":null,"EQUIPMENT_SET_ID":null,"EQUIPMENT_SET_ORDER":null,"TDL_INTRUCTION_TIME":20230116090500,"TDL_INTRUCTION_DATE":20230116000000,"TDL_PATIENT_ID":65383,"TDL_TREATMENT_ID":78215,"TDL_TREATMENT_CODE":"000000075773","TDL_SERVICE_CODE":"DIN9168","TDL_SERVICE_NAME":"Định lượng Folate [Máu]","TDL_HEIN_SERVICE_BHYT_CODE":"23.0067.1515","TDL_HEIN_SERVICE_BHYT_NAME":"Định lượng Folate [Máu]","TDL_HEIN_ORDER":null,"TDL_SERVICE_TYPE_ID":2,"TDL_SERVICE_UNIT_ID":24,"TDL_HEIN_SERVICE_TYPE_ID":18,"TDL_ACTIVE_INGR_BHYT_CODE":null,"TDL_ACTIVE_INGR_BHYT_NAME":null,"TDL_MEDICINE_CONCENTRA":null,"TDL_MEDICINE_BID_NUM_ORDER":null,"TDL_MEDICINE_REGISTER_NUMBER":null,"TDL_MEDICINE_PACKAGE_NUMBER":null,"TDL_SERVICE_REQ_CODE":"000001248282","TDL_REQUEST_ROOM_ID":1011,"TDL_REQUEST_DEPARTMENT_ID":303,"TDL_REQUEST_LOGINNAME":"sinhnt","TDL_REQUEST_USERNAME":"sinhnt1","TDL_EXECUTE_ROOM_ID":1165,"TDL_EXECUTE_DEPARTMENT_ID":331,"TDL_EXECUTE_BRANCH_ID":1,"TDL_EXECUTE_GROUP_ID":null,"TDL_SPECIALITY_CODE":null,"TDL_SERVICE_REQ_TYPE_ID":2,"TDL_HST_BHYT_CODE":"1","TDL_PACS_TYPE_CODE":null,"TDL_IS_MAIN_EXAM":null,"TDL_BILL_OPTION":null,"TDL_MATERIAL_GROUP_BHYT":null,"TDL_IS_SPECIFIC_HEIN_PRICE":null,"EXPEND_TYPE_ID":null,"INVOICE_ID":null,"USE_ORIGINAL_UNIT_FOR_PRES":null,"AMOUNT_TEMP":null,"IS_FUND_ACCEPTED":null,"IS_OTHER_SOURCE_PAID":0,"IS_NOT_PRES":null,"IS_USER_PACKAGE_PRICE":null,"PACKAGE_PRICE":null,"USER_PRICE":null,"PATIENT_PRICE_BHYT":null,"OTHER_SOURCE_PRICE":null,"VIR_PRICE":91000.0,"VIR_PRICE_NO_ADD_PRICE":91000.0,"VIR_PRICE_NO_EXPEND":91000.0,"VIR_HEIN_PRICE":0.0,"VIR_PATIENT_PRICE":91000.0,"VIR_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PRICE":91000.0,"VIR_TOTAL_PRICE_NO_ADD_PRICE":91000.0,"VIR_TOTAL_PRICE_NO_EXPEND":91000.0,"VIR_TOTAL_HEIN_PRICE":0.0,"VIR_TOTAL_PATIENT_PRICE":91000.0,"VIR_TOTAL_PATIENT_PRICE_BHYT":0.0,"VIR_TOTAL_PATIENT_PRICE_NO_DC":91000.0,"VIR_TOTAL_PATIENT_PRICE_TEMP":0.0,"OTHER_PAY_SOURCE_ID":null,"TDL_SERVICE_TAX_RATE_TYPE":null,"CONFIG_HEIN_LIMIT_PRICE":null,"TDL_SERVICE_DESCRIPTION":null,"TDL_IS_OUT_OF_DRG":null,"SERVICE_CONDITION_ID":null,"IS_ACCEPTING_NO_EXECUTE":null,"TDL_REQUEST_USER_TITLE":"hihi","DISCOUNT_LOGINNAME":null,"DISCOUNT_USERNAME":null,"NO_EXECUTE_REASON":null,"ACTUAL_PRICE":null,"IS_TEMP_BED_PROCESSED":null,"IS_NOT_USE_BHYT":null,"TDL_CARER_CARD_BORROW_ID":1982069,"TDL_RATION_TIME_ID":1982069,"IS_CONFIRM_NO_EXCUTE":null,"CONFIRM_NO_EXCUTE_REASON":null,"HIS_BLOOD":null,"HIS_DEPARTMENT":null,"HIS_DEPARTMENT1":null,"HIS_EKIP":null,"HIS_EQUIPMENT_SET":null,"HIS_EXECUTE_GROUP":null,"HIS_EXP_MEST_BLOOD":[],"HIS_EXP_MEST_MATERIAL":[],"HIS_EXP_MEST_MATERIAL1":null,"HIS_EXP_MEST_MEDICINE":[],"HIS_EXP_MEST_MEDICINE1":null,"HIS_HEIN_APPROVAL":null,"HIS_INVOICE":null,"HIS_MATERIAL":null,"HIS_MEDICINE":null,"HIS_OTHER_PAY_SOURCE":null,"HIS_PACKAGE":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_RATION_TIME":null,"HIS_ROOM":null,"HIS_ROOM1":null,"HIS_SERE_SERV_BILL":[],"HIS_SERE_SERV_DEBT":[],"HIS_SERE_SERV_DEPOSIT":[],"HIS_SERE_SERV_DEPOSIT1":[],"HIS_SERE_SERV_FILE":[],"HIS_SERVICE":null,"HIS_SERVICE_CONDITION":null,"HIS_TREATMENT":null,"HIS_SERVICE_REQ":null,"HIS_SERVICE_UNIT":null,"HIS_SERE_SERV1":[],"HIS_SERE_SERV2":null,"HIS_SERVICE_TYPE":null,"HIS_SERE_SERV_MATY":[],"HIS_SERE_SERV_PTTT":[],"HIS_SERE_SERV_REHA":[],"HIS_SERE_SERV_SUIN":[],"HIS_SERE_SERV_TEIN":[],"HIS_SERVICE_CHANGE_REQ":[],"HIS_SERVICE_CHANGE_REQ1":[],"HIS_SESE_DEPO_REPAY":[],"HIS_SESE_TRANS_REQ":[]}],"Field":4} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":[],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":false}}
+
+ERROR 2023-01-16 14:46:04,003 [35] - Application_End. Time=16/01/2023 14:46:04
+
+INFO 2023-01-16 14:47:35,798 [7] - Application_Start. Bat dau start Time=16/01/2023 14:47:35
+
+INFO 2023-01-16 14:47:40,646 [7] - Application_Start. Bat dau load HisConfig Time=16/01/2023 14:47:40
+
+INFO 2023-01-16 14:47:40,647 [7] - Bat dau get HisConfig.
+
+INFO 2023-01-16 14:50:34,841 [7] - Ket thuc get HisConfig.
+
+INFO 2023-01-16 14:50:34,841 [7] - Load du lieu cau hinh HisConfig thanh cong.
+
+INFO 2023-01-16 14:50:34,841 [7] - Application_Start. Ket thuc load HisConfig Time=16/01/2023 14:50:34
+
+INFO 2023-01-16 14:50:34,844 [7] - Application_Start. Ket thuc start Time=16/01/2023 14:50:34
+
+INFO 2023-01-16 14:50:34,845 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanTimeOut
+
+INFO 2023-01-16 14:50:34,845 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ScanEventLog
+
+ERROR 2023-01-16 14:50:35,009 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Lis.ReadResultTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Lis\ReadResultTrigger.cs:line 49
+
+INFO 2023-01-16 14:50:35,012 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromLis
+
+INFO 2023-01-16 14:50:35,013 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToLis
+
+ERROR 2023-01-16 14:50:35,157 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.MediStock.RefreshStatusTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\MediStock\RefreshStatusTrigger.cs:line 49
+
+INFO 2023-01-16 14:50:35,157 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshStatusMediStock
+
+ERROR 2023-01-16 14:50:35,304 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Pacs.SendRequestTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Pacs\SendRequestTrigger.cs:line 49
+
+INFO 2023-01-16 14:50:35,304 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendRequestToPacs
+
+INFO 2023-01-16 14:50:35,304 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh RefreshRoomCounter
+
+INFO 2023-01-16 14:50:35,305 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh DownloadImageFromCos
+
+ERROR 2023-01-16 14:50:35,449 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Emr.UploadEmrTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Emr\UploadEmrTrigger.cs:line 48
+
+INFO 2023-01-16 14:50:35,450 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadEmr
+
+ERROR 2023-01-16 14:50:35,808 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Erx.UploadErxTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Erx\UploadErxTrigger.cs:line 48
+
+INFO 2023-01-16 14:50:35,808 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh UploadErx
+
+ERROR 2023-01-16 14:50:35,968 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.NotifySubclinicalResultSms.SendSmsTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\NotifySubclinicalResultSms\SendSmsTrigger.cs:line 48
+
+INFO 2023-01-16 14:50:35,969 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-16 14:50:35,970 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh SendSms
+
+INFO 2023-01-16 14:50:36,144 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ReadResultFromPacs
+
+INFO 2023-01-16 14:50:36,175 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh XmlExport
+
+ERROR 2023-01-16 14:50:36,335 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Xml.ExportXmlFhirSurehisTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Xml\ExportXmlFhirSurehisTrigger.cs:line 48
+
+INFO 2023-01-16 14:50:36,335 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh ExportXmlFhirSurehisJob
+
+ERROR 2023-01-16 14:50:36,483 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoEndExamTreatment.AutoEndExamTreatmentTrigger.GetRepetitionIntervalTime(Int32& repeatHours) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoEndExamTreatment\AutoEndExamTreatmentTrigger.cs:line 48
+
+INFO 2023-01-16 14:50:36,485 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoEndExamTreatmentJob
+
+ERROR 2023-01-16 14:50:36,643 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.Browser.BrowserTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\Browser\BrowserTrigger.cs:line 50
+
+ERROR 2023-01-16 14:50:36,984 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoCreateRation.AutoCreateRationTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoCreateRation\AutoCreateRationTrigger.cs:line 48
+
+INFO 2023-01-16 14:50:36,986 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoCreateRationJob
+
+ERROR 2023-01-16 14:50:37,212 [6] - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoAddRationSum.AutoAddRationSumTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoAddRationSum\AutoAddRationSumTrigger.cs:line 48
+
+INFO 2023-01-16 14:50:37,213 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoAddRationSumJob
+
+INFO 2023-01-16 14:50:37,214 [DefaultQuartzScheduler_Worker-1] - Begin BrowserJob.
+
+ERROR 2023-01-16 14:50:37,376 [6] - 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.QuartzScheduler.AutoGetSereServAndUpdateGatherData.AutoGetSereServAndUpdateGatherDataTrigger.GetRepetitionIntervalTime(TimeSpan& repeatTime) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.QuartzScheduler\AutoGetSereServAndUpdateGatherData\AutoGetSereServAndUpdateGatherDataTrigger.cs:line 48
+
+INFO 2023-01-16 14:50:37,377 [6] - Khong cau hinh repeatTime tien trinh => khong khoi dong tien trinh AutoGetSereServAndUpdateGatherDataTrigger
+
+INFO 2023-01-16 14:50:38,919 [DefaultQuartzScheduler_Worker-1] - End BrowserJob.
+
+ERROR 2023-01-16 14:52:09,561 [15] - Loi khi lay Config: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERVICE.SERVICE_CODE.OVER_EXPEND
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-01-16 14:52:50,437 [7] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 14:52:53,447 [7] - Loi khi lay Config: MOS.HIS_SERE_SERV.DO_NOT_ALLOW_TO_UPDATE_WHEN_TREATMENT_IS_FINISHED
+System.ArgumentNullException: Value cannot be null.
+Parameter name: MOS.HIS_SERE_SERV.DO_NOT_ALLOW_TO_UPDATE_WHEN_TREATMENT_IS_FINISHED
+   at MOS.MANAGER.Config.ConfigUtil.GetStrConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 63
+
+ERROR 2023-01-16 14:52:53,614 [7] - Loi khi lay Config: MOS.HIS_SERE_SERV.DO_NOT_ALLOW_TO_UPDATE_WHEN_TREATMENT_IS_FINISHED
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at MOS.MANAGER.Config.ConfigUtil.GetIntConfig(String code) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\Config\ConfigUtil.cs:line 45
+
+INFO 2023-01-16 15:10:26,659 [DefaultQuartzScheduler_Worker-2] - Begin BrowserJob.
+
+INFO 2023-01-16 15:10:26,664 [DefaultQuartzScheduler_Worker-2] - End BrowserJob.
+
+INFO 2023-01-16 15:30:16,660 [DefaultQuartzScheduler_Worker-3] - Begin BrowserJob.
+
+INFO 2023-01-16 15:30:16,666 [DefaultQuartzScheduler_Worker-3] - End BrowserJob.
+
+INFO 2023-01-16 15:50:06,657 [DefaultQuartzScheduler_Worker-4] - Begin BrowserJob.
+
+INFO 2023-01-16 15:50:06,668 [DefaultQuartzScheduler_Worker-4] - End BrowserJob.
+
+ERROR 2023-01-16 15:54:17,910 [45] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+INFO 2023-01-16 16:09:56,661 [DefaultQuartzScheduler_Worker-5] - Begin BrowserJob.
+
+INFO 2023-01-16 16:09:56,668 [DefaultQuartzScheduler_Worker-5] - End BrowserJob.
+
+INFO 2023-01-16 16:29:46,652 [DefaultQuartzScheduler_Worker-6] - Begin BrowserJob.
+
+INFO 2023-01-16 16:29:46,692 [DefaultQuartzScheduler_Worker-6] - End BrowserJob.
+
+INFO 2023-01-16 16:49:36,656 [DefaultQuartzScheduler_Worker-7] - Begin BrowserJob.
+
+INFO 2023-01-16 16:49:36,672 [DefaultQuartzScheduler_Worker-7] - End BrowserJob.
+
+ERROR 2023-01-16 17:08:49,002 [6] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 17:08:49,191 [6] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 17:08:49,276 [6] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdateEveryPayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":null,"Field":4} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":[],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":false}}
+
+INFO 2023-01-16 17:09:26,650 [DefaultQuartzScheduler_Worker-8] - Begin BrowserJob.
+
+INFO 2023-01-16 17:09:26,666 [DefaultQuartzScheduler_Worker-8] - End BrowserJob.
+
+ERROR 2023-01-16 17:12:15,222 [47] - 
+System.Exception: Cap nhat thong tin hisPatientTypeAlter that bai. Nghiep vu tiep theo se khong thuc hien duoc
+   at MOS.MANAGER.HisPatientTypeAlter.HisPatientTypeAlterUpdate.Update(HIS_PATIENT_TYPE_ALTER data, HIS_TREATMENT treatment, HIS_PATIENT patient, HIS_PATIENT_TYPE_ALTER& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatientTypeAlter\HisPatientTypeAlterUpdate.cs:line 153
+   at MOS.MANAGER.HisPatientTypeAlter.HisPatientTypeAlterUpdate.Update(HisPatientTypeAlterAndTranPatiSDO data, HisPatientTypeAlterAndTranPatiSDO& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatientTypeAlter\HisPatientTypeAlterUpdate.cs:line 72
+
+ERROR 2023-01-16 17:12:15,381 [47] - 
+--LoginName: tiencb 
+--Class: HisPatientTypeAlterManager 
+--Method: Update 
+--Input: {"PatientTypeAlter":{"ID":89430,"CREATE_TIME":20230114112447,"MODIFY_TIME":20230116162526,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"DEPARTMENT_TRAN_ID":93089,"TREATMENT_TYPE_ID":1,"PATIENT_TYPE_ID":42,"LOG_TIME":20230114112400,"TREATMENT_ID":78215,"TDL_PATIENT_ID":65383,"EXECUTE_ROOM_ID":778,"EXECUTE_LOGINNAME":null,"EXECUTE_USERNAME":null,"LEVEL_CODE":null,"RIGHT_ROUTE_CODE":null,"RIGHT_ROUTE_TYPE_CODE":null,"LIVE_AREA_CODE":null,"HEIN_MEDI_ORG_CODE":null,"HEIN_MEDI_ORG_NAME":null,"HAS_BIRTH_CERTIFICATE":null,"HEIN_CARD_NUMBER":null,"HEIN_CARD_FROM_TIME":null,"HEIN_CARD_TO_TIME":null,"ADDRESS":"hn","HNCODE":null,"JOIN_5_YEAR":null,"PAID_6_MONTH":null,"IS_NO_CHECK_EXPIRE":null,"FREE_CO_PAID_TIME":null,"IS_TEMP_QN":null,"BHYT_URL":null,"KSK_CONTRACT_ID":null,"JOIN_5_YEAR_TIME":null,"PRIMARY_PATIENT_TYPE_ID":null,"HEIN_CARD_TO_TIME_TMP":null,"HAS_WORKING_LETTER":null,"HAS_ABSENT_LETTER":null,"IS_TT46":null,"TT46_NOTE":null,"GUARANTEE_LOGINNAME":null,"GUARANTEE_USERNAME":null,"GUARANTEE_REASON":null,"HIS_DEPARTMENT_TRAN":null,"HIS_KSK_CONTRACT":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_TREATMENT_TYPE":null,"HIS_ROOM":null,"HIS_TREATMENT":null},"TransferInMediOrgCode":null,"TransferInMediOrgName":null,"TransferInFormId":null,"TransferInReasonId":null,"TransferInIcdCode":null,"TransferInIcdName":null,"TransferInCode":null,"TransferInCmkt":null,"TransferInTimeFrom":null,"TransferInTimeTo":null,"ImgBhytData":null} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["Bệnh nhân không có thông tin BHYT vì vậy không cho phép thanh toán dịch vụ sinhcd1 với đối tượng thanh toán thanh toán là BHYT"],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":null,"HasException":true}}
+
+ERROR 2023-01-16 17:12:34,774 [28] - 
+System.Exception: Cap nhat thong tin hisPatientTypeAlter that bai. Nghiep vu tiep theo se khong thuc hien duoc
+   at MOS.MANAGER.HisPatientTypeAlter.HisPatientTypeAlterUpdate.Update(HIS_PATIENT_TYPE_ALTER data, HIS_TREATMENT treatment, HIS_PATIENT patient, HIS_PATIENT_TYPE_ALTER& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatientTypeAlter\HisPatientTypeAlterUpdate.cs:line 153
+   at MOS.MANAGER.HisPatientTypeAlter.HisPatientTypeAlterUpdate.Update(HisPatientTypeAlterAndTranPatiSDO data, HisPatientTypeAlterAndTranPatiSDO& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatientTypeAlter\HisPatientTypeAlterUpdate.cs:line 72
+
+ERROR 2023-01-16 17:12:34,774 [28] - 
+--LoginName: tiencb 
+--Class: HisPatientTypeAlterManager 
+--Method: Update 
+--Input: {"PatientTypeAlter":{"ID":89430,"CREATE_TIME":20230114112447,"MODIFY_TIME":20230116162526,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"DEPARTMENT_TRAN_ID":93089,"TREATMENT_TYPE_ID":1,"PATIENT_TYPE_ID":42,"LOG_TIME":20230114112400,"TREATMENT_ID":78215,"TDL_PATIENT_ID":65383,"EXECUTE_ROOM_ID":778,"EXECUTE_LOGINNAME":null,"EXECUTE_USERNAME":null,"LEVEL_CODE":null,"RIGHT_ROUTE_CODE":null,"RIGHT_ROUTE_TYPE_CODE":null,"LIVE_AREA_CODE":null,"HEIN_MEDI_ORG_CODE":null,"HEIN_MEDI_ORG_NAME":null,"HAS_BIRTH_CERTIFICATE":null,"HEIN_CARD_NUMBER":null,"HEIN_CARD_FROM_TIME":null,"HEIN_CARD_TO_TIME":null,"ADDRESS":"hn","HNCODE":null,"JOIN_5_YEAR":null,"PAID_6_MONTH":null,"IS_NO_CHECK_EXPIRE":null,"FREE_CO_PAID_TIME":null,"IS_TEMP_QN":null,"BHYT_URL":null,"KSK_CONTRACT_ID":null,"JOIN_5_YEAR_TIME":null,"PRIMARY_PATIENT_TYPE_ID":null,"HEIN_CARD_TO_TIME_TMP":null,"HAS_WORKING_LETTER":null,"HAS_ABSENT_LETTER":null,"IS_TT46":null,"TT46_NOTE":null,"GUARANTEE_LOGINNAME":null,"GUARANTEE_USERNAME":null,"GUARANTEE_REASON":null,"HIS_DEPARTMENT_TRAN":null,"HIS_KSK_CONTRACT":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_TREATMENT_TYPE":null,"HIS_ROOM":null,"HIS_TREATMENT":null},"TransferInMediOrgCode":null,"TransferInMediOrgName":null,"TransferInFormId":null,"TransferInReasonId":null,"TransferInIcdCode":null,"TransferInIcdName":null,"TransferInCode":null,"TransferInCmkt":null,"TransferInTimeFrom":null,"TransferInTimeTo":null,"ImgBhytData":null} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["Bệnh nhân không có thông tin BHYT vì vậy không cho phép thanh toán dịch vụ sinhcd1 với đối tượng thanh toán thanh toán là BHYT"],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":null,"HasException":true}}
+
+ERROR 2023-01-16 17:15:43,072 [29] - 
+System.Exception: Cap nhat thong tin hisPatientTypeAlter that bai. Nghiep vu tiep theo se khong thuc hien duoc
+   at MOS.MANAGER.HisPatientTypeAlter.HisPatientTypeAlterUpdate.Update(HIS_PATIENT_TYPE_ALTER data, HIS_TREATMENT treatment, HIS_PATIENT patient, HIS_PATIENT_TYPE_ALTER& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatientTypeAlter\HisPatientTypeAlterUpdate.cs:line 153
+   at MOS.MANAGER.HisPatientTypeAlter.HisPatientTypeAlterUpdate.Update(HisPatientTypeAlterAndTranPatiSDO data, HisPatientTypeAlterAndTranPatiSDO& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatientTypeAlter\HisPatientTypeAlterUpdate.cs:line 72
+
+ERROR 2023-01-16 17:15:43,132 [29] - 
+--LoginName: tiencb 
+--Class: HisPatientTypeAlterManager 
+--Method: Update 
+--Input: {"PatientTypeAlter":{"ID":89430,"CREATE_TIME":20230114112447,"MODIFY_TIME":20230116162526,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"DEPARTMENT_TRAN_ID":93089,"TREATMENT_TYPE_ID":1,"PATIENT_TYPE_ID":42,"LOG_TIME":20230114112400,"TREATMENT_ID":78215,"TDL_PATIENT_ID":65383,"EXECUTE_ROOM_ID":778,"EXECUTE_LOGINNAME":null,"EXECUTE_USERNAME":null,"LEVEL_CODE":null,"RIGHT_ROUTE_CODE":null,"RIGHT_ROUTE_TYPE_CODE":null,"LIVE_AREA_CODE":null,"HEIN_MEDI_ORG_CODE":null,"HEIN_MEDI_ORG_NAME":null,"HAS_BIRTH_CERTIFICATE":null,"HEIN_CARD_NUMBER":null,"HEIN_CARD_FROM_TIME":null,"HEIN_CARD_TO_TIME":null,"ADDRESS":"hn","HNCODE":null,"JOIN_5_YEAR":null,"PAID_6_MONTH":null,"IS_NO_CHECK_EXPIRE":null,"FREE_CO_PAID_TIME":null,"IS_TEMP_QN":null,"BHYT_URL":null,"KSK_CONTRACT_ID":null,"JOIN_5_YEAR_TIME":null,"PRIMARY_PATIENT_TYPE_ID":null,"HEIN_CARD_TO_TIME_TMP":null,"HAS_WORKING_LETTER":null,"HAS_ABSENT_LETTER":null,"IS_TT46":null,"TT46_NOTE":null,"GUARANTEE_LOGINNAME":null,"GUARANTEE_USERNAME":null,"GUARANTEE_REASON":null,"HIS_DEPARTMENT_TRAN":null,"HIS_KSK_CONTRACT":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_TREATMENT_TYPE":null,"HIS_ROOM":null,"HIS_TREATMENT":null},"TransferInMediOrgCode":null,"TransferInMediOrgName":null,"TransferInFormId":null,"TransferInReasonId":null,"TransferInIcdCode":null,"TransferInIcdName":null,"TransferInCode":null,"TransferInCmkt":null,"TransferInTimeFrom":null,"TransferInTimeTo":null,"ImgBhytData":null} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["Bệnh nhân không có thông tin BHYT vì vậy không cho phép thanh toán dịch vụ sinhcd1 với đối tượng thanh toán thanh toán là BHYT"],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":null,"HasException":true}}
+
+ERROR 2023-01-16 17:21:29,703 [33] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 17:21:29,887 [33] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 17:21:42,119 [33] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdateEveryPayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":null,"Field":4} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":[],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":false}}
+
+ERROR 2023-01-16 17:23:05,546 [48] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 17:23:38,156 [48] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 17:23:47,065 [48] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdateEveryPayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":null,"Field":4} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":[],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":false}}
+
+ERROR 2023-01-16 17:25:59,284 [39] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 17:26:02,636 [39] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 17:26:02,636 [39] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdateEveryPayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":null,"Field":4} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":[],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":false}}
+
+ERROR 2023-01-16 17:26:07,436 [49] - 
+System.Exception: Cap nhat thong tin hisPatientTypeAlter that bai. Nghiep vu tiep theo se khong thuc hien duoc
+   at MOS.MANAGER.HisPatientTypeAlter.HisPatientTypeAlterUpdate.Update(HIS_PATIENT_TYPE_ALTER data, HIS_TREATMENT treatment, HIS_PATIENT patient, HIS_PATIENT_TYPE_ALTER& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatientTypeAlter\HisPatientTypeAlterUpdate.cs:line 153
+   at MOS.MANAGER.HisPatientTypeAlter.HisPatientTypeAlterUpdate.Update(HisPatientTypeAlterAndTranPatiSDO data, HisPatientTypeAlterAndTranPatiSDO& resultData) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisPatientTypeAlter\HisPatientTypeAlterUpdate.cs:line 72
+
+ERROR 2023-01-16 17:26:07,463 [49] - 
+--LoginName: tiencb 
+--Class: HisPatientTypeAlterManager 
+--Method: Update 
+--Input: {"PatientTypeAlter":{"ID":89430,"CREATE_TIME":20230114112447,"MODIFY_TIME":20230116162526,"CREATOR":"sinhnt","MODIFIER":"sinhnt","APP_CREATOR":"MOS","APP_MODIFIER":"MOS","IS_ACTIVE":1,"IS_DELETE":0,"GROUP_CODE":null,"DEPARTMENT_TRAN_ID":93089,"TREATMENT_TYPE_ID":1,"PATIENT_TYPE_ID":42,"LOG_TIME":20230114112400,"TREATMENT_ID":78215,"TDL_PATIENT_ID":65383,"EXECUTE_ROOM_ID":778,"EXECUTE_LOGINNAME":null,"EXECUTE_USERNAME":null,"LEVEL_CODE":null,"RIGHT_ROUTE_CODE":null,"RIGHT_ROUTE_TYPE_CODE":null,"LIVE_AREA_CODE":null,"HEIN_MEDI_ORG_CODE":null,"HEIN_MEDI_ORG_NAME":null,"HAS_BIRTH_CERTIFICATE":null,"HEIN_CARD_NUMBER":null,"HEIN_CARD_FROM_TIME":null,"HEIN_CARD_TO_TIME":null,"ADDRESS":"hn","HNCODE":null,"JOIN_5_YEAR":null,"PAID_6_MONTH":null,"IS_NO_CHECK_EXPIRE":null,"FREE_CO_PAID_TIME":null,"IS_TEMP_QN":null,"BHYT_URL":null,"KSK_CONTRACT_ID":null,"JOIN_5_YEAR_TIME":null,"PRIMARY_PATIENT_TYPE_ID":null,"HEIN_CARD_TO_TIME_TMP":null,"HAS_WORKING_LETTER":null,"HAS_ABSENT_LETTER":null,"IS_TT46":null,"TT46_NOTE":null,"GUARANTEE_LOGINNAME":null,"GUARANTEE_USERNAME":null,"GUARANTEE_REASON":null,"HIS_DEPARTMENT_TRAN":null,"HIS_KSK_CONTRACT":null,"HIS_PATIENT":null,"HIS_PATIENT_TYPE":null,"HIS_PATIENT_TYPE1":null,"HIS_TREATMENT_TYPE":null,"HIS_ROOM":null,"HIS_TREATMENT":null},"TransferInMediOrgCode":null,"TransferInMediOrgName":null,"TransferInFormId":null,"TransferInReasonId":null,"TransferInIcdCode":null,"TransferInIcdName":null,"TransferInCode":null,"TransferInCmkt":null,"TransferInTimeFrom":null,"TransferInTimeTo":null,"ImgBhytData":null} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":["Bệnh nhân không có thông tin BHYT vì vậy không cho phép thanh toán dịch vụ sinhcd1 với đối tượng thanh toán thanh toán là BHYT"],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":null,"HasException":true}}
+
+INFO 2023-01-16 17:29:16,649 [DefaultQuartzScheduler_Worker-9] - Begin BrowserJob.
+
+INFO 2023-01-16 17:29:16,658 [DefaultQuartzScheduler_Worker-9] - End BrowserJob.
+
+ERROR 2023-01-16 17:37:45,055 [11] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 17:37:45,065 [11] - 
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.GetServicePaty(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 executeBranchId, Int64 instructionTime, Int64 patientTypeId, Int64 serviceId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, Nullable`1 packageId, Nullable`1 serviceConditionId, Nullable`1 rationTimeId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 305
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.SetPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId, V_HIS_SERVICE hisService) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 110
+   at MOS.MANAGER.HisSereServ.HisSereServSetPrice.AddPrice(HIS_SERE_SERV data, List`1 allSereServsOfTreatments, Int64 instructionTime, Int64 executeBranchId, Int64 requestRoomId, Int64 requestDepartmentId, Int64 executeRoomId) in d:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.MANAGER\HisSereServ\Update\HisSereServSetPrice.cs:line 63
+
+ERROR 2023-01-16 17:37:45,066 [11] - 
+--LoginName: tiencb 
+--Class: HisSereServManager 
+--Method: UpdateEveryPayslipInfo 
+--Input: {"TreatmentId":78215,"SereServs":null,"Field":4} 
+--Output: {"Data":null,"Success":false,"Param":{"Messages":[],"BugCodes":[],"Start":null,"Limit":null,"Count":null,"ModuleCode":null,"LanguageCode":"VI","HasException":false}}
+
+ERROR 2023-01-16 17:44:03,189 [31] - Application_End. Time=16/01/2023 17:44:03
+

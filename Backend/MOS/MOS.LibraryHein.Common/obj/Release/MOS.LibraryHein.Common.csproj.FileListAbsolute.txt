@@ -1,0 +1,12 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\bin\Release\MOS.LibraryHein.Common.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\bin\Release\MOS.LibraryHein.Common.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\bin\Release\Inventec.Common.Logging.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\bin\Release\MOS.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\bin\Release\Newtonsoft.Json.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\bin\Release\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\bin\Release\log4net.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\bin\Release\MOS.EFMODEL.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\bin\Release\Inventec.Common.Logging.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\obj\Release\MOS.LibraryHein.Common.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\obj\Release\MOS.LibraryHein.Common.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LibraryHein.Common\obj\Release\MOS.LibraryHein.Common.pdb

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="eMRMainService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WSHttpBinding_IeMRMainService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://patient.hl7.vn/TichHop_HIS/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://patient.hl7.vn/TichHop_HIS/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IeMRMainService_GetCopyright_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCopyright" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_GetCopyright_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCopyrightResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_AddNewParaclinical_InputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_AddNewParaclinical" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_AddNewParaclinical_OutputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_AddNewParaclinicalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_SetUpdPatient_InputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_SetUpdPatient" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_SetUpdPatient_OutputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_SetUpdPatientResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_insReceivePatient_NonInsurance_InputMessage">
+    <wsdl:part name="parameters" element="tns:insReceivePatient_NonInsurance" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_insReceivePatient_NonInsurance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:insReceivePatient_NonInsuranceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_insReceivePatient_Insurance_InputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_insReceivePatient_Insurance" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_insReceivePatient_Insurance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_insReceivePatient_InsuranceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_GetPrecinctID_InputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_GetPrecinctID" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_GetPrecinctID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_GetPrecinctIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_AddNewReception_InputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_AddNewReception" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_AddNewReception_OutputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_AddNewReceptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_get_ordernumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_get_ordernumber" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_get_ordernumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_get_ordernumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_ExamResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_ExamResult" />
+  </wsdl:message>
+  <wsdl:message name="IeMRMainService_srv_hms_ExamResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:srv_hms_ExamResultResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IeMRMainService">
+    <wsdl:operation name="GetCopyright">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeMRMainService/GetCopyright" message="tns:IeMRMainService_GetCopyright_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeMRMainService/GetCopyrightResponse" message="tns:IeMRMainService_GetCopyright_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_AddNewParaclinical">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_AddNewParaclinical" message="tns:IeMRMainService_srv_hms_AddNewParaclinical_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_AddNewParaclinicalResponse" message="tns:IeMRMainService_srv_hms_AddNewParaclinical_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_SetUpdPatient">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_SetUpdPatient" message="tns:IeMRMainService_srv_hms_SetUpdPatient_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_SetUpdPatientResponse" message="tns:IeMRMainService_srv_hms_SetUpdPatient_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="insReceivePatient_NonInsurance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeMRMainService/insReceivePatient_NonInsurance" message="tns:IeMRMainService_insReceivePatient_NonInsurance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeMRMainService/insReceivePatient_NonInsuranceResponse" message="tns:IeMRMainService_insReceivePatient_NonInsurance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_insReceivePatient_Insurance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_insReceivePatient_Insurance" message="tns:IeMRMainService_srv_hms_insReceivePatient_Insurance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_insReceivePatient_InsuranceResponse" message="tns:IeMRMainService_srv_hms_insReceivePatient_Insurance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_GetPrecinctID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_GetPrecinctID" message="tns:IeMRMainService_srv_hms_GetPrecinctID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_GetPrecinctIDResponse" message="tns:IeMRMainService_srv_hms_GetPrecinctID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_AddNewReception">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_AddNewReception" message="tns:IeMRMainService_srv_hms_AddNewReception_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_AddNewReceptionResponse" message="tns:IeMRMainService_srv_hms_AddNewReception_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_get_ordernumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_get_ordernumber" message="tns:IeMRMainService_srv_hms_get_ordernumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_get_ordernumberResponse" message="tns:IeMRMainService_srv_hms_get_ordernumber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_ExamResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_ExamResult" message="tns:IeMRMainService_srv_hms_ExamResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IeMRMainService/srv_hms_ExamResultResponse" message="tns:IeMRMainService_srv_hms_ExamResult_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHttpBinding_IeMRMainService" type="tns:IeMRMainService">
+    <wsp:PolicyReference URI="#WSHttpBinding_IeMRMainService_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCopyright">
+      <soap12:operation soapAction="http://tempuri.org/IeMRMainService/GetCopyright" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_AddNewParaclinical">
+      <soap12:operation soapAction="http://tempuri.org/IeMRMainService/srv_hms_AddNewParaclinical" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_SetUpdPatient">
+      <soap12:operation soapAction="http://tempuri.org/IeMRMainService/srv_hms_SetUpdPatient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insReceivePatient_NonInsurance">
+      <soap12:operation soapAction="http://tempuri.org/IeMRMainService/insReceivePatient_NonInsurance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_insReceivePatient_Insurance">
+      <soap12:operation soapAction="http://tempuri.org/IeMRMainService/srv_hms_insReceivePatient_Insurance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_GetPrecinctID">
+      <soap12:operation soapAction="http://tempuri.org/IeMRMainService/srv_hms_GetPrecinctID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_AddNewReception">
+      <soap12:operation soapAction="http://tempuri.org/IeMRMainService/srv_hms_AddNewReception" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_get_ordernumber">
+      <soap12:operation soapAction="http://tempuri.org/IeMRMainService/srv_hms_get_ordernumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="srv_hms_ExamResult">
+      <soap12:operation soapAction="http://tempuri.org/IeMRMainService/srv_hms_ExamResult" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="eMRMainService">
+    <wsdl:port name="WSHttpBinding_IeMRMainService" binding="tns:WSHttpBinding_IeMRMainService">
+      <soap12:address location="http://patient.hl7.vn/TichHop_HIS/window/" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://patient.hl7.vn/TichHop_HIS/window/</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

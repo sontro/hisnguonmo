@@ -1,0 +1,49 @@
+﻿namespace SDA.LibraryEventLog
+{
+    public partial class EventLog
+    {
+        public enum Enum
+        {
+            Action_ThemDuLieuThanhCong,
+            Action_SuaDuLieuThanhCong,
+            Action_XoaDuLieuThanhCong,
+            Action_KhoaDuLieuThanhCong,
+            Action_BaoCaoDuLieuThanhCong,
+            Action_InDuLieuThanhCong,
+            Action_ThemDuLieuThatBai,
+            Action_SuaDuLieuThatBai,
+            Action_XoaDuLieuThatBai,
+            Action_KhoaDuLieuThatBai,
+            Action_BaoCaoDuLieuThatBai,
+            Action_InDuLieuThatBai,
+            Term_SarReport,
+            Term_SarReportCalendar,
+            Term_SarReportStt,
+            Term_SarReportTemplate,
+            Term_SarReportType,
+            Term_SdaCommune,
+            Term_SdaConfig,
+            Term_SdaCurrency,
+            Term_SdaDbLog,
+            Term_SdaDistrict,
+            Term_SdaEthnic,
+            Term_SdaEventLog,
+            Term_SdaEventLogType,
+            Term_SdaFeedback,
+            Term_SdaGroup,
+            Term_SdaGroupType,
+            Term_SdaHashtag,
+            Term_SdaJsonRedundancy,
+            Term_SdaMessage,
+            Term_SdaMessageBroadcast,
+            Term_SdaNational,
+            Term_SdaProvince,
+            Term_SdaReligion,
+            Term_SdaLicense,
+            Term_SdaTrouble,
+            Action_CapNhatToanBoPathDonViThatBai,
+            Action_CapNhatToanBoPathDonViThanhCong,
+            Action_DangNhapThanhCong,
+        }
+    }
+}

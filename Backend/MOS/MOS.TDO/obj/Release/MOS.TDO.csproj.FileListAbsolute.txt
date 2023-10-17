@@ -1,0 +1,4 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\bin\Release\MOS.TDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\bin\Release\MOS.TDO.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\obj\Release\MOS.TDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\obj\Release\MOS.TDO.pdb

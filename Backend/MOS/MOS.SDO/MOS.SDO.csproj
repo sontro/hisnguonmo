@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47227303-0660-4297-962E-1E0859CE6177}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MOS.SDO</RootNamespace>
+    <AssemblyName>MOS.SDO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.0.4.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="MOS.EFMODEL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\MOS\MOS.EFMODEL.dll</HintPath>
+    </Reference>
+    <Reference Include="MOS.TDO">
+      <HintPath>..\..\..\RELEASE\MOS\MOS.TDO.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AggrExamByTreatAndStockSDO.cs" />
+    <Compile Include="ApproveNotTakenPresSDO.cs" />
+    <Compile Include="AssignServiceSDO.cs" />
+    <Compile Include="AuthorityAccountBookSDO.cs" />
+    <Compile Include="BabySyncSDO.cs" />
+    <Compile Include="BaseMedicineTypeSDO.cs" />
+    <Compile Include="CabinetBaseCompensationSDO.cs" />
+    <Compile Include="BillAmountSDO.cs" />
+    <Compile Include="CabinetBaseAdditionSDO.cs" />
+    <Compile Include="CabinetBaseReductionSDO.cs" />
+    <Compile Include="CabinetBaseResultSDO.cs" />
+    <Compile Include="BaseMaterialTypeSDO.cs" />
+    <Compile Include="ApprovalAccountBookSDO.cs" />
+    <Compile Include="CallPatientSDO.cs" />
+    <Compile Include="CancelInvoiceSDO.cs" />
+    <Compile Include="ChangeRoomSDO.cs" />
+    <Compile Include="ChiDinhXetNghiemQlpkSDO.cs" />
+    <Compile Include="DeathSyncSDO.cs" />
+    <Compile Include="DebateTelemedicineSDO.cs" />
+    <Compile Include="EpaymentBillSDO.cs" />
+    <Compile Include="ExpMestDetailResultSDO.cs" />
+    <Compile Include="ExpMestUpdateGateCodeSDO.cs" />
+    <Compile Include="ExpMestUpdateReasonSDO.cs" />
+    <Compile Include="GetStoreBordereauCodeSDO.cs" />
+    <Compile Include="HisAlertSDO.cs" />
+    <Compile Include="HisBloodInStockSDO.cs" />
+    <Compile Include="HisBranchWebSDO.cs" />
+    <Compile Include="HisCarerCardBorrowDeleteSDO.cs" />
+    <Compile Include="HisCarerCardBorrowGiveBackSDO.cs" />
+    <Compile Include="HisCarerCardBorrowLostSDO.cs" />
+    <Compile Include="HisCarerCardBorrowSDO.cs" />
+    <Compile Include="HisCarerCardBorrowUnGiveBackSDO.cs" />
+    <Compile Include="HisCarerCardBorrowUnLostSDO.cs" />
+    <Compile Include="HisImpMestDonationSDO.cs" />
+    <Compile Include="HisMedicalAssessmentResultSDO.cs" />
+    <Compile Include="HisMedicalAssessmentSDO.cs" />
+    <Compile Include="HisMediRecordStoreSDO.cs" />
+    <Compile Include="HisPatientForKioskSDO.cs" />
+    <Compile Include="HisRoomSDO.cs" />
+    <Compile Include="HisSereServConfirmNoExcuteSDO.cs" />
+    <Compile Include="HisSereServDeleteConfirmNoExcuteSDO.cs" />
+    <Compile Include="HisSereServUpdateAmountSDO.cs" />
+    <Compile Include="HisSereServUpdateMachineSDO.cs" />
+    <Compile Include="HisServiceReqRationUpdateResultSDO.cs" />
+    <Compile Include="HisServiceReqRationUpdateSDO.cs" />
+    <Compile Include="HisTrackingDataSDO.cs" />
+    <Compile Include="HisTransactionDeleteCancellationRequestSDO.cs" />
+    <Compile Include="HisTransactionRejectCancellationRequestSDO.cs" />
+    <Compile Include="HisTransactionRequestCancelSDO.cs" />
+    <Compile Include="HisTransactionUnrejectCancellationRequestSDO.cs" />
+    <Compile Include="HisTreatmentLockHeinSDO.cs" />
+    <Compile Include="HisTreatmentTuberculosisIssuedInfoSDO.cs" />
+    <Compile Include="HisVaccinationExamDeleteSDO.cs" />
+    <Compile Include="HisVaccinationExamSDO.cs" />
+    <Compile Include="HisVaexVaerSDO.cs" />
+    <Compile Include="KskAccessSDO.cs" />
+    <Compile Include="KsKContractSDO.cs" />
+    <Compile Include="KskDriverSyncSDO.cs" />
+    <Compile Include="KskSyncSDO.cs" />
+    <Compile Include="MedicineInfoSDO.cs" />
+    <Compile Include="MrCheckSummarySDO.cs" />
+    <Compile Include="ObservedTimeSDO.cs" />
+    <Compile Include="RationScheduleExecuteSDO.cs" />
+    <Compile Include="RationScheduleSDO.cs" />
+    <Compile Include="RegisterGateCallSDO.cs" />
+    <Compile Include="ServiceReqSampleInfoSDO.cs" />
+    <Compile Include="SevereIllnessInfoSDO.cs" />
+    <Compile Include="StoreBordereauCodeSDO.cs" />
+    <Compile Include="SurgAssignAndCopySDO.cs" />
+    <Compile Include="TemporaryServiceReqSDO.cs" />
+    <Compile Include="TestMaterialByNormationCollectionSDO.cs" />
+    <Compile Include="EpidemiologyInfoSDO.cs" />
+    <Compile Include="ExpendPresSDO.cs" />
+    <Compile Include="EpaymentDepositResultSDO.cs" />
+    <Compile Include="EpaymentDepositSD.cs" />
+    <Compile Include="GetMaterialTypeForEmrResultSDO.cs" />
+    <Compile Include="HisAntibioticRequestApproveSDO.cs" />
+    <Compile Include="HisAntibioticRequestResultSDO.cs" />
+    <Compile Include="HisAntibioticRequestSDO.cs" />
+    <Compile Include="HisInfusionSDO.cs" />
+    <Compile Include="HisPatientUpdateClassifySDO.cs" />
+    <Compile Include="HisPreviousPrescriptionDetailSDO.cs" />
+    <Compile Include="HisServiceReqFinishSDO.cs" />
+    <Compile Include="HisServiceReqKskExecuteSDO.cs" />
+    <Compile Include="HisServiceReqKskExecuteV2SDO.cs" />
+    <Compile Include="HisTransactionInvoiceUrlSDO.cs" />
+    <Compile Include="HisTransfusionSumSDO.cs" />
+    <Compile Include="HisTreatmentSetTranPatiBookSDO.cs" />
+    <Compile Include="HisTreatmentUpdatePatiSDO.cs" />
+    <Compile Include="ImpMestAggrUnapprovalSDO.cs" />
+    <Compile Include="ImpMestAggrApprovalResultSDO.cs" />
+    <Compile Include="EmrDocumentChangeStatusSDO.cs" />
+    <Compile Include="HisExpMestChmsListSDO.cs" />
+    <Compile Include="HisExpMestGroupByTreatmentSDO.cs" />
+    <Compile Include="HisExpMestSummarySDO.cs" />
+    <Compile Include="HisNumOrderBlockSDO.cs" />
+    <Compile Include="HisTransReqBankInfoSDO.cs" />
+    <Compile Include="HisVaccinationAppointmentSDO.cs" />
+    <Compile Include="HisPatientUpdateCardSDO.cs" />
+    <Compile Include="ImpMestAggrApprovalSDO.cs" />
+    <Compile Include="MedicineInHospitalSDO.cs" />
+    <Compile Include="HisContactLevelSDO.cs" />
+    <Compile Include="HisContactResultSDO.cs" />
+    <Compile Include="HisContactSDO.cs" />
+    <Compile Include="HisKskDriverSDO.cs" />
+    <Compile Include="HisMedicalContractSDO.cs" />
+    <Compile Include="HisMediContractMatySDO.cs" />
+    <Compile Include="HisMediContractMetySDO.cs" />
+    <Compile Include="HisServiceReqAcceptNoExecuteSDO.cs" />
+    <Compile Include="ExecuteSqlSDO.cs" />
+    <Compile Include="HisExpMestSaleListResultSDO.cs" />
+    <Compile Include="HisExpMestSaleListSDO.cs" />
+    <Compile Include="HisAccidentHurtSDO.cs" />
+    <Compile Include="HisSereServAcceptNoExecuteSDO.cs" />
+    <Compile Include="HisServiceChangeReqCashierApproveResultSDO.cs" />
+    <Compile Include="HisServiceChangeReqCashierApproveSDO.cs" />
+    <Compile Include="HisServiceChangeReqApproveSDO.cs" />
+    <Compile Include="HisServiceChangeReqSDO.cs" />
+    <Compile Include="HisTransactionBillByDepositSDO.cs" />
+    <Compile Include="HisTreatmentRationNotApproveSDO.cs" />
+    <Compile Include="MerchantPaymentResultSDO.cs" />
+    <Compile Include="MerchantPaymentSDO.cs" />
+    <Compile Include="RecordInspectionRejectSdo.cs" />
+    <Compile Include="TrackingInfoSDO.cs" />
+    <Compile Include="TrackingDataInputSDO.cs" />
+    <Compile Include="TransactionLockSDO.cs" />
+    <Compile Include="TreatmentAppointmentInfoSDO.cs" />
+    <Compile Include="ExpMestTestResultSDO.cs" />
+    <Compile Include="ExpMestTestSDO.cs" />
+    <Compile Include="HisQcNormationSDO.cs" />
+    <Compile Include="RecognitionResultSDO.cs" />
+    <Compile Include="RecognitionSDO.cs" />
+    <Compile Include="TestMaterialByNormationSDO.cs" />
+    <Compile Include="HisEmrCoverTypeSDO.cs" />
+    <Compile Include="HisSurgServiceReqUpdateListSDO.cs" />
+    <Compile Include="HisTreatmentEmrCoverSDO.cs" />
+    <Compile Include="IssueOrderNumberSDO.cs" />
+    <Compile Include="KioskInformationSDO.cs" />
+    <Compile Include="MediRecordStoreCodeGenerateSDO.cs" />
+    <Compile Include="DanhSachDangKyKhamQlpkSDO.cs" />
+    <Compile Include="DuLieuDonThuocQlpkSDO.cs" />
+    <Compile Include="DuLieuXetNghiemQlpkSDO.cs" />
+    <Compile Include="ExpMestBltyReqSDO.cs" />
+    <Compile Include="HisExpMestConfirmSDO.cs" />
+    <Compile Include="HisPackageSDO.cs" />
+    <Compile Include="HisTransReqBillSDO.cs" />
+    <Compile Include="HisTransReqBillTwoBookSDO.cs" />
+    <Compile Include="HisTransReqCallbackSDO.cs" />
+    <Compile Include="KetQuaQlpkSDO.cs" />
+    <Compile Include="PaanBlockSDO.cs" />
+    <Compile Include="PaanIntructionNoteSDO.cs" />
+    <Compile Include="RegisterGateDepartmentSDO.cs" />
+    <Compile Include="RejectAccountBookSDO.cs" />
+    <Compile Include="StoreCodeGenerateSDO.cs" />
+    <Compile Include="ThongTinBenhNhanQlpkSDO.cs" />
+    <Compile Include="ThuocDieuTriQlpkSDO.cs" />
+    <Compile Include="UnapprovalAccountBookSDO.cs" />
+    <Compile Include="HisTransactionInvoiceListInfoSDO.cs" />
+    <Compile Include="ExpMestTutorialSDO.cs" />
+    <Compile Include="HisAppointmentPeriodCountByDateSDO.cs" />
+    <Compile Include="HisExpMestBcsMoreInfoSDO.cs" />
+    <Compile Include="HisMachineCounterSDO.cs" />
+    <Compile Include="HisRegisterGateSDO.cs" />
+    <Compile Include="HisRegisterReqSDO.cs" />
+    <Compile Include="HisServiceReqOptometristSDO.cs" />
+    <Compile Include="HisDrugStoreDebtResultSDO.cs" />
+    <Compile Include="HisTransactionDrugStoreDebtSDO.cs" />
+    <Compile Include="GrantPermissionSDO.cs" />
+    <Compile Include="HisExecuteRoomAppointedSDO.cs" />
+    <Compile Include="HisSereServCountSDO.cs" />
+    <Compile Include="HisTransactionGeneralInfoSDO.cs" />
+    <Compile Include="HisTransactionInvoiceInfoSDO.cs" />
+    <Compile Include="HisTreatmentForEmrSDO.cs" />
+    <Compile Include="HisTreatmentForRecordCheckingSDO.cs" />
+    <Compile Include="HisTreatmentRejectStoreSDO.cs" />
+    <Compile Include="HisTreatmentApproveFinishSDO.cs" />
+    <Compile Include="MissingInvoiceInfoMaterialSDO.cs" />
+    <Compile Include="HisMaterialTypeUpdateMapSDO.cs" />
+    <Compile Include="HisMestMatyDepaByMaterialSDO.cs" />
+    <Compile Include="HisImpMestMobaPresCabinetSDO.cs" />
+    <Compile Include="HisMaterialIn2StockSDO.cs" />
+    <Compile Include="HisMedicineIn2StockSDO.cs" />
+    <Compile Include="HisExpMestForSaleSDO.cs" />
+    <Compile Include="HisExpMestSaleResultSDO.cs" />
+    <Compile Include="HisAccountBookGeneralInfoSDO.cs" />
+    <Compile Include="HisExamRegisterDkkSDO.cs" />
+    <Compile Include="HisMaterialReturnAvailableSDO.cs" />
+    <Compile Include="HisMedicineReturnAvailableSDO.cs" />
+    <Compile Include="HisMestMetyDepaByMedicineSDO.cs" />
+    <Compile Include="HisRationSumUpdateSDO.cs" />
+    <Compile Include="HisServiceReqMaxNumOrderSDO.cs" />
+    <Compile Include="HisTransactionBillResultSDO.cs" />
+    <Compile Include="HisTransactionDebtSDO.cs" />
+    <Compile Include="HisTransactionDebtCollecSDO.cs" />
+    <Compile Include="HisTransactionDeleteSDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HisTreatmentCommonInfoUpdateSDO.cs" />
+    <Compile Include="HisTreatmentStoreSDO.cs" />
+    <Compile Include="HisTreatmentXmlResultSDO.cs" />
+    <Compile Include="ServiceTypeUpdateSDO.cs" />
+    <Compile Include="UpdateForEmrSDO.cs" />
+    <Compile Include="UpdateResponsibleUserSDO.cs" />
+    <Compile Include="WorkInfoSDO.cs" />
+    <Compile Include="HisMediStockPeriodInventorySDO.cs" />
+    <Compile Include="HisMestPeriodApproveResultSDO.cs" />
+    <Compile Include="HisMestPeriodApproveSDO.cs" />
+    <Compile Include="HisTreatmentOrderSDO.cs" />
+    <Compile Include="SubclinicalPresResultSDO.cs" />
+    <Compile Include="SubclinicalPresSDO.cs" />
+    <Compile Include="HisMedicineChangeLockSDO.cs" />
+    <Compile Include="HisMaterialChangeLockSDO.cs" />
+    <Compile Include="HisMediStockInventoryResultSDO.cs" />
+    <Compile Include="HisMediStockInventorySDO.cs" />
+    <Compile Include="MaterialTypeInHospitalSDO.cs" />
+    <Compile Include="HisTransactionUncancelSDO.cs" />
+    <Compile Include="DHisTransExpSDO.cs" />
+    <Compile Include="MedicineTypeInHospitalSDO.cs" />
+    <Compile Include="PharmacyCashierExpCancelSDO.cs" />
+    <Compile Include="PharmacyCashierExpInvoiceSDO.cs" />
+    <Compile Include="HisMaterialTypeView1SDO.cs" />
+    <Compile Include="HisBedLogSDO.cs" />
+    <Compile Include="HisMedicineTypeView1SDO.cs" />
+    <Compile Include="HisMediStockReplaceSDO.cs" />
+    <Compile Include="HisTransactionBillVaccinSDO.cs" />
+    <Compile Include="HisTransactionTotalPriceSDO.cs" />
+    <Compile Include="PharmacyCashierResultSDO.cs" />
+    <Compile Include="PharmacyCashierSDO.cs" />
+    <Compile Include="PharmacyTransExpSDO.cs" />
+    <Compile Include="PresOutStockMatySDO.cs" />
+    <Compile Include="PresOutStockMetySDO.cs" />
+    <Compile Include="VaccinationRegisterResultSDO.cs" />
+    <Compile Include="HisPatientVaccinationSDO.cs" />
+    <Compile Include="TakeMaterialBeanByMaterialListResultSDO.cs" />
+    <Compile Include="TakeMedicineBeanByMedicineListResultSDO.cs" />
+    <Compile Include="TakeBeanByMameSDO.cs" />
+    <Compile Include="HisMestPatientTypeCopyByPatientTypeSDO.cs" />
+    <Compile Include="HisMestPatientTypeCopyByMediStockSDO.cs" />
+    <Compile Include="HisHoldReturnUpdateSDO.cs" />
+    <Compile Include="HisHoldReturnCreateSDO.cs" />
+    <Compile Include="HisHoldReturnSDO.cs" />
+    <Compile Include="HisHoreHandoverCreateSDO.cs" />
+    <Compile Include="HisHoreHandoverResultSDO.cs" />
+    <Compile Include="HisHoreHandoverSDO.cs" />
+    <Compile Include="HisImpMestProposeDeleteSDO.cs" />
+    <Compile Include="HisImpMestProposeResultSDO.cs" />
+    <Compile Include="HisImpMestProposeSDO.cs" />
+    <Compile Include="HisSereServExtIsFeeSDO.cs" />
+    <Compile Include="HisSereServExtIsGatherDataSDO.cs" />
+    <Compile Include="HisServiceReqKidneyScheduleSDO.cs" />
+    <Compile Include="PresMaterialBySerialNumberSDO.cs" />
+    <Compile Include="HisPackingSDO.cs" />
+    <Compile Include="HisPackingUpdateSDO.cs" />
+    <Compile Include="HisPackingResultSDO.cs" />
+    <Compile Include="HisPackingMatySDO.cs" />
+    <Compile Include="HisPackingCreateSDO.cs" />
+    <Compile Include="TakeBeanSDO.cs" />
+    <Compile Include="HisCaroAcboCopyByAccountBookSDO.cs" />
+    <Compile Include="HisCaroAcboCopyByCashierRoomSDO.cs" />
+    <Compile Include="HisBabySDO.cs" />
+    <Compile Include="HisImpMestReuseSDO.cs" />
+    <Compile Include="HisSereServNoExecuteSDO.cs" />
+    <Compile Include="HisTransactionBillTwoBookSDO.cs" />
+    <Compile Include="HisTreatmentExtraEndInfoSDO.cs" />
+    <Compile Include="HisMediStockSetRealBaseAmountSDO.cs" />
+    <Compile Include="HisTreatmentSetEndCodeSDO.cs" />
+    <Compile Include="HisInvoiceUpdateInfoSDO.cs" />
+    <Compile Include="HisRegisterKioskSDO.cs" />
+    <Compile Include="HisMedicineSDO.cs" />
+    <Compile Include="HisPrepareApproveListSDO.cs" />
+    <Compile Include="HisPrepareApproveSDO.cs" />
+    <Compile Include="HisPrepareMatySDO.cs" />
+    <Compile Include="HisPrepareMetySDO.cs" />
+    <Compile Include="HisPrepareResultSDO.cs" />
+    <Compile Include="HisPrepareSDO.cs" />
+    <Compile Include="HisPtttGroupSDO.cs" />
+    <Compile Include="HisSereServDiscountSDO.cs" />
+    <Compile Include="HisServiceReqPlanApproveSDO.cs" />
+    <Compile Include="HisServiceReqCalendarSDO.cs" />
+    <Compile Include="EkipSDO.cs" />
+    <Compile Include="HisExpMestTestInfoSDO.cs" />
+    <Compile Include="HisPtttCalendarSDO.cs" />
+    <Compile Include="HisRationServiceReqSDO.cs" />
+    <Compile Include="HisRationSumSDO.cs" />
+    <Compile Include="HisRefectorySDO.cs" />
+    <Compile Include="HisServiceRatiSDO.cs" />
+    <Compile Include="HisServiceReqPlanSDO.cs" />
+    <Compile Include="HisTransactionOtherBillSDO.cs" />
+    <Compile Include="HisTransactionUpdateInfoSDO.cs" />
+    <Compile Include="HisVaccinationChangeMedicineSDO.cs" />
+    <Compile Include="ExpTestBloodSDO.cs" />
+    <Compile Include="HisVaccinationSDO.cs" />
+    <Compile Include="HisVaccReactInfoSDO.cs" />
+    <Compile Include="ImpMestMaterialReusableSDO.cs" />
+    <Compile Include="TransactionInfoSDO.cs" />
+    <Compile Include="VaccinationResultSDO.cs" />
+    <Compile Include="HisVaccinationProcessSDO.cs" />
+    <Compile Include="HisVaccinationAssignSDO.cs" />
+    <Compile Include="HisExpMestVitaminASDO.cs" />
+    <Compile Include="HisImpMestBloodSDO.cs" />
+    <Compile Include="HisImpMestMaterialSDO.cs" />
+    <Compile Include="HisImpMestMedicineSDO.cs" />
+    <Compile Include="HisImpMestMobaOutPresSDO.cs" />
+    <Compile Include="DeletePatientTypeAlterSDO.cs" />
+    <Compile Include="HisImpMestUpdateDetailSDO.cs" />
+    <Compile Include="HisKskContractSDO.cs" />
+    <Compile Include="HisKskPatientSDO.cs" />
+    <Compile Include="HisMobaPresSereServSDO.cs" />
+    <Compile Include="HisPatientVitaminASDO.cs" />
+    <Compile Include="HisTreatmentCheckDataStoreSDO.cs" />
+    <Compile Include="HisTreatmentHeinApprovalSDO.cs" />
+    <Compile Include="HisAdrResultSDO.cs" />
+    <Compile Include="HisAdrSDO.cs" />
+    <Compile Include="HisAllergyCardResultSDO.cs" />
+    <Compile Include="HisAllergyCardSDO.cs" />
+    <Compile Include="HisAppointmentServSDO.cs" />
+    <Compile Include="HisBedBstyCopyByBedSDO.cs" />
+    <Compile Include="HisBedBstyCopyByBstySDO.cs" />
+    <Compile Include="HisBranchSDO.cs" />
+    <Compile Include="HisCaroDepaCopyByCashierRoomSDO.cs" />
+    <Compile Include="HisCaroDepaCopyByDepartmentSDO.cs" />
+    <Compile Include="HisDispenseConfirmSDO.cs" />
+    <Compile Include="HisDispenseDeleteSDO.cs" />
+    <Compile Include="HisDispenseHandlerResultSDO.cs" />
+    <Compile Include="HisDispenseUpdateSDO.cs" />
+    <Compile Include="HisExecuteRoleUserCopyByLoginnameSDO.cs" />
+    <Compile Include="HisExecuteRoleUserCopyByRoleSDO.cs" />
+    <Compile Include="HisExroRoomCopyByExroSDO.cs" />
+    <Compile Include="HisExroRoomCopyByRoomSDO.cs" />
+    <Compile Include="HisImpMestTypeUserCopyByLoginnameSDO.cs" />
+    <Compile Include="HisImpMestTypeUserCopyByTypeSDO.cs" />
+    <Compile Include="HisMaterialTypeSDO.cs" />
+    <Compile Include="HisMestMetyCopyByMetySDO.cs" />
+    <Compile Include="HisMestMetyCopyByMediStockSDO.cs" />
+    <Compile Include="HisMestMatyCopyByMatySDO.cs" />
+    <Compile Include="HisMestMatyCopyByMediStockSDO.cs" />
+    <Compile Include="HisMestRoomCopyByMediStockSDO.cs" />
+    <Compile Include="HisMestRoomCopyByRoomSDO.cs" />
+    <Compile Include="HisMetyRoomCopyByMedicineTypeSDO.cs" />
+    <Compile Include="HisMetyRoomCopyByRoomSDO.cs" />
+    <Compile Include="HisRotyModuleCopyByModuleSDO.cs" />
+    <Compile Include="HisRotyModuleCopyByRoomTypeSDO.cs" />
+    <Compile Include="HisSaroExroCopyByExecuteRoomSDO.cs" />
+    <Compile Include="HisSaroExroCopyBySampleRoomSDO.cs" />
+    <Compile Include="HisServiceMachineCopyByMachineSDO.cs" />
+    <Compile Include="HisServiceMachineCopyByServiceSDO.cs" />
+    <Compile Include="HisServiceMatyCopyByMatySDO.cs" />
+    <Compile Include="HisServiceMatyCopyByServiceSDO.cs" />
+    <Compile Include="HisServiceMetyCopyByMetySDO.cs" />
+    <Compile Include="HisServiceMetyCopyByServiceSDO.cs" />
+    <Compile Include="HisServiceRetyCatCopyByRetyCatSDO.cs" />
+    <Compile Include="HisServiceRetyCatCopyByServiceSDO.cs" />
+    <Compile Include="HisServiceRoomCopyByRoomSDO.cs" />
+    <Compile Include="HisServiceRoomCopyByServiceSDO.cs" />
+    <Compile Include="HisStationSDO.cs" />
+    <Compile Include="HisTransactionBillGoodsSDO.cs" />
+    <Compile Include="HisUserRoomCopyByRoomSDO.cs" />
+    <Compile Include="HisCoTreatmentFinishSDO.cs" />
+    <Compile Include="HisCoTreatmentReceiveSDO.cs" />
+    <Compile Include="HisCoTreatmentSDO.cs" />
+    <Compile Include="HisDispenseMatySDO.cs" />
+    <Compile Include="HisDispenseMetySDO.cs" />
+    <Compile Include="HisDispenseResultSDO.cs" />
+    <Compile Include="HisDispenseSDO.cs" />
+    <Compile Include="HisImpMestMobaSaleSDO.cs" />
+    <Compile Include="HisMatyAmoutSDO.cs" />
+    <Compile Include="HisMetyMatySDO.cs" />
+    <Compile Include="HisTreatmentTemporaryLockSDO.cs" />
+    <Compile Include="HipoFinanceReportSDO.cs" />
+    <Compile Include="HisSereServPayslipSDO.cs" />
+    <Compile Include="HisTreatmentCounterSDO.cs" />
+    <Compile Include="HisUserRoomCopyByLoginnameSDO.cs" />
+    <Compile Include="HisVaccinationExamTreatSDO.cs" />
+    <Compile Include="OddMaterialTypeSDO.cs" />
+    <Compile Include="HisExpMestSDO.cs" />
+    <Compile Include="DHisSereServ2.cs" />
+    <Compile Include="HisExpMestAggrSDO.cs" />
+    <Compile Include="HisExpMestBcsSDO.cs" />
+    <Compile Include="HisImpMestAggrSDO.cs" />
+    <Compile Include="HisImpMestMobaDepaSDO.cs" />
+    <Compile Include="HisExpMestApproveSDO.cs" />
+    <Compile Include="HisImpMestBloodWithInStockInfoSDO.cs" />
+    <Compile Include="HisExpMestChmsSDO.cs" />
+    <Compile Include="ExpBloodTypeSDO.cs" />
+    <Compile Include="ExpBloodSDO.cs" />
+    <Compile Include="HisExpMestManuSDO.cs" />
+    <Compile Include="ExpMaterialTypeSDO.cs" />
+    <Compile Include="ExpMedicineTypeSDO.cs" />
+    <Compile Include="HisExpMestExportSDO.cs" />
+    <Compile Include="HisExpMestSaleSDO.cs" />
+    <Compile Include="ExpMaterialSDO.cs" />
+    <Compile Include="ExpMedicineSDO.cs" />
+    <Compile Include="HisExpMestOtherSDO.cs" />
+    <Compile Include="HisExpMestDepaSDO.cs" />
+    <Compile Include="HisImpMestMobaBloodSDO.cs" />
+    <Compile Include="HisImpMestMobaPresSDO.cs" />
+    <Compile Include="HisMobaMatyReqSDO.cs" />
+    <Compile Include="HisMobaMetyReqSDO.cs" />
+    <Compile Include="HisMobaPresMaterialSDO.cs" />
+    <Compile Include="HisMobaPresMedicineSDO.cs" />
+    <Compile Include="HisTransactionDepositSDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OddMedicineTypeSDO.cs" />
+    <Compile Include="PatientBloodPresResultSDO.cs" />
+    <Compile Include="PatientBloodPresSDO.cs" />
+    <Compile Include="PrescriptionSDO.cs" />
+    <Compile Include="InPatientPresResultSDO.cs" />
+    <Compile Include="InPatientPresSDO.cs" />
+    <Compile Include="OutPatientPresResultSDO.cs" />
+    <Compile Include="HisImpMestInveSDO.cs" />
+    <Compile Include="HisImpMestInitSDO.cs" />
+    <Compile Include="HisImpMestOtherSDO.cs" />
+    <Compile Include="HisServiceReqExamUpdateResultSDO.cs" />
+    <Compile Include="HisImpMestResultSDO.cs" />
+    <Compile Include="HisMobaBloodSDO.cs" />
+    <Compile Include="HisTreatmentTranPatiSDO.cs" />
+    <Compile Include="OutPatientPresSDO.cs" />
+    <Compile Include="ReleaseBeanSDO.cs" />
+    <Compile Include="HisImpMestManuSDO.cs" />
+    <Compile Include="HisTransactionBillSDO.cs" />
+    <Compile Include="HisTransactionRepaySDO.cs" />
+    <Compile Include="HisDepartmentTranHospitalizeResultSDO.cs" />
+    <Compile Include="HisExpMestBloodSDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HisExpMestUserSDO.cs" />
+    <Compile Include="HisMedicineTypeSDO.cs" />
+    <Compile Include="HisMestInventoryResultSDO.cs" />
+    <Compile Include="HisMestInventorySDO.cs" />
+    <Compile Include="HisPatientTypeAlterAndTranPatiSDO.cs" />
+    <Compile Include="HisPatientUpdateSDO.cs" />
+    <Compile Include="HisRehaServiceReqUpdateSDO.cs" />
+    <Compile Include="HisServiceSDO.cs" />
+    <Compile Include="AssignTestForBloodSDO.cs" />
+    <Compile Include="HisImpMestUserSDO.cs" />
+    <Compile Include="HisPatientWarningSDO.cs" />
+    <Compile Include="HisPreviousPrescriptionSDO.cs" />
+    <Compile Include="HisPatientSDO.cs" />
+    <Compile Include="HisCardSDO.cs" />
+    <Compile Include="HisCashoutSDO.cs" />
+    <Compile Include="HisExamRegisterKioskSDO.cs" />
+    <Compile Include="HisCardPatientSDO.cs" />
+    <Compile Include="HisSereServExtSDO.cs" />
+    <Compile Include="HisServiceReqResultSDO.cs" />
+    <Compile Include="HisPaanServiceReqSDO.cs" />
+    <Compile Include="HisDepartmentTranHospitalizeSDO.cs" />
+    <Compile Include="HisAggrExpMestSDO.cs" />
+    <Compile Include="HisServiceReqExamAdditionSDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HisSereServExtWithFileSDO.cs" />
+    <Compile Include="HisBloodTypeInStockSDO.cs" />
+    <Compile Include="HisServiceReqExamChangeSDO.cs" />
+    <Compile Include="HisServiceReqGroupByDateSDO.cs" />
+    <Compile Include="HisServiceReqListResultSDO.cs" />
+    <Compile Include="HisTreatmentCounterAndPriceSDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HisTreatmentLockSDO.cs" />
+    <Compile Include="HisTreatmentWithPatientTypeInfoSDO.cs" />
+    <Compile Include="TakeBeanBySerialSDO.cs" />
+    <Compile Include="TakeMaterialBeanListResultSDO.cs" />
+    <Compile Include="TakeMedicineBeanListResultSDO.cs" />
+    <Compile Include="HisBedServiceReqSDO.cs" />
+    <Compile Include="SwapServiceSDO.cs" />
+    <Compile Include="HisTrackingSDO.cs" />
+    <Compile Include="HisCashierRoomSDO.cs" />
+    <Compile Include="HisSampleRoomSDO.cs" />
+    <Compile Include="HisServiceReqUpdateResultSDO.cs" />
+    <Compile Include="HisTreatmentBedRoomViewSDO.cs" />
+    <Compile Include="HisTreatmentBedRoomSDO.cs" />
+    <Compile Include="HisCareSumSDO.cs" />
+    <Compile Include="HisInvoiceSDO.cs" />
+    <Compile Include="HisSereServRehaSDO.cs" />
+    <Compile Include="HisRehaSumSDO.cs" />
+    <Compile Include="HisMobaMaterialSDO.cs" />
+    <Compile Include="HisImpMestMaterialWithInStockAmountSDO.cs" />
+    <Compile Include="HisMaterialInStockSDO.cs" />
+    <Compile Include="HisMaterialWithPatySDO.cs" />
+    <Compile Include="HisMaterialPatySDO.cs" />
+    <Compile Include="HisMaterialTypeInStockSDO.cs" />
+    <Compile Include="HisServiceReqExamRegisterResultSDO.cs" />
+    <Compile Include="PresMaterialSDO.cs" />
+    <Compile Include="HisSurgServiceReqUpdateSDO.cs" />
+    <Compile Include="HisDepartmentTranReceiveSDO.cs" />
+    <Compile Include="HisDepartmentTranSDO.cs" />
+    <Compile Include="HisServiceReqExamUpdateSDO.cs" />
+    <Compile Include="HisTransactionCancelSDO.cs" />
+    <Compile Include="PresMedicineSDO.cs" />
+    <Compile Include="HisSereServWithFileSDO.cs" />
+    <Compile Include="HisExecuteRoomSDO.cs" />
+    <Compile Include="HisBedRoomSDO.cs" />
+    <Compile Include="HisDataStoreSDO.cs" />
+    <Compile Include="HisMediStockSDO.cs" />
+    <Compile Include="HisExpMestTemplateSDO.cs" />
+    <Compile Include="HisImpMestMedicineWithInStockAmountSDO.cs" />
+    <Compile Include="HisReceptionRoomSDO.cs" />
+    <Compile Include="HisMedicineInStockSDO.cs" />
+    <Compile Include="HisMobaMedicineSDO.cs" />
+    <Compile Include="HisExpMestResultSDO.cs" />
+    <Compile Include="HisMedicineTypeInStockSDO.cs" />
+    <Compile Include="HisServiceReqSDO.cs" />
+    <Compile Include="HisServiceReqUpdateSDO.cs" />
+    <Compile Include="HisServiceReqExamRegisterSDO.cs" />
+    <Compile Include="HisMedicineWithPatySDO.cs" />
+    <Compile Include="HisMedicinePatySDO.cs" />
+    <Compile Include="HisTreatmentFinishSDO.cs" />
+    <Compile Include="HisPatientProfileSDO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceReqDetailSDO.cs" />
+    <Compile Include="HisUserInvoiceBookSDO.cs" />
+    <Compile Include="UserSchedulerJobResultSDO.cs" />
+    <Compile Include="WorkPlaceSDO.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

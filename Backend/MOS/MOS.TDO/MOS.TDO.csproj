@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A956BFCB-3DA8-4B16-9764-E73009598E11}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MOS.TDO</RootNamespace>
+    <AssemblyName>MOS.TDO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcsUserTDO.cs" />
+    <Compile Include="AntibioticMapDetailTDO.cs" />
+    <Compile Include="AntibioticMapResultTDO.cs" />
+    <Compile Include="AntibioticResultTDO.cs" />
+    <Compile Include="CultureDetailTDO.cs" />
+    <Compile Include="CultureResultTDO.cs" />
+    <Compile Include="DrugInterventionInfoTDO.cs" />
+    <Compile Include="EhrLisResultingTDO.cs" />
+    <Compile Include="GetUserDetailForEmrTDO.cs" />
+    <Compile Include="HisDhstTDO.cs" />
+    <Compile Include="HisKskContractTDO.cs" />
+    <Compile Include="HisPacsResultTDO.cs" />
+    <Compile Include="HisTestConfirmNoExcuteTDO.cs" />
+    <Compile Include="HisTestDetailTDO.cs" />
+    <Compile Include="HisTestUpdateBarcodeTDO.cs" />
+    <Compile Include="HisTreatmentClinicalDetailForEmrTDO.cs" />
+    <Compile Include="HisSereServTDO.cs" />
+    <Compile Include="HisSereServTeinTDO.cs" />
+    <Compile Include="HisServiceReqTDO.cs" />
+    <Compile Include="HisTestServiceTypeTDO.cs" />
+    <Compile Include="HisPatientTypeTDO.cs" />
+    <Compile Include="HisDeparmentTDO.cs" />
+    <Compile Include="HisSuimIndexTDO.cs" />
+    <Compile Include="HisTestIndexTDO.cs" />
+    <Compile Include="HisTestIndexResultTDO.cs" />
+    <Compile Include="HisTestResultTDO.cs" />
+    <Compile Include="HisTestServiceReqTDO.cs" />
+    <Compile Include="HisTrackingTDO.cs" />
+    <Compile Include="HisTreatmentInvoiceInfoTDO.cs" />
+    <Compile Include="HisTreatmentMedicineTDO.cs" />
+    <Compile Include="HisUpdateServiceExecuteTDO.cs" />
+    <Compile Include="LisLabconnSenderTDO.cs" />
+    <Compile Include="PacsHl7TDO.cs" />
+    <Compile Include="PacsResultTDO.cs" />
+    <Compile Include="PacsStudyTDO.cs" />
+    <Compile Include="PaymentBidvResultTDO.cs" />
+    <Compile Include="PaymentBidvTDO.cs" />
+    <Compile Include="PaymentVietinbankResultTDO.cs" />
+    <Compile Include="PaymentVietinbankTDO.cs" />
+    <Compile Include="PrescriptionTDO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QrCodeItemPaymentTDO.cs" />
+    <Compile Include="ResitanceResultTDO.cs" />
+    <Compile Include="TestResultI3DrugsTDO.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

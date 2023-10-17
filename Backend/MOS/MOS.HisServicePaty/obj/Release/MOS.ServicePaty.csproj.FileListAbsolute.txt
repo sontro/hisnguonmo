@@ -1,0 +1,15 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\MOS.ServicePaty.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\MOS.ServicePaty.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\Inventec.Common.DateTime.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\Inventec.Common.Logging.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\MOS.EFMODEL.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\MOS.Filter.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\log4net.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\Newtonsoft.Json.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\MOS.EFMODEL.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\MOS.Filter.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\bin\Release\Inventec.Common.Logging.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\obj\Release\MOS.ServicePaty.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\obj\Release\MOS.ServicePaty.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.HisServicePaty\obj\Release\MOS.ServicePaty.pdb

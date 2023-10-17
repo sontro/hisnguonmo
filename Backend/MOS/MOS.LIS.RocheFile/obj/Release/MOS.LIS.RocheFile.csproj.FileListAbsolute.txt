@@ -1,0 +1,14 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Release\MOS.LIS.RocheFile.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Release\MOS.LIS.RocheFile.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Release\Inventec.Common.Logging.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Release\MOS.LIS.Roche.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Release\Inventec.Common.DateTime.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Release\Inventec.Common.String.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Release\log4net.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Release\EntityFramework.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Release\Newtonsoft.Json.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Release\MOS.LIS.Roche.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\bin\Release\Inventec.Common.Logging.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Release\MOS.LIS.RocheFile.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Release\MOS.LIS.RocheFile.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.LIS.RocheFile\obj\Release\MOS.LIS.RocheFile.pdb

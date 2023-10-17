@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60D21B5F-1083-4C12-A5D4-92486196B916}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SDA.DTO</RootNamespace>
+    <AssemblyName>SDA.DTO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Inventec.Common.Repository">
+      <HintPath>..\..\..\RELEASE\Inventec.Common.Repository\Inventec.Common.Repository.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Token">
+      <HintPath>..\..\..\RELEASE\Inventec.Token\Inventec.Token.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\DTOConstant.cs" />
+    <Compile Include="Base\IDTO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransferObject\EvSdaCommuneDTO.cs" />
+    <Compile Include="TransferObject\EvSdaConfigDTO.cs" />
+    <Compile Include="TransferObject\EvSdaCurrencyDTO.cs" />
+    <Compile Include="TransferObject\EvSdaDbLogDTO.cs" />
+    <Compile Include="TransferObject\EvSdaDistrictDTO.cs" />
+    <Compile Include="TransferObject\EvSdaEthnicDTO.cs" />
+    <Compile Include="TransferObject\EvSdaEventLogDTO.cs" />
+    <Compile Include="TransferObject\EvSdaEventLogTypeDTO.cs" />
+    <Compile Include="TransferObject\EvSdaFeedbackDTO.cs" />
+    <Compile Include="TransferObject\EvSdaGroupDTO.cs" />
+    <Compile Include="TransferObject\EvSdaGroupTypeDTO.cs" />
+    <Compile Include="TransferObject\EvSdaHashtagDTO.cs" />
+    <Compile Include="TransferObject\EvSdaJsonRedundancyDTO.cs" />
+    <Compile Include="TransferObject\EvSdaLicenseDTO.cs" />
+    <Compile Include="TransferObject\EvSdaMessageBroadcastDTO.cs" />
+    <Compile Include="TransferObject\EvSdaMessageDTO.cs" />
+    <Compile Include="TransferObject\EvSdaNationalDTO.cs" />
+    <Compile Include="TransferObject\EvSdaProvinceDTO.cs" />
+    <Compile Include="TransferObject\EvSdaReligionDTO.cs" />
+    <Compile Include="TransferObject\EvSdaTroubleDTO.cs" />
+    <Compile Include="TransferObject\VSarReportDTO.cs" />
+    <Compile Include="TransferObject\VSarReportTemplateDTO.cs" />
+    <Compile Include="TransferObject\VSdaCommuneDTO.cs" />
+    <Compile Include="TransferObject\VSdaDistrictDTO.cs" />
+    <Compile Include="TransferObject\VSdaEventLogDTO.cs" />
+    <Compile Include="TransferObject\VSdaGroupDTO.cs" />
+    <Compile Include="TransferObject\VSdaMessageBroadcastDTO.cs" />
+    <Compile Include="TransferObject\VSdaNationalDTO.cs" />
+    <Compile Include="TransferObject\VSdaProvinceDTO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SDA.EFMODEL\SDA.EFMODEL.csproj">
+      <Project>{6e89816e-d0e8-4f0e-a88e-4a60a049a26f}</Project>
+      <Name>SDA.EFMODEL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,19 @@
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.TDO\bin\Debug\MOS.TDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.TDO\bin\Debug\MOS.TDO.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.TDO\obj\Debug\MOS.TDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.TDO\obj\Debug\MOS.TDO.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS_v2.6.2\MOS.TDO\obj\Debug\MOS.TDO.csprojResolveAssemblyReference.cache
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\bin\Debug\MOS.TDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\bin\Debug\MOS.TDO.pdb
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\obj\Debug\MOS.TDO.dll
+E:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\obj\Debug\MOS.TDO.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\bin\Debug\MOS.TDO.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\bin\Debug\MOS.TDO.pdb
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\obj\Debug\MOS.TDO.csprojResolveAssemblyReference.cache
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\obj\Debug\MOS.TDO.dll
+D:\New folder\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\obj\Debug\MOS.TDO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\bin\Debug\MOS.TDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\bin\Debug\MOS.TDO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\obj\Debug\MOS.TDO.csprojResolveAssemblyReference.cache
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\obj\Debug\MOS.TDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.TDO\obj\Debug\MOS.TDO.pdb

@@ -1,0 +1,8 @@
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.SDO\bin\Debug\MOS.SDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.SDO\bin\Debug\MOS.SDO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.SDO\bin\Debug\AutoMapper.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.SDO\bin\Debug\MOS.EFMODEL.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.SDO\bin\Debug\MOS.TDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.SDO\obj\Debug\MOS.SDO.dll
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.SDO\obj\Debug\MOS.SDO.pdb
+D:\Data\Project\IVT\IMSys\BACKEND\MOS\MOS.SDO\obj\Debug\MOS.SDO.csprojResolveAssemblyReference.cache
