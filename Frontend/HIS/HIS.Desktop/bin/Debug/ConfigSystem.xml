@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keys>
+  <Key KeyCode="KEY__MOS_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server MOS"></Title>
+    <Value>http://192.168.1.201:88/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến resource server bệnh viện MOS."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__EMR_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server EMR"></Title>
+    <Value>http://192.168.1.201:288</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến resource server bệnh viện EMR."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__SDA_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server SDA"></Title>
+    <Value>http://192.168.1.201:90/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến resource server quản trị danh mục SDA."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__SAR_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server SAR"></Title>
+    <Value>http://192.168.1.201:89/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến resource server báo cáo SAR."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__TYT_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server MRS"></Title>
+    <Value>http://tyt.12c.vn</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến resource server báo cáo TYT."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__MRS_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server MRS"></Title>
+    <Value>http://192.168.1.201:93</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến resource server báo cáo MRS."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__ACS_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server ACS"></Title>
+    <Value>http://192.168.1.201:81/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến resource server ACS."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__FSS_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server FSS"></Title>
+    <Value>http://192.168.1.201:85/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến resource server FSS."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__LIS_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server LIS"></Title>
+    <Value>http://192.168.1.201:98/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến resource server LIS."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__SCN_BASE_URI" CreateTime="20170814000000" ModifyTime="20180825093747" Creator="xuandv" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server SCN"></Title>
+    <Value>http://scn.12c.vn</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến resource server SCN."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__PACS_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server PACS"></Title>
+    <Value>http://192.168.1.200:5000/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến server PACS."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__FSS_FOR_PACS_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource server FSS PACS"></Title>
+    <Value>http://192.168.1.201:85/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến server PACS."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__HID_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource hệ thống Hồ sơ sức khỏe cá nhân HID"></Title>
+    <Value>http://192.168.1.201:112/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến server Hồ sơ sức khỏe cá nhân HID."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__HTC_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource hệ thống Hồ sơ sức khỏe cá nhân HTC"></Title>
+    <Value>http://htc.12c.vn/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến server Hồ sơ sức khỏe cá nhân HTC."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__RDCACHE_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource hệ thống redis cache"></Title>
+    <Value>http://192.168.1.201:8335/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến service redis cache."></Tutorial>
+  </Key>
+  <Key KeyCode="KEY__QCS_BASE_URI" CreateTime="20150102000000" ModifyTime="20180825093747" Creator="phuongdt" Modifier="">
+    <Title En="" Vi="Địa chỉ resource hệ thống truy vấn dữ liệu QCS"></Title>
+    <Value>http://qcs.12c.vn/</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Địa chỉ cấu hình kết nối đến truy vấn dữ liệu QCS."></Tutorial>
+  </Key>
+</Keys>

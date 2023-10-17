@@ -1,0 +1,13 @@
+﻿
+namespace HIS.Desktop.Plugins.ExamServiceReqExecute
+{
+    internal class AppConfigKeys
+    {
+        #region Public key
+        internal const string CONFIG_KEY__EXAM_SERVICE_REQ_EXCUTE_HIDE_TABS_INFOMATION__APPLICATION = "CONFIG_KEY__EXAM_SERVICE_REQ_EXCUTE_HIDE_TABS_INFOMATION__APPLICATION";
+        internal const string CONFIG_KEY__MODULE_CHI_DINH_DICH_VU__AN_HIEN_TAB = "CONFIG_KEY__MODULE_CHI_DINH_DICH_VU__AN_HIEN_TAB";
+        internal const string CONFIG_KEY__ASSIGN_PRESCRIPTION_BY_TREATMENT = "CONFIG_KEY__ASSIGN_PRESCRIPTION_BY_TREATMENT";
+        internal const string CONFIG_KEY__EXAM_SERVICE_REQ_EXCUTE__TAB_INFO_SHOW_DEFAULT = "CONFIG_KEY__EXAM_SERVICE_REQ_EXCUTE__TAB_INFO_SHOW_DEFAULT";
+        #endregion
+    }
+}

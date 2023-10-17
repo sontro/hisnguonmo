@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Keys>
+  <Key KeyCode="CONFIG_KEY__NUM_PAGESIZE" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Phân trang - Số bản ghi trên trang"></Title>
+    <Value>20</Value>
+    <DefaultValue>20</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In>,10,20,50,100,200,500,</In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Số lượng bản ghi trên mỗi trang danh sách (áp dụng cho tất cả danh sách trên phần mềm)."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__REPORT_LIST_CHECK_TIME_FINISH_TIMER" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Danh sách báo cáo - Thời gian kiểm tra hoàn thành"></Title>
+    <Value></Value>
+    <DefaultValue>2</DefaultValue>
+    <ValueType Description="Số nguyên (giây)">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In>,2,5,10,20,30,</In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Thời gian phần mềm tự động kiểm tra báo cáo đã được hệ thống xử lý hoàn thành."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__SO_BENH_NHAN_TREN_DANH_SACH_CHO_KHAM_VA_CLS" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Số bệnh nhân trên danh sách chờ khám và cận lâm sàng"></Title>
+    <Value></Value>
+    <DefaultValue>10</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In>,2,5,10,20,30,</In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Thời gian phần mềm tự động kiểm tra báo cáo đã được hệ thống xử lý hoàn thành."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__CHE_DO_IN_CHO_CAC_CHUC_NANG_TRONG_PHAN_MEM" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="cuonght" Modifier="phuongdt">
+    <Title En="" Vi="Chọn chế độ in cho tất cả các chức năng trong phần mềm"></Title>
+    <Value>1</Value>
+    <DefaultValue>1</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt là 1 nếu chọn chế độ hiển thị để xem xong rồi in, đặt là 2 nếu chọn chế độ in ngay không cần xem"></Tutorial>
+  </Key>
+  <Key KeyCode="EXE_CONFIG_KEY_CODE_ACCOUNT_BOOK_CODE_FOR_USER" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Vào chức năng danh sách sổ thu chi để lấy mã sổ cấu hình"></Title>
+    <Value>000001</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Chuỗi">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Nhằm chọn 1 quyển sổ dùng để làm việc (tạo phiếu)."></Tutorial>
+  </Key>
+  <Key KeyCode="EXE_KEY__PAY_FORM_CODE" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="nambg" Modifier="phuongdt">
+    <Title En="" Vi="Hình thức thanh toán mặc định"></Title>
+    <Value>01</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Chuỗi">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt là rỗng nếu không chọn hình thức thanh toán mặc định, đặt mã hình thức thanh toán nếu muốn chọn hình thức thanh toán đó làm mặc định."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__CHON_MAN_HINH_CHO" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Chọn màn hình chờ"></Title>
+    <Value>1</Value>
+    <DefaultValue>1</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Chọn màn hình chờ."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__DEFAULT_PRINT_FULL_TEMPLATE" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="In kết quả có kèm theo chỉ định"></Title>
+    <Value>0</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Kết quả in có kèm theo chỉ định."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__PRINT_SIEU_AM_REMOVE_USER" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="nambg" Modifier="phuongdt">
+    <Title En="" Vi="In phiếu siêu âm có hiển thị bs xử lý và thời gian xử lý"></Title>
+    <Value>1</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Kết quả in có kèm theo chỉ định."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__PRINT_FULL_ADVISE_DOCTOR" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="nambg" Modifier="phuongdt">
+    <Title En="" Vi="In các phiếu kết quả hiển thị đầy đủ lời dặn bác sĩ"></Title>
+    <Value>1</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="In các phiếu kết quả hiển thị đầy đủ lời dặn bác sĩ."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__IS_PRINT_EXECUTE_USERNAME" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Có in ra thông tin của người thực hiện hay không"></Title>
+    <Value>1</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Có in ra thông tin của người thực hiện hay không."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__CHON_MAU_GIAY_CHUYEN_TUYEN" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Chọn mẫu giấy chuyển tuyến"></Title>
+    <Value>0</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Chọn mẫu giấy chuyển tuyến."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__FILL_DU_LIEU_TU_DONG_VAO_O_DIA_CHI_BENH_NHAN_CHIP_THE_MAN_HINH_DANG_KY" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Chọn chế độ tự động fill dữ liệu vào địa chỉ bệnh nhân khi chip thẻ hay không"></Title>
+    <Value>1</Value>
+    <DefaultValue>1</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt 1 nếu chọn tự động fill, ngược lại nếu chọn chế độ không tự động fill dữ liệu địa chỉ ghi trên thẻ vào ô địa chỉ vùng thông tin hành chính bệnh nhân"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__ALERT_EXPRIED_TIME_HEIN_CARD_BHYT" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Thời gian cảnh báo hạn thẻ BHYT"></Title>
+    <Value>30</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên (ngày)">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Cấu hình hệ thống là thời gian cảnh báo hạn thẻ BHYT. Khi tiếp đón (EXE), phần mềm căn cứ theo thông tin này để đưa ra cảnh báo nếu hạn sử dụng thẻ - ngày hiện tại nhỏ hơn hoặc bằng thời gian thiết lập. "></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__DEFAULT_CONFIG_IS_NOT_REQUIRE_FEE" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Cấu hình có không yêu cầu viện phí không"></Title>
+    <Value></Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt là 1 nếu cấu hình mặc định không yêu cầu viện phí khi đăng ký tiếp đón."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__DEFAULT_CONFIG_PATIENT_TYPE_CODE" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Đối tượng bệnh nhân mặc định"></Title>
+    <Value></Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt là rỗng nếu không chọn đối tượng bệnh nhân mặc định, đặt mã đối tượng bệnh nhân nếu muốn chọn đối tượng đó làm đối tượng bệnh nhân làm việc mặc định khi đăng ký tiếp đón bệnh nhân (Mã đối tượng kiểm tra trong danh mục đối tượng bệnh nhân)."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__HIEN_THI_NOI_LAM_VIEC_THEO_DINH_DANG_MAN_HINH_DANG_KY" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="nambg" Modifier="phuongdt">
+    <Title En="" Vi="Chọn chế độ hiển thị nơi làm việc ở màn hình đăng ký tiếp đón"></Title>
+    <Value>2</Value>
+    <DefaultValue>1</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt 1 nếu chọn hiển thị dạng text, đặt 2 nếu chọn chế độ hiển thị dạng combobox và có button để thêm mới nơi làm việc"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__CHE_DO_IN_PHIEU_DANG_KY_DICH_VU_KHAM_BENH" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="cuonght" Modifier="phuongdt">
+    <Title En="" Vi="Chọn chế độ in phiếu đăng ký dịch vụ khám bệnh"></Title>
+    <Value></Value>
+    <DefaultValue>1</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt là 1 nếu chọn chế độ hiển thị để xem xong rồi in, đặt là 2 nếu chọn chế độ in ngay không cần xem"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__CHE_DO_HIEN_THI_CAC_YEU_CAU_DICH_VU" CreateTime="20170313000000" ModifyTime="20170825105047" Creator="xuandv" Modifier="phuongdt">
+    <Title En="" Vi="Chọn chế độ hiển thị các yêu cầu dịch vụ 1: Tất cả 2: Khoa tôi chỉ định/xử lý, 3: Phòng tôi chỉ định/xử lý, 4: Tôi chỉ định/xử lý"></Title>
+    <Value>1</Value>
+    <DefaultValue>1</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In>1,2,3,4</In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt là 1 để hiển thị giá trị mặc định Tất cả các yêu cầu "></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__IN_SAU_KHI_LUU_MAN_HINH_TIEP_DON" CreateTime="20170503000000" ModifyTime="20170825105047" Creator="tiennv" Modifier="phuongdt">
+    <Title En="" Vi="Tự động in sau khi lưu thành công tại màn hình tiếp đón"></Title>
+    <Value>1</Value>
+    <DefaultValue>0</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt 1 : Tự động in khi lưu"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__TIEP_DON_HIEN_THI_THONG_TIN_THEM" CreateTime="20170503000000" ModifyTime="20170825105047" Creator="tiennv" Modifier="phuongdt">
+    <Title En="" Vi="Hiển thị thông tin thêm ( Người nhà, quân hàm , địa chỉ người nhà,...)"></Title>
+    <Value>0</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt 1 : Ẩn thông tin"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__MODULE_CHI_DINH_DICH_VU__AN_HIEN_TAB" CreateTime="20170503000000" ModifyTime="20170825105047" Creator="tiennv" Modifier="phuongdt">
+    <Title En="" Vi="Hiển thị tab chi dinh kham tab chi dinh dich vu ky thuat cu hay khong trong chuc nang chi dinh dich vu gop cu"></Title>
+    <Value>1</Value>
+    <DefaultValue>0</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt 1 : Ẩn"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__MODULE_CHI_DINH_DICH_VU__AN_HIEN_CP_NGOAI_GOI" CreateTime="20170503000000" ModifyTime="20170825105047" Creator="tiennv" Modifier="phuongdt">
+    <Title En="" Vi="Chế độ ẩn hiện cột CP ngoài gói"></Title>
+    <Value>0</Value>
+    <DefaultValue>0</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt 1 : ẩn cột chi phí ngoài gói, mặc định là hiển thị"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__MODULE_CHI_DINH_DICH_VU__AN_HIEN_HAO_PHI" CreateTime="20170503000000" ModifyTime="20170825105047" Creator="tiennv" Modifier="phuongdt">
+    <Title En="" Vi="Chế độ ẩn hiện cột hao phí"></Title>
+    <Value>0</Value>
+    <DefaultValue>0</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt 1 : ẩn cột hao phí, mặc định là hiển thị."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__MODULE_CHI_DINH_DICH_VU__AN_HIEN_GIA_GOI" CreateTime="20170503000000" ModifyTime="20170825105047" Creator="tiennv" Modifier="phuongdt">
+    <Title En="" Vi="Chế độ ẩn hiện cột giá gói"></Title>
+    <Value>0</Value>
+    <DefaultValue>0</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt 1 : ẩn cột giá gói, mặc định là hiển thị"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__SO_BENH_NHAN_TREN_DANH_SACH_CHO_KHAM_CLS" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Số bệnh nhân hiển thị trên màn hình chờ"></Title>
+    <Value>10</Value>
+    <DefaultValue>10</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Số bệnh nhân hiển thị trên màn hình chờ đối với màn hình có 2 danh sách."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__CHE_DO_PHIEU_LINH_THUOC_GAY_NGHIEN_HUONG_TAM_THAN" CreateTime="20170324000000" ModifyTime="20170825105047" Creator="xuandv" Modifier="phuongdt">
+    <Title En="" Vi="Chọn chế độ in phiếu lĩnh thuốc gây nghiện, hướng tâm thần 1: In tổng hợp  0:In riêng thuốc gây nghiện, thuốc hướng thần, thuốc thường"></Title>
+    <Value>0</Value>
+    <DefaultValue>1</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In>0,1</In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt là 1 để in tổng hợp "></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__HIS_DESKTOP__IN_GOP_GAY_NGHIEN_HUONG_THAN" CreateTime="20170712121212" ModifyTime="20170825105047" Creator="xuandv" Modifier="phuongdt">
+    <Title En="" Vi="Cấu hình in gộp thuốc hướng nghiện và gây nghiện. "></Title>
+    <Value>24</Value>
+    <DefaultValue>1</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt là 1 để in gộp thuốc hướng nghiện và gây nghiện "></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__CHE_DO_KE_DON_THUOC__MOT_HOAC_NHIEU_KHO" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Kê thuốc trong 1 hoặc nhiều kho"></Title>
+    <Value>1</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="1 là kê thuốc từ nhiều kho, ngược lại là kê 1 kho."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__DANG_KY_TIEP_DON__THOI_GIAN_LOAD_DANH_SACH_PHONG_KHAM" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Số lượng khám của phòng khám trong ngày"></Title>
+    <Value>300000</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Thời gian tải lại danh sách số lượng khám của phòng khám trong ngày."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__DANG_KY_TIEP_DON__GOI_BENH_NHAN_BANG_CPA" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Gọi bệnh nhân bằng phần mềm CPA"></Title>
+    <Value>1</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Gọi bệnh nhân bằng phần mềm CPA: 1-gọi; 0-không gọi."></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__EXAM_SERVICE_REQ_EXCUTE_HIDE_TABS_INFOMATION__APPLICATION" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Chế độ hiển thị các tab thông tin xử lý khám trong Xử lý khám"></Title>
+    <Value>1</Value>
+    <DefaultValue>0</DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In>0,1</In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Chế độ hiển thị các tab thông tin xử lý khám trong Xử lý khám: 1- ẩn; 0 - Mặc định hiển thị tất cả"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__DANG_KY_TIEP_DON__HIEN_THI_THONG_BAO_TIM_THAY_BN_THEO_THONG_TIN_NHAP" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Gọi bệnh nhân bằng phần mềm CPA"></Title>
+    <Value>0</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Hiện thị thông báo khi tim thấy bệnh nhân theo thông tin nhập: 1 - hiển thị"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__HIS_DESKTOP__AUTO_TOKEN_LOGOUT_WHILE_CLOSE_APPLICATION" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Tự động thoát phiên làm việc khi tắt phầm mềm hay không"></Title>
+    <Value>0</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Chế độ tự động thoát phiên làm việc khi tắt phầm mềm hay không: 1 - tự động. Mặc định là không tự động"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__HIS_DESKTOP__ASSIGN_PRESCRIPTION__IS_PRINT_NOW" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Cấu hình chế độ in đơn thuốc"></Title>
+    <Value>1</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Đặt là 1 nếu muốn in luôn. Mặc định là xem trước in"></Tutorial>
+  </Key>
+  <Key KeyCode="HIS.Desktop.Plugins.PrintNow.NumCopy" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="Configure copy number when printing prescriptions" Vi="Cấu hình số bản copy khi in đơn thuốc"></Title>
+    <Value>BHYT:4,VP:1</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Xâu">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Giá trị có dạng AA:2 với AA là mã đối tượng điều trị, 2 là số bản copy Có thể có nhiều cặp giá trị khác nhau được phân cách bởi dấu ','"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__ASSIGN_PRESCRIPTION_BY_TREATMENT" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="tiennv" Modifier="phuongdt">
+    <Title En="" Vi="Cấu hình chức năng kê thuốc"></Title>
+    <Value>0</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Chức năng kê thuốc tại màn hình xử lý khám, kiểm tra xem hồ sơ điều trị đã có đơn thuốc nào chưa,giá trị bằng 1: nếu có thì sửa đơn thuốc, ngược lại kê đơn thuốc"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__HIS_DESKTOP__USE_REGISTRY_TOKEN" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Cấu hình có sử dụng lấy token từ registry khi đăng nhập"></Title>
+    <Value>1</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="1 - tự động. Mặc định là không tự động"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__HIS_DESKTOP__ASSIGN_PRESCRIPTION__ISVISIBLE_REMEDY_COUNT" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Cấu hình có ẩn trường số thang chức năng kê đơn"></Title>
+    <Value></Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="1 - ẩn. Mặc định là hiển thị"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__HIS_DESKTOP__ASSIGN_PRESCRIPTION__FOCUS_MEDICINE_DEFAULT" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Cấu hình cho phép sau khi chọn thuốc thì nhảy vào ô số lượng hay ô ngày"></Title>
+    <Value>1</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="1 - nhảy vào ô số lượng. Mặc định nhảy vào ô số ngày như hiện tại"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__HIS_DESKTOP__REGISTER__OWE_TYPE_DEFAULT" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Giá trị mặc định loại thu viện phí"></Title>
+    <Value>KH</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">string</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="Nếu có giá trị: gán mặc định cho ô nợ viện phí. Mặc định là không gán"></Tutorial>
+  </Key>
+  <Key KeyCode="CONFIG_KEY__HIS_DESKTOP__ASSIGN_PRESCRIPTION__UNMERGE_MEDI_METY_TABPAGE" CreateTime="20150102000000" ModifyTime="20170825105047" Creator="phuongdt" Modifier="phuongdt">
+    <Title En="" Vi="Cấu hình chức năng kê đơn thuốc có tách tab thuốc và tab vật tư hay không"></Title>
+    <Value>1</Value>
+    <DefaultValue></DefaultValue>
+    <ValueType Description="Số nguyên">long</ValueType>
+    <ValueAllow>
+      <Min></Min>
+      <Max></Max>
+      <In></In>
+    </ValueAllow>
+    <Tutorial En="" Vi="1 - tách thuốc vật tư 2 tab riêng. Mặc định là gộp"></Tutorial>
+  </Key>
+</Keys>
