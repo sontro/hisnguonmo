@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A43EEE28-B0EB-412A-B7E0-72C0BE78375C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACS.DAO</RootNamespace>
+    <AssemblyName>ACS.DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\_Library\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="IMSys.DbConfig.ACS_RS">
+      <HintPath>..\..\..\RELEASE\IMSys.DbConfig\IMSys.DbConfig.ACS_RS\IMSys.DbConfig.ACS_RS.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Backend.EFMODEL">
+      <HintPath>..\..\..\RELEASE\Inventec.Backend\Inventec.Backend.EFMODEL\Inventec.Backend.EFMODEL.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Logging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Logging\Inventec.Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Common.Repository, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Inventec.Common\Inventec.Common.Repository\Inventec.Common.Repository.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RELEASE\Inventec.Core\Inventec.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventec.Token.ResourceSystem">
+      <HintPath>..\..\..\RELEASE\Inventec.Token\Inventec.Token.ResourceSystem\Inventec.Token.ResourceSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Library\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcsActivityLog\AcsActivityLogCheck.cs" />
+    <Compile Include="AcsActivityLog\AcsActivityLogCreate.cs" />
+    <Compile Include="AcsActivityLog\AcsActivityLogDAO.cs" />
+    <Compile Include="AcsActivityLog\AcsActivityLogDelete.cs" />
+    <Compile Include="AcsActivityLog\AcsActivityLogGet.cs" />
+    <Compile Include="AcsActivityLog\AcsActivityLogTruncate.cs" />
+    <Compile Include="AcsActivityLog\AcsActivityLogUpdate.cs" />
+    <Compile Include="AcsActivityType\AcsActivityTypeCheck.cs" />
+    <Compile Include="AcsActivityType\AcsActivityTypeCheckExistsCode.cs" />
+    <Compile Include="AcsActivityType\AcsActivityTypeCreate.cs" />
+    <Compile Include="AcsActivityType\AcsActivityTypeDAO.cs" />
+    <Compile Include="AcsActivityType\AcsActivityTypeDAOPlus_Full_NoView.cs" />
+    <Compile Include="AcsActivityType\AcsActivityTypeDelete.cs" />
+    <Compile Include="AcsActivityType\AcsActivityTypeGet.cs" />
+    <Compile Include="AcsActivityType\AcsActivityTypeGetByCode.cs" />
+    <Compile Include="AcsActivityType\AcsActivityTypeGetDicByCode.cs" />
+    <Compile Include="AcsActivityType\AcsActivityTypeTruncate.cs" />
+    <Compile Include="AcsActivityType\AcsActivityTypeUpdate.cs" />
+    <Compile Include="AcsApplicationRole\AcsApplicationRoleCheck.cs" />
+    <Compile Include="AcsApplicationRole\AcsApplicationRoleCreate.cs" />
+    <Compile Include="AcsApplicationRole\AcsApplicationRoleDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AcsApplicationRole\AcsApplicationRoleDAOPlus_Full_NoCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AcsApplicationRole\AcsApplicationRoleDelete.cs" />
+    <Compile Include="AcsApplicationRole\AcsApplicationRoleGet.cs" />
+    <Compile Include="AcsApplicationRole\AcsApplicationRoleGetView.cs" />
+    <Compile Include="AcsApplicationRole\AcsApplicationRoleGetViewById.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AcsApplicationRole\AcsApplicationRoleTruncate.cs" />
+    <Compile Include="AcsApplicationRole\AcsApplicationRoleUpdate.cs" />
+    <Compile Include="AcsApplication\AcsApplicationCheck.cs" />
+    <Compile Include="AcsApplication\AcsApplicationCheckExistsCode.cs" />
+    <Compile Include="AcsApplication\AcsApplicationCreate.cs" />
+    <Compile Include="AcsApplication\AcsApplicationDAO.cs" />
+    <Compile Include="AcsApplication\AcsApplicationDAOPlus_Full_NoView.cs" />
+    <Compile Include="AcsApplication\AcsApplicationDelete.cs" />
+    <Compile Include="AcsApplication\AcsApplicationGet.cs" />
+    <Compile Include="AcsApplication\AcsApplicationGetByCode.cs" />
+    <Compile Include="AcsApplication\AcsApplicationGetDicByCode.cs" />
+    <Compile Include="AcsApplication\AcsApplicationTruncate.cs" />
+    <Compile Include="AcsApplication\AcsApplicationUpdate.cs" />
+    <Compile Include="AcsAppOtpType\AcsAppOtpTypeCheck.cs" />
+    <Compile Include="AcsAppOtpType\AcsAppOtpTypeCreate.cs" />
+    <Compile Include="AcsAppOtpType\AcsAppOtpTypeDAO.cs" />
+    <Compile Include="AcsAppOtpType\AcsAppOtpTypeDelete.cs" />
+    <Compile Include="AcsAppOtpType\AcsAppOtpTypeGet.cs" />
+    <Compile Include="AcsAppOtpType\AcsAppOtpTypeTruncate.cs" />
+    <Compile Include="AcsAppOtpType\AcsAppOtpTypeUpdate.cs" />
+    <Compile Include="AcsAuthenRequest\AcsAuthenRequestCheck.cs" />
+    <Compile Include="AcsAuthenRequest\AcsAuthenRequestCreate.cs" />
+    <Compile Include="AcsAuthenRequest\AcsAuthenRequestDAO.cs" />
+    <Compile Include="AcsAuthenRequest\AcsAuthenRequestDelete.cs" />
+    <Compile Include="AcsAuthenRequest\AcsAuthenRequestGet.cs" />
+    <Compile Include="AcsAuthenRequest\AcsAuthenRequestTruncate.cs" />
+    <Compile Include="AcsAuthenRequest\AcsAuthenRequestUpdate.cs" />
+    <Compile Include="AcsAuthorSystem\AcsAuthorSystemCheck.cs" />
+    <Compile Include="AcsAuthorSystem\AcsAuthorSystemCheckExistsCode.cs" />
+    <Compile Include="AcsAuthorSystem\AcsAuthorSystemCreate.cs" />
+    <Compile Include="AcsAuthorSystem\AcsAuthorSystemDAO.cs" />
+    <Compile Include="AcsAuthorSystem\AcsAuthorSystemDAOPlus_Full_NoView.cs" />
+    <Compile Include="AcsAuthorSystem\AcsAuthorSystemDelete.cs" />
+    <Compile Include="AcsAuthorSystem\AcsAuthorSystemGet.cs" />
+    <Compile Include="AcsAuthorSystem\AcsAuthorSystemGetByCode.cs" />
+    <Compile Include="AcsAuthorSystem\AcsAuthorSystemGetDicByCode.cs" />
+    <Compile Include="AcsAuthorSystem\AcsAuthorSystemTruncate.cs" />
+    <Compile Include="AcsAuthorSystem\AcsAuthorSystemUpdate.cs" />
+    <Compile Include="AcsControlRole\AcsControlRoleCheck.cs" />
+    <Compile Include="AcsControlRole\AcsControlRoleCreate.cs" />
+    <Compile Include="AcsControlRole\AcsControlRoleDAO.cs" />
+    <Compile Include="AcsControlRole\AcsControlRoleDAOPlus_Full_NoCode.cs" />
+    <Compile Include="AcsControlRole\AcsControlRoleDelete.cs" />
+    <Compile Include="AcsControlRole\AcsControlRoleGet.cs" />
+    <Compile Include="AcsControlRole\AcsControlRoleGetView.cs" />
+    <Compile Include="AcsControlRole\AcsControlRoleGetViewById.cs" />
+    <Compile Include="AcsControlRole\AcsControlRoleTruncate.cs" />
+    <Compile Include="AcsControlRole\AcsControlRoleUpdate.cs" />
+    <Compile Include="AcsControl\AcsControlCheck.cs" />
+    <Compile Include="AcsControl\AcsControlCheckExistsCode.cs" />
+    <Compile Include="AcsControl\AcsControlCreate.cs" />
+    <Compile Include="AcsControl\AcsControlDAO.cs" />
+    <Compile Include="AcsControl\AcsControlDAOPlus_Full_NoView.cs" />
+    <Compile Include="AcsControl\AcsControlDelete.cs" />
+    <Compile Include="AcsControl\AcsControlGet.cs" />
+    <Compile Include="AcsControl\AcsControlGetByCode.cs" />
+    <Compile Include="AcsControl\AcsControlGetDicByCode.cs" />
+    <Compile Include="AcsControl\AcsControlTruncate.cs" />
+    <Compile Include="AcsControl\AcsControlUpdate.cs" />
+    <Compile Include="AcsCredentialData\AcsCredentialDataCheck.cs" />
+    <Compile Include="AcsCredentialData\AcsCredentialDataCheckExistsCode.cs" />
+    <Compile Include="AcsCredentialData\AcsCredentialDataCreate.cs" />
+    <Compile Include="AcsCredentialData\AcsCredentialDataDAO.cs" />
+    <Compile Include="AcsCredentialData\AcsCredentialDataDAOPlus_Full_NoView.cs" />
+    <Compile Include="AcsCredentialData\AcsCredentialDataDelete.cs" />
+    <Compile Include="AcsCredentialData\AcsCredentialDataGet.cs" />
+    <Compile Include="AcsCredentialData\AcsCredentialDataGetByCode.cs" />
+    <Compile Include="AcsCredentialData\AcsCredentialDataGetDicByCode.cs" />
+    <Compile Include="AcsCredentialData\AcsCredentialDataTruncate.cs" />
+    <Compile Include="AcsCredentialData\AcsCredentialDataUpdate.cs" />
+    <Compile Include="AcsModuleGroup\AcsModuleGroupCheck.cs" />
+    <Compile Include="AcsModuleGroup\AcsModuleGroupCheckExistsCode.cs" />
+    <Compile Include="AcsModuleGroup\AcsModuleGroupCreate.cs" />
+    <Compile Include="AcsModuleGroup\AcsModuleGroupDAO.cs" />
+    <Compile Include="AcsModuleGroup\AcsModuleGroupDAOPlus_Full_NoView.cs" />
+    <Compile Include="AcsModuleGroup\AcsModuleGroupDelete.cs" />
+    <Compile Include="AcsModuleGroup\AcsModuleGroupGet.cs" />
+    <Compile Include="AcsModuleGroup\AcsModuleGroupGetByCode.cs" />
+    <Compile Include="AcsModuleGroup\AcsModuleGroupGetDicByCode.cs" />
+    <Compile Include="AcsModuleGroup\AcsModuleGroupTruncate.cs" />
+    <Compile Include="AcsModuleGroup\AcsModuleGroupUpdate.cs" />
+    <Compile Include="AcsModuleRole\AcsModuleRoleCheck.cs" />
+    <Compile Include="AcsModuleRole\AcsModuleRoleCreate.cs" />
+    <Compile Include="AcsModuleRole\AcsModuleRoleDAO.cs" />
+    <Compile Include="AcsModuleRole\AcsModuleRoleDAOPlus_Full_NoCode.cs" />
+    <Compile Include="AcsModuleRole\AcsModuleRoleDelete.cs" />
+    <Compile Include="AcsModuleRole\AcsModuleRoleGet.cs" />
+    <Compile Include="AcsModuleRole\AcsModuleRoleGetView.cs" />
+    <Compile Include="AcsModuleRole\AcsModuleRoleGetViewById.cs" />
+    <Compile Include="AcsModuleRole\AcsModuleRoleTruncate.cs" />
+    <Compile Include="AcsModuleRole\AcsModuleRoleUpdate.cs" />
+    <Compile Include="AcsModule\AcsModuleCheck.cs" />
+    <Compile Include="AcsModule\AcsModuleCreate.cs" />
+    <Compile Include="AcsModule\AcsModuleDAO.cs" />
+    <Compile Include="AcsModule\AcsModuleDAOPlus_Full_NoCode.cs" />
+    <Compile Include="AcsModule\AcsModuleDelete.cs" />
+    <Compile Include="AcsModule\AcsModuleGet.cs" />
+    <Compile Include="AcsModule\AcsModuleGetView.cs" />
+    <Compile Include="AcsModule\AcsModuleGetViewById.cs" />
+    <Compile Include="AcsModule\AcsModuleTruncate.cs" />
+    <Compile Include="AcsModule\AcsModuleUpdate.cs" />
+    <Compile Include="AcsOtp\AcsOtpCheck.cs" />
+    <Compile Include="AcsOtp\AcsOtpCheckExistsCode.cs" />
+    <Compile Include="AcsOtp\AcsOtpCreate.cs" />
+    <Compile Include="AcsOtp\AcsOtpDAO.cs" />
+    <Compile Include="AcsOtp\AcsOtpDAOPlus_Full_NoView.cs" />
+    <Compile Include="AcsOtp\AcsOtpDelete.cs" />
+    <Compile Include="AcsOtp\AcsOtpGet.cs" />
+    <Compile Include="AcsOtp\AcsOtpGetByCode.cs" />
+    <Compile Include="AcsOtp\AcsOtpGetDicByCode.cs" />
+    <Compile Include="AcsOtp\AcsOtpTruncate.cs" />
+    <Compile Include="AcsOtp\AcsOtpUpdate.cs" />
+    <Compile Include="AcsRoleAuthor\AcsRoleAuthorCheck.cs" />
+    <Compile Include="AcsRoleAuthor\AcsRoleAuthorCreate.cs" />
+    <Compile Include="AcsRoleAuthor\AcsRoleAuthorDAO.cs" />
+    <Compile Include="AcsRoleAuthor\AcsRoleAuthorDelete.cs" />
+    <Compile Include="AcsRoleAuthor\AcsRoleAuthorGet.cs" />
+    <Compile Include="AcsRoleAuthor\AcsRoleAuthorTruncate.cs" />
+    <Compile Include="AcsRoleAuthor\AcsRoleAuthorUpdate.cs" />
+    <Compile Include="AcsRoleBase\AcsRoleBaseCheck.cs" />
+    <Compile Include="AcsRoleBase\AcsRoleBaseCreate.cs" />
+    <Compile Include="AcsRoleBase\AcsRoleBaseDAO.cs" />
+    <Compile Include="AcsRoleBase\AcsRoleBaseDAOPlus_Full_NoCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AcsRoleBase\AcsRoleBaseDelete.cs" />
+    <Compile Include="AcsRoleBase\AcsRoleBaseGet.cs" />
+    <Compile Include="AcsRoleBase\AcsRoleBaseGetView.cs" />
+    <Compile Include="AcsRoleBase\AcsRoleBaseGetViewById.cs" />
+    <Compile Include="AcsRoleBase\AcsRoleBaseTruncate.cs" />
+    <Compile Include="AcsRoleBase\AcsRoleBaseUpdate.cs" />
+    <Compile Include="AcsRoleUser\AcsRoleUserCheck.cs" />
+    <Compile Include="AcsRoleUser\AcsRoleUserCreate.cs" />
+    <Compile Include="AcsRoleUser\AcsRoleUserDAO.cs" />
+    <Compile Include="AcsRoleUser\AcsRoleUserDAOPlus_Full_NoCode.cs" />
+    <Compile Include="AcsRoleUser\AcsRoleUserDelete.cs" />
+    <Compile Include="AcsRoleUser\AcsRoleUserGet.cs" />
+    <Compile Include="AcsRoleUser\AcsRoleUserGetView.cs" />
+    <Compile Include="AcsRoleUser\AcsRoleUserGetViewById.cs" />
+    <Compile Include="AcsRoleUser\AcsRoleUserTruncate.cs" />
+    <Compile Include="AcsRoleUser\AcsRoleUserUpdate.cs" />
+    <Compile Include="AcsRole\AcsRoleCheck.cs" />
+    <Compile Include="AcsRole\AcsRoleCheckExistsCode.cs" />
+    <Compile Include="AcsRole\AcsRoleCreate.cs" />
+    <Compile Include="AcsRole\AcsRoleDAO.cs" />
+    <Compile Include="AcsRole\AcsRoleDAOPlus_Full_NoView.cs" />
+    <Compile Include="AcsRole\AcsRoleDelete.cs" />
+    <Compile Include="AcsRole\AcsRoleGet.cs" />
+    <Compile Include="AcsRole\AcsRoleGetByCode.cs" />
+    <Compile Include="AcsRole\AcsRoleGetDicByCode.cs" />
+    <Compile Include="AcsRole\AcsRoleTruncate.cs" />
+    <Compile Include="AcsRole\AcsRoleUpdate.cs" />
+    <Compile Include="AcsToken\AcsTokenCheck.cs" />
+    <Compile Include="AcsToken\AcsTokenCheckExistsCode.cs" />
+    <Compile Include="AcsToken\AcsTokenCreate.cs" />
+    <Compile Include="AcsToken\AcsTokenDAO.cs" />
+    <Compile Include="AcsToken\AcsTokenDAOPlus_Full_NoView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AcsToken\AcsTokenDelete.cs" />
+    <Compile Include="AcsToken\AcsTokenGet.cs" />
+    <Compile Include="AcsToken\AcsTokenGetByCode.cs" />
+    <Compile Include="AcsToken\AcsTokenGetDicByCode.cs" />
+    <Compile Include="AcsToken\AcsTokenTruncate.cs" />
+    <Compile Include="AcsToken\AcsTokenUpdate.cs" />
+    <Compile Include="AcsUser\AcsUserCheck.cs" />
+    <Compile Include="AcsUser\AcsUserCheckExistsCode.cs" />
+    <Compile Include="AcsUser\AcsUserCreate.cs" />
+    <Compile Include="AcsUser\AcsUserDAO.cs" />
+    <Compile Include="AcsUser\AcsUserDAOPlus_Full_NoView.cs" />
+    <Compile Include="AcsUser\AcsUserDelete.cs" />
+    <Compile Include="AcsUser\AcsUserGet.cs" />
+    <Compile Include="AcsUser\AcsUserGetByCode.cs" />
+    <Compile Include="AcsUser\AcsUserGetDicByCode.cs" />
+    <Compile Include="AcsUser\AcsUserTruncate.cs" />
+    <Compile Include="AcsUser\AcsUserUpdate.cs" />
+    <Compile Include="Base\AppContext.cs" />
+    <Compile Include="Base\BridgeDAO.cs" />
+    <Compile Include="Base\ContextExtensions.cs" />
+    <Compile Include="Base\ContextUtil.cs" />
+    <Compile Include="Base\ReflectionQueryable.cs" />
+    <Compile Include="Base\StagingObjectBase.cs" />
+    <Compile Include="AcsOtpType\AcsOtpTypeCheck.cs" />
+    <Compile Include="AcsOtpType\AcsOtpTypeCheckExistsCode.cs" />
+    <Compile Include="AcsOtpType\AcsOtpTypeCreate.cs" />
+    <Compile Include="AcsOtpType\AcsOtpTypeDAO.cs" />
+    <Compile Include="AcsOtpType\AcsOtpTypeDAOPlus_Full_NoView.cs" />
+    <Compile Include="AcsOtpType\AcsOtpTypeDelete.cs" />
+    <Compile Include="AcsOtpType\AcsOtpTypeGet.cs" />
+    <Compile Include="AcsOtpType\AcsOtpTypeGetByCode.cs" />
+    <Compile Include="AcsOtpType\AcsOtpTypeGetDicByCode.cs" />
+    <Compile Include="AcsOtpType\AcsOtpTypeTruncate.cs" />
+    <Compile Include="AcsOtpType\AcsOtpTypeUpdate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sql\DatabaseExtension.cs" />
+    <Compile Include="Sql\SqlDAO.cs" />
+    <Compile Include="Sql\SqlExecute.cs" />
+    <Compile Include="StagingObject\AcsActivityLogSO.cs" />
+    <Compile Include="StagingObject\AcsActivityTypeSO.cs" />
+    <Compile Include="StagingObject\AcsApplicationRoleSO_Full.cs" />
+    <Compile Include="StagingObject\AcsApplicationSO.cs" />
+    <Compile Include="StagingObject\AcsAppOtpTypeSO.cs" />
+    <Compile Include="StagingObject\AcsAuthenRequestSO.cs" />
+    <Compile Include="StagingObject\AcsAuthorSystemSO.cs" />
+    <Compile Include="StagingObject\AcsControlRoleSO_Full.cs" />
+    <Compile Include="StagingObject\AcsControlSO.cs" />
+    <Compile Include="StagingObject\AcsCredentialDataSO.cs" />
+    <Compile Include="StagingObject\AcsModuleGroupSO.cs" />
+    <Compile Include="StagingObject\AcsModuleRoleSO_Full.cs" />
+    <Compile Include="StagingObject\AcsModuleSO_Full.cs" />
+    <Compile Include="StagingObject\AcsOtpSO.cs" />
+    <Compile Include="StagingObject\AcsRoleAuthorSO.cs" />
+    <Compile Include="StagingObject\AcsRoleBaseSO_Full.cs" />
+    <Compile Include="StagingObject\AcsRoleSO.cs" />
+    <Compile Include="StagingObject\AcsRoleUserSO_Full.cs" />
+    <Compile Include="StagingObject\AcsTokenSO.cs" />
+    <Compile Include="StagingObject\AcsUserSO.cs" />
+    <Compile Include="StagingObject\AcsOtpTypeSO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ACS.EFMODEL\ACS.EFMODEL.csproj">
+      <Project>{76187d64-5bd9-48d2-839f-89b62e0419c4}</Project>
+      <Name>ACS.EFMODEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ACS.LibraryConfig\ACS.LibraryConfig.csproj">
+      <Project>{a0d6db44-1d91-4213-a53d-a5ad8b273075}</Project>
+      <Name>ACS.LibraryConfig</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
