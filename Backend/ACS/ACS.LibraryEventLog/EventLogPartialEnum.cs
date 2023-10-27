@@ -1,0 +1,40 @@
+﻿namespace ACS.LibraryEventLog
+{
+    public partial class EventLog
+    {
+        public enum Enum
+        {
+            AcsApplicationRole_ThemQuyenTruyCap,
+            AcsApplicationRole_XoaQuyenTruyCap,
+            AcsRole_ThemVaiTro,
+            AcsRole_XoaVaiTro,
+            AcsRole_SuaVaiTro,
+            AcsRole_SuaVaiTroKeThua,
+            AcsRole_XoaVaiTroKeThua,
+            AcsRole_ThemListVaiTro,
+            AcsModuleRole_ThemVaiTroChucNang,
+            AcsModuleRole_XoaVaiTroChucNang,
+            Co,
+            Khong,
+            VaiTro,
+            ChucNang,
+            VaiTroKeThua,
+            ApplicationName,
+            Icon,
+            KhongPhanQuyen,
+            KhongMoHopThoai,
+            Menu,
+            NhomChucNang,
+            ModuleLink,
+            ModuleName,
+            Url,
+            SoThuTu,
+            Cha,
+            VideoUrls,
+            AcsModule_SuaDanhMucChucNang,
+            AcsModule_XoaDanhMucChucNang,
+            AcsModule_MoKhoaDanhMucChucNang,
+            AcsModule_KhoaDanhMucChucNang
+        }
+    }
+}

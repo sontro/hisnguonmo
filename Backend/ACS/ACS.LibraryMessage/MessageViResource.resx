@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common__DuLieuDangBiKhoa" xml:space="preserve">
+    <value>Dữ liệu thiếu trường thông tin bắt buộc</value>
+  </data>
+  <data name="Common__DuLieuTruyenLenKhongHopLe" xml:space="preserve">
+    <value>Dữ liệu người dùng truyền lên không hợp lệ</value>
+  </data>
+  <data name="Common__LoiCauHinhHeThong" xml:space="preserve">
+    <value>Dữ liệu có mã đã tồn tại trên hệ thống</value>
+  </data>
+  <data name="Common__MaDaTonTaiTrenHeThong" xml:space="preserve">
+    <value>Mã đã tồn tại trên hệ thống</value>
+  </data>
+  <data name="Common__ThieuThongTinBatBuoc" xml:space="preserve">
+    <value>Thiếu trường thông tin bắt buộc</value>
+  </data>
+  <data name="Core_AcsApplicationRole_ThemDanhSachQuyenTruyCapThanhCongChiTiet" xml:space="preserve">
+    <value>Người dùng {0} thêm quyền truy cập thành công, chi tiết  {1}.</value>
+  </data>
+  <data name="Core_AcsApplicationRole_XoaDanhSachQuyenTruyCapThanhCongChiTiet" xml:space="preserve">
+    <value>Người dùng {0} xóa quyền truy cập thành công, chi tiết  {1}.</value>
+  </data>
+  <data name="Core_AcsModuleRole_ThemDanhSachVaiTroChucNangThanhCongChiTiet" xml:space="preserve">
+    <value>Người dùng {0} thêm vai trò - chức năng thành công, chi tiết  {1}.</value>
+  </data>
+  <data name="Core_AcsModuleRole_XoaDanhSachVaiTroChucNangThanhCongChiTiet" xml:space="preserve">
+    <value>Người dùng {0} xóa vai trò - chức năng thành công, chi tiết  {1}.</value>
+  </data>
+  <data name="Core_AcsOtp_GuiSmsMaDoiMatKhauDenSDTThatBai" xml:space="preserve">
+    <value>Tạo yêu cầu cấp mã otp đổi mật khẩu thành công, tuy nhiên không thể gửi sms thông tin mã otp đến số điện thoại {0}. Vui lòng liên hệ tổng đài 19006888 để được hỗ trợ.</value>
+  </data>
+  <data name="Core_AcsRole_SuaVaiTroThanhCongChiTiet" xml:space="preserve">
+    <value>Người dùng {0} sửa vai trò thành công, chi tiết  {1}.</value>
+  </data>
+  <data name="Core_AcsRole_ThayDoiVaiTroKeThuaCuaVaiTroThanhCongChiTiet" xml:space="preserve">
+    <value>Người dùng {0} thay đổi vai trò kế thừa của vai trò {1} thành công, chi tiết  {2}.</value>
+  </data>
+  <data name="Core_AcsRole_ThemVaiTroThanhCongChiTiet" xml:space="preserve">
+    <value>Người dùng {0} thêm vai trò thành công, chi tiết  {1}.</value>
+  </data>
+  <data name="Core_AcsRole_VaiTroKeThuaDaDuocKeThuaTuVaiTroDangChon" xml:space="preserve">
+    <value>Vai trò kế thừa đã kế thừa từ vai trò đang chọn, không thể kế vừa vòng lặp</value>
+  </data>
+  <data name="Core_AcsRole_XoaVaiTroThanhCongChiTiet" xml:space="preserve">
+    <value>Người dùng {0} xóa vai trò thành công, chi tiết  {1}.</value>
+  </data>
+  <data name="Core_AcsToken_PhienBanHienTaiDaCuPhaiNenPhienBanMoiHonDeHeThongTuongThichChayOnDinh" xml:space="preserve">
+    <value>Phiên bản hiện tại đã quá cũ, cần phải nên cấp phiên bản cao hơn để hệ thống tương thích và chạy ổn định.</value>
+  </data>
+  <data name="Core_AcsUser_DangNhapThanhCong" xml:space="preserve">
+    <value>Đăng nhập vào phần mềm {0}</value>
+  </data>
+  <data name="Core_AcsUser_DaQuaThoiHanResetMatKhau" xml:space="preserve">
+    <value>Đã quá thời hạn reset mật khẩu, vui lòng thực hiện lại!</value>
+  </data>
+  <data name="Core_AcsUser_EmailKhongHopLe" xml:space="preserve">
+    <value>Email không hợp lệ</value>
+  </data>
+  <data name="Core_AcsUser_GuiEmailXacNhanResetMatKhauDenNguoiDungThatBai" xml:space="preserve">
+    <value>Gửi xác nhận thông tin đổi mật khẩu đến email {0} thất bại.</value>
+  </data>
+  <data name="Core_AcsUser_GuiSmsMaKichHoatTaiKhoanDenSDTThatBai" xml:space="preserve">
+    <value>Gửi sms thông tin mã kích hoạt tài khoản đến số điện thoại {0} thất bại. Vui lòng liên hệ tổng đài 19006888 để được hỗ trợ.</value>
+  </data>
+  <data name="Core_AcsUser_TaiKhoanChuaDuocThietLapQuyenTruyCapUngDung" xml:space="preserve">
+    <value>Tài khoản chưa được thiết lập đầy đủ quyền truy cập ứng dụng</value>
+  </data>
+  <data name="Core_AcsUser_TaiKhoanDangBiTamKhoa" xml:space="preserve">
+    <value>Tài khoản đang bị tạm khóa</value>
+  </data>
+  <data name="Core_AcsUser_TaoTaiKhoanHeThongTichHopThanhCongTuyNhienKhongGanDuocUserRole" xml:space="preserve">
+    <value>Tạo tài khoản thành công tuy nhiên chưa gán được vai trò</value>
+  </data>
+  <data name="Core_AcsUser_TaoTaiKhoanHeThongTichHopThanhCongTuyNhienKhongGanDuocUserRoleDoRoleCodeGuiLenKhongHopLe" xml:space="preserve">
+    <value>Tạo tài khoản thành công tuy nhiên chưa gán được vai trò (mã vai trò gửi lên không hợp lệ)</value>
+  </data>
+  <data name="Core_AcsUser_TaoTaiKhoanThatBai" xml:space="preserve">
+    <value>Tạo thông tin tài khoản thất bại</value>
+  </data>
+  <data name="Core_AcsUser_TenDangNhapHoacMatKhauKhongChinhXac" xml:space="preserve">
+    <value>Tên đăng nhập hoặc mật khẩu không chính xác</value>
+  </data>
+  <data name="Core_AcsUser_TenDangNhapKhongChinhXac" xml:space="preserve">
+    <value>Tên đăng nhập không chính xác</value>
+  </data>
+  <data name="Core_AcsUser_YeuCauCapNhatThongTinTaiKhoanDayDuTruocKhiResetMatKhauHoacGoiTongDaiCHKHDeDuocHoTro" xml:space="preserve">
+    <value>Yêu cầu cập nhật đầy đủ thông tin (email, ...) hoặc gọi lên tổng đài 19006888 để được hỗ trợ.</value>
+  </data>
+  <data name="Core_AcsUser_YeuCaukichHoatTaiKhoanThatBai" xml:space="preserve">
+    <value>Tạo yêu cầu cấp mã kích hoạt tài khoản thất bại</value>
+  </data>
+  <data name="Core_AcsUser_ChuaThucHienGuiYeuCauGuiOtpDoiMatKhau" xml:space="preserve">
+    <value>Otp đổi mật khẩu không hợp lệ hoặc không tìm thấy yêu cầu gửi otp đổi mật khẩu trên hệ thống</value>
+  </data>
+  <data name="Core_AcsUser_GuiYeuCauOtpDoiMatKhauSoDienThoaiGuiLenKhongKhopVoiSoDTDaDangKy" xml:space="preserve">
+    <value>Số điện thoại gửi lên không khớp với số điện thoại đã đăng ký</value>
+  </data>
+  <data name="Core_AcsUser_GuiYeuCauOtpDoiMatKhauTaiKhoanTruyCapGuiLenKhongHopLe" xml:space="preserve">
+    <value>Không tồn tại tài khoản truy cập</value>
+  </data>
+  <data name="Core_AcsUser_CapNhatThongTinTaiKhoanThatBai" xml:space="preserve">
+    <value>Cập nhật thông tin tài khoản {0} thất bại.</value>
+  </data>
+  <data name="Core_AcsUser_MatKhauCuKhongChinhXac" xml:space="preserve">
+    <value>Mật khẩu cũ không chính xác</value>
+  </data>
+  <data name="Core_AcsOtp_GuiYeuCauCapOtpThatBai" xml:space="preserve">
+    <value>Tạo yêu cầu cấp mã otp thành công, tuy nhiên không thể gửi sms otp tới số điện thoại {0}. Vui lòng liên hệ tổng đài 19006888 để được hỗ trợ.</value>
+  </data>
+  <data name="Core_AcsOtp_VerifyYeuCauCapOtpThatBai" xml:space="preserve">
+    <value>Mã otp không hợp lệ</value>
+  </data>
+  <data name="Core_AcsAuthenRequest_AuthenRequest__MaHeThongUyQuyenKhongHopLe" xml:space="preserve">
+    <value>Mã hệ thống ủy quyền không hợp lệ</value>
+  </data>
+  <data name="Core_AcsAuthenRequest_AuthenRequest__ThieuKhoaBaoMat" xml:space="preserve">
+    <value>Thiếu khóa bảo mật</value>
+  </data>
+  <data name="Core_AcsAuthenRequest_AuthenRequest__ThieuMaHeThongUyQuyen" xml:space="preserve">
+    <value>Thiếu mã hệ thống ủy quyền</value>
+  </data>
+  <data name="Core_AcsAuthenRequest_AuthenRequest__ThieuThongTinBoSung" xml:space="preserve">
+    <value>Hệ thống ủy quyền loại là HIS bắt buộc phải có thông tin bổ sung</value>
+  </data>
+  <data name="Core_AcsAuthenRequest_AuthenRequest__ThieuThongTinNguoiYeuCau" xml:space="preserve">
+    <value>Thiếu thông tin người yêu cầu</value>
+  </data>
+  <data name="Core_AcsAuthenRequest_AuthenRequest__KhoaBaoMatKhongHopLe" xml:space="preserve">
+    <value>Khóa bảo mật không hợp lệ</value>
+  </data>
+  <data name="Core_AcsAuthenRequest_AuthenRequest__ThieuThongTinMaXacThuc" xml:space="preserve">
+    <value>Thiếu thông tin mã xác thực</value>
+  </data>
+  <data name="Core_AcsAuthenRequest_AuthenRequest__YeuCauXacThucKhongTonTaiHoacDaHetHan" xml:space="preserve">
+    <value>Yêu cầu xác thực không tồn tại hoặc đã hết hạn</value>
+  </data>
+  <data name="Core_AcsAuthenRequest_AuthenRequest__KhoaCacYeuCauXacThucThatBai" xml:space="preserve">
+    <value>Khóa các yêu cầu xác thực khi xử lý cấp token theo yêu cầu xác thực tìm thấy nhiều hơn 1 yêu cầu xác thực thất bại</value>
+  </data>
+  <data name="Core_AcsAuthenRequest_AuthenRequest__HeThongUyQuyenChuaDuocGanQuyen" xml:space="preserve">
+    <value>Hệ thống ủy quyền không được gán quyền truy cập chức năng nào</value>
+  </data>
+  <data name="Core_AcsOtp_OtpReqiure__MaUngDungKhongHopLe" xml:space="preserve">
+    <value>Mã ứng dụng không chính xác</value>
+  </data>
+  <data name="Core_AcsOtp_OtpDaHetHan" xml:space="preserve">
+    <value>Số máy không có mã xác thực tương ứng, vui lòng dùng đúng số điện thoại đăng nhập trên ứng dụng để xác thực OTP.</value>
+  </data>
+  <data name="Core_AcsApplication__SuaUngDungThanhCongTuyNhienKhongTaoDuocDanhSachTemplateCuaUngDung" xml:space="preserve">
+    <value>Sửa ứng dụng thành công, tuy nhiên không tạo được danh sách template tin nhắn của ứng dụng</value>
+  </data>
+  <data name="Core_AcsApplication__TaoUngDungThanhCongTuyNhienKhongTaoDuocDanhSachTemplateCuaUngDung" xml:space="preserve">
+    <value>Tạo ứng dụng thành công, tuy nhiên không tạo được danh sách template tin nhắn của ứng dụng</value>
+  </data>
+  <data name="Core_AcsOtp_OtpReqiure__ungDungChuaKhaiBaoMauTinNhanDoiMatKhau" xml:space="preserve">
+    <value>Ứng dụng chưa khai báo mẫu tin nhắn đổi mật khẩu</value>
+  </data>
+  <data name="Core_AcsOtp_OtpReqiure__ungDungChuaKhaiBaoMauTinNhanKhac" xml:space="preserve">
+    <value>Ứng dụng chưa khai báo mẫu tin nhắn khác</value>
+  </data>
+  <data name="Core_AcsOtp_OtpReqiure__ungDungChuaKhaiBaoMauTinNhanKichHoatTaiKhoan" xml:space="preserve">
+    <value>Ứng dụng chưa khai báo mẫu tin nhắn khích hoạt tài khoản</value>
+  </data>
+  <data name="Core_AcsOtp_GuiSmsMaVerifyDangNhapDenSDTThatBai" xml:space="preserve">
+    <value>Gửi sms thông tin mã otp verify đăng nhập ứng dụng {0} đến số điện thoại {1} thất bại.</value>
+  </data>
+  <data name="Core_AcsOtp_TaiKhoanDangNhapChuaDuocKhaiBaoSoDienThoai" xml:space="preserve">
+    <value>Tài khoản truy cập chưa được khai báo số điện thoại</value>
+  </data>
+  <data name="Core_AcsOtp_GuiSmsMaOtpVerifyDangNhapAppGuiDenSDTThatBai" xml:space="preserve">
+    <value>Gửi sms đến số điện thoại {0} của tài khoản người dùng {1} thất bại</value>
+  </data>
+  <data name="Core_AcsToken_KhongChoPhepGiaHanThoiGianHieuLucCuaToken" xml:space="preserve">
+    <value>Không cho phép gia hạn thời gian hiệu lực của phiên làm việc</value>
+  </data>
+  <data name="Common__CapNhatThatBai" xml:space="preserve">
+    <value>Cập nhật thất bại</value>
+  </data>
+  <data name="Common__ThemMoiThatBai" xml:space="preserve">
+    <value>Thêm mới thất bại</value>
+  </data>
+</root>
